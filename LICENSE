@@ -1,3 +1,9 @@
+Scope: the MIT terms below apply to repository code, automation, documentation,
+and metadata templates. They do not license future 3D models, rigs, materials,
+textures, artistic scene content, renders, animations, or other artwork.
+Artwork requires separate explicit terms; see docs/licensing.md. Third-party
+content retains its own license.
+
 MIT License
 
 Copyright (c) 2026 Joeldhg

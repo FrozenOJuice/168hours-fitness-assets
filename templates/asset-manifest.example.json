@@ -1,0 +1,70 @@
+{
+  "_note": "Illustrative metadata only. This is not a real asset, schema, or approved dimensional specification.",
+  "id": "168h_equipment_flat_bench",
+  "category": "equipment",
+  "version": "0.1.0",
+  "status": "draft",
+  "source": "assets/equipment/benches/168h_equipment_flat_bench/168h_equipment_flat_bench.blend",
+  "blender_version": null,
+  "units": "meters",
+  "axes": {
+    "up": "+Z",
+    "forward": "+Y",
+    "subject_left": "+X"
+  },
+  "dimensions_m": null,
+  "dimension_source": null,
+  "dimension_tolerance_m": null,
+  "canonical_configuration": "unadjusted rest configuration",
+  "collection": "168h_equipment_flat_bench",
+  "root": "168h_equipment_flat_bench__root",
+  "published_datablocks": [
+    "168h_equipment_flat_bench"
+  ],
+  "interfaces": [
+    {
+      "id": "bench_support",
+      "version": 1,
+      "required_anchors": [
+        "seat_center",
+        "back_support",
+        "floor_contact"
+      ]
+    }
+  ],
+  "anchors": {
+    "seat_center": {
+      "object": "168h_equipment_flat_bench__anchor_seat_center",
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "back_support": {
+      "object": "168h_equipment_flat_bench__anchor_back_support",
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "floor_contact": {
+      "object": "168h_equipment_flat_bench__anchor_floor_contact",
+      "forward": "+Y",
+      "up": "+Z"
+    }
+  },
+  "configuration_ranges": {},
+  "rig_interface": null,
+  "material_slots": {
+    "equipment_frame": null,
+    "equipment_padding": null
+  },
+  "dependencies": [],
+  "provenance": {
+    "creator": null,
+    "source_url": null,
+    "license": null,
+    "attribution": null
+  },
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "notes": "Replace all illustrative values before review."
+  }
+}
