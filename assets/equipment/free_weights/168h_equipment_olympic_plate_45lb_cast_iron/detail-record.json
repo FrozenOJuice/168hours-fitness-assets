@@ -1,0 +1,52 @@
+{
+  "version": "0.1.2",
+  "predecessor_version": "0.1.1",
+  "predecessor_sha256": "4cab3d6b487e1f9e45dd7548cce0a4d6c42efa56812e173948939b5ad8c7fe20",
+  "source_sha256": "6459107e4e960f5157c3a8b735e3753eea71b376945547a4cb04f01c39c41393",
+  "input_sha256": "4cab3d6b487e1f9e45dd7548cce0a4d6c42efa56812e173948939b5ad8c7fe20",
+  "existing_body_mesh_datablock_preserved": true,
+  "existing_objects_preserved": true,
+  "anchors_unchanged": true,
+  "interface_unchanged": true,
+  "body_topology_locally_extended": true,
+  "body_vertices": 5888,
+  "body_faces": 5888,
+  "side_waist_radius_m": 0.2235,
+  "rib_stations_m": [
+    [
+      0.052,
+      0.009,
+      0.0135,
+      0.0149
+    ],
+    [
+      0.07,
+      0.013,
+      0.0062,
+      0.012
+    ],
+    [
+      0.185,
+      0.013,
+      0.0062,
+      0.012
+    ],
+    [
+      0.205,
+      0.01,
+      0.0135,
+      0.016
+    ]
+  ],
+  "ribs_per_face": 4,
+  "rib_angles_degrees": [
+    45,
+    135,
+    225,
+    315
+  ],
+  "lettering_layout": "45 LB left; 20.4 KG right; STANDARD top; BARBELL bottom; both faces",
+  "script": "scripts/blender/detail_olympic_plate_45lb.py",
+  "script_sha256": "87bd0bd992ab23480e6a9dc14f7c6e234a5e45b519f3fed6c7689dfb76391b22",
+  "shared_standards_changed": false
+}

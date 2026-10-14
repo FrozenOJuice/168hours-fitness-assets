@@ -1,0 +1,72 @@
+{
+  "version": "0.1.1",
+  "sleeve_length_m": 0.41500001611479764,
+  "measured_plate_pitch_m": 0.03302000090479851,
+  "manufacturer_plate_thickness_m": 0.03302,
+  "collar_reserve_m": 0.05,
+  "end_margin_m": 0.005,
+  "flange_gap_m": 0.001,
+  "interplate_gap_m": 0.0005,
+  "plates_per_sleeve": 10,
+  "stack_axial_length_m": 0.3347000090479851,
+  "used_with_all_reserves_m": 0.3907000090479851,
+  "spare_after_reserves_m": 0.024300007066812568,
+  "next_plate_excess_m": 0.00921999383798594,
+  "formula": "floor((sleeve-collar-end_margin-flange_gap+interplate_gap)/(measured_pitch+interplate_gap))",
+  "scope": "digital axial packing with sourced collar footprint and explicit allowances, not load rating",
+  "collars_modeled": false,
+  "sources": {
+    "bar": "https://media.eleiko.com/admin/download-product-sheet.aspx?articlecode=3070100&language=en-us",
+    "shaft": "https://eleiko.com/en/stories/multi-purpose-bars",
+    "plate": "https://www.roguefitness.com/rogue-olympic-plates",
+    "collar": "https://media.eleiko.com/admin/download-product-sheet.aspx?articlecode=3060925&language=en-us"
+  },
+  "sensitivity": [
+    {
+      "collar_m": 0.038,
+      "interplate_gap_m": 0,
+      "count": 11,
+      "collar_status": "hypothetical sensitivity only"
+    },
+    {
+      "collar_m": 0.038,
+      "interplate_gap_m": 0.0005,
+      "count": 11,
+      "collar_status": "hypothetical sensitivity only"
+    },
+    {
+      "collar_m": 0.05,
+      "interplate_gap_m": 0,
+      "count": 10,
+      "collar_status": "sourced length"
+    },
+    {
+      "collar_m": 0.05,
+      "interplate_gap_m": 0.0005,
+      "count": 10,
+      "collar_status": "sourced length"
+    },
+    {
+      "collar_m": 0.07,
+      "interplate_gap_m": 0,
+      "count": 10,
+      "collar_status": "hypothetical sensitivity only"
+    },
+    {
+      "collar_m": 0.07,
+      "interplate_gap_m": 0.0005,
+      "count": 10,
+      "collar_status": "hypothetical sensitivity only"
+    }
+  ],
+  "compatible_barbell_version": "0.1.2",
+  "review_findings": "compatibility-review.md",
+  "geometry_changes": false,
+  "example": {
+    "plates_per_sleeve": 5,
+    "stack_length_m": 0.1671,
+    "used_with_reserves_m": 0.2231,
+    "spare_after_reserves_m": 0.1919,
+    "capacity_limit_changed": false
+  }
+}

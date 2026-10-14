@@ -1,0 +1,317 @@
+{
+  "id": "168h_template_barbell_plate_compatibility",
+  "category": "template",
+  "version": "0.1.2",
+  "status": "ready",
+  "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend",
+  "dependencies": [
+    {
+      "id": "168h_equipment_olympic_barbell_20kg",
+      "version": "0.1.2",
+      "source": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
+      "sha256": "9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb"
+    },
+    {
+      "id": "168h_equipment_olympic_plate_45lb_cast_iron",
+      "version": "0.1.4",
+      "source": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
+      "sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2"
+    }
+  ],
+  "provenance": {
+    "creator": "Codex for 168Hours Fitness",
+    "license": null
+  },
+  "purpose": "technical linked collection compatibility fixture; not exercise scene or approved template",
+  "specification": "scenes/templates/168h_template_barbell_plate_compatibility/SPEC.md",
+  "validation_record": "scenes/templates/168h_template_barbell_plate_compatibility/validation.md",
+  "blender_version": "5.1.1",
+  "source_revision_or_digest": "sha256:808cb6a15c6041908b1fd4d95cb8091c0a691a7288324f7fcbf0005417b901ec",
+  "reference_renders": [
+    {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__assembled_with_plates__two_45lb_plates.png",
+      "position_m": [
+        2.700000047683716,
+        3.5999999046325684,
+        1.7999999523162842
+      ],
+      "rotation_euler_xyz_radians": [
+        1.234121561050415,
+        5.058392105183884e-08,
+        2.498091697692871
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.5,
+      "target_m": [
+        0,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "two_45lb_plates",
+      "frame": 1,
+      "sha256": "92c13469b2290fb2cbc847b12eabf47388d79847b6a437a4ff4574e2a0ff438d"
+    },
+    {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_side__10_per_sleeve.png",
+      "position_m": [
+        0.0,
+        3.0,
+        0.22499999403953552
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -1.5099578831723193e-07,
+        3.141592502593994
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.5,
+      "target_m": [
+        0,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "10_45lb_plates_per_sleeve",
+      "frame": 1,
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
+      "plates_per_sleeve": 10,
+      "sha256": "d969253664191285b619aa6f3fef18cc4ba4c9e8c90aab3e92d2168ab34b8aff"
+    },
+    {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_three_quarter__10_per_sleeve.png",
+      "position_m": [
+        2.700000047683716,
+        3.5999999046325684,
+        1.7999999523162842
+      ],
+      "rotation_euler_xyz_radians": [
+        1.234121561050415,
+        5.058392105183884e-08,
+        2.498091697692871
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.5,
+      "target_m": [
+        0,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "10_45lb_plates_per_sleeve",
+      "frame": 1,
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
+      "plates_per_sleeve": 10,
+      "sha256": "d13af30b28699e7d18040b5d1d0a1edc659dd313299ea028223c3cc72de320a5"
+    },
+    {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_sleeve_detail__10_per_sleeve.png",
+      "position_m": [
+        1.3799999952316284,
+        0.6499999761581421,
+        0.550000011920929
+      ],
+      "rotation_euler_xyz_radians": [
+        1.1909266710281372,
+        -1.2582654562720563e-07,
+        2.4956345558166504
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.6800000071525574,
+      "target_m": [
+        0.89,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "10_45lb_plates_per_sleeve",
+      "frame": 1,
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
+      "plates_per_sleeve": 10,
+      "sha256": "d6ecd56eef0b15b498cf7cf6be750f234f1c2ea5de5217615c0360677995aaca"
+    },
+    {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_side__5_per_sleeve.png",
+      "position_m": [
+        0.0,
+        3.0,
+        0.22499999403953552
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -1.5099578831723193e-07,
+        3.141592502593994
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.5,
+      "target_m": [
+        0,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "5_45lb_plates_per_sleeve",
+      "frame": 1,
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+      "plates_per_sleeve": 5,
+      "sha256": "9c5d71d1c1571bdacfdfffcbd1144054eee0ad92226a34eaf4150037e2f01d6f"
+    },
+    {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_three_quarter__5_per_sleeve.png",
+      "position_m": [
+        2.700000047683716,
+        3.5999999046325684,
+        1.7999999523162842
+      ],
+      "rotation_euler_xyz_radians": [
+        1.234121561050415,
+        5.058392105183884e-08,
+        2.498091697692871
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.5,
+      "target_m": [
+        0,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "5_45lb_plates_per_sleeve",
+      "frame": 1,
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+      "plates_per_sleeve": 5,
+      "sha256": "235325e70d506773a5f92ecd93c7be42502bb57c6bd3bd567439c0be827c6e49"
+    },
+    {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_sleeve_detail__5_per_sleeve.png",
+      "position_m": [
+        1.3799999952316284,
+        0.6499999761581421,
+        0.550000011920929
+      ],
+      "rotation_euler_xyz_radians": [
+        1.1909266710281372,
+        -1.2582654562720563e-07,
+        2.4956345558166504
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.6800000071525574,
+      "target_m": [
+        0.89,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "5_45lb_plates_per_sleeve",
+      "frame": 1,
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+      "plates_per_sleeve": 5,
+      "sha256": "32f2f45c15182a041b9af273ff469d3aa463b10b35d837b67675a491a238c656"
+    }
+  ],
+  "render_settings": "scenes/templates/168h_template_barbell_plate_compatibility/previews/render-settings.json",
+  "local_mesh_objects": 0,
+  "instance_names": [
+    "barbell_primary",
+    "plate_l",
+    "plate_r"
+  ],
+  "units": "meters",
+  "axes": {
+    "up": "+Z",
+    "forward": "+Y",
+    "subject_left": "+X"
+  },
+  "validation_results": "scenes/templates/168h_template_barbell_plate_compatibility/validation-results.json",
+  "placement": {
+    "algorithm": "load frames + measured stack envelope + 1mm flange gap + optional 0.5mm interplate gap; bore-root compensation",
+    "plate_pitch_m": 0.03302000090479851,
+    "plate_bore_height_m": 0.225,
+    "case_results": [
+      {
+        "side": "l",
+        "bore_center_world_m": [
+          0.7025099992752075,
+          -7.653864209089534e-10,
+          0.22499999403953552
+        ],
+        "alignment_error_m": 1.6653345369377348e-16,
+        "axis_error": 1.1920928955078125e-07,
+        "flange_envelope_gap_m": 0.0009999773777567,
+        "outer_envelope_distance_from_load_m": 0.03402001640428676,
+        "sleeve_end_remaining_m": 0.3809799835957132,
+        "radial_clearance_m": 0.00039998296896538027,
+        "plate_floor_z_m": 0.0,
+        "instance_determinant": 1.0
+      },
+      {
+        "side": "r",
+        "bore_center_world_m": [
+          -0.7025099992752075,
+          -7.653864209089534e-10,
+          0.22499999403953552
+        ],
+        "alignment_error_m": 1.6653345369377348e-16,
+        "axis_error": 1.1920928955078125e-07,
+        "flange_envelope_gap_m": 0.0009999773777567,
+        "outer_envelope_distance_from_load_m": 0.03402001640428676,
+        "sleeve_end_remaining_m": 0.3809799835957132,
+        "radial_clearance_m": 0.00039998236702236054,
+        "plate_floor_z_m": 0.0,
+        "instance_determinant": 1.0
+      }
+    ],
+    "capacity_per_sleeve": 10,
+    "example_per_sleeve": 5
+  },
+  "review": {
+    "status": "approved",
+    "visual_acceptance": "approved_by_user_A12",
+    "technical_result": "55 barbell/fixture checks PASS;35 plate checks PASS in isolated copy"
+  },
+  "production_release": {
+    "status": "ready",
+    "scope": "internal illustration reference/compatibility fixtures",
+    "artwork_use_basis": "same A12 internal approval; original plate license unchanged; no external distribution grant",
+    "limitations": [
+      "Internal Blender illustration/library production only; external artwork redistribution terms remain unselected (A07), separate from MIT code/docs.",
+      "Physical mass, load rating, strength, bearings/dynamics and manufactured collar/plate fit are not verified.",
+      "Capacity10/side depends on the recorded50mm collar occupancy,5mm tip,1mm flange and0.5mm scene gaps; exact future collar/casting must be rechecked.",
+      "No human/exercise/alternative bar or plate replacements, authored library-override actions or general cross-renderer compatibility claimed.",
+      "Asset-local Blender5.1.1/Workbench preset and interfaces approved for this asset; global defaults remain unchanged.",
+      "Linked assembly reference comparisons retain <=1/255 per channel on <0.1% of channels; exact bitwise image reproduction is not universal.",
+      "Remote hosting/LFS quota or upload/fetch has not been tested; local Git/LFS checkout QA recorded separately."
+    ]
+  },
+  "secondary_sources": [
+    {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
+      "sha256": "e6ff6f88ca0f59539dbfb77dc914f4a1777e8daaef770d10d889f0c5960621f1",
+      "configuration": "10_45lb_plates_per_sleeve",
+      "role": "diagnostic_maximum"
+    },
+    {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+      "sha256": "a10ad55bf52c1873fe5ccd8a2b73ef100382276cf7aa9ebd7c580019cbb9b0f7",
+      "configuration": "5_45lb_plates_per_sleeve",
+      "role": "requested_example"
+    }
+  ],
+  "capacity_calculation": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/capacity-calculation.json",
+  "preferred_example_source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+  "approval": {
+    "status": "approved_reference_example",
+    "decision": "A12",
+    "date": "2026-10-14",
+    "approver": "user",
+    "reference_source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+    "scope": "five-plate reference example; single/ten files retained as validated fixtures"
+  }
+}

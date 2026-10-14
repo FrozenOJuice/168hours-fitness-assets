@@ -1,0 +1,9 @@
+{
+  "summary": {
+    "passed": 55,
+    "failed": 0
+  },
+  "source_sha256": "808cb6a15c6041908b1fd4d95cb8091c0a691a7288324f7fcbf0005417b901ec",
+  "barbell_results": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/validation-results.json",
+  "scope": "fixture-specific evidence in linked_dependencies_relative through plate_spin_frame_sweep and assembled reproduction"
+}

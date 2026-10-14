@@ -1,0 +1,44 @@
+{
+  "base_git_revision": "c91545cbe2e5a0909078b879508ef63501959827",
+  "note": "Working-tree standards were uncommitted at review; SHA256 values identify exact consulted documents.",
+  "sha256": {
+    "AGENTS.md": "28ed40fd8b9711fac8ca6c6c9554e5515876e81a59a66092649e2a874aa9cba3",
+    "docs/licensing.md": "56dc55610e8149bf902f2e645af5bfa3b97a73ad76f7c391af65e2990c442341",
+    "docs/review-checklist.md": "161ff7b5aa1ddec48bf3005ddc5e9939eed496a7639242bfa9cdcba51c7a713d",
+    "docs/category-standards.md": "13e0ce62c2f0fcbc09c05496a56c9bb5eb81bf641b36d6616c45c82e18cfcebe",
+    "docs/asset-workflow.md": "d0bc91f24a2b6682cbba67180c08c856f9b02efbea5b7b356bf2eedd6bdd34f3",
+    "docs/visual-style.md": "3ba15f044ea609b246fc71243665f1c8cfb22454323c69c1a04da6e091ab4bca",
+    "docs/asset-conventions.md": "bd4f7b7bc1cdcbea64871c83533a76882967958988731fffbf20e48fdb2bd228",
+    "docs/decisions.md": "a01cb9b2f335e58a2338bf584cbff680899dd892a779c235f2baf3d1078175aa"
+  },
+  "review_sha256": {
+    "AGENTS.md": "7b8e0436e32967bc73f92dfcc59ae724051c2eface1fdb2c8d1812c8d143b35d",
+    "docs/asset-conventions.md": "bd4f7b7bc1cdcbea64871c83533a76882967958988731fffbf20e48fdb2bd228",
+    "docs/asset-workflow.md": "d0bc91f24a2b6682cbba67180c08c856f9b02efbea5b7b356bf2eedd6bdd34f3",
+    "docs/category-standards.md": "a77e4f7ae86dada06f3e5fe0fae19d5cad59f7b8faa4538bb7df931139049fa6",
+    "docs/decisions.md": "5203d118cf826806e6437bbb8aaf2b6bc3a27dd130338874ed0e0092a1e2d0e1",
+    "docs/licensing.md": "56dc55610e8149bf902f2e645af5bfa3b97a73ad76f7c391af65e2990c442341",
+    "docs/review-checklist.md": "161ff7b5aa1ddec48bf3005ddc5e9939eed496a7639242bfa9cdcba51c7a713d",
+    "docs/visual-style.md": "202dcd6717d0d527feec4e16957ed6e33b8e0f58025c7d76d51bbe76715924a6"
+  },
+  "plate_013_review_sha256": {
+    "AGENTS.md": "7b8e0436e32967bc73f92dfcc59ae724051c2eface1fdb2c8d1812c8d143b35d",
+    "docs/asset-conventions.md": "bd4f7b7bc1cdcbea64871c83533a76882967958988731fffbf20e48fdb2bd228",
+    "docs/asset-workflow.md": "d0bc91f24a2b6682cbba67180c08c856f9b02efbea5b7b356bf2eedd6bdd34f3",
+    "docs/category-standards.md": "a77e4f7ae86dada06f3e5fe0fae19d5cad59f7b8faa4538bb7df931139049fa6",
+    "docs/decisions.md": "7508cdb78dd6257da3475ac372448e468eaefac9e43f3e83aab1e01cfb10ddf7",
+    "docs/licensing.md": "56dc55610e8149bf902f2e645af5bfa3b97a73ad76f7c391af65e2990c442341",
+    "docs/review-checklist.md": "161ff7b5aa1ddec48bf3005ddc5e9939eed496a7639242bfa9cdcba51c7a713d",
+    "docs/visual-style.md": "202dcd6717d0d527feec4e16957ed6e33b8e0f58025c7d76d51bbe76715924a6"
+  },
+  "A10_documentation_approval_sha256": {
+    "AGENTS.md": "07e89fbd89f03a17d9390c4657cacc3fd2d212e21277aadf4d908f34c871d4c0",
+    "docs/asset-conventions.md": "a2c13783025afbd524aa98b987d5c29d1af95202b561455993abac9c2dca1fbd",
+    "docs/asset-workflow.md": "b00f60a983aa03572f9ffb7c981994b9522cba7870c2293dc9120420e90a646b",
+    "docs/category-standards.md": "e0b2989a0941eb8b341ca10df90424bba829a147f0bcc911cf74923dfc4c4a53",
+    "docs/decisions.md": "54d5d07b201776cb289530f7e74b02d888e40ba58294ca16da20349bb711d982",
+    "docs/licensing.md": "56dc55610e8149bf902f2e645af5bfa3b97a73ad76f7c391af65e2990c442341",
+    "docs/review-checklist.md": "161ff7b5aa1ddec48bf3005ddc5e9939eed496a7639242bfa9cdcba51c7a713d",
+    "docs/visual-style.md": "786af6007c2a752a6192fe958c80407d604209ad84d380bf76d4b90d47a01475"
+  }
+}

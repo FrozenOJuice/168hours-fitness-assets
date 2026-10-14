@@ -1,5 +1,5 @@
 {
-  "_note": "Illustrative metadata only. This is not a real asset, schema, or approved dimensional specification.",
+  "_note": "Illustrative draft only, not a real asset or schema. Replace example values; use repository-relative paths. Nulls/empty evidence do not satisfy ready gates. SPEC.md and this manifest must agree.",
   "id": "168h_equipment_flat_bench",
   "category": "equipment",
   "version": "0.1.0",
@@ -65,6 +65,28 @@
   "review": {
     "reviewer": null,
     "date": null,
-    "notes": "Replace all illustrative values before review."
+    "notes": "Replace all illustrative values before review.",
+    "approval_reference": null
+  },
+  "specification": "assets/equipment/benches/168h_equipment_flat_bench/SPEC.md",
+  "validation_record": "assets/equipment/benches/168h_equipment_flat_bench/validation.md",
+  "standards": {
+    "revision": null,
+    "global_style": "docs/visual-style.md",
+    "shared_conventions": "docs/asset-conventions.md",
+    "category_standard": "docs/category-standards.md",
+    "style_preset": null,
+    "style_preset_revision": null
+  },
+  "source_revision_or_digest": null,
+  "reference_renders": [],
+  "render_settings": null,
+  "exceptions": [],
+  "design_decisions": [],
+  "compatibility": {
+    "tested_consumers": [],
+    "tested_replacements": [],
+    "limitations": [],
+    "migration": null
   }
 }

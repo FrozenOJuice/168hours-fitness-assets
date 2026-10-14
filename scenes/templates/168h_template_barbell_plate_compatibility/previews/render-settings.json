@@ -1,0 +1,299 @@
+{
+  "status": "Approved captured asset-local preset under A12; existing preset name retained; global render standards unchanged",
+  "preset": "barbell_review_flat@0.1.2",
+  "blender_version": "5.1.1",
+  "blender_build_hash": "b70da489d7f4",
+  "addons_required": [],
+  "engine": "BLENDER_WORKBENCH",
+  "source_sha256": "808cb6a15c6041908b1fd4d95cb8091c0a691a7288324f7fcbf0005417b901ec",
+  "resolution": [
+    1600,
+    1000
+  ],
+  "format": "PNG",
+  "color_mode": "RGBA",
+  "bit_depth": 8,
+  "view_transform": "Standard",
+  "look": "None",
+  "exposure": 0,
+  "gamma": 1,
+  "palette_srgb_hex": [
+    "6D747E",
+    "8C949F",
+    "ADB5BE",
+    "C5CBD2",
+    "DDE2E7",
+    "EDF0F3",
+    "FAFBFC",
+    "89929E"
+  ],
+  "metallic": 0.85,
+  "roughness": 0.48,
+  "material_interpretation": "Existing soft-steel swatches contrast transformed by .72+1.18*(value-.72); broad smooth shading preserved; Workbench unlit, no reflections/shadows/AO",
+  "lighting": "FLAT; no lights",
+  "shadows": false,
+  "ambient_occlusion": false,
+  "cavity": false,
+  "baked_textures": [],
+  "specular_highlight": false,
+  "outlines": {
+    "method": "native Workbench object silhouette",
+    "enabled": true,
+    "width": "native at 1600x1000; no exposed pixel-width control",
+    "color_linear_rgb": [
+      0.015,
+      0.018,
+      0.022
+    ]
+  },
+  "background": {
+    "linear_rgb": [
+      1,
+      1,
+      1
+    ],
+    "transparent": false
+  },
+  "antialiasing_samples": "32",
+  "random_seed": "N/A deterministic Workbench",
+  "camera_views": {
+    "assembled_with_plates": {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__assembled_with_plates__two_45lb_plates.png",
+      "position_m": [
+        2.700000047683716,
+        3.5999999046325684,
+        1.7999999523162842
+      ],
+      "rotation_euler_xyz_radians": [
+        1.234121561050415,
+        5.058392105183884e-08,
+        2.498091697692871
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.5,
+      "target_m": [
+        0,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "two_45lb_plates",
+      "frame": 1
+    },
+    "loaded_side": {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_side__10_per_sleeve.png",
+      "position_m": [
+        0.0,
+        3.0,
+        0.22499999403953552
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -1.5099578831723193e-07,
+        3.141592502593994
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.5,
+      "target_m": [
+        0,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "10_45lb_plates_per_sleeve",
+      "frame": 1,
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
+      "plates_per_sleeve": 10
+    },
+    "loaded_three_quarter": {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_three_quarter__10_per_sleeve.png",
+      "position_m": [
+        2.700000047683716,
+        3.5999999046325684,
+        1.7999999523162842
+      ],
+      "rotation_euler_xyz_radians": [
+        1.234121561050415,
+        5.058392105183884e-08,
+        2.498091697692871
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.5,
+      "target_m": [
+        0,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "10_45lb_plates_per_sleeve",
+      "frame": 1,
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
+      "plates_per_sleeve": 10
+    },
+    "loaded_sleeve_detail": {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_sleeve_detail__10_per_sleeve.png",
+      "position_m": [
+        1.3799999952316284,
+        0.6499999761581421,
+        0.550000011920929
+      ],
+      "rotation_euler_xyz_radians": [
+        1.1909266710281372,
+        -1.2582654562720563e-07,
+        2.4956345558166504
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.6800000071525574,
+      "target_m": [
+        0.89,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "10_45lb_plates_per_sleeve",
+      "frame": 1,
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
+      "plates_per_sleeve": 10
+    },
+    "example_side": {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_side__5_per_sleeve.png",
+      "position_m": [
+        0.0,
+        3.0,
+        0.22499999403953552
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -1.5099578831723193e-07,
+        3.141592502593994
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.5,
+      "target_m": [
+        0,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "5_45lb_plates_per_sleeve",
+      "frame": 1,
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+      "plates_per_sleeve": 5
+    },
+    "example_three_quarter": {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_three_quarter__5_per_sleeve.png",
+      "position_m": [
+        2.700000047683716,
+        3.5999999046325684,
+        1.7999999523162842
+      ],
+      "rotation_euler_xyz_radians": [
+        1.234121561050415,
+        5.058392105183884e-08,
+        2.498091697692871
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.5,
+      "target_m": [
+        0,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "5_45lb_plates_per_sleeve",
+      "frame": 1,
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+      "plates_per_sleeve": 5
+    },
+    "example_sleeve_detail": {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_sleeve_detail__5_per_sleeve.png",
+      "position_m": [
+        1.3799999952316284,
+        0.6499999761581421,
+        0.550000011920929
+      ],
+      "rotation_euler_xyz_radians": [
+        1.1909266710281372,
+        -1.2582654562720563e-07,
+        2.4956345558166504
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.6800000071525574,
+      "target_m": [
+        0.89,
+        0,
+        0.225
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "5_45lb_plates_per_sleeve",
+      "frame": 1,
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+      "plates_per_sleeve": 5
+    }
+  },
+  "builder": "scripts/blender/build_olympic_barbell_20kg.py",
+  "builder_sha256": "aed1ee8e2de7f39811e50a58984fa5ffdab444dee5fb2f9531a9fc4702ec858c",
+  "helpers_sha256": "1a82a61e56e2ee195e75a2c02b2691d14b533d1300b098e4efb1f9633a5f644b",
+  "asset_version": "0.1.2",
+  "refinement_script": "scripts/blender/refine_olympic_barbell_20kg.py",
+  "refinement_script_sha256": "701b7194908751d17feb82ad1db2016e90f64e2ef751c4dae26d17753f37734b",
+  "smooth_ramp": {
+    "slots": [
+      8,
+      135
+    ],
+    "srgb_low": [
+      0.5194,
+      0.54064,
+      0.5607
+    ],
+    "srgb_high": [
+      0.8734,
+      0.89464,
+      0.9147
+    ],
+    "quantization": 128,
+    "existing_semantic_slot_prefix_preserved": 8,
+    "contrast_transform": ".72+1.18*(previous_srgb-.72)"
+  },
+  "contrast_script": "scripts/blender/contrast_olympic_barbell_20kg.py",
+  "contrast_script_sha256": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+  "contrast_factor": 1.18,
+  "contrast_pivot_srgb": 0.72,
+  "secondary_sources": [
+    {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
+      "sha256": "e6ff6f88ca0f59539dbfb77dc914f4a1777e8daaef770d10d889f0c5960621f1",
+      "configuration": "10_45lb_plates_per_sleeve",
+      "role": "diagnostic_maximum"
+    },
+    {
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+      "sha256": "a10ad55bf52c1873fe5ccd8a2b73ef100382276cf7aa9ebd7c580019cbb9b0f7",
+      "configuration": "5_45lb_plates_per_sleeve",
+      "role": "requested_example"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
+      "sha256": "9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb"
+    },
+    {
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
+      "sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2"
+    }
+  ],
+  "approval": {
+    "decision": "A12",
+    "date": "2026-10-14",
+    "scope": "current stored appearance/output settings for this asset/reference only"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "version": "0.1.1",
+  "predecessor_version": "0.1.0",
+  "predecessor_sha256": "ed507082be38912aee5a17623e077c524d6c95ea961d7b852c08a1823493cb74",
+  "input_sha256": "ed507082be38912aee5a17623e077c524d6c95ea961d7b852c08a1823493cb74",
+  "source_sha256": "4cab3d6b487e1f9e45dd7548cce0a4d6c42efa56812e173948939b5ad8c7fe20",
+  "operation": "existing mesh vertex edits and material assignments; no geometry reconstruction",
+  "object_and_mesh_datablock_identity_preserved": true,
+  "topology_preserved": true,
+  "mesh_topology_sha256": {
+    "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_back": "197d820d6c42462605ad6aff6b6bf234b4c6f3bb0d659036199bbfc3564382c6",
+    "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_front": "197d820d6c42462605ad6aff6b6bf234b4c6f3bb0d659036199bbfc3564382c6",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_body_data": "376551d84aea433daf32bdda2ee778d88deb5f74fb2557665f904a8c8da26a3f"
+  },
+  "previous_coordinate_sha256": {
+    "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_back": "0a5ad02b867b2335921b8d77cccc1cb5e72ad2323a9689ea8fee142abc8afb03",
+    "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_front": "fd106e2447e2c33556c69cafa6ec638f583511666bb808985e4cab1d48e8e073",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_body_data": "c56d2efa275d62c31ab31cb05d598e6232d2e913239e5964b66c3b7c50881edd"
+  },
+  "current_coordinate_sha256": {
+    "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_back": "f4155507dae3b09402cb40092674c0f23040e56661f2fb7dbb2820dd9271e7dd",
+    "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_front": "9ecd79c2c395fe143f1ce53d0510dc2b1d58bbcace5cd788edcb7fd78c10a7f5",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_body_data": "f6e5103620adac930ed15dbd2f3598b5781dc6b2003c498ef1e593163952decf"
+  },
+  "anchors_unchanged": true,
+  "prior_material_slot_prefixes_unchanged": true,
+  "axial_radial_profile_m": [
+    [
+      0.025401912717309825,
+      -0.012
+    ],
+    [
+      0.0274,
+      -0.0145
+    ],
+    [
+      0.052,
+      -0.0145
+    ],
+    [
+      0.056,
+      -0.012
+    ],
+    [
+      0.061,
+      -0.0065
+    ],
+    [
+      0.197,
+      -0.0065
+    ],
+    [
+      0.202,
+      -0.0138
+    ],
+    [
+      0.204,
+      -0.01651
+    ],
+    [
+      0.223,
+      -0.01651
+    ],
+    [
+      0.225,
+      -0.01451
+    ],
+    [
+      0.225,
+      0.01451
+    ],
+    [
+      0.223,
+      0.01651
+    ],
+    [
+      0.204,
+      0.01651
+    ],
+    [
+      0.202,
+      0.0138
+    ],
+    [
+      0.197,
+      0.0065
+    ],
+    [
+      0.061,
+      0.0065
+    ],
+    [
+      0.056,
+      0.012
+    ],
+    [
+      0.052,
+      0.0145
+    ],
+    [
+      0.0274,
+      0.0145
+    ],
+    [
+      0.025401912717309825,
+      0.012
+    ]
+  ],
+  "web_thickness_m": 0.013,
+  "hub_thickness_m": 0.029,
+  "rim_depth_above_web_m": 0.01001,
+  "letter_exposed_relief_m": 0.0035,
+  "letter_planar_scale_relative_to_0_1_0": 1.06,
+  "refinement_script_sha256": "6326b0ebc12799588828ea92b9b604dd03dc6fc2625bc2dd63fa90a98d8aefc8",
+  "shared_standards_changed": false
+}

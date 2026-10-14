@@ -1,6 +1,6 @@
-# Proposed asset conventions
+# Shared asset conventions
 
-Status: proposal. These interfaces describe the intended library contract; approval decisions are tracked separately in [Decisions](decisions.md). No implementation or compatibility guarantee exists yet.
+Level 2 common technical contracts, extended by [category standards](category-standards.md). Technical defaults below remain proposals under A03; documentation and workflow requirements are mandatory under [the workflow](asset-workflow.md). These interfaces describe the intended library contract; approval decisions are tracked separately in [Decisions](decisions.md). No implementation or compatibility guarantee exists yet.
 
 ## Identity and layout
 
@@ -8,14 +8,16 @@ Use lowercase ASCII `snake_case` for directories, filenames, asset IDs, collecti
 
 Stable ID pattern: `168h_<category>_<descriptive_name>`. Examples: `168h_equipment_flat_bench`, `168h_human_anatomical_adult`, `168h_rig_humanoid`, `168h_material_outline`. Categories are `human`, `rig`, `equipment`, `material`, `style`, `exercise`, and `template`. Add variants only when meaningful, such as `_adjustable` or `_neutral`; do not encode version numbers in stable IDs.
 
-Each asset folder contains `<asset_id>.blend` and `asset.json`. Use `textures/` only when external textures are necessary; use `previews/` for approved review images. For example:
+Each future asset folder contains its source `<asset_id>.blend` (or documented non-geometric source), `SPEC.md`, `asset.json`, and `validation.md`. Define the specification before building; keep it synchronized with the finished asset. Use `textures/` only when external textures are necessary; retain selected reference renders and their settings under `previews/` as required by the global guide. For example:
 
 ```text
 assets/equipment/benches/168h_equipment_flat_bench/
   168h_equipment_flat_bench.blend
   asset.json
+  SPEC.md
+  validation.md
   textures/               # Optional
-  previews/               # Optional
+  previews/               # Required reference evidence for finished assets
 ```
 
 Use semantic asset versions (`1.0.0`) in metadata. Breaking changes to anchors, axes, dimensions, bone naming, material slots, or control behavior require a major version and dependent-scene review. A stable ID identifies a family; each scene must record the asset version or Git revision it was verified against. Blender links follow paths, so versions are not automatically pinned: reproduce a release from its Git revision, and test upgrades deliberately.
@@ -63,6 +65,16 @@ Keep material slot order stable within an interface version and use semantic slo
 
 ## Metadata and release
 
-Use [the manifest example](../templates/asset-manifest.example.json) as a starting point; it is not a schema or automatic validator. Required release information: stable ID, asset/version/interface versions, source path, Blender version, units/axes, bounds, root and published datablocks, anchors or controls, material mappings, dependencies, provenance/license, and review status. Scene metadata also records asset versions/configurations and camera/style presets. Use `null` for unknown facts during drafting; unknown dimensions, licenses, or compatibility cannot be marked ready. Artwork needs separate explicit terms under the [licensing policy](licensing.md); it does not inherit the MIT code license.
+Use [the manifest example](../templates/asset-manifest.example.json) as a starting point; it is not a schema or automatic validator. Required release information: `SPEC.md` and validation paths, standards revision, reference-render index and render-settings path, decision/exception references, tested compatibility cases, stable ID, asset/version/interface versions, source path, Blender version, units/axes, bounds, root and published datablocks, anchors or controls, material mappings, dependencies, provenance/license, and review status. Scene metadata also records asset versions/configurations and camera/style presets. Use `null` for unknown facts during drafting; unknown dimensions, licenses, or compatibility cannot be marked ready. Artwork needs separate explicit terms under the [licensing policy](licensing.md); it does not inherit the MIT code license.
 
 Review status progresses from `draft` to `review` to `ready`. Verify dimensions, relative links, contacts, outlines, and export settings using the [checklist](review-checklist.md). Never use the illustrative manifest's dimensions as a specification for a real asset.
+
+## Shared change control
+
+Never silently change these contracts to accommodate an asset. Submit shared changes and conflicting asset exceptions through [Decisions](decisions.md); record explicit approval and compatibility/migration evidence. Prefer reusable components over duplicated geometry. Keep stable names and paths for existing consumers, and record major versions for approved breaks. The asset specification must explain design rationale, dependency versions, and reproduction steps sufficiently for a new developer/session to continue the work.
+
+## Evidence metadata format
+
+In `asset.json`, use repository-relative paths for source, specification, validation record, standards, render settings, and reference evidence. Each `reference_renders` entry records `view`, `configuration`, `frame` (or null for a still), `path`, `source_revision_or_digest`, and `preset_revision`. Each `exceptions` or `design_decisions` entry identifies the decision ID and approval reference; an empty list means none, not implicit approval. Compatibility test entries identify consumer/fixture IDs and versions, configuration ranges, result, and the corresponding validation evidence. Pin direct dependencies by ID, version, and relative source path. Fields may be null or empty in drafts; completed assets must contain the applicable evidence, and `N/A` needs a reason in the specification/validation record.
+
+For designated visual references, also record the independent approval/release states and checksum-pinned source/images described in [the workflow](asset-workflow.md#visual-reference-approval-is-separate-from-production-readiness). A rendered appearance can be approved while physical/global technical defaults remain provisional. This does not change the `draft`/`review`/`ready` production lifecycle.

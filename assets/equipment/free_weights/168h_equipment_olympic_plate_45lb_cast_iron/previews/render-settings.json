@@ -1,0 +1,193 @@
+{
+  "status": "Approved 0.1.4 cast-iron plate visual reference A10; technical production baseline remains provisional",
+  "preset": "plate_review_flat@0.1.4",
+  "blender_version": "5.1.1",
+  "blender_build_hash": "b70da489d7f4",
+  "addons_required": [],
+  "engine": "BLENDER_WORKBENCH",
+  "source_sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+  "builder_sha256": "2764f3d3613f527365e8209baa49cbf7562e0cb2597655280db2e37fedf22455",
+  "resolution": [
+    1024,
+    1024
+  ],
+  "format": "PNG",
+  "color_mode": "RGBA",
+  "bit_depth": 8,
+  "view_transform": "Standard",
+  "look": "None",
+  "exposure": 0,
+  "gamma": 1,
+  "palette_srgb_hex": {
+    "cast_iron": "363A40",
+    "web": "454A51",
+    "rim": "2A2D32",
+    "hub": "50555C",
+    "lettering": "F2F2F2"
+  },
+  "material_versions": {
+    "168h_equipment_olympic_plate_45lb_cast_iron__material_cast_iron": "0.1.3",
+    "168h_equipment_olympic_plate_45lb_cast_iron__material_web": "0.1.3",
+    "168h_equipment_olympic_plate_45lb_cast_iron__material_rim": "0.1.3",
+    "168h_equipment_olympic_plate_45lb_cast_iron__material_hub": "0.1.3",
+    "168h_equipment_olympic_plate_45lb_cast_iron__material_lettering": "0.1.3"
+  },
+  "lighting": "FLAT; no light objects",
+  "shadows": false,
+  "cavity": false,
+  "ambient_occlusion": false,
+  "baked_textures": [],
+  "specular_highlight": false,
+  "outlines": {
+    "method": "Workbench object silhouette outline",
+    "enabled": true,
+    "width": "Workbench native width at 1024px; no exposed pixel-width control",
+    "color_linear_rgb": [
+      0.014999999664723873,
+      0.017999999225139618,
+      0.02199999988079071
+    ],
+    "edge_definition": "Native silhouettes and flat charcoal separation on raised ribs, hub/rim bevels, waist and real extruded letter sides; no shadows/AO."
+  },
+  "background": {
+    "world_linear_rgb": [
+      1,
+      1,
+      1
+    ],
+    "transparent": false
+  },
+  "antialiasing_samples": "32",
+  "random_seed": "N/A deterministic Workbench",
+  "frame": 1,
+  "configuration": "standing",
+  "camera_views": {
+    "front": {
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__front__standing.png",
+      "position_m": [
+        0.0,
+        1.2000000476837158,
+        0.22499999403953552
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -1.5099578831723193e-07,
+        3.141592502593994
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.56,
+      "target_m": [
+        0.0,
+        0.0,
+        0.22499999403953552
+      ],
+      "clip_start_m": 0.10000000149011612,
+      "clip_end_m": 1000.0
+    },
+    "side": {
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__side__standing.png",
+      "position_m": [
+        1.2000000476837158,
+        0.0,
+        0.22499999403953552
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.56,
+      "target_m": [
+        0.0,
+        0.0,
+        0.22499999403953552
+      ],
+      "clip_start_m": 0.10000000149011612,
+      "clip_end_m": 1000.0
+    },
+    "three_quarter": {
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__three_quarter__standing.png",
+      "position_m": [
+        0.8199999928474426,
+        1.0499999523162842,
+        0.6749999523162842
+      ],
+      "rotation_euler_xyz_radians": [
+        1.245054841041565,
+        1.586300157896403e-08,
+        2.478574514389038
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.56,
+      "target_m": [
+        0.0,
+        0.0,
+        0.22499999403953552
+      ],
+      "clip_start_m": 0.10000000149011612,
+      "clip_end_m": 1000.0
+    },
+    "back": {
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__back__standing.png",
+      "position_m": [
+        0.0,
+        -1.2000000476837158,
+        0.22499999403953552
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.56,
+      "target_m": [
+        0.0,
+        0.0,
+        0.22499999403953552
+      ],
+      "clip_start_m": 0.10000000149011612,
+      "clip_end_m": 1000.0
+    },
+    "rotated_180_check": {
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__rotated_180_check__standing.png",
+      "position_m": [
+        0.0,
+        1.2000000476837158,
+        0.22499999403953552
+      ],
+      "rotation_euler_xyz_radians": [
+        -1.5707964897155762,
+        6.357301174375607e-08,
+        -1.5099578831723193e-07
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.56,
+      "target_m": [
+        0.0,
+        0.0,
+        0.22499999403953552
+      ],
+      "clip_start_m": 0.10000000149011612,
+      "clip_end_m": 1000.0,
+      "purpose": "Full plate rotated 180 degrees in image plane: BARBELL must read like ordinary upright upper-arc text."
+    }
+  },
+  "asset_version": "0.1.4",
+  "refinement_script": "scripts/blender/refine_olympic_plate_45lb.py",
+  "refinement_script_sha256": "6326b0ebc12799588828ea92b9b604dd03dc6fc2625bc2dd63fa90a98d8aefc8",
+  "predecessor_sha256": "61557cd8d31ded1c5d6700792ad8b2e7e7b6924099315056047a3d2f55d8ca13",
+  "detail_script": "scripts/blender/detail_olympic_plate_45lb.py",
+  "detail_script_sha256": "87bd0bd992ab23480e6a9dc14f7c6e234a5e45b519f3fed6c7689dfb76391b22",
+  "finish_script": "scripts/blender/finish_olympic_plate_45lb.py",
+  "finish_script_sha256": "37db7b4860ca5c42c77a643977cd454fa25a3e1a6405ceb999f50e30ed71dc57",
+  "correction_script": "scripts/blender/correct_olympic_plate_45lb.py",
+  "correction_script_sha256": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329",
+  "visual_reference_approval": {
+    "id": "cast_iron_plate_visual@1",
+    "decision": "A10",
+    "date": "2026-10-14",
+    "scope": "existing rendered result accepted; recorded engine/camera/delivery values not universal defaults"
+  }
+}
