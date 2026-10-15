@@ -1,0 +1,19 @@
+{
+  "version": "0.1.2",
+  "result": "PASS",
+  "source_sha256": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+  "bench_geometry_checks": 161,
+  "origin_checks": 144,
+  "references_exactly_reproduced": 4,
+  "protected_files_unchanged": 205,
+  "local_links": "resolved",
+  "render_bundle": "4current PNGs and preset verified",
+  "status": "review/not_ready; acceptance pending",
+  "shared_standards_changed": false,
+  "historical_migration_regression": {
+    "pass": 28,
+    "fail": 0,
+    "output": "exports/models/bench_polish_migration_validation.json",
+    "scope": "exact retained A14 sources plus current reference renders"
+  }
+}

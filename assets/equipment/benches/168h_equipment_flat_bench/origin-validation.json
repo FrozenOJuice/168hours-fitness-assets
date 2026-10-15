@@ -1,0 +1,1984 @@
+{
+  "standard": "equipment_origins@1",
+  "date": "2026-10-15",
+  "blender_version": "5.1.1",
+  "validator_sha256": "65d8a338d49bb64b15d690fdbdafff95d84a9289088d8018ea72a385782c4dc5",
+  "rules_sha256": "e4b723640d02cda162d8cab3c578860a4679d7ce20e15a46f71de4de17f4ad3a",
+  "assets": [
+    {
+      "asset_id": "168h_equipment_flat_bench",
+      "version": "0.1.2",
+      "source": "assets/equipment/benches/168h_equipment_flat_bench/168h_equipment_flat_bench.blend",
+      "source_sha256": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+      "checks": [
+        {
+          "check": "root_functional_datum",
+          "expected": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "collection_pivot_matches_root",
+          "expected": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "declared_authoring_root",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "root_rotation",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "source_authoring_floor",
+          "expected": [
+            0
+          ],
+          "actual": [
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "metric_units",
+          "expected": "METRIC / scale1",
+          "actual": [
+            "METRIC",
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "coordinate_axes",
+          "expected": {
+            "up": "+Z",
+            "forward": "+Y",
+            "subject_left": "+X"
+          },
+          "actual": {
+            "up": "+Z",
+            "forward": "+Y",
+            "subject_left": "+X"
+          },
+          "result": "PASS"
+        },
+        {
+          "check": "root_hierarchy",
+          "expected": "all objects descend from unparented root",
+          "actual": [],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_pad",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_pad",
+          "expected": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_pad",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_pad_substrate",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_pad_substrate",
+          "expected": [
+            0.0,
+            0.0,
+            0.3873499929904938
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.3873499929904938
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_pad_substrate",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_spine",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_spine",
+          "expected": [
+            0.0,
+            0.0,
+            0.3555999994277954
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.3555999994277954
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_spine",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_mount_rail_head",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_mount_rail_head",
+          "expected": [
+            0.0,
+            0.3400000035762787,
+            0.3682999908924103
+          ],
+          "actual": [
+            0.0,
+            0.3400000035762787,
+            0.3682999908924103
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_mount_rail_head",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_mount_rail_foot",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_mount_rail_foot",
+          "expected": [
+            0.0,
+            -0.3400000035762787,
+            0.3682999908924103
+          ],
+          "actual": [
+            0.0,
+            -0.3400000035762787,
+            0.3682999908924103
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_mount_rail_foot",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_leg_head",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_leg_head",
+          "expected": [
+            0.0,
+            0.41999998688697815,
+            0.20900000631809235
+          ],
+          "actual": [
+            0.0,
+            0.41999998688697815,
+            0.20900000631809235
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_leg_head",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_leg_foot",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_leg_foot",
+          "expected": [
+            0.0,
+            -0.41999998688697815,
+            0.20900000631809235
+          ],
+          "actual": [
+            0.0,
+            -0.41999998688697815,
+            0.20900000631809235
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_leg_foot",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_foot_head",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_foot_head",
+          "expected": [
+            0.0,
+            0.4699999988079071,
+            0.03539999946951866
+          ],
+          "actual": [
+            0.0,
+            0.4699999988079071,
+            0.03539999946951866
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_foot_head",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_foot_foot",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_foot_foot",
+          "expected": [
+            0.0,
+            -0.4699999988079071,
+            0.03539999946951866
+          ],
+          "actual": [
+            0.0,
+            -0.4699999988079071,
+            0.03539999946951866
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_foot_foot",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_rubber_head_l",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_rubber_head_l",
+          "expected": [
+            0.14000000059604645,
+            0.4699999988079071,
+            0.032499998807907104
+          ],
+          "actual": [
+            0.14000000059604645,
+            0.4699999988079071,
+            0.032499998807907104
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_rubber_head_l",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_rubber_head_r",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_rubber_head_r",
+          "expected": [
+            -0.14000000059604645,
+            0.4699999988079071,
+            0.032499998807907104
+          ],
+          "actual": [
+            -0.14000000059604645,
+            0.4699999988079071,
+            0.032499998807907104
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_rubber_head_r",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_rubber_foot_l",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_rubber_foot_l",
+          "expected": [
+            0.14000000059604645,
+            -0.4699999988079071,
+            0.032499998807907104
+          ],
+          "actual": [
+            0.14000000059604645,
+            -0.4699999988079071,
+            0.032499998807907104
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_rubber_foot_l",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_rubber_foot_r",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_rubber_foot_r",
+          "expected": [
+            -0.14000000059604645,
+            -0.4699999988079071,
+            0.032499998807907104
+          ],
+          "actual": [
+            -0.14000000059604645,
+            -0.4699999988079071,
+            0.032499998807907104
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_rubber_foot_r",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_upholstery_seam",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_upholstery_seam",
+          "expected": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_upholstery_seam",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_gusset_head_l",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_gusset_head_l",
+          "expected": [
+            0.027400000020861626,
+            0.0,
+            0.0
+          ],
+          "actual": [
+            0.027400000020861626,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_gusset_head_l",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_gusset_head_r",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_gusset_head_r",
+          "expected": [
+            -0.027400000020861626,
+            0.0,
+            0.0
+          ],
+          "actual": [
+            -0.027400000020861626,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_gusset_head_r",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_gusset_foot_l",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_gusset_foot_l",
+          "expected": [
+            0.027400000020861626,
+            0.0,
+            0.0
+          ],
+          "actual": [
+            0.027400000020861626,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_gusset_foot_l",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_gusset_foot_r",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_gusset_foot_r",
+          "expected": [
+            -0.027400000020861626,
+            0.0,
+            0.0
+          ],
+          "actual": [
+            -0.027400000020861626,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_gusset_foot_r",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_mount_cheek_head_l",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_mount_cheek_head_l",
+          "expected": [
+            0.029400000348687172,
+            0.3400000035762787,
+            0.3490000069141388
+          ],
+          "actual": [
+            0.029400000348687172,
+            0.3400000035762787,
+            0.3490000069141388
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_mount_cheek_head_l",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_mount_cheek_head_r",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_mount_cheek_head_r",
+          "expected": [
+            -0.029400000348687172,
+            0.3400000035762787,
+            0.3490000069141388
+          ],
+          "actual": [
+            -0.029400000348687172,
+            0.3400000035762787,
+            0.3490000069141388
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_mount_cheek_head_r",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_mount_cheek_foot_l",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_mount_cheek_foot_l",
+          "expected": [
+            0.029400000348687172,
+            -0.3400000035762787,
+            0.3490000069141388
+          ],
+          "actual": [
+            0.029400000348687172,
+            -0.3400000035762787,
+            0.3490000069141388
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_mount_cheek_foot_l",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_mount_cheek_foot_r",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_mount_cheek_foot_r",
+          "expected": [
+            -0.029400000348687172,
+            -0.3400000035762787,
+            0.3490000069141388
+          ],
+          "actual": [
+            -0.029400000348687172,
+            -0.3400000035762787,
+            0.3490000069141388
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_mount_cheek_foot_r",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_pad_bolt_head_l",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_pad_bolt_head_l",
+          "expected": [
+            0.09200000017881393,
+            0.3400000035762787,
+            0.3537999987602234
+          ],
+          "actual": [
+            0.09200000017881393,
+            0.3400000035762787,
+            0.3537999987602234
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_pad_bolt_head_l",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_pad_bolt_head_r",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_pad_bolt_head_r",
+          "expected": [
+            -0.09200000017881393,
+            0.3400000035762787,
+            0.3537999987602234
+          ],
+          "actual": [
+            -0.09200000017881393,
+            0.3400000035762787,
+            0.3537999987602234
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_pad_bolt_head_r",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_pad_bolt_foot_l",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_pad_bolt_foot_l",
+          "expected": [
+            0.09200000017881393,
+            -0.3400000035762787,
+            0.3537999987602234
+          ],
+          "actual": [
+            0.09200000017881393,
+            -0.3400000035762787,
+            0.3537999987602234
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_pad_bolt_foot_l",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_pad_bolt_foot_r",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_pad_bolt_foot_r",
+          "expected": [
+            -0.09200000017881393,
+            -0.3400000035762787,
+            0.3537999987602234
+          ],
+          "actual": [
+            -0.09200000017881393,
+            -0.3400000035762787,
+            0.3537999987602234
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_pad_bolt_foot_r",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_cross_bolt_head_r",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_cross_bolt_head_r",
+          "expected": [
+            -0.03420000150799751,
+            0.3400000035762787,
+            0.3490000069141388
+          ],
+          "actual": [
+            -0.03420000150799751,
+            0.3400000035762787,
+            0.3490000069141388
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_cross_bolt_head_r",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_cross_bolt_foot_r",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_cross_bolt_foot_r",
+          "expected": [
+            -0.03420000150799751,
+            -0.3400000035762787,
+            0.3490000069141388
+          ],
+          "actual": [
+            -0.03420000150799751,
+            -0.3400000035762787,
+            0.3490000069141388
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_cross_bolt_foot_r",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_cross_bolt_head_l",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_cross_bolt_head_l",
+          "expected": [
+            0.03420000150799751,
+            0.3400000035762787,
+            0.3490000069141388
+          ],
+          "actual": [
+            0.03420000150799751,
+            0.3400000035762787,
+            0.3490000069141388
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_cross_bolt_head_l",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__mesh_cross_bolt_foot_l",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "component_origin:168h_equipment_flat_bench__mesh_cross_bolt_foot_l",
+          "expected": [
+            0.03420000150799751,
+            -0.3400000035762787,
+            0.3490000069141388
+          ],
+          "actual": [
+            0.03420000150799751,
+            -0.3400000035762787,
+            0.3490000069141388
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "rigid_rotation:168h_equipment_flat_bench__mesh_cross_bolt_foot_l",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__root",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__anchor_floor_contact",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__anchor_pad_center",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__anchor_seat_center",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__anchor_back_support",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__anchor_head_support",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__anchor_head_end",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "unit_positive_scale:168h_equipment_flat_bench__anchor_foot_end",
+          "expected": [
+            1,
+            1,
+            1
+          ],
+          "actual": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "required_anchor:floor_contact",
+          "expected": "declared and present",
+          "actual": {
+            "object": "168h_equipment_flat_bench__anchor_floor_contact",
+            "position_m": [
+              0,
+              0,
+              0
+            ],
+            "rotation_euler_xyz_radians": [
+              0,
+              0,
+              0
+            ],
+            "forward": "+Y",
+            "up": "+Z"
+          },
+          "result": "PASS"
+        },
+        {
+          "check": "required_anchor:pad_center",
+          "expected": "declared and present",
+          "actual": {
+            "object": "168h_equipment_flat_bench__anchor_pad_center",
+            "position_m": [
+              0,
+              0,
+              0.4572
+            ],
+            "rotation_euler_xyz_radians": [
+              0,
+              0,
+              0
+            ],
+            "forward": "+Y",
+            "up": "+Z"
+          },
+          "result": "PASS"
+        },
+        {
+          "check": "required_anchor:seat_center",
+          "expected": "declared and present",
+          "actual": {
+            "object": "168h_equipment_flat_bench__anchor_seat_center",
+            "position_m": [
+              0,
+              -0.3,
+              0.4572
+            ],
+            "rotation_euler_xyz_radians": [
+              0,
+              0,
+              0
+            ],
+            "forward": "+Y",
+            "up": "+Z"
+          },
+          "result": "PASS"
+        },
+        {
+          "check": "required_anchor:back_support",
+          "expected": "declared and present",
+          "actual": {
+            "object": "168h_equipment_flat_bench__anchor_back_support",
+            "position_m": [
+              0,
+              0.15,
+              0.4572
+            ],
+            "rotation_euler_xyz_radians": [
+              0,
+              0,
+              0
+            ],
+            "forward": "+Y",
+            "up": "+Z"
+          },
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_name:floor_contact",
+          "expected": "168h_equipment_flat_bench__anchor_floor_contact",
+          "actual": "168h_equipment_flat_bench__anchor_floor_contact",
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_position:floor_contact",
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_forward:floor_contact",
+          "expected": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "actual": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_up:floor_contact",
+          "expected": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_geometry_datum:floor_contact",
+          "expected": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_name:pad_center",
+          "expected": "168h_equipment_flat_bench__anchor_pad_center",
+          "actual": "168h_equipment_flat_bench__anchor_pad_center",
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_position:pad_center",
+          "expected": [
+            0,
+            0,
+            0.4572
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.45719999074935913
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_forward:pad_center",
+          "expected": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "actual": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_up:pad_center",
+          "expected": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_geometry_datum:pad_center",
+          "expected": [
+            0.0,
+            0.0,
+            0.45719999074935913
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            0.45719999074935913
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_name:seat_center",
+          "expected": "168h_equipment_flat_bench__anchor_seat_center",
+          "actual": "168h_equipment_flat_bench__anchor_seat_center",
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_position:seat_center",
+          "expected": [
+            0,
+            -0.3,
+            0.4572
+          ],
+          "actual": [
+            0.0,
+            -0.30000001192092896,
+            0.45719999074935913
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_forward:seat_center",
+          "expected": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "actual": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_up:seat_center",
+          "expected": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_geometry_datum:seat_center",
+          "expected": [
+            0.0,
+            -0.30000001192092896,
+            0.45719999074935913
+          ],
+          "actual": [
+            0.0,
+            -0.30000001192092896,
+            0.45719999074935913
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_name:back_support",
+          "expected": "168h_equipment_flat_bench__anchor_back_support",
+          "actual": "168h_equipment_flat_bench__anchor_back_support",
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_position:back_support",
+          "expected": [
+            0,
+            0.15,
+            0.4572
+          ],
+          "actual": [
+            0.0,
+            0.15000000596046448,
+            0.45719999074935913
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_forward:back_support",
+          "expected": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "actual": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_up:back_support",
+          "expected": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_geometry_datum:back_support",
+          "expected": [
+            0.0,
+            0.15000000596046448,
+            0.45719999074935913
+          ],
+          "actual": [
+            0.0,
+            0.15000000596046448,
+            0.45719999074935913
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_name:head_support",
+          "expected": "168h_equipment_flat_bench__anchor_head_support",
+          "actual": "168h_equipment_flat_bench__anchor_head_support",
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_position:head_support",
+          "expected": [
+            0,
+            0.4,
+            0.4572
+          ],
+          "actual": [
+            0.0,
+            0.4000000059604645,
+            0.45719999074935913
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_forward:head_support",
+          "expected": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "actual": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_up:head_support",
+          "expected": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_geometry_datum:head_support",
+          "expected": [
+            0.0,
+            0.4000000059604645,
+            0.45719999074935913
+          ],
+          "actual": [
+            0.0,
+            0.4000000059604645,
+            0.45719999074935913
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_name:head_end",
+          "expected": "168h_equipment_flat_bench__anchor_head_end",
+          "actual": "168h_equipment_flat_bench__anchor_head_end",
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_position:head_end",
+          "expected": [
+            0,
+            0.5969,
+            0.4572
+          ],
+          "actual": [
+            0.0,
+            0.5968999862670898,
+            0.45719999074935913
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_forward:head_end",
+          "expected": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "actual": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_up:head_end",
+          "expected": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_name:foot_end",
+          "expected": "168h_equipment_flat_bench__anchor_foot_end",
+          "actual": "168h_equipment_flat_bench__anchor_foot_end",
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_position:foot_end",
+          "expected": [
+            0,
+            -0.5969,
+            0.4572
+          ],
+          "actual": [
+            0.0,
+            -0.5968999862670898,
+            0.45719999074935913
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_forward:foot_end",
+          "expected": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "actual": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "anchor_up:foot_end",
+          "expected": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "actual": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "result": "PASS"
+        },
+        {
+          "check": "physical_primary_axis",
+          "expected": "Y",
+          "actual": [
+            0.3555999994277954,
+            1.1937999725341797,
+            0.45719999074935913
+          ],
+          "result": "PASS"
+        }
+      ],
+      "pass": 144,
+      "fail": 0
+    }
+  ],
+  "pass": 144,
+  "fail": 0
+}

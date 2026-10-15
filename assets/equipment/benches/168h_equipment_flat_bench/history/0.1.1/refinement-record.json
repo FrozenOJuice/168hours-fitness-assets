@@ -1,0 +1,185 @@
+{
+  "version": "0.1.1",
+  "predecessor_sha256": "146c810a216858409fa0e3fdaba987a69f87aa1a74ddc61949ce388ad8be339c",
+  "source_sha256": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
+  "script_sha256": "9e7eb243afcbdf1ebb257fb0f74e33457f36f0c9e0b6c68f52e98275ccad1ed1",
+  "original_objects_and_data_identity_preserved": true,
+  "anchors_transforms_preserved": true,
+  "main_frame_substrate_vertices_preserved": true,
+  "original_pad_topology_preserved": true,
+  "rubber_shared_data_retained_topology_changed": true,
+  "added_objects": [
+    "168h_equipment_flat_bench__mesh_upholstery_seam",
+    "168h_equipment_flat_bench__mesh_gusset_head_l",
+    "168h_equipment_flat_bench__mesh_gusset_head_r",
+    "168h_equipment_flat_bench__mesh_gusset_foot_l",
+    "168h_equipment_flat_bench__mesh_gusset_foot_r",
+    "168h_equipment_flat_bench__mesh_mount_cheek_head_l",
+    "168h_equipment_flat_bench__mesh_mount_cheek_head_r",
+    "168h_equipment_flat_bench__mesh_mount_cheek_foot_l",
+    "168h_equipment_flat_bench__mesh_mount_cheek_foot_r",
+    "168h_equipment_flat_bench__mesh_pad_bolt_head_l",
+    "168h_equipment_flat_bench__mesh_pad_bolt_head_r",
+    "168h_equipment_flat_bench__mesh_pad_bolt_foot_l",
+    "168h_equipment_flat_bench__mesh_pad_bolt_foot_r",
+    "168h_equipment_flat_bench__mesh_cross_bolt_head_r",
+    "168h_equipment_flat_bench__mesh_cross_bolt_foot_r",
+    "168h_equipment_flat_bench__mesh_cross_bolt_head_l",
+    "168h_equipment_flat_bench__mesh_cross_bolt_foot_l"
+  ],
+  "mesh_objects": 30,
+  "unique_mesh_data": 15,
+  "materials": {
+    "168h_equipment_flat_bench__mesh_pad": [
+      "168h_equipment_flat_bench__material_padding_top",
+      "168h_equipment_flat_bench__material_padding_side",
+      "168h_equipment_flat_bench__material_padding_edge"
+    ],
+    "168h_equipment_flat_bench__mesh_pad_substrate": [
+      "168h_equipment_flat_bench__material_substrate_body",
+      "168h_equipment_flat_bench__material_substrate_top",
+      "168h_equipment_flat_bench__material_substrate_side"
+    ],
+    "168h_equipment_flat_bench__mesh_spine": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_mount_rail_head": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_mount_rail_foot": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_leg_head": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_leg_foot": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_foot_head": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_foot_foot": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_rubber_head_l": [
+      "168h_equipment_flat_bench__material_grip_body",
+      "168h_equipment_flat_bench__material_grip_top",
+      "168h_equipment_flat_bench__material_grip_side"
+    ],
+    "168h_equipment_flat_bench__mesh_rubber_head_r": [
+      "168h_equipment_flat_bench__material_grip_body",
+      "168h_equipment_flat_bench__material_grip_top",
+      "168h_equipment_flat_bench__material_grip_side"
+    ],
+    "168h_equipment_flat_bench__mesh_rubber_foot_l": [
+      "168h_equipment_flat_bench__material_grip_body",
+      "168h_equipment_flat_bench__material_grip_top",
+      "168h_equipment_flat_bench__material_grip_side"
+    ],
+    "168h_equipment_flat_bench__mesh_rubber_foot_r": [
+      "168h_equipment_flat_bench__material_grip_body",
+      "168h_equipment_flat_bench__material_grip_top",
+      "168h_equipment_flat_bench__material_grip_side"
+    ],
+    "168h_equipment_flat_bench__mesh_upholstery_seam": [
+      "168h_equipment_flat_bench__material_padding_top",
+      "168h_equipment_flat_bench__material_padding_side",
+      "168h_equipment_flat_bench__material_padding_edge"
+    ],
+    "168h_equipment_flat_bench__mesh_gusset_head_l": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_gusset_head_r": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_gusset_foot_l": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_gusset_foot_r": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_mount_cheek_head_l": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_mount_cheek_head_r": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_mount_cheek_foot_l": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_mount_cheek_foot_r": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_pad_bolt_head_l": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_pad_bolt_head_r": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_pad_bolt_foot_l": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_pad_bolt_foot_r": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_cross_bolt_head_r": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_cross_bolt_foot_r": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_cross_bolt_head_l": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_cross_bolt_foot_l": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side"
+    ]
+  },
+  "blender_version": "5.1.1"
+}

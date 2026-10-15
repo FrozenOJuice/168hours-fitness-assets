@@ -4,6 +4,20 @@ import bpy,json,hashlib,sys,tempfile,numpy as np
 from mathutils import Matrix
 R=Path(__file__).resolve().parents[2];ARCH=R/'docs/audits/origin_baseline'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def migrated_revision(entry):
+    """Keep an immutable migration check usable after an explicitly retained successor.
+
+    Never compare changed successor geometry as if it were the migration revision.
+    A separate current-source passing report and exact historical pin are required.
+    """
+    current=R/entry['source']
+    if sha(current)==entry['source_sha256']:return current
+    manifest=json.loads((current.parent/'asset.json').read_text())
+    retained=R/manifest['retained_revisions'][entry['source_sha256']]
+    report=json.loads((R/manifest['current_revision_validation']).read_text())
+    assert sha(retained)==entry['source_sha256'],'Historical migration revision changed'
+    assert report['source_sha256']==sha(current) and report['fail']==0,'Successor requires its own current-source validation'
+    return retained
 def capture(path):
     bpy.ops.wm.open_mainfile(filepath=str(path));bpy.context.view_layer.update();scene=bpy.context.scene
     rows={}
@@ -24,7 +38,8 @@ def capture(path):
 if __name__=='__main__':
     checks=[];refreshed=[];record=json.loads((R/'docs/audits/origin-migration-record.json').read_text())
     for e in record['records']:
-        old,om,oa=capture(ARCH/e['source']);new,nm,na=capture(R/e['source']);error=0
+        revision=migrated_revision(e)
+        old,om,oa=capture(ARCH/e['source']);new,nm,na=capture(revision);error=0
         same=old.keys()==new.keys()
         for key in old.keys()&new.keys():
             a=old[key];b=new[key]
@@ -35,7 +50,7 @@ if __name__=='__main__':
         good=same and error<1e-6 and om==nm and oa.keys()==na.keys() and anchor_error<1e-6
         libs=[{'path':l.filepath,'resolved':Path(bpy.path.abspath(l.filepath)).exists()} for l in bpy.data.libraries]
         good=good and all(l['path'].startswith('//') and l['resolved'] for l in libs)
-        checks.append({'source':e['source'],'result':'PASS' if good else 'FAIL','mesh_instances':len(new),'identical_mesh_topology_coordinates_and_materials':same and om==nm,'world_vertex_max_error_m':error,'anchor_world_matrix_max_error':anchor_error,'libraries':libs})
+        checks.append({'source':e['source'],'compared_migration_revision':str(revision.relative_to(R)),'migration_revision_sha256':sha(revision),'current_source_sha256':sha(R/e['source']),'scope':'pinned A14 revision; authorized successors require separate current-source QA','result':'PASS' if good else 'FAIL','mesh_instances':len(new),'identical_mesh_topology_coordinates_and_materials':same and om==nm,'world_vertex_max_error_m':error,'anchor_world_matrix_max_error':anchor_error,'libraries':libs})
     def sweeps(path):
         bpy.ops.wm.open_mainfile(filepath=str(path));frames={}
         for root in [o for o in bpy.context.scene.objects if o.name.endswith('__root')]:
@@ -49,7 +64,7 @@ if __name__=='__main__':
         return frames
     for e in record['records']:
         if 'new_root_m' not in e:continue
-        before=sweeps(ARCH/e['source']);after=sweeps(R/e['source'])
+        before=sweeps(ARCH/e['source']);after=sweeps(migrated_revision(e))
         if before:
             error=max(float(np.max(np.abs(before[k]-after[k]))) for k in before)
             checks.append({'source':e['source'],'check':'independent_controller_sweeps_preserved','result':'PASS' if before.keys()==after.keys() and error<1e-6 else 'FAIL','sampled_object_frames':len(before),'max_world_matrix_error':error})
@@ -77,5 +92,6 @@ if __name__=='__main__':
     if refreshed:
         (R/'docs/audits/origin-render-refresh.json').write_text(json.dumps(refreshed,indent=2)+'\n')
         (R/'docs/audits/origin-render-pre-refresh.json').write_text(json.dumps(out,indent=2)+'\n');print('REFRESHED_ASSEMBLY_REFERENCES',len(refreshed));sys.exit(0)
-    (R/'docs/audits/origin-migration-validation.json').write_text(json.dumps(out,indent=2)+'\n');print('MIGRATION_QA',out['pass'],out['fail'])
+    destination=R/sys.argv[sys.argv.index('--output')+1] if '--output' in sys.argv else R/'docs/audits/origin-migration-validation.json'
+    destination.write_text(json.dumps(out,indent=2)+'\n');print('MIGRATION_QA',out['pass'],out['fail'])
     if out['fail']:raise RuntimeError('Migration regression failed')

@@ -1,14 +1,39 @@
 {
+  "version": "0.1.2",
   "result": "PASS",
-  "version": "0.1.1",
-  "source_sha256": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
-  "protected_files_unchanged": 62,
-  "reference_and_zip_digests": "four current PNGs plus preset verified",
-  "current_local_markdown_links": "resolved",
-  "review_status": "review; approval pending; not_ready",
-  "qa": {
-    "pass": 72,
+  "source_sha256": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+  "bench_geometry_checks": 161,
+  "origin_checks": 144,
+  "references_exactly_reproduced": 4,
+  "protected_files_unchanged": 205,
+  "local_links": "resolved",
+  "render_bundle": "PASS four current PNGs plus captured settings",
+  "status": "approved/ready for internal Blender illustration/library use",
+  "shared_standards_changed": false,
+  "historical_migration_regression": {
+    "pass": 28,
+    "fail": 0,
+    "output": "approval-migration-regression.json",
+    "scope": "pinned A14 predecessors plus current reference render regression"
+  },
+  "approval_record": "approval-record.json",
+  "origin_failure_injection": {
+    "pass": 6,
     "fail": 0
   },
-  "original_predecessor": "history/0.1.0 retained; no rebuild of whole bench"
+  "checkout_validation": {
+    "result": "PASS",
+    "tested_commit": "44048d3931fa4032ed909767bb894e425b77d026",
+    "scope": "Fresh local Git clone with15LFS sources fetched/checked out and fsck;305 current bench checks and4 exact reference comparisons. Final evidence-only amendment leaves native/render/validator bytes identical. No remote upload tested.",
+    "source_sha256": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+    "geometry_checks": 161,
+    "origin_checks": 144,
+    "exact_render_views": 4,
+    "lfs_objects": 15,
+    "report_sha256": {
+      "visual-validation-results.json": "bed68da821d103cefa152410374e423c29b0cf8e4b92698b4820cc0eafa1db0b",
+      "origin-validation.json": "5549443e96dc1bc96defcdddc2060293da14f4da49a58b2c5bdebfc8c24e78d7",
+      "render-reproduction.json": "16050191bad2b74092a158e2051e7247e067854a5a8957f38ec904313204d590"
+    }
+  }
 }

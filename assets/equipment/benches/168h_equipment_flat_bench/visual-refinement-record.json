@@ -1,0 +1,40 @@
+{
+  "version": "0.1.2",
+  "source_sha256": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+  "predecessor_sha256": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
+  "script_sha256": "7aaa83dee3d6a3a4d17f3328c45712eea6b8c76b083cb1b05d180c45e1122bc5",
+  "all_object_identities_and_frames_preserved": true,
+  "all_material_datablocks_colors_and_nodes_preserved": true,
+  "changed_geometry_objects": [
+    "168h_equipment_flat_bench__mesh_rubber_head_l",
+    "168h_equipment_flat_bench__mesh_rubber_head_r",
+    "168h_equipment_flat_bench__mesh_rubber_foot_l",
+    "168h_equipment_flat_bench__mesh_rubber_foot_r",
+    "168h_equipment_flat_bench__mesh_mount_cheek_head_l",
+    "168h_equipment_flat_bench__mesh_mount_cheek_head_r",
+    "168h_equipment_flat_bench__mesh_mount_cheek_foot_l",
+    "168h_equipment_flat_bench__mesh_mount_cheek_foot_r"
+  ],
+  "mesh_objects": 30,
+  "unique_mesh_data": 16,
+  "rubber_cap_variants": {
+    "left": "168h_equipment_flat_bench__geometry_rubber_head_l",
+    "right": "168h_equipment_flat_bench__geometry_rubber_end_cap_r",
+    "each_shared_by": 2
+  },
+  "cap_outer_dimensions_m": [
+    0.026,
+    0.085,
+    0.064
+  ],
+  "cap_socket_dimensions_m": [
+    0.018,
+    0.0766,
+    0.0512
+  ],
+  "cheek_dimensions_m": [
+    0.006,
+    0.054,
+    0.056
+  ]
+}

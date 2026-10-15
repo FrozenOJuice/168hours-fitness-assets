@@ -1,8 +1,8 @@
 {
   "id": "168h_equipment_flat_bench",
   "category": "equipment",
-  "version": "0.1.1",
-  "status": "review",
+  "version": "0.1.2",
+  "status": "ready",
   "source": "assets/equipment/benches/168h_equipment_flat_bench/168h_equipment_flat_bench.blend",
   "blender_version": "5.1.1",
   "units": "meters",
@@ -28,7 +28,7 @@
     {
       "id": "bench_support",
       "version": "0.1.0",
-      "status": "asset-local proposal",
+      "status": "approved asset-local; no category-wide ratification",
       "required_anchors": [
         "seat_center",
         "back_support",
@@ -183,15 +183,15 @@
     "attribution": "No third-party artwork used; artwork license separate from MIT code/docs"
   },
   "review": {
-    "reviewer": "Codex technical/manual QA; user acceptance pending",
-    "date": "2026-10-14",
-    "notes": "72 saved-source checks PASS, zero FAIL; original main frame and interfaces preserved; four updated references inspected and reproduced exactly; design approval pending",
-    "approval_reference": null,
+    "reviewer": "user approval; Codex technical/manual QA",
+    "date": "2026-10-15",
+    "notes": "Approved current0.1.2;161 geometry and144 origin checks PASS, four views reproduced exactly. See approval-record.json.",
+    "approval_reference": "assets/equipment/benches/168h_equipment_flat_bench/approval-record.json",
     "origin_audit": {
       "date": "2026-10-15",
       "result": "PASS",
       "checks": 144,
-      "record": "docs/audits/origin-audit-results.json"
+      "record": "assets/equipment/benches/168h_equipment_flat_bench/origin-validation.json"
     }
   },
   "specification": "assets/equipment/benches/168h_equipment_flat_bench/SPEC.md",
@@ -202,45 +202,45 @@
     "shared_conventions": "docs/asset-conventions.md",
     "category_standard": "docs/category-standards.md",
     "style_preset": "flat_bench_review_flat@0.1.0",
-    "style_preset_revision": "c0d209f5c6c9264c9d79c56d3a178a8f220f01864e9219992ddfd237a8776544"
+    "style_preset_revision": "acbd1eba9dfeae2180fb4e6ae6b78cf86d81ebb2ca8edb90c636e2fa34796859"
   },
-  "source_revision_or_digest": "sha256:6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
+  "source_revision_or_digest": "sha256:eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
   "reference_renders": [
     {
       "view": "side",
       "configuration": "flat",
       "frame": 1,
       "path": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__side__flat.png",
-      "source_revision_or_digest": "sha256:6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
-      "preset_revision": "c0d209f5c6c9264c9d79c56d3a178a8f220f01864e9219992ddfd237a8776544",
-      "sha256": "e9418d141b87dc5b243569311d975f2fa4408ea9ad9b88209b7f6bd5cd5312bc"
+      "sha256": "543fef15bd82958f6fdb9113fd94f4173b1c5a70b0abe7a17292e189ba2c8854",
+      "source_revision_or_digest": "sha256:eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+      "preset_revision": "acbd1eba9dfeae2180fb4e6ae6b78cf86d81ebb2ca8edb90c636e2fa34796859"
     },
     {
       "view": "three_quarter",
       "configuration": "flat",
       "frame": 1,
       "path": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__three_quarter__flat.png",
-      "source_revision_or_digest": "sha256:6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
-      "preset_revision": "c0d209f5c6c9264c9d79c56d3a178a8f220f01864e9219992ddfd237a8776544",
-      "sha256": "2ac1847b9ee5365e7728f9cbaa8af32bcd5554f46222aaf98bd507d5e981451b"
+      "sha256": "ca73806c74c580df2ade3ac24c6ec2fa366c1f82956a2a8c47510fa24efe91da",
+      "source_revision_or_digest": "sha256:eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+      "preset_revision": "acbd1eba9dfeae2180fb4e6ae6b78cf86d81ebb2ca8edb90c636e2fa34796859"
     },
     {
       "view": "front",
       "configuration": "flat",
       "frame": 1,
       "path": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__front__flat.png",
-      "source_revision_or_digest": "sha256:6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
-      "preset_revision": "c0d209f5c6c9264c9d79c56d3a178a8f220f01864e9219992ddfd237a8776544",
-      "sha256": "f3c161a0ee9cbc48b2b8e282804e795633a619541d1a74ccc4c8bb7dd81c6e92"
+      "sha256": "c892e2f9790b010543a6a08d7d0ee2dde9a1e1a1104fb50dde297670ac60d0f7",
+      "source_revision_or_digest": "sha256:eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+      "preset_revision": "acbd1eba9dfeae2180fb4e6ae6b78cf86d81ebb2ca8edb90c636e2fa34796859"
     },
     {
       "view": "top",
       "configuration": "flat",
       "frame": 1,
       "path": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__top__flat.png",
-      "source_revision_or_digest": "sha256:6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
-      "preset_revision": "c0d209f5c6c9264c9d79c56d3a178a8f220f01864e9219992ddfd237a8776544",
-      "sha256": "996a491dcee537119280a1c036cda2df6be6ace8949bec1a103b7bd3643daeed"
+      "sha256": "4fc889bf137effd584abcf2d9f51250a5e200a9e9687294488d17f0914725a59",
+      "source_revision_or_digest": "sha256:eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+      "preset_revision": "acbd1eba9dfeae2180fb4e6ae6b78cf86d81ebb2ca8edb90c636e2fa34796859"
     }
   ],
   "render_settings": "assets/equipment/benches/168h_equipment_flat_bench/previews/render-settings.json",
@@ -250,7 +250,7 @@
       "id": "A13",
       "scope": "this bench prototype only",
       "authorization": "User requested standalone flat bench review prototype",
-      "approval": "pending design review; no shared change"
+      "approval": "Original A13 prototype history superseded for current asset-local acceptance by approval-record.json; shared decisions unchanged"
     }
   ],
   "compatibility": {
@@ -306,15 +306,44 @@
       0.3496,
       1.019
     ],
-    "ground_footprint_definition": "outer rubber envelope; actual Z0 contact bounds recorded separately"
+    "ground_footprint_definition": "outer rubber envelope; actual Z0 contact bounds recorded separately",
+    "rubber_cap_axial_depth_m": 0.026,
+    "rubber_cap_socket_m": [
+      0.018,
+      0.0766,
+      0.0512
+    ],
+    "mounting_cheek_dimensions_m": [
+      0.006,
+      0.054,
+      0.056
+    ]
   },
   "production_release": {
-    "status": "not_ready",
-    "reason": "Review prototype; design/interfaces/settings and external artwork terms pending"
+    "status": "ready",
+    "scope": "internal_168hours_fitness_blender_illustration_library",
+    "source_version": "0.1.2",
+    "approved_source_sha256": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+    "asset_local_settings_accepted": true,
+    "geometry_material_render_changes_during_approval": false,
+    "artwork_use_basis": "Explicit user/project approval for internal library use, consistent with A12; no external redistribution grant inferred.",
+    "external_artwork_distribution": "not_licensed_for_redistribution",
+    "limitations": [
+      "Internal Blender illustration/library use; external artwork redistribution license remains unselected, separate from MIT code/docs.",
+      "Pad length is inferred; feet, cap sockets, mounting hardware, cushion construction and support offsets are original illustrative design details, not manufacturer-certified fabrication dimensions.",
+      "No load/strength, compression, mass, manufacturing or physical safety certification.",
+      "No human, rack, alternate bench replacement, authored override animation or cross-renderer compatibility tested.",
+      "Global software, palette and render defaults remain undecided; approval accepts only this asset-local capture."
+    ],
+    "checkout_validation": "PASS fresh committed local Git/LFS checkout:305 bench checks,4 exact reference views,15LFS objects and fsck; see documentation-check.json"
   },
   "approval": {
-    "status": "pending",
-    "scope": "bench design, dimensions, palette, support frames and local render preset"
+    "status": "approved",
+    "approver": "user",
+    "date": "2026-10-15",
+    "evidence": "Finalize the 168Hours Fitness flat bench as an approved asset. Preserve the current approved visual design.",
+    "record": "assets/equipment/benches/168h_equipment_flat_bench/approval-record.json",
+    "scope": "Current0.1.2 reusable asset for internal168Hours Fitness Blender illustration/library production; no shared-standard change"
   },
   "component_material_slot_order": {
     "168h_equipment_flat_bench__mesh_pad": [
@@ -491,8 +520,8 @@
       "168h_equipment_flat_bench__mesh_rubber_foot_r"
     ],
     "mesh_objects": 30,
-    "unique_mesh_data": 15,
-    "reuse": "Original feet/rails/four rubber shoes continue sharing data; mounting cheeks and repeated bolt heads share data; mirrored gussets/cross heads use paired canonical data",
+    "unique_mesh_data": 16,
+    "reuse": "Two reflected hollow cap variants, each shared twice; original rails/feet/cheeks and fasteners retain shared data and normalized frames",
     "details": [
       "168h_equipment_flat_bench__mesh_upholstery_seam",
       "168h_equipment_flat_bench__mesh_gusset_head_l",
@@ -518,7 +547,7 @@
     1.1937999725341797,
     0.45719999074935913
   ],
-  "validation_results": "assets/equipment/benches/168h_equipment_flat_bench/validation-results.json",
+  "validation_results": "assets/equipment/benches/168h_equipment_flat_bench/visual-validation-results.json",
   "dimension_approval_states": {
     "manufacturer_supported_design_values": [
       "overall envelope 355.6x1193.8x457.2mm",
@@ -528,7 +557,9 @@
     ],
     "manufacturer_source": "https://www.roguefitness.com/rogue-flat-utility-bench-2-0",
     "consulted": "2026-10-14",
-    "provisional": [
+    "bench_design_approval": "approved current digital design for internal illustration; manufacturer-supported and inferred dimensions remain distinguished",
+    "hardware_verified": false,
+    "illustrative_not_manufacturer_verified": [
       "1193.8mm pad length inferred from overall length",
       "ground contact length1025mm",
       "support placements/cuts/feet details",
@@ -541,12 +572,11 @@
       "rounded rubber shoe profile64mm tall; outer envelope355.6x1025mm, contact349.6x1019mm",
       "gussets, mounting cheeks and hex/washer details are not verified fabrication hardware"
     ],
-    "bench_design_approval": "pending; manufacturer support is not user design acceptance",
-    "hardware_verified": false
+    "asset_local_values_accepted": true
   },
   "refinement": {
     "plan": "assets/equipment/benches/168h_equipment_flat_bench/refinement-plan.json",
-    "status": "complete; review pending",
+    "status": "complete; current0.1.2 design approved2026-10-15",
     "predecessor_sha256": "146c810a216858409fa0e3fdaba987a69f87aa1a74ddc61949ce388ad8be339c",
     "source_geometry_rebuild": false,
     "record": "assets/equipment/benches/168h_equipment_flat_bench/refinement-record.json",
@@ -574,14 +604,10 @@
     ],
     "validation_result": {
       "date": "2026-10-15",
-      "pass": 144,
-      "fail": 0,
-      "source_sha256": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
-      "report": "docs/audits/origin-audit-results.json",
-      "migration_regression": "docs/audits/origin-migration-validation.json",
       "checks": 144,
-      "finalized": "2026-10-15",
-      "compatibility_report": "docs/audits/origin-compatibility-validation.json"
+      "fail": 0,
+      "source_sha256": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+      "report": "assets/equipment/benches/168h_equipment_flat_bench/origin-validation.json"
     },
     "component_frames": {
       "168h_equipment_flat_bench__mesh_pad": {
@@ -826,5 +852,16 @@
       }
     },
     "migration_status": "approved_complete_A14"
-  }
+  },
+  "visual_refinement": {
+    "plan": "assets/equipment/benches/168h_equipment_flat_bench/visual-refinement-plan.json",
+    "status": "complete; current0.1.2 design approved2026-10-15",
+    "predecessor_sha256": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
+    "record": "assets/equipment/benches/168h_equipment_flat_bench/visual-refinement-record.json"
+  },
+  "retained_revisions": {
+    "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb": "assets/equipment/benches/168h_equipment_flat_bench/history/0.1.1/168h_equipment_flat_bench.blend"
+  },
+  "current_revision_validation": "assets/equipment/benches/168h_equipment_flat_bench/visual-validation-results.json",
+  "status_scope": "internal_blender_illustration_library_production"
 }

@@ -1,7 +1,7 @@
 {
   "id": "flat_bench_review_flat@0.1.0",
   "status": "asset-local review proposal; not shared preset",
-  "source_sha256": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
+  "source_sha256": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
   "renderer_script_sha256": "41ec33c16bf9b1e22c73ba8a2b202bae51629b81878d3a0ffe32343fa2a0a3a4",
   "setup_helper_sha256": "742abf6a7e584794957e709e7853f9181e34014a7fa269843be9c0e7d7e4cfec",
   "blender_version": "5.1.1",
@@ -75,8 +75,7 @@
       "clip_end_m": 100.0,
       "configuration": "flat",
       "frame": 1,
-      "sha256": "e9418d141b87dc5b243569311d975f2fa4408ea9ad9b88209b7f6bd5cd5312bc",
-      "source_sha256": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb"
+      "sha256": "543fef15bd82958f6fdb9113fd94f4173b1c5a70b0abe7a17292e189ba2c8854"
     },
     "three_quarter": {
       "path": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__three_quarter__flat.png",
@@ -101,8 +100,7 @@
       "clip_end_m": 100.0,
       "configuration": "flat",
       "frame": 1,
-      "sha256": "2ac1847b9ee5365e7728f9cbaa8af32bcd5554f46222aaf98bd507d5e981451b",
-      "source_sha256": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb"
+      "sha256": "ca73806c74c580df2ade3ac24c6ec2fa366c1f82956a2a8c47510fa24efe91da"
     },
     "front": {
       "path": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__front__flat.png",
@@ -127,8 +125,7 @@
       "clip_end_m": 100.0,
       "configuration": "flat",
       "frame": 1,
-      "sha256": "f3c161a0ee9cbc48b2b8e282804e795633a619541d1a74ccc4c8bb7dd81c6e92",
-      "source_sha256": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb"
+      "sha256": "c892e2f9790b010543a6a08d7d0ee2dde9a1e1a1104fb50dde297670ac60d0f7"
     },
     "top": {
       "path": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__top__flat.png",
@@ -153,11 +150,7 @@
       "clip_end_m": 100.0,
       "configuration": "flat",
       "frame": 1,
-      "sha256": "996a491dcee537119280a1c036cda2df6be6ace8949bec1a103b7bd3643daeed",
-      "source_sha256": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb"
+      "sha256": "4fc889bf137effd584abcf2d9f51250a5e200a9e9687294488d17f0914725a59"
     }
-  },
-  "origin_contract": "A14 / equipment_origins@1; no style/preset change",
-  "current_link_helper_sha256": "742abf6a7e584794957e709e7853f9181e34014a7fa269843be9c0e7d7e4cfec",
-  "captured_preset_code_note": "Original captured setup remains in archived code; A14 current helper changes linking/pins only, not renderer/cameras/materials."
+  }
 }
