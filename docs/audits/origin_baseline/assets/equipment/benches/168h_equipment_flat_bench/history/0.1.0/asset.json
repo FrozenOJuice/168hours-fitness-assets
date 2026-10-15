@@ -1,0 +1,427 @@
+{
+  "id": "168h_equipment_flat_bench",
+  "category": "equipment",
+  "version": "0.1.0",
+  "status": "review",
+  "source": "assets/equipment/benches/168h_equipment_flat_bench/168h_equipment_flat_bench.blend",
+  "blender_version": "5.1.1",
+  "units": "meters",
+  "axes": {
+    "up": "+Z",
+    "forward": "+Y",
+    "subject_left": "+X"
+  },
+  "dimensions_m": [
+    0.3556,
+    1.1938,
+    0.4572
+  ],
+  "dimension_source": "manufacturer context plus documented prototype assumptions; SPEC.md",
+  "dimension_tolerance_m": 1e-06,
+  "canonical_configuration": "fixed flat; head +Y",
+  "collection": "168h_equipment_flat_bench",
+  "root": "168h_equipment_flat_bench__root",
+  "published_datablocks": [
+    "168h_equipment_flat_bench"
+  ],
+  "interfaces": [
+    {
+      "id": "bench_support",
+      "version": "0.1.0",
+      "status": "asset-local proposal",
+      "required_anchors": [
+        "seat_center",
+        "back_support",
+        "floor_contact",
+        "pad_center",
+        "head_support",
+        "head_end",
+        "foot_end"
+      ]
+    }
+  ],
+  "anchors": {
+    "floor_contact": {
+      "object": "168h_equipment_flat_bench__anchor_floor_contact",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "pad_center": {
+      "object": "168h_equipment_flat_bench__anchor_pad_center",
+      "position_m": [
+        0,
+        0,
+        0.4572
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "seat_center": {
+      "object": "168h_equipment_flat_bench__anchor_seat_center",
+      "position_m": [
+        0,
+        -0.3,
+        0.4572
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "back_support": {
+      "object": "168h_equipment_flat_bench__anchor_back_support",
+      "position_m": [
+        0,
+        0.15,
+        0.4572
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "head_support": {
+      "object": "168h_equipment_flat_bench__anchor_head_support",
+      "position_m": [
+        0,
+        0.4,
+        0.4572
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "head_end": {
+      "object": "168h_equipment_flat_bench__anchor_head_end",
+      "position_m": [
+        0,
+        0.5969,
+        0.4572
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "foot_end": {
+      "object": "168h_equipment_flat_bench__anchor_foot_end",
+      "position_m": [
+        0,
+        -0.5969,
+        0.4572
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z"
+    }
+  },
+  "configuration_ranges": {
+    "pad_angle_degrees": [
+      0,
+      0
+    ]
+  },
+  "rig_interface": null,
+  "material_slots": {
+    "equipment_frame": [
+      "168h_equipment_flat_bench__material_frame_body",
+      "168h_equipment_flat_bench__material_frame_top",
+      "168h_equipment_flat_bench__material_frame_side",
+      "168h_equipment_flat_bench__material_substrate_body",
+      "168h_equipment_flat_bench__material_substrate_top",
+      "168h_equipment_flat_bench__material_substrate_side"
+    ],
+    "equipment_padding": [
+      "168h_equipment_flat_bench__material_padding_top",
+      "168h_equipment_flat_bench__material_padding_side",
+      "168h_equipment_flat_bench__material_padding_edge"
+    ],
+    "equipment_grip": [
+      "168h_equipment_flat_bench__material_grip_body",
+      "168h_equipment_flat_bench__material_grip_top",
+      "168h_equipment_flat_bench__material_grip_side"
+    ]
+  },
+  "dependencies": [],
+  "provenance": {
+    "creator": "Codex for 168Hours Fitness",
+    "origin": "Original procedural geometry; manufacturer dimensional context only; no imported artwork",
+    "source_url": "https://www.roguefitness.com/rogue-flat-utility-bench-2-0",
+    "license": null,
+    "attribution": "No third-party artwork used; artwork license separate from MIT code/docs"
+  },
+  "review": {
+    "reviewer": "Codex technical/manual QA; user acceptance pending",
+    "date": "2026-10-14",
+    "notes": "47 technical checks PASS; four references inspected and exactly reproduced; review prototype only",
+    "approval_reference": null
+  },
+  "specification": "assets/equipment/benches/168h_equipment_flat_bench/SPEC.md",
+  "validation_record": "assets/equipment/benches/168h_equipment_flat_bench/validation.md",
+  "standards": {
+    "revision": "standards-snapshot.json SHA256 entries",
+    "global_style": "docs/visual-style.md",
+    "shared_conventions": "docs/asset-conventions.md",
+    "category_standard": "docs/category-standards.md",
+    "style_preset": "flat_bench_review_flat@0.1.0",
+    "style_preset_revision": "be5d69feccd9f776c94273dd4d2b79ec6e789178635f976efa840d68690e9bf6"
+  },
+  "source_revision_or_digest": "sha256:146c810a216858409fa0e3fdaba987a69f87aa1a74ddc61949ce388ad8be339c",
+  "reference_renders": [
+    {
+      "view": "side",
+      "configuration": "flat",
+      "frame": 1,
+      "path": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__side__flat.png",
+      "source_revision_or_digest": "sha256:146c810a216858409fa0e3fdaba987a69f87aa1a74ddc61949ce388ad8be339c",
+      "preset_revision": "be5d69feccd9f776c94273dd4d2b79ec6e789178635f976efa840d68690e9bf6",
+      "sha256": "7b3676b532d67ea61f224ce6dc8b3ae04f921edd4c294cfbe8298b86d8363032"
+    },
+    {
+      "view": "three_quarter",
+      "configuration": "flat",
+      "frame": 1,
+      "path": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__three_quarter__flat.png",
+      "source_revision_or_digest": "sha256:146c810a216858409fa0e3fdaba987a69f87aa1a74ddc61949ce388ad8be339c",
+      "preset_revision": "be5d69feccd9f776c94273dd4d2b79ec6e789178635f976efa840d68690e9bf6",
+      "sha256": "39e11b89b75c4b2ba06c41a71ab110cbdb35e0d02dca5ae6194499dbd1cd27f3"
+    },
+    {
+      "view": "front",
+      "configuration": "flat",
+      "frame": 1,
+      "path": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__front__flat.png",
+      "source_revision_or_digest": "sha256:146c810a216858409fa0e3fdaba987a69f87aa1a74ddc61949ce388ad8be339c",
+      "preset_revision": "be5d69feccd9f776c94273dd4d2b79ec6e789178635f976efa840d68690e9bf6",
+      "sha256": "1288fe4283f47992f569c381130c18ab73768826b763b52c20959235ca9ab686"
+    },
+    {
+      "view": "top",
+      "configuration": "flat",
+      "frame": 1,
+      "path": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__top__flat.png",
+      "source_revision_or_digest": "sha256:146c810a216858409fa0e3fdaba987a69f87aa1a74ddc61949ce388ad8be339c",
+      "preset_revision": "be5d69feccd9f776c94273dd4d2b79ec6e789178635f976efa840d68690e9bf6",
+      "sha256": "08dd8b7ddc5d47c43522e6153acca5fafc0b56a53837ffa6d29ceaf6e712787d"
+    }
+  ],
+  "render_settings": "assets/equipment/benches/168h_equipment_flat_bench/previews/render-settings.json",
+  "exceptions": [],
+  "design_decisions": [
+    {
+      "id": "A13",
+      "scope": "this bench prototype only",
+      "authorization": "User requested standalone flat bench review prototype",
+      "approval": "pending design review; no shared change"
+    }
+  ],
+  "compatibility": {
+    "tested_consumers": [
+      {
+        "id": "disposable_bench_link_fixture",
+        "version": "0.1.0",
+        "configuration": "two collection instances; back_support maps to (1,2,0.75), yaw90deg",
+        "result": "PASS",
+        "evidence": "assets/equipment/benches/168h_equipment_flat_bench/validation-results.json",
+        "saved_scene": null
+      }
+    ],
+    "tested_replacements": [],
+    "limitations": [
+      "No human pose or rack clearance tested",
+      "No alternative bench replacement tested; first bench in library",
+      "No pad compression, hardware strength, mass or load rating verified",
+      "Uncommitted source; fresh Git/LFS clone not yet tested",
+      "Separate artwork license remains unselected; internal review only"
+    ],
+    "migration": "Version and revalidate support frames and envelope changes before replacement"
+  },
+  "physical_properties": {
+    "pad_length_m": 1.1938,
+    "pad_width_m": 0.3048,
+    "pad_thickness_m": 0.0635,
+    "pad_top_height_m": 0.4572,
+    "ground_footprint_m": [
+      0.3556,
+      1.025
+    ],
+    "pad_plan_corner_radius_m": 0.022,
+    "pad_edge_radius_m": 0.006,
+    "pad_substrate_thickness_m": 0.0127,
+    "frame_tube_cross_sections_m": [
+      [
+        0.0508,
+        0.0762
+      ],
+      [
+        0.0508,
+        0.0508
+      ]
+    ],
+    "adjustment_angles_degrees": [
+      0
+    ],
+    "mass_load_rating": null
+  },
+  "production_release": {
+    "status": "not_ready",
+    "reason": "Review prototype; design/interfaces/settings and external artwork terms pending"
+  },
+  "approval": {
+    "status": "pending",
+    "scope": "bench design, dimensions, palette, support frames and local render preset"
+  },
+  "component_material_slot_order": {
+    "168h_equipment_flat_bench__mesh_pad": [
+      "padding_top",
+      "padding_side",
+      "padding_edge"
+    ],
+    "168h_equipment_flat_bench__mesh_pad_substrate": [
+      "substrate_body",
+      "substrate_top",
+      "substrate_side"
+    ],
+    "168h_equipment_flat_bench__mesh_spine": [
+      "frame_body",
+      "frame_top",
+      "frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_mount_rail_head": [
+      "frame_body",
+      "frame_top",
+      "frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_mount_rail_foot": [
+      "frame_body",
+      "frame_top",
+      "frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_leg_head": [
+      "frame_body",
+      "frame_top",
+      "frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_leg_foot": [
+      "frame_body",
+      "frame_top",
+      "frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_foot_head": [
+      "frame_body",
+      "frame_top",
+      "frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_foot_foot": [
+      "frame_body",
+      "frame_top",
+      "frame_side"
+    ],
+    "168h_equipment_flat_bench__mesh_rubber_head_l": [
+      "grip_body",
+      "grip_top",
+      "grip_side"
+    ],
+    "168h_equipment_flat_bench__mesh_rubber_head_r": [
+      "grip_body",
+      "grip_top",
+      "grip_side"
+    ],
+    "168h_equipment_flat_bench__mesh_rubber_foot_l": [
+      "grip_body",
+      "grip_top",
+      "grip_side"
+    ],
+    "168h_equipment_flat_bench__mesh_rubber_foot_r": [
+      "grip_body",
+      "grip_top",
+      "grip_side"
+    ]
+  },
+  "components": {
+    "pad": "__mesh_pad",
+    "substrate": "__mesh_pad_substrate",
+    "spine": "__mesh_spine",
+    "legs": [
+      "__mesh_leg_head",
+      "__mesh_leg_foot"
+    ],
+    "feet": [
+      "__mesh_foot_head",
+      "__mesh_foot_foot"
+    ],
+    "mounting_rails": [
+      "__mesh_mount_rail_head",
+      "__mesh_mount_rail_foot"
+    ],
+    "rubber_boots": [
+      "168h_equipment_flat_bench__mesh_rubber_head_l",
+      "168h_equipment_flat_bench__mesh_rubber_head_r",
+      "168h_equipment_flat_bench__mesh_rubber_foot_l",
+      "168h_equipment_flat_bench__mesh_rubber_foot_r"
+    ],
+    "mesh_objects": 13,
+    "unique_mesh_data": 8,
+    "reuse": "feet pair, rails pair, four boots share data; opposing sloped legs use distinct baked canonical data"
+  },
+  "measured_dimensions_m": [
+    0.3555999994277954,
+    1.1937999725341797,
+    0.45719999074935913
+  ],
+  "validation_results": "assets/equipment/benches/168h_equipment_flat_bench/validation-results.json",
+  "dimension_approval_states": {
+    "manufacturer_supported_design_values": [
+      "overall envelope 355.6x1193.8x457.2mm",
+      "pad width304.8mm",
+      "pad thickness63.5mm",
+      "pad height457.2mm"
+    ],
+    "manufacturer_source": "https://www.roguefitness.com/rogue-flat-utility-bench-2-0",
+    "consulted": "2026-10-14",
+    "provisional": [
+      "1193.8mm pad length inferred from overall length",
+      "ground contact length1025mm",
+      "support placements/cuts/feet details",
+      "tube wall thickness not modeled",
+      "substrate12.7mm",
+      "pad radii22mm/6mm",
+      "support anchor offsets",
+      "palette and local render preset"
+    ],
+    "bench_design_approval": "pending; manufacturer support is not user design acceptance",
+    "hardware_verified": false
+  }
+}

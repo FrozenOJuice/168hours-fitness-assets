@@ -1,0 +1,36 @@
+{
+  "source_sha256": "146c810a216858409fa0e3fdaba987a69f87aa1a74ddc61949ce388ad8be339c",
+  "blender_version": "5.1.1",
+  "checks": [
+    {
+      "view": "side",
+      "result": "PASS",
+      "decoded_max_channel_delta": 0.0,
+      "changed_channels": 0
+    },
+    {
+      "view": "three_quarter",
+      "result": "PASS",
+      "decoded_max_channel_delta": 0.0,
+      "changed_channels": 0
+    },
+    {
+      "view": "front",
+      "result": "PASS",
+      "decoded_max_channel_delta": 0.0,
+      "changed_channels": 0
+    },
+    {
+      "view": "top",
+      "result": "PASS",
+      "decoded_max_channel_delta": 0.0,
+      "changed_channels": 0
+    },
+    {
+      "check": "source_not_resaved",
+      "result": "PASS"
+    }
+  ],
+  "pass": true,
+  "script_sha256": "a5fdc2197f0a4c1661d97e4275b7bd87bdaa19983fcf2bb8f727922e9e2a74ae"
+}

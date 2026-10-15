@@ -1,0 +1,358 @@
+{
+  "id": "168h_equipment_olympic_plate_45lb_cast_iron",
+  "category": "equipment",
+  "version": "0.1.4",
+  "status": "review",
+  "source": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
+  "blender_version": "5.1.1",
+  "units": "meters",
+  "axes": {
+    "up": "+Z",
+    "forward": "+Y",
+    "subject_left": "+X"
+  },
+  "dimensions_m": [
+    0.44999998807907104,
+    0.03302000090479851,
+    0.44999998807907104
+  ],
+  "dimension_source": "User: exact 2 inch bore. Other dimensions: A09 proposed review design; see SPEC.md.",
+  "dimension_tolerance_m": 1e-06,
+  "canonical_configuration": "standing vertically; front +Y; bore center at Z=0.225 m",
+  "collection": "168h_equipment_olympic_plate_45lb_cast_iron",
+  "root": "168h_equipment_olympic_plate_45lb_cast_iron__root",
+  "published_datablocks": [
+    "168h_equipment_olympic_plate_45lb_cast_iron"
+  ],
+  "interfaces": [
+    {
+      "id": "olympic_plate_bore",
+      "version": "0.1.0",
+      "status": "asset-local review contract; global approval pending A03/A09",
+      "required_anchors": [
+        "bore_center",
+        "stack_front",
+        "stack_back",
+        "floor_contact"
+      ]
+    }
+  ],
+  "anchors": {
+    "bore_center": {
+      "object": "168h_equipment_olympic_plate_45lb_cast_iron__anchor_bore_center",
+      "position_m": [
+        0,
+        0,
+        0.225
+      ],
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "stack_front": {
+      "object": "168h_equipment_olympic_plate_45lb_cast_iron__anchor_stack_front",
+      "position_m": [
+        0,
+        0.01651,
+        0.225
+      ],
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "stack_back": {
+      "object": "168h_equipment_olympic_plate_45lb_cast_iron__anchor_stack_back",
+      "position_m": [
+        0,
+        -0.01651,
+        0.225
+      ],
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "floor_contact": {
+      "object": "168h_equipment_olympic_plate_45lb_cast_iron__anchor_floor_contact",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z"
+    }
+  },
+  "configuration_ranges": {},
+  "rig_interface": null,
+  "material_slots": {
+    "body": [
+      {
+        "index": 0,
+        "material": "168h_equipment_olympic_plate_45lb_cast_iron__material_cast_iron",
+        "semantic_role": "equipment_frame"
+      },
+      {
+        "index": 1,
+        "material": "168h_equipment_olympic_plate_45lb_cast_iron__material_web",
+        "semantic_role": "equipment_frame"
+      },
+      {
+        "index": 2,
+        "material": "168h_equipment_olympic_plate_45lb_cast_iron__material_rim",
+        "semantic_role": "outline"
+      },
+      {
+        "index": 3,
+        "material": "168h_equipment_olympic_plate_45lb_cast_iron__material_hub",
+        "semantic_role": "equipment_frame"
+      }
+    ],
+    "labels": [
+      {
+        "index": 0,
+        "material": "168h_equipment_olympic_plate_45lb_cast_iron__material_lettering",
+        "semantic_role": "equipment_frame"
+      },
+      {
+        "index": 1,
+        "material": "168h_equipment_olympic_plate_45lb_cast_iron__material_cast_iron",
+        "semantic_role": "equipment_frame"
+      }
+    ],
+    "ribs": [
+      {
+        "index": 0,
+        "material": "168h_equipment_olympic_plate_45lb_cast_iron__material_web",
+        "semantic_role": "equipment_frame"
+      },
+      {
+        "index": 1,
+        "material": "168h_equipment_olympic_plate_45lb_cast_iron__material_cast_iron",
+        "semantic_role": "equipment_frame"
+      },
+      {
+        "index": 2,
+        "material": "168h_equipment_olympic_plate_45lb_cast_iron__material_rim",
+        "semantic_role": "outline"
+      }
+    ]
+  },
+  "dependencies": [],
+  "provenance": {
+    "creator": "Codex for 168Hours Fitness",
+    "source_url": null,
+    "license": null,
+    "attribution": "Original geometry; manufacturer dimension reference in SPEC.md; no manufacturer assets imported."
+  },
+  "review": {
+    "reviewer": "Codex technical/visual review",
+    "date": "2026-10-14",
+    "notes": "Current 0.1.4 accepted as first equipment visual reference A10. Documentation finalized; 35 existing measured checks retained. Production release remains review/not_ready with explicit provisional facts.",
+    "approval_reference": "A10 user approval, 2026-10-14; current source/images accepted, no redesign."
+  },
+  "specification": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/SPEC.md",
+  "validation_record": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/validation.md",
+  "standards": {
+    "revision": "c91545cbe2e5a0909078b879508ef63501959827 + standards-snapshot.json working-tree hashes",
+    "global_style": "docs/visual-style.md",
+    "shared_conventions": "docs/asset-conventions.md",
+    "category_standard": "docs/category-standards.md",
+    "style_preset": "asset-local plate_review_flat@0.1.4",
+    "style_preset_revision": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329",
+    "category_visual_reference": "cast_iron_plate_visual@1"
+  },
+  "source_revision_or_digest": "sha256:b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+  "reference_renders": [
+    {
+      "view": "front",
+      "configuration": "standing",
+      "frame": 1,
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__front__standing.png",
+      "source_revision_or_digest": "sha256:b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+      "preset_revision": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329"
+    },
+    {
+      "view": "side",
+      "configuration": "standing",
+      "frame": 1,
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__side__standing.png",
+      "source_revision_or_digest": "sha256:b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+      "preset_revision": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329"
+    },
+    {
+      "view": "three_quarter",
+      "configuration": "standing",
+      "frame": 1,
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__three_quarter__standing.png",
+      "source_revision_or_digest": "sha256:b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+      "preset_revision": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329"
+    },
+    {
+      "view": "back",
+      "configuration": "standing",
+      "frame": 1,
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__back__standing.png",
+      "source_revision_or_digest": "sha256:b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+      "preset_revision": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329"
+    },
+    {
+      "view": "rotated_180_check",
+      "configuration": "standing",
+      "frame": 1,
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__rotated_180_check__standing.png",
+      "source_revision_or_digest": "sha256:b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+      "preset_revision": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329"
+    }
+  ],
+  "render_settings": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/render-settings.json",
+  "exceptions": [],
+  "design_decisions": [
+    {
+      "id": "A09",
+      "status": "plate visual direction approved; production open",
+      "approval_reference": "User approved overall plate visual direction and authorized 0.1.3 refinements, 2026-10-14. New execution is for final review."
+    },
+    {
+      "id": "A10",
+      "status": "approved visual reference",
+      "approval_reference": "Approve the current 45 lb Olympic plate as the first visual-direction reference asset for the 168Hours Fitness equipment library. User, 2026-10-14."
+    }
+  ],
+  "compatibility": {
+    "tested_consumers": [
+      {
+        "id": "disposable_link_stack_fixture",
+        "version": "0.1.0",
+        "configuration": "3 upright linked instances, pitch 0.03302 m; target at [1,2,0.9] and +X bore-axis rotation",
+        "result": "PASS",
+        "evidence": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/validation-results.json"
+      }
+    ],
+    "tested_replacements": [],
+    "limitations": [
+      "No real barbell, human, exercise consumer, or alternative plate exists for substitution tests.",
+      "Prototype settings approved under A09 only; artwork licensing and production standards remain open.",
+      "Separate cast-on ribs and text solids overlap body intentionally; not a fabrication-ready union.",
+      "A fresh committed checkout/LFS fetch and real-barbell/alternate-plate tests have not been performed."
+    ],
+    "migration": "Version and revalidate any future change to dimensions, stack/bore anchors, material slots, or paths."
+  },
+  "physical_properties": {
+    "nominal_weight_lb": 45,
+    "mass_simulation_validated": false,
+    "outer_diameter_m": 0.45,
+    "bore_minimum_diameter_m": 0.0508,
+    "bore_measured_minimum_m": 0.05079997779196026,
+    "stack_pitch_m": 0.03302,
+    "web_thickness_m": 0.013,
+    "hub_thickness_m": 0.029,
+    "rim_recess_depth_m": 0.01001,
+    "letter_exposed_relief_m": 0.0035,
+    "side_waist_radius_m": 0.2235,
+    "ribs_per_face": 4,
+    "nominal_weight_kg_label": 20.4
+  },
+  "refinement": {
+    "record": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/correction-record.json",
+    "source_edit_script": "scripts/blender/correct_olympic_plate_45lb.py",
+    "source_edit_script_sha256": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329",
+    "predecessor_version": "0.1.3",
+    "predecessor_sha256": "61557cd8d31ded1c5d6700792ad8b2e7e7b6924099315056047a3d2f55d8ca13",
+    "all_objects_and_mesh_data_preserved": true,
+    "body_coordinates_unchanged": true,
+    "non_barbell_topology_preserved": true,
+    "barbell_geometry_regenerated_in_existing_datablocks": true,
+    "interface_unchanged": true
+  },
+  "face_design": {
+    "both_faces": true,
+    "ribs_per_face": 4,
+    "rib_angles_degrees": [
+      45,
+      135,
+      225,
+      315
+    ],
+    "lettering": {
+      "left": "45 LB",
+      "right": "20.4 KG",
+      "top": "STANDARD",
+      "bottom": "BARBELL"
+    },
+    "source_objects": 15,
+    "mesh_objects": 10,
+    "letter_face_srgb_hex": "F2F2F2",
+    "letter_planar_scale_from_012": 1.08,
+    "barbell_orientation": "upright upper-arc word rotated as a whole 180 degrees around plate center",
+    "rib_radial_rows_m": [
+      0.043,
+      0.075,
+      0.15,
+      0.205
+    ],
+    "rib_full_widths_m": [
+      0.034,
+      0.03,
+      0.02,
+      0.01
+    ],
+    "barbell_tracking_step_degrees": 6.857142857142857,
+    "standard_additional_nd_arc_gap_m": 0.002,
+    "rib_root_axial_top_m": 0.014,
+    "rib_root_axial_base_m": 0.0118
+  },
+  "visual_direction_approval": {
+    "status": "approved_current_visual_reference",
+    "date": "2026-10-14",
+    "approver": "user",
+    "evidence": "Approve the current 45 lb Olympic plate as the first visual-direction reference asset for the 168Hours Fitness equipment library.",
+    "scope": "plate overall design and requested refinements; no global standards or production/license approval",
+    "refined_execution_acceptance": "approved current 0.1.4, 2026-10-14",
+    "asset_version": "0.1.4",
+    "source_sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+    "decision": "A10"
+  },
+  "status_scope": "production_release_lifecycle",
+  "visual_reference": {
+    "id": "cast_iron_plate_visual@1",
+    "status": "approved",
+    "role": "first equipment visual-direction reference; current traditional cast-iron plate standard",
+    "asset_version": "0.1.4",
+    "source_sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+    "decision": "A10",
+    "approver": "user",
+    "date": "2026-10-14",
+    "approval_evidence": "Approve the current 45 lb Olympic plate as the first visual-direction reference asset for the 168Hours Fitness equipment library.",
+    "approval_record": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/reference-approval.json",
+    "scope": "current asset appearance and future traditional cast-iron plate visual inheritance",
+    "frozen": true
+  },
+  "production_release": {
+    "status": "not_ready",
+    "open_decisions": [
+      "A01",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08"
+    ],
+    "limitations": [
+      "Physical dimensions beyond the explicit bore requirement are provisional engineering values.",
+      "Mass/manufacturing fit and real consumer substitution unverified.",
+      "Artwork license, global software/render/export baselines and committed checkout/LFS service checks remain open."
+    ],
+    "visual_approval_complete": true
+  },
+  "approval_states": {
+    "visual_appearance": "approved",
+    "current_source_and_reference_images": "approved_and_pinned",
+    "nominal_weight_labels": "approved",
+    "bore_50_8_mm_design_requirement": "approved",
+    "physical_outer_diameter_and_thickness": "provisional_engineering",
+    "profile_rib_and_text_absolute_dimensions": "accepted_visual_implementation_not_universal_engineering_standard",
+    "palette_contrast": "approved_reference_appearance",
+    "numeric_software_renderer_camera_export_baseline": "provisional_production",
+    "coordinate_and_anchor_contract": "implemented_locally_global_ratification_open",
+    "artwork_license": "open",
+    "physical_fit_and_mass_validation": "unverified"
+  }
+}

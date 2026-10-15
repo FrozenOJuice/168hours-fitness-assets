@@ -1,3 +1,4 @@
+<!-- Current A14 migration section below supersedes historical0.x source hashes and raw-instance placement math. -->
 # Barbell / plate compatibility fixture
 
 Version **0.1.2**, approved internal illustration reference / validated test fixtures, Codex, 2026-10-14. [Barbell spec](../../../assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/SPEC.md) defines verified dimensions, unchanged interface, algorithm, material treatment, packing formula and explicit assumptions. [Metadata](asset.json), [validation](validation.md), [settings](previews/render-settings.json).
@@ -44,3 +45,8 @@ New retained example views:
 ## A12 approved five-plate reference
 
 User approved the barbell for internal library production,2026-10-14. The existing __example.blend is the checksum-pinned five-plates-per-sleeve reference, not a new model. Native files and PNGs are unchanged. Asset metadata now ready/approved for the scoped internal Blender illustration use; single/ten files remain validated compatibility diagnostics. See the barbell approval-record.json and finalization-qa.json for approval evidence and source/image digests. No external artwork license, hardware load rating or shared-standard promotion is implied.
+
+
+## A14 origin-safe linked configuration —2026-10-15
+
+Current fixture source version1.0.0, linking plate/barbell origin interfaces1.0.0 with geometry0.1.4/0.1.2 unchanged. All three saved configurations compensate M_new=M_old@Translation(delta); deltas are source-local225mm for plate and36.5mm for barbell. Effective source transforms remove collection.instance_offset before evaluating points/anchors. World geometry, dimensions, fit, clearances and frame placements are preserved; independent sleeve control sweeps remain valid. Current exact source/digest entries are in asset.json and docs/audits/origin-migration-record.json; historical pinned0.x sources/approved images remain in docs/audits/origin_baseline. Four assembly images refreshed for tiny float/AA differences, not a visual redesign. Main and all secondary source versions/digests updated together. No outside-repository consumers tested.

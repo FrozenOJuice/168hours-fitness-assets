@@ -1,0 +1,179 @@
+{
+  "version": "0.1.4",
+  "predecessor_version": "0.1.3",
+  "predecessor_sha256": "61557cd8d31ded1c5d6700792ad8b2e7e7b6924099315056047a3d2f55d8ca13",
+  "source_sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+  "script_sha256": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329",
+  "all_object_and_mesh_data_identity_preserved": true,
+  "all_non_barbell_mesh_topology_preserved": true,
+  "mesh_topology_sha256": {
+    "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_back": "9eb53bbf053ba97bd493b6af3fcfb22025613b04c30e4de6572f778c77fd2e31",
+    "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_front": "9eb53bbf053ba97bd493b6af3fcfb22025613b04c30e4de6572f778c77fd2e31",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_body_data": "7a7a4c0f826ae785f8b3d3ccd88a8a5fcc44ed3d7411fb7f2bc3282b53aaef48",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_back_data": "eaa7462fe56586e47e1add8850a363a2c26b8e07d1c7e22b8c19fdd146537f23",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_front_data": "eaa7462fe56586e47e1add8850a363a2c26b8e07d1c7e22b8c19fdd146537f23",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_back_data": "b983166e0f306653bb9c2437e9904a06a8fcaf5e72a7f1c386890c1b28a1768a",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_front_data": "b983166e0f306653bb9c2437e9904a06a8fcaf5e72a7f1c386890c1b28a1768a",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_back_data": "78a48ec815ca96588cbe40a8fee017f32dfc5f4518d043b7efa6e7dc7dbde2b8",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_front_data": "78a48ec815ca96588cbe40a8fee017f32dfc5f4518d043b7efa6e7dc7dbde2b8",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_ribs_data": "f54e2e6586208f4686276be3d9404907273cd6d5238c933ba2e34d321684759c"
+  },
+  "barbell_glyph_geometry_regenerated_in_existing_datablocks": true,
+  "barbell_glyph_groups": {
+    "front": [
+      {
+        "character": "B",
+        "first_vertex": 0,
+        "vertex_count": 740,
+        "upright_upper_arc_center_m": [
+          -0.05797684597342154,
+          0.15447875365555663
+        ],
+        "upright_glyph_angle_radians": 0.35903916041026207
+      },
+      {
+        "character": "A",
+        "first_vertex": 740,
+        "vertex_count": 110,
+        "upright_upper_arc_center_m": [
+          -0.03911826232305707,
+          0.16029585631832316
+        ],
+        "upright_glyph_angle_radians": 0.23935944027350797
+      },
+      {
+        "character": "R",
+        "first_vertex": 850,
+        "vertex_count": 660,
+        "upright_upper_arc_center_m": [
+          -0.01970004704914032,
+          0.16381974284640316
+        ],
+        "upright_glyph_angle_radians": 0.1196797201367541
+      },
+      {
+        "character": "B",
+        "first_vertex": 1510,
+        "vertex_count": 740,
+        "upright_upper_arc_center_m": [
+          1.0103336092965665e-17,
+          0.165
+        ],
+        "upright_glyph_angle_radians": 0.0
+      },
+      {
+        "character": "E",
+        "first_vertex": 2250,
+        "vertex_count": 120,
+        "upright_upper_arc_center_m": [
+          0.01970004704914034,
+          0.16381974284640316
+        ],
+        "upright_glyph_angle_radians": -0.1196797201367541
+      },
+      {
+        "character": "L",
+        "first_vertex": 2370,
+        "vertex_count": 60,
+        "upright_upper_arc_center_m": [
+          0.03911826232305708,
+          0.16029585631832313
+        ],
+        "upright_glyph_angle_radians": -0.23935944027350797
+      },
+      {
+        "character": "L",
+        "first_vertex": 2430,
+        "vertex_count": 60,
+        "upright_upper_arc_center_m": [
+          0.05797684597342156,
+          0.15447875365555663
+        ],
+        "upright_glyph_angle_radians": -0.35903916041026207
+      }
+    ],
+    "back": [
+      {
+        "character": "B",
+        "first_vertex": 0,
+        "vertex_count": 740,
+        "upright_upper_arc_center_m": [
+          -0.05797684597342154,
+          0.15447875365555663
+        ],
+        "upright_glyph_angle_radians": 0.35903916041026207
+      },
+      {
+        "character": "A",
+        "first_vertex": 740,
+        "vertex_count": 110,
+        "upright_upper_arc_center_m": [
+          -0.03911826232305707,
+          0.16029585631832316
+        ],
+        "upright_glyph_angle_radians": 0.23935944027350797
+      },
+      {
+        "character": "R",
+        "first_vertex": 850,
+        "vertex_count": 660,
+        "upright_upper_arc_center_m": [
+          -0.01970004704914032,
+          0.16381974284640316
+        ],
+        "upright_glyph_angle_radians": 0.1196797201367541
+      },
+      {
+        "character": "B",
+        "first_vertex": 1510,
+        "vertex_count": 740,
+        "upright_upper_arc_center_m": [
+          1.0103336092965665e-17,
+          0.165
+        ],
+        "upright_glyph_angle_radians": 0.0
+      },
+      {
+        "character": "E",
+        "first_vertex": 2250,
+        "vertex_count": 120,
+        "upright_upper_arc_center_m": [
+          0.01970004704914034,
+          0.16381974284640316
+        ],
+        "upright_glyph_angle_radians": -0.1196797201367541
+      },
+      {
+        "character": "L",
+        "first_vertex": 2370,
+        "vertex_count": 60,
+        "upright_upper_arc_center_m": [
+          0.03911826232305708,
+          0.16029585631832313
+        ],
+        "upright_glyph_angle_radians": -0.23935944027350797
+      },
+      {
+        "character": "L",
+        "first_vertex": 2430,
+        "vertex_count": 60,
+        "upright_upper_arc_center_m": [
+          0.05797684597342156,
+          0.15447875365555663
+        ],
+        "upright_glyph_angle_radians": -0.35903916041026207
+      }
+    ]
+  },
+  "body_coordinates_unchanged": true,
+  "body_coordinate_sha256": "23dadfb143e674b38f16485e36227be8cb403690c7bc58eb338a64fa373551bf",
+  "anchors_unchanged": true,
+  "standard_nd_additional_arc_gap_m": 0.002,
+  "barbell_orientation": "normal upper-arc BARBELL rotated as a whole 180 degrees about plate center",
+  "barbell_tangent_correction": "clean upright upper-arc glyph geometry rotated as an entire word 180 degrees; shared 48/7 degree tracking with STANDARD",
+  "rib_root_radius_m": 0.043,
+  "rib_root_top_axial_m": 0.014,
+  "hub_face_axial_m": 0.0145,
+  "rib_root_base_axial_m": 0.0118,
+  "root_cap_buried": true
+}

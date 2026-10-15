@@ -20,7 +20,7 @@ Copy to the future asset folder as `SPEC.md`. Replace all placeholders; use `TBD
 | Bounds X / Y / Z in canonical configuration | TBD | TBD | TBD | TBD |
 | Category-specific critical measurements | TBD | TBD | TBD | TBD |
 
-- Canonical configuration, units, axes, origin, root, transforms:
+- Canonical configuration, units, axes, intentional category functional datum, source-authoring root position, collection.instance_offset, component origins/pivots, root-local anchors and normalized transforms (A14):
 - Geometry breakdown, anatomical or equipment simplifications and rationale:
 - Topology/deformation requirements, modifiers, procedural parameters, detail limits:
 - Reused component IDs/versions and why any unique geometry is needed:

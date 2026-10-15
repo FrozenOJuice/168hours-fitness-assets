@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-15",
+  "origin_checks": 297,
+  "migration_regression_checks": 28,
+  "failure_injection_cases": 6,
+  "automatic_plate_placement_cases": 2,
+  "legacy_baseline_checks": {
+    "plate": 35,
+    "barbell_fixture": 55,
+    "bench": 72
+  },
+  "current_failures": 0,
+  "bench_source_unchanged": true,
+  "local_document_links": "PASS",
+  "source_render_preset_hashes": "PASS",
+  "external_consumers": "not inspected; major-version upgrade required",
+  "status": "approved_complete",
+  "compatibility_checks": 42,
+  "total_current_checks": 375,
+  "repository_finalization": "Commit: Finalize approved equipment origin migration and validation; exact hash in Git history",
+  "bench_status": "review",
+  "native_geometry_changed_during_finalization": false
+}

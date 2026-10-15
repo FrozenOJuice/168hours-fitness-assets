@@ -1,0 +1,93 @@
+{
+  "checks": [
+    {
+      "case": "unknown future category fails closed",
+      "expected_failure": "registered_origin_profile",
+      "observed_failures": [
+        "registered_origin_profile"
+      ],
+      "result": "PASS"
+    },
+    {
+      "case": "offset differs from root",
+      "expected_failure": "collection_pivot_matches_root",
+      "observed_failures": [
+        "collection_pivot_matches_root"
+      ],
+      "result": "PASS"
+    },
+    {
+      "case": "anchor offset drifts",
+      "expected_failure": "anchor_position:pad_center",
+      "observed_failures": [
+        "anchor_position:pad_center",
+        "anchor_geometry_datum:pad_center"
+      ],
+      "result": "PASS"
+    },
+    {
+      "case": "negative scale",
+      "expected_failure": "unit_positive_scale:",
+      "observed_failures": [
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_pad",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_pad_substrate",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_spine",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_mount_rail_head",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_mount_rail_foot",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_leg_head",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_leg_foot",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_foot_head",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_foot_foot",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_rubber_head_l",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_rubber_head_r",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_rubber_foot_l",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_rubber_foot_r",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_upholstery_seam",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_gusset_head_l",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_gusset_head_r",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_gusset_foot_l",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_gusset_foot_r",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_mount_cheek_head_l",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_mount_cheek_head_r",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_mount_cheek_foot_l",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_mount_cheek_foot_r",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_pad_bolt_head_l",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_pad_bolt_head_r",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_pad_bolt_foot_l",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_pad_bolt_foot_r",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_cross_bolt_head_r",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_cross_bolt_foot_r",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_cross_bolt_head_l",
+        "unit_positive_scale:168h_equipment_flat_bench__mesh_cross_bolt_foot_l",
+        "unit_positive_scale:168h_equipment_flat_bench__root",
+        "unit_positive_scale:168h_equipment_flat_bench__anchor_floor_contact",
+        "unit_positive_scale:168h_equipment_flat_bench__anchor_pad_center",
+        "unit_positive_scale:168h_equipment_flat_bench__anchor_seat_center",
+        "unit_positive_scale:168h_equipment_flat_bench__anchor_back_support",
+        "unit_positive_scale:168h_equipment_flat_bench__anchor_head_support",
+        "unit_positive_scale:168h_equipment_flat_bench__anchor_head_end",
+        "unit_positive_scale:168h_equipment_flat_bench__anchor_foot_end"
+      ],
+      "result": "PASS"
+    },
+    {
+      "case": "wrong root rotation",
+      "expected_failure": "root_rotation",
+      "observed_failures": [
+        "root_rotation"
+      ],
+      "result": "PASS"
+    },
+    {
+      "case": "wrong support frame",
+      "expected_failure": "anchor_forward:back_support",
+      "observed_failures": [
+        "anchor_forward:back_support",
+        "anchor_up:back_support"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "pass": 6,
+  "fail": 0
+}

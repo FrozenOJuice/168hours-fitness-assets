@@ -1,0 +1,14 @@
+{
+  "scope": "pre-build working-tree standards; no global changes",
+  "sha256": {
+    "AGENTS.md": "07e89fbd89f03a17d9390c4657cacc3fd2d212e21277aadf4d908f34c871d4c0",
+    "README.md": "a5de730ccb9510cf7f0605c477f935d216c6f18c311478e855b44128732e6e9f",
+    "docs/asset-conventions.md": "a2c13783025afbd524aa98b987d5c29d1af95202b561455993abac9c2dca1fbd",
+    "docs/asset-workflow.md": "b00f60a983aa03572f9ffb7c981994b9522cba7870c2293dc9120420e90a646b",
+    "docs/category-standards.md": "e0b2989a0941eb8b341ca10df90424bba829a147f0bcc911cf74923dfc4c4a53",
+    "docs/decisions.md": "54d5d07b201776cb289530f7e74b02d888e40ba58294ca16da20349bb711d982",
+    "docs/licensing.md": "56dc55610e8149bf902f2e645af5bfa3b97a73ad76f7c391af65e2990c442341",
+    "docs/review-checklist.md": "161ff7b5aa1ddec48bf3005ddc5e9939eed496a7639242bfa9cdcba51c7a713d",
+    "docs/visual-style.md": "786af6007c2a752a6192fe958c80407d604209ad84d380bf76d4b90d47a01475"
+  }
+}

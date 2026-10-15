@@ -1,0 +1,825 @@
+{
+  "result": "PASS",
+  "version": "0.1.1",
+  "method": "Copied updated source alone to separate temporary directory, fresh Blender saved-source and linked-instance checks",
+  "source_sha256": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
+  "summary": {
+    "pass": 72,
+    "fail": 0
+  },
+  "fresh_git_lfs_clone": "NOT RUN; uncommitted asset",
+  "all_checks": [
+    {
+      "check": "overall_bounds",
+      "result": "PASS",
+      "evidence": [
+        0.3555999994277954,
+        1.1937999725341797,
+        0.45719999074935913
+      ]
+    },
+    {
+      "check": "floor_center",
+      "result": "PASS",
+      "evidence": {
+        "min": [
+          -0.1777999997138977,
+          -0.5968999862670898,
+          0.0
+        ],
+        "max": [
+          0.1777999997138977,
+          0.5968999862670898,
+          0.45719999074935913
+        ],
+        "root": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "meter_units",
+      "result": "PASS",
+      "evidence": "METRIC"
+    },
+    {
+      "check": "collection_contract",
+      "result": "PASS",
+      "evidence": [
+        "168h_equipment_flat_bench__geo",
+        "168h_equipment_flat_bench__anchors"
+      ]
+    },
+    {
+      "check": "naming_and_scope",
+      "result": "PASS",
+      "evidence": [
+        "168h_equipment_flat_bench__mesh_pad",
+        "168h_equipment_flat_bench__mesh_pad_substrate",
+        "168h_equipment_flat_bench__mesh_spine",
+        "168h_equipment_flat_bench__mesh_mount_rail_head",
+        "168h_equipment_flat_bench__mesh_mount_rail_foot",
+        "168h_equipment_flat_bench__mesh_leg_head",
+        "168h_equipment_flat_bench__mesh_leg_foot",
+        "168h_equipment_flat_bench__mesh_foot_head",
+        "168h_equipment_flat_bench__mesh_foot_foot",
+        "168h_equipment_flat_bench__mesh_rubber_head_l",
+        "168h_equipment_flat_bench__mesh_rubber_head_r",
+        "168h_equipment_flat_bench__mesh_rubber_foot_l",
+        "168h_equipment_flat_bench__mesh_rubber_foot_r",
+        "168h_equipment_flat_bench__mesh_upholstery_seam",
+        "168h_equipment_flat_bench__mesh_gusset_head_l",
+        "168h_equipment_flat_bench__mesh_gusset_head_r",
+        "168h_equipment_flat_bench__mesh_gusset_foot_l",
+        "168h_equipment_flat_bench__mesh_gusset_foot_r",
+        "168h_equipment_flat_bench__mesh_mount_cheek_head_l",
+        "168h_equipment_flat_bench__mesh_mount_cheek_head_r",
+        "168h_equipment_flat_bench__mesh_mount_cheek_foot_l",
+        "168h_equipment_flat_bench__mesh_mount_cheek_foot_r",
+        "168h_equipment_flat_bench__mesh_pad_bolt_head_l",
+        "168h_equipment_flat_bench__mesh_pad_bolt_head_r",
+        "168h_equipment_flat_bench__mesh_pad_bolt_foot_l",
+        "168h_equipment_flat_bench__mesh_pad_bolt_foot_r",
+        "168h_equipment_flat_bench__mesh_cross_bolt_head_r",
+        "168h_equipment_flat_bench__mesh_cross_bolt_foot_r",
+        "168h_equipment_flat_bench__mesh_cross_bolt_head_l",
+        "168h_equipment_flat_bench__mesh_cross_bolt_foot_l",
+        "168h_equipment_flat_bench__root",
+        "168h_equipment_flat_bench__anchor_floor_contact",
+        "168h_equipment_flat_bench__anchor_pad_center",
+        "168h_equipment_flat_bench__anchor_seat_center",
+        "168h_equipment_flat_bench__anchor_back_support",
+        "168h_equipment_flat_bench__anchor_head_support",
+        "168h_equipment_flat_bench__anchor_head_end",
+        "168h_equipment_flat_bench__anchor_foot_end"
+      ]
+    },
+    {
+      "check": "root_hierarchy",
+      "result": "PASS",
+      "evidence": "every asset object descends from identity root"
+    },
+    {
+      "check": "rigid_normalized_transforms",
+      "result": "PASS",
+      "evidence": "unit positive scale, zero rotations; local translations allowed"
+    },
+    {
+      "check": "no_rigs_or_unapplied_modifiers",
+      "result": "PASS",
+      "evidence": "fixed flat rigid components"
+    },
+    {
+      "check": "closed_nondegenerate_pad",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.02290244094483001
+      }
+    },
+    {
+      "check": "closed_nondegenerate_pad_substrate",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.0041599568401258155
+      }
+    },
+    {
+      "check": "closed_nondegenerate_spine",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.0025767113274538255
+      }
+    },
+    {
+      "check": "closed_nondegenerate_mount_rail_head",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.00030855726820800994
+      }
+    },
+    {
+      "check": "closed_nondegenerate_mount_rail_foot",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.00030855726820800994
+      }
+    },
+    {
+      "check": "closed_nondegenerate_leg_head",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.001229307134472791
+      }
+    },
+    {
+      "check": "closed_nondegenerate_leg_foot",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.001229307134472791
+      }
+    },
+    {
+      "check": "closed_nondegenerate_foot_head",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.0012974509755108732
+      }
+    },
+    {
+      "check": "closed_nondegenerate_foot_foot",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.0012974509755108732
+      }
+    },
+    {
+      "check": "closed_nondegenerate_rubber_head_l",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.00036614498500501055
+      }
+    },
+    {
+      "check": "closed_nondegenerate_rubber_head_r",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.00036614498500501055
+      }
+    },
+    {
+      "check": "closed_nondegenerate_rubber_foot_l",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.00036614498500501055
+      }
+    },
+    {
+      "check": "closed_nondegenerate_rubber_foot_r",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 0.00036614498500501055
+      }
+    },
+    {
+      "check": "closed_nondegenerate_upholstery_seam",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 2.987188483230149e-06
+      }
+    },
+    {
+      "check": "closed_nondegenerate_gusset_head_l",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 2.6747307015213904e-05
+      }
+    },
+    {
+      "check": "closed_nondegenerate_gusset_head_r",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 2.6747307015213904e-05
+      }
+    },
+    {
+      "check": "closed_nondegenerate_gusset_foot_l",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 2.6747310442981106e-05
+      }
+    },
+    {
+      "check": "closed_nondegenerate_gusset_foot_r",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 2.6747310442981106e-05
+      }
+    },
+    {
+      "check": "closed_nondegenerate_mount_cheek_head_l",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 2.4311229944503693e-05
+      }
+    },
+    {
+      "check": "closed_nondegenerate_mount_cheek_head_r",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 2.4311229944503693e-05
+      }
+    },
+    {
+      "check": "closed_nondegenerate_mount_cheek_foot_l",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 2.4311229944503693e-05
+      }
+    },
+    {
+      "check": "closed_nondegenerate_mount_cheek_foot_r",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 2.4311229944503693e-05
+      }
+    },
+    {
+      "check": "closed_nondegenerate_pad_bolt_head_l",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 7.608543813696957e-07
+      }
+    },
+    {
+      "check": "closed_nondegenerate_pad_bolt_head_r",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 7.608543813696957e-07
+      }
+    },
+    {
+      "check": "closed_nondegenerate_pad_bolt_foot_l",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 7.608543813696957e-07
+      }
+    },
+    {
+      "check": "closed_nondegenerate_pad_bolt_foot_r",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 7.608543813696957e-07
+      }
+    },
+    {
+      "check": "closed_nondegenerate_cross_bolt_head_r",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 7.608543840150104e-07
+      }
+    },
+    {
+      "check": "closed_nondegenerate_cross_bolt_foot_r",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 7.608543840150104e-07
+      }
+    },
+    {
+      "check": "closed_nondegenerate_cross_bolt_head_l",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 7.608543803369261e-07
+      }
+    },
+    {
+      "check": "closed_nondegenerate_cross_bolt_foot_l",
+      "result": "PASS",
+      "evidence": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "volume_m3": 7.608543803369261e-07
+      }
+    },
+    {
+      "check": "pad_dimensions",
+      "result": "PASS",
+      "evidence": {
+        "min": [
+          -0.15240000188350677,
+          -0.5968999862670898,
+          0.3937000036239624
+        ],
+        "max": [
+          0.15240000188350677,
+          0.5968999862670898,
+          0.45719999074935913
+        ]
+      }
+    },
+    {
+      "check": "no_frame_foam_penetration",
+      "result": "PASS",
+      "evidence": {
+        "clearance_to_foam_bottom_m": {
+          "168h_equipment_flat_bench__mesh_pad_substrate": 0.0,
+          "168h_equipment_flat_bench__mesh_spine": 0.012699991464614868,
+          "168h_equipment_flat_bench__mesh_mount_rail_head": 0.012700021266937256,
+          "168h_equipment_flat_bench__mesh_mount_rail_foot": 0.012700021266937256,
+          "168h_equipment_flat_bench__mesh_leg_head": 0.025700002908706665,
+          "168h_equipment_flat_bench__mesh_leg_foot": 0.025700002908706665,
+          "168h_equipment_flat_bench__mesh_foot_head": 0.3329000025987625,
+          "168h_equipment_flat_bench__mesh_foot_foot": 0.3329000025987625,
+          "168h_equipment_flat_bench__mesh_rubber_head_l": 0.3297000080347061,
+          "168h_equipment_flat_bench__mesh_rubber_head_r": 0.3297000080347061,
+          "168h_equipment_flat_bench__mesh_rubber_foot_l": 0.3297000080347061,
+          "168h_equipment_flat_bench__mesh_rubber_foot_r": 0.3297000080347061,
+          "168h_equipment_flat_bench__mesh_gusset_head_l": 0.06270000338554382,
+          "168h_equipment_flat_bench__mesh_gusset_head_r": 0.06270000338554382,
+          "168h_equipment_flat_bench__mesh_gusset_foot_l": 0.06270000338554382,
+          "168h_equipment_flat_bench__mesh_gusset_foot_r": 0.06270000338554382,
+          "168h_equipment_flat_bench__mesh_mount_cheek_head_l": 0.012699991464614868,
+          "168h_equipment_flat_bench__mesh_mount_cheek_head_r": 0.012699991464614868,
+          "168h_equipment_flat_bench__mesh_mount_cheek_foot_l": 0.012699991464614868,
+          "168h_equipment_flat_bench__mesh_mount_cheek_foot_r": 0.012699991464614868,
+          "168h_equipment_flat_bench__mesh_pad_bolt_head_l": 0.03810000419616699,
+          "168h_equipment_flat_bench__mesh_pad_bolt_head_r": 0.03810000419616699,
+          "168h_equipment_flat_bench__mesh_pad_bolt_foot_l": 0.03810000419616699,
+          "168h_equipment_flat_bench__mesh_pad_bolt_foot_r": 0.03810000419616699,
+          "168h_equipment_flat_bench__mesh_cross_bolt_head_r": 0.0356999933719635,
+          "168h_equipment_flat_bench__mesh_cross_bolt_foot_r": 0.0356999933719635,
+          "168h_equipment_flat_bench__mesh_cross_bolt_head_l": 0.0356999933719635,
+          "168h_equipment_flat_bench__mesh_cross_bolt_foot_l": 0.0356999933719635
+        },
+        "intentional_support_substrate_contact": true
+      }
+    },
+    {
+      "check": "four_floor_contacts",
+      "result": "PASS",
+      "evidence": {
+        "168h_equipment_flat_bench__mesh_rubber_head_l": 0.0,
+        "168h_equipment_flat_bench__mesh_rubber_head_r": 0.0,
+        "168h_equipment_flat_bench__mesh_rubber_foot_l": 0.0,
+        "168h_equipment_flat_bench__mesh_rubber_foot_r": 0.0
+      }
+    },
+    {
+      "check": "ground_footprint",
+      "result": "PASS",
+      "evidence": {
+        "min": [
+          -0.1777999997138977,
+          -0.512499988079071,
+          0.0
+        ],
+        "max": [
+          0.1777999997138977,
+          0.512499988079071,
+          0.06399999558925629
+        ]
+      }
+    },
+    {
+      "check": "actual_rubber_floor_contact_bounds",
+      "result": "PASS",
+      "evidence": {
+        "xy_m": [
+          0.34960001707077026,
+          1.0190000534057617
+        ],
+        "note": "contact patch distinct from wider rounded rubber envelope"
+      }
+    },
+    {
+      "check": "shared_boot_mesh",
+      "result": "PASS",
+      "evidence": "four boots share one data block"
+    },
+    {
+      "check": "shared_foot",
+      "result": "PASS",
+      "evidence": [
+        "168h_equipment_flat_bench__mesh_foot_head",
+        "168h_equipment_flat_bench__mesh_foot_foot"
+      ]
+    },
+    {
+      "check": "shared_mount_rail",
+      "result": "PASS",
+      "evidence": [
+        "168h_equipment_flat_bench__mesh_mount_rail_head",
+        "168h_equipment_flat_bench__mesh_mount_rail_foot"
+      ]
+    },
+    {
+      "check": "material_roles",
+      "result": "PASS",
+      "evidence": "ordered body/top/side variants; pad top/side/edge; asset-local semantic roles in manifest"
+    },
+    {
+      "check": "no_external_art_dependencies",
+      "result": "PASS",
+      "evidence": "no linked assets, file textures or custom fonts"
+    },
+    {
+      "check": "shadow_free_preset",
+      "result": "PASS",
+      "evidence": "Workbench FLAT, outlines; shadows/cavity/specular off; no AO lighting"
+    },
+    {
+      "check": "no_lights_or_ground",
+      "result": "PASS",
+      "evidence": "no light objects or ground plane"
+    },
+    {
+      "check": "anchor_floor_contact",
+      "result": "PASS",
+      "evidence": {
+        "object": "168h_equipment_flat_bench__anchor_floor_contact",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_radians": [
+          0,
+          0,
+          0
+        ],
+        "forward": "+Y",
+        "up": "+Z"
+      }
+    },
+    {
+      "check": "anchor_pad_center",
+      "result": "PASS",
+      "evidence": {
+        "object": "168h_equipment_flat_bench__anchor_pad_center",
+        "position_m": [
+          0,
+          0,
+          0.4572
+        ],
+        "rotation_euler_xyz_radians": [
+          0,
+          0,
+          0
+        ],
+        "forward": "+Y",
+        "up": "+Z"
+      }
+    },
+    {
+      "check": "anchor_seat_center",
+      "result": "PASS",
+      "evidence": {
+        "object": "168h_equipment_flat_bench__anchor_seat_center",
+        "position_m": [
+          0,
+          -0.3,
+          0.4572
+        ],
+        "rotation_euler_xyz_radians": [
+          0,
+          0,
+          0
+        ],
+        "forward": "+Y",
+        "up": "+Z"
+      }
+    },
+    {
+      "check": "anchor_back_support",
+      "result": "PASS",
+      "evidence": {
+        "object": "168h_equipment_flat_bench__anchor_back_support",
+        "position_m": [
+          0,
+          0.15,
+          0.4572
+        ],
+        "rotation_euler_xyz_radians": [
+          0,
+          0,
+          0
+        ],
+        "forward": "+Y",
+        "up": "+Z"
+      }
+    },
+    {
+      "check": "anchor_head_support",
+      "result": "PASS",
+      "evidence": {
+        "object": "168h_equipment_flat_bench__anchor_head_support",
+        "position_m": [
+          0,
+          0.4,
+          0.4572
+        ],
+        "rotation_euler_xyz_radians": [
+          0,
+          0,
+          0
+        ],
+        "forward": "+Y",
+        "up": "+Z"
+      }
+    },
+    {
+      "check": "anchor_head_end",
+      "result": "PASS",
+      "evidence": {
+        "object": "168h_equipment_flat_bench__anchor_head_end",
+        "position_m": [
+          0,
+          0.5969,
+          0.4572
+        ],
+        "rotation_euler_xyz_radians": [
+          0,
+          0,
+          0
+        ],
+        "forward": "+Y",
+        "up": "+Z"
+      }
+    },
+    {
+      "check": "anchor_foot_end",
+      "result": "PASS",
+      "evidence": {
+        "object": "168h_equipment_flat_bench__anchor_foot_end",
+        "position_m": [
+          0,
+          -0.5969,
+          0.4572
+        ],
+        "rotation_euler_xyz_radians": [
+          0,
+          0,
+          0
+        ],
+        "forward": "+Y",
+        "up": "+Z"
+      }
+    },
+    {
+      "check": "flat_support_pad_center",
+      "result": "PASS",
+      "evidence": {
+        "anchor": [
+          0.0,
+          0.0,
+          0.45719999074935913
+        ],
+        "hit": [
+          0.0,
+          0.0,
+          0.45719999074935913
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "flat_support_seat_center",
+      "result": "PASS",
+      "evidence": {
+        "anchor": [
+          0.0,
+          -0.30000001192092896,
+          0.45719999074935913
+        ],
+        "hit": [
+          0.0,
+          -0.30000001192092896,
+          0.45719999074935913
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "flat_support_back_support",
+      "result": "PASS",
+      "evidence": {
+        "anchor": [
+          0.0,
+          0.15000000596046448,
+          0.45719999074935913
+        ],
+        "hit": [
+          0.0,
+          0.15000000596046448,
+          0.45719999074935913
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "flat_support_head_support",
+      "result": "PASS",
+      "evidence": {
+        "anchor": [
+          0.0,
+          0.4000000059604645,
+          0.45719999074935913
+        ],
+        "hit": [
+          0.0,
+          0.4000000059604645,
+          0.45719999074935913
+        ],
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "check": "approved_assets_and_shared_standards_unchanged",
+      "result": "PASS",
+      "evidence": {
+        "changed_paths": [],
+        "checked_files": 62
+      }
+    },
+    {
+      "check": "refinement_source_record",
+      "result": "PASS",
+      "evidence": {
+        "current": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
+        "predecessor": "146c810a216858409fa0e3fdaba987a69f87aa1a74ddc61949ce388ad8be339c"
+      }
+    },
+    {
+      "check": "original_object_and_data_names_retained",
+      "result": "PASS",
+      "evidence": {
+        "original_objects": 21,
+        "in_process_identity_assertion": true
+      }
+    },
+    {
+      "check": "original_main_frame_and_substrate_unchanged",
+      "result": "PASS",
+      "evidence": {
+        "compared_meshes": 8,
+        "method": "exact saved predecessor/current vertex comparison"
+      }
+    },
+    {
+      "check": "original_root_and_anchor_frames_unchanged",
+      "result": "PASS",
+      "evidence": {
+        "compared_frames": 8
+      }
+    },
+    {
+      "check": "original_pad_topology_retained",
+      "result": "PASS",
+      "evidence": "vertex coordinates refined, original topology retained"
+    },
+    {
+      "check": "upholstery_within_nominal_pad_envelope",
+      "result": "PASS",
+      "evidence": {
+        "seam_min_m": [
+          -0.15109999477863312,
+          -0.5956000089645386,
+          0.44859999418258667
+        ],
+        "seam_max_m": [
+          0.15109999477863312,
+          0.5956000089645386,
+          0.4498000144958496
+        ]
+      }
+    },
+    {
+      "check": "declared_material_slot_order",
+      "result": "PASS",
+      "evidence": "all component slots match manifest including added details; original role order retained"
+    },
+    {
+      "check": "linked_anchor_alignment",
+      "result": "PASS",
+      "evidence": {
+        "target_translation_m": [
+          1.0,
+          2.0,
+          0.75
+        ],
+        "actual_translation_m": [
+          1.0,
+          2.0,
+          0.75
+        ],
+        "yaw_degrees": 90
+      }
+    },
+    {
+      "check": "two_instances_no_geometry_duplication",
+      "result": "PASS",
+      "evidence": "two collection instances; original data remains linked; no local meshes"
+    },
+    {
+      "check": "relocatable_no_hidden_dependencies",
+      "result": "PASS",
+      "evidence": "source loads from supplied path; no external geometry/material/texture dependencies; fresh Git/LFS clone not claimed"
+    }
+  ]
+}

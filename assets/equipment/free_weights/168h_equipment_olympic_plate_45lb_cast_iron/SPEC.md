@@ -1,10 +1,11 @@
+<!-- Current A14 origin section supersedes historical0.x origin/reproduction statements below; archived approvals retain their original scope. -->
 # Asset specification: 168h_equipment_olympic_plate_45lb_cast_iron
 
 ## Identity and status
 
-- Category: equipment / free weights / Olympic weight plate. Asset version `0.1.4`; **approved visual-direction reference** `cast_iron_plate_visual@1` under A10; production lifecycle `review`, not `ready`. Geometry version is unchanged.
+- Category: equipment / free weights / Olympic weight plate. Asset version `1.0.0`, geometry version `0.1.4`; **approved visual-direction reference** `cast_iron_plate_visual@1` under A10; production lifecycle `review`, not `ready`. Geometry version is unchanged.
 - Author/reviewer: Codex for 168Hours Fitness, 2026-10-14. The user approved the overall plate visual direction; the current 0.1.4 model and all five existing renders are now accepted as the first equipment visual reference, 2026-10-14.
-- Source: [168h_equipment_olympic_plate_45lb_cast_iron.blend](168h_equipment_olympic_plate_45lb_cast_iron.blend). Current SHA256 `b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2`.
+- Source: [168h_equipment_olympic_plate_45lb_cast_iron.blend](168h_equipment_olympic_plate_45lb_cast_iron.blend). Current SHA256 `5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6`.
 - Standalone reusable collection for future bench press, squat and deadlift scenes; no barbell, human or exercise scene authored.
 - Standards: [global style](../../../../docs/visual-style.md), [shared conventions](../../../../docs/asset-conventions.md), [category standards](../../../../docs/category-standards.md), [workflow](../../../../docs/asset-workflow.md), [licensing](../../../../docs/licensing.md), and [AGENTS.md](../../../../AGENTS.md). Base revision `c91545cbe2e5a0909078b879508ef63501959827`; exact working-tree standard hashes in [standards-snapshot.json](standards-snapshot.json). A10 now establishes the cast-iron plate visual-reference standard; global engineering/software/delivery choices remain separate.
 - Authorization: A09 approved local review prototype; user requested the rib, face lettering, hub/rim and side-profile refinement on 2026-10-14. User clarified **“45 LB left and 20.4 KG right on both faces.”** The user now explicitly approves this plate’s overall visual direction and requests whiter/larger raised letters, inverted BARBELL, and hub-originating outward-tapering ribs. Scope remains this plate; it does not approve global standards or production/licensing readiness.
@@ -59,24 +60,13 @@ Both faces display **45 LB on the viewer's left**, **20.4 KG on the right**, **S
 - Text solid depth is 3.8 mm: base magnitude Y=6.2 mm, top magnitude Y=10.0 mm, including 0.3 mm overlap with the web and 3.5 mm exposed relief. Built-in Bfont is converted to mesh; no runtime font dependency.
 - Preexisting `__mesh_label_front` and `__mesh_label_back` objects/data are reused for the relocated `45 LB` labels. New `__mesh_label_kg_<face>`, `__mesh_label_standard_<face>`, and `__mesh_label_barbell_<face>` objects complete the layout. BARBELL glyph geometry/connectivity is regenerated to remove malformed inherited lettering, inside its existing object/data. Other label topology and all published object names remain stable.
 
-Body, ribs and text are separate overlapping cast-on solids for clean visual reuse, not a boolean-unioned fabrication model. Full source scope: **10 mesh objects and 5 empties** (root plus four anchors), no camera/light/rig in the saved source. All added geometry is parented to the same root and has normalized identity object transforms. Repeated plates link/instance this collection and share all its geometry/material data.
+Body, ribs and text are separate overlapping cast-on solids for clean visual reuse, not a boolean-unioned fabrication model. Full source scope: **10 mesh objects and 5 empties** (root plus four anchors), no camera/light/rig in the saved source. All added geometry is parented to the same root and has unit positive scale/zero rotation, with deliberate parent-relative translations for A14. Repeated plates link/instance this collection and share all its geometry/material data.
 
 ## Published interfaces and replacement
 
-Stable Asset Browser collection `168h_equipment_olympic_plate_45lb_cast_iron` with `__geo` and `__anchors`, root `168h_equipment_olympic_plate_45lb_cast_iron__root` at floor footprint center (0,0,0), identity transforms. Plate stands in XZ; +Y front/axial, +Z up, +X subject-left. Center at (0,0,0.225). No axis or root exception.
+Collection/root names unchanged. **Current interface olympic_plate_bore@1.0.0** under A14. Root and collection.instance_offset are at the exact bore center(0,0,.225)m in the preserved authoring frame. +Y bore/stack axis, +Z up, +X subject-left. Root-local bore_center=(0,0,0), stack_front/back=(0,±.01651,0), floor_contact=(0,0,−.225)m. All anchor +Y/+Z orientations unchanged. Source mesh-object origins remain intentional legacy construction frames; they do not define the linked insertion pivot. Child translations compensate the new root; mesh data, world geometry and appearance are unchanged.
 
-Interface **`olympic_plate_bore@0.1.0` remains unchanged**. Detail revision 0.1.4 does not alter its dimensions, anchor frames, published source path or existing material indices.
-
-| Anchor | Full-ID object suffix | Local position (m) | Frame |
-| --- | --- | --- | --- |
-| bore_center | `__anchor_bore_center` | (0,0,0.225) | +Y axial, +Z up |
-| stack_front | `__anchor_stack_front` | (0,+0.01651,0.225) | +Y axial, +Z up |
-| stack_back | `__anchor_stack_back` | (0,−0.01651,0.225) | +Y axial, +Z up |
-| floor_contact | `__anchor_floor_contact` | (0,0,0) | +Y axial, +Z up |
-
-Place instances by aligning `bore_center` with a sleeve target, compensating the rotated (0,0,0.225) root-to-bore offset. Rotate +Y onto the sleeve direction, repeat at 33.02 mm pitch plus any deliberate scene gap, and reverse facing with a 180° rotation rather than negative scale. Stack frames define the maximum envelope, not an outward -Y back normal.
-
-Validated reuse: three external linked collection instances, nonoverlapping stack envelopes, numerical 50.0 mm sleeve clearance (~0.4 mm radial), root-offset placement and rotation onto +X at a synthetic target. No real barbell, human, exercise consumer or alternative plate has been authored/tested. Those production compatibility claims remain open. Geometry topology is internal, not a substitute for named anchor interfaces.
+Use offset-aware placement from docs/asset-conventions.md: target anchor transform times inverse source anchor times Translation(collection.instance_offset). Three saved barbell fixtures now link the migrated plate and compensate their instance transforms. Digital fit and floor placement are preserved; no human or alternative plate substitution claimed. Original0.1.4 source/approval evidence is retained under docs/audits/origin_baseline.
 
 ## Materials and visual design
 
@@ -195,3 +185,11 @@ No polish was applied or is required for current visual-reference acceptance. Op
 Preserve the current approved source/images. Future authorized edits require a retained predecessor, new version/evidence and explicit successor-reference approval. A hash mismatch must not silently become the reference. No artwork license or engineering certification follows from this approval.
 
 2026-10-14 / documentation approval A10: current 0.1.4 accepted as `cast_iron_plate_visual@1`; approval states and provisional facts finalized; model, renders, executable scripts and measured test results unchanged.
+
+
+## A14 origin audit and migration —2026-10-15
+
+Approved profile `olympic_plate`, equipment_origins@1. Authoring root and collection offset `[0.0, 0.0, 0.22499999403953552]`m; functional root-local origin(0,0,0). Current source SHA256 `5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6`. Explicit user root/pivot migration approval applied; source/interface1.0.0, original geometry version and visual family retained. Source geometry/materials/world anchors unchanged; all three linked fixture instances compensated. Root-local anchor positions and intentional component rotations are declared in asset.json. [Audit](../../../../docs/audits/origin-audit-results.json), [migration/regression](../../../../docs/audits/origin-migration-validation.json), [proposal](../../../../docs/audits/origin-migration-proposal.md). Current validation commands: validate_asset_origins.py; validate_origin_migration.py. Existing per-asset scripts expose `-- --origins`; their full0.x suites are historical and were rerun on a disposable baseline. Do not run historical builders/refiners on migrated masters. Global visual/style/artwork settings unchanged. External consumers outside the repository remain untested and need versioned migration.
+
+
+A14 finalization2026-10-15: origin migration **approved and complete**. Current library audit297 PASS; world/geometry/material/render regression28 PASS; all three fixture stacking/clearance checks42 PASS;6 failure-injection and2 automatic placement cases PASS. No native geometry/source edit during finalization. Existing visual/release scope unchanged. Final evidence: docs/audits/origin-migration-record.json and origin-compatibility-validation.json; repository commit identifies this finalized snapshot.

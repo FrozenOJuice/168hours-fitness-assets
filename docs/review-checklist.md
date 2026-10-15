@@ -32,12 +32,13 @@ Use `PASS`, `FAIL`, `NOT RUN`, or `N/A — reason`. Record measured/observed val
 | --- | --- | --- | --- |
 | T01 | Asset ID, path, filename, collection/root, and published datablock names agree and follow conventions | NOT RUN | |
 | T02 | Canonical bounds and all category-critical measurements match specified meter values within stated tolerances; record actual readings | NOT RUN | |
-| T03 | Axes, origin, root hierarchy, transforms, and rest/configuration state match the specified contract | NOT RUN | |
+| T03 | Axes, intentional category origin, root/collection pivot agreement, component frames, hierarchy, normalized transforms and rest/configuration match A14 | NOT RUN | |
 | T04 | Geometry, topology/deformation, reusable components, and adjustable limits match the spec | NOT RUN | |
 | T05 | Anchor/control names, local positions/orientations, motion behavior, and interface versions match declarations | NOT RUN | |
 | T06 | Rig/skeleton/rest-pose compatibility and material slot/input order remain valid | NOT RUN | |
 | T07 | Pinned Blender opens the source; dependencies resolve via relative paths from a fresh checkout with LFS content fetched, without hidden add-ons | NOT RUN | |
 | T08 | Compatible replacement works in named consumer/fixture cases; grips, support, pose, and clearance are checked across required configurations/motion | NOT RUN | |
+| T10 | Generic category origin validator reports expected/actual root, component and anchor frames; unknown profiles fail closed | NOT RUN | |
 | T09 | Existing consumers remain compatible, or an approved major-version/migration plan and regression evidence cover every affected consumer | NOT RUN | |
 
 ## Reference renders and reproducibility

@@ -23,6 +23,12 @@ def verify_plate():
     record=read_json(PLATE/'reference-approval.json')
     for entry in [record['source'],record['render_settings'],record['validation_results'],*record['images']]:
         assert digest(REPO/entry['path'])==entry['sha256'],entry['path']
+    manifest=read_json(PLATE/'asset.json')
+    if manifest.get('origin_migration'):
+        source=REPO/manifest['source']
+        migration=read_json(REPO/'docs/audits/origin-migration-record.json')
+        current=next(e for e in migration['records'] if e['source']==manifest['source'])
+        assert digest(source)==current['source_sha256']==manifest['source_revision_or_digest'].removeprefix('sha256:'),'Current A14 plate differs from approved migrated source'
     return record
 
 def setup(scene):
@@ -86,6 +92,10 @@ def instance(scene,col,name,matrix=None):
 def local_anchor(col,asset_id,key):
     return col.all_objects[asset_id+'__anchor_'+key]
 
+def asset_instance_frame(obj):
+    """A14: collection instance matrix includes pivot; source coordinates require offset removal."""
+    return obj.matrix_world@Matrix.Translation(-obj.instance_collection.instance_offset)
+
 def plate_measurements(col):
     bore=local_anchor(col,PID,'bore_center').matrix_world.copy()
     frame=bore.inverted()
@@ -99,12 +109,12 @@ def plate_measurements(col):
 
 def place_plate(scene,bar_instance,bar_col,plate_col,side,index=0,gap=.001,instance_obj=None):
     m=plate_measurements(plate_col)
-    target=bar_instance.matrix_world@local_anchor(bar_col,ID,'load_'+side).matrix_world
+    target=asset_instance_frame(bar_instance)@local_anchor(bar_col,ID,'load_'+side).matrix_world
     outward=(target.to_3x3()@Vector((0,1,0))).normalized()
     target.translation+=outward*(-m['back_m']+gap+index*m['pitch_m'])
     matrix=target@m['bore_matrix'].inverted()
     obj=instance_obj or instance(scene,plate_col,'plate_'+side)
-    obj.matrix_world=matrix
+    obj.matrix_world=matrix@Matrix.Translation(plate_col.instance_offset)
     obj['placement']='load frame + measured linked back envelope + 1mm gap; compensate bore-root offset'
     return obj,m
 
@@ -117,7 +127,7 @@ def make_fixture():
     bpy.context.view_layer.update()
     m=plate_measurements(plate)
     axis=local_anchor(bar,ID,'axis_center').matrix_world.translation
-    bar_instance.location.z=m['floor_to_bore_m']-axis.z
+    bar_instance.location.z=m['floor_to_bore_m']-axis.z+bar.instance_offset.z
     bpy.context.view_layer.update()
     for side in ['l','r']:place_plate(scene,bar_instance,bar,plate,side,instance_obj=plate_instances[side])
     for lib in bpy.data.libraries:lib.filepath=bpy.path.relpath(lib.filepath,start=str(FIXTURE))

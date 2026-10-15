@@ -1,0 +1,1044 @@
+{
+  "asset_id": "168h_equipment_olympic_plate_45lb_cast_iron",
+  "version": "0.1.4",
+  "blender_version": "5.1.1",
+  "date": "2026-10-14",
+  "source_sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+  "validator_sha256": "ae3304b9664434d6930aa389608115ad5a35780a42627e71c96cab9a6e6865c6",
+  "checks": {
+    "canonical_bounds": {
+      "status": "PASS",
+      "evidence": {
+        "dimensions_m": [
+          0.44999998807907104,
+          0.03302000090479851,
+          0.44999998807907104
+        ],
+        "minimum_m": [
+          -0.22499999403953552,
+          -0.016510000452399254,
+          0.0
+        ],
+        "maximum_m": [
+          0.22499999403953552,
+          0.016510000452399254,
+          0.44999998807907104
+        ]
+      }
+    },
+    "floor_and_root": {
+      "status": "PASS",
+      "evidence": {
+        "root_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "floor_z_m": 0.0
+      }
+    },
+    "normalized_geometry_transforms": {
+      "status": "PASS",
+      "evidence": {
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_body": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_front": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_back": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_ribs": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_front": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_front": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_front": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_back": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_back": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_back": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "naming": {
+      "status": "PASS",
+      "evidence": [
+        "168h_equipment_olympic_plate_45lb_cast_iron__root",
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_body",
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_front",
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_back",
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_ribs",
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_front",
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_front",
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_front",
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_back",
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_back",
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_back",
+        "168h_equipment_olympic_plate_45lb_cast_iron__anchor_bore_center",
+        "168h_equipment_olympic_plate_45lb_cast_iron__anchor_stack_front",
+        "168h_equipment_olympic_plate_45lb_cast_iron__anchor_stack_back",
+        "168h_equipment_olympic_plate_45lb_cast_iron__anchor_floor_contact"
+      ]
+    },
+    "collection_structure": {
+      "status": "PASS",
+      "evidence": [
+        "168h_equipment_olympic_plate_45lb_cast_iron__geo",
+        "168h_equipment_olympic_plate_45lb_cast_iron__anchors"
+      ]
+    },
+    "source_scope": {
+      "status": "PASS",
+      "evidence": {
+        "object_count": 15,
+        "mesh_count": 10,
+        "cameras": 0,
+        "lights": 0
+      }
+    },
+    "root_hierarchy": {
+      "status": "PASS",
+      "evidence": {
+        "children": [
+          "168h_equipment_olympic_plate_45lb_cast_iron__anchor_bore_center",
+          "168h_equipment_olympic_plate_45lb_cast_iron__anchor_floor_contact",
+          "168h_equipment_olympic_plate_45lb_cast_iron__anchor_stack_back",
+          "168h_equipment_olympic_plate_45lb_cast_iron__anchor_stack_front",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_body",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_back",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_back",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_front",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_front",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_back",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_front",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_back",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_front",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_ribs"
+        ]
+      }
+    },
+    "anchors": {
+      "status": "PASS",
+      "evidence": {
+        "bore_center": [
+          0,
+          0,
+          0.225
+        ],
+        "stack_front": [
+          0,
+          0.01651,
+          0.225
+        ],
+        "stack_back": [
+          0,
+          -0.01651,
+          0.225
+        ],
+        "floor_contact": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "body_manifold": {
+      "status": "PASS",
+      "evidence": {
+        "vertices": 5888,
+        "edges": 11776,
+        "faces": 5888,
+        "nonmanifold_edges": 0,
+        "volume_m3": 0.0027769135816113804
+      }
+    },
+    "two_inch_minimum_bore": {
+      "status": "PASS",
+      "evidence": {
+        "minimum_across_flats_diameter_m": 0.05079997779196026,
+        "maximum_vertex_diameter_m": 0.05080384981174903,
+        "angular_segments": 256
+      }
+    },
+    "numerical_sleeve_clearance": {
+      "status": "PASS",
+      "evidence": {
+        "test_sleeve_diameter_m": 0.05,
+        "minimum_radial_clearance_m": 0.0003999888959801273,
+        "scope": "numerical clearance fixture only; no barbell geometry or physical-fit claim"
+      }
+    },
+    "raised_labels": {
+      "status": "PASS",
+      "evidence": {
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_front": {
+          "y_extents_m": [
+            0.006200000178068876,
+            0.009999999776482582
+          ],
+          "solid_depth_m": 0.003799999598413706,
+          "exposed_relief_m": 0.0034999997764825824,
+          "material_face_counts": {
+            "0": 443,
+            "1": 894
+          }
+        },
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_back": {
+          "y_extents_m": [
+            -0.009999999776482582,
+            -0.006200000178068876
+          ],
+          "solid_depth_m": 0.003799999598413706,
+          "exposed_relief_m": 0.0034999997764825824,
+          "material_face_counts": {
+            "0": 443,
+            "1": 894
+          }
+        },
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_front": {
+          "y_extents_m": [
+            0.006200000178068876,
+            0.009999999776482582
+          ],
+          "solid_depth_m": 0.003799999598413706,
+          "exposed_relief_m": 0.0034999997764825824,
+          "material_face_counts": {
+            "0": 743,
+            "1": 1518
+          }
+        },
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_front": {
+          "y_extents_m": [
+            0.006200000178068876,
+            0.009999999776482582
+          ],
+          "solid_depth_m": 0.003799999598413706,
+          "exposed_relief_m": 0.0034999997764825824,
+          "material_face_counts": {
+            "0": 780,
+            "1": 1584
+          }
+        },
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_front": {
+          "y_extents_m": [
+            0.006200000178068876,
+            0.009999999776482582
+          ],
+          "solid_depth_m": 0.003799999598413706,
+          "exposed_relief_m": 0.0034999997764825824,
+          "material_face_counts": {
+            "0": 496,
+            "1": 1741
+          }
+        },
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_back": {
+          "y_extents_m": [
+            -0.009999999776482582,
+            -0.006200000178068876
+          ],
+          "solid_depth_m": 0.003799999598413706,
+          "exposed_relief_m": 0.0034999997764825824,
+          "material_face_counts": {
+            "0": 743,
+            "1": 1518
+          }
+        },
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_back": {
+          "y_extents_m": [
+            -0.009999999776482582,
+            -0.006200000178068876
+          ],
+          "solid_depth_m": 0.003799999598413706,
+          "exposed_relief_m": 0.0034999997764825824,
+          "material_face_counts": {
+            "0": 780,
+            "1": 1584
+          }
+        },
+        "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_back": {
+          "y_extents_m": [
+            -0.009999999776482582,
+            -0.006200000178068876
+          ],
+          "solid_depth_m": 0.003799999598413706,
+          "exposed_relief_m": 0.0034999997764825824,
+          "material_face_counts": {
+            "0": 496,
+            "1": 1741
+          }
+        }
+      }
+    },
+    "refined_cast_profile": {
+      "status": "PASS",
+      "evidence": {
+        "web_thickness_m": 0.013000000268220901,
+        "hub_thickness_m": 0.028999999165534973,
+        "rim_relief_m": 0.010010000318288803
+      }
+    },
+    "existing_body_refined": {
+      "status": "PASS",
+      "evidence": {
+        "body_vertices": 5888,
+        "body_faces": 5888,
+        "added_side_band_vertices": 768,
+        "existing_objects_and_body_data_preserved": true,
+        "evidence": "detail-record.json"
+      }
+    },
+    "nonuniform_side_profile": {
+      "status": "PASS",
+      "evidence": {
+        "waist_radius_m": 0.22349998709526597,
+        "rim_shoulder_radius_m": 0.22500001359970623,
+        "radial_waist_depth_m": 0.001500026504440255
+      }
+    },
+    "four_cast_ribs_per_face": {
+      "status": "PASS",
+      "evidence": {
+        "closed_rib_solids": 8,
+        "front_ribs": 4,
+        "back_ribs": 4,
+        "nonmanifold_edges": 0,
+        "component_angles_degrees": [
+          225.0,
+          45.0,
+          315.0,
+          135.0,
+          225.0,
+          315.0,
+          45.0,
+          135.0
+        ]
+      }
+    },
+    "balanced_dual_unit_lettering": {
+      "status": "PASS",
+      "evidence": {
+        "faces": {
+          "front": [
+            "20.4 KG",
+            "45 LB",
+            "BARBELL",
+            "STANDARD"
+          ],
+          "back": [
+            "20.4 KG",
+            "45 LB",
+            "BARBELL",
+            "STANDARD"
+          ]
+        },
+        "layout": "45 LB left, 20.4 KG right, STANDARD top, BARBELL bottom on both faces"
+      }
+    },
+    "hub_originating_outward_rib_taper": {
+      "status": "PASS",
+      "evidence": {
+        "rib_rows": [
+          [
+            {
+              "radius_m": 0.0430000009991316,
+              "width_m": 0.03399999440263981
+            },
+            {
+              "radius_m": 0.07500000012132461,
+              "width_m": 0.030000000329508843
+            },
+            {
+              "radius_m": 0.1499999947986813,
+              "width_m": 0.02000001251250337
+            },
+            {
+              "radius_m": 0.20499999979307756,
+              "width_m": 0.01000000362207365
+            }
+          ],
+          [
+            {
+              "radius_m": 0.0430000009991316,
+              "width_m": 0.033999994402639816
+            },
+            {
+              "radius_m": 0.07500000012132461,
+              "width_m": 0.03000000032950884
+            },
+            {
+              "radius_m": 0.1499999947986813,
+              "width_m": 0.020000012512503385
+            },
+            {
+              "radius_m": 0.20499999979307756,
+              "width_m": 0.01000000362207365
+            }
+          ],
+          [
+            {
+              "radius_m": 0.04300000064790788,
+              "width_m": 0.034000004939351944
+            },
+            {
+              "radius_m": 0.07500000328233826,
+              "width_m": 0.030000000329508843
+            },
+            {
+              "radius_m": 0.14999999795969496,
+              "width_m": 0.020000001975791257
+            },
+            {
+              "radius_m": 0.2050000020760319,
+              "width_m": 0.009999998353717579
+            }
+          ],
+          [
+            {
+              "radius_m": 0.04300000064790788,
+              "width_m": 0.03400000493935194
+            },
+            {
+              "radius_m": 0.07500000328233826,
+              "width_m": 0.03000000032950884
+            },
+            {
+              "radius_m": 0.14999999795969496,
+              "width_m": 0.020000001975791243
+            },
+            {
+              "radius_m": 0.20500000207603186,
+              "width_m": 0.009999998353717593
+            }
+          ],
+          [
+            {
+              "radius_m": 0.0430000009991316,
+              "width_m": 0.03399999440263981
+            },
+            {
+              "radius_m": 0.07500000012132461,
+              "width_m": 0.030000000329508843
+            },
+            {
+              "radius_m": 0.1499999947986813,
+              "width_m": 0.02000001251250337
+            },
+            {
+              "radius_m": 0.20499999979307756,
+              "width_m": 0.01000000362207365
+            }
+          ],
+          [
+            {
+              "radius_m": 0.0430000009991316,
+              "width_m": 0.033999994402639816
+            },
+            {
+              "radius_m": 0.07500000012132461,
+              "width_m": 0.03000000032950884
+            },
+            {
+              "radius_m": 0.1499999947986813,
+              "width_m": 0.020000012512503385
+            },
+            {
+              "radius_m": 0.20499999979307756,
+              "width_m": 0.01000000362207365
+            }
+          ],
+          [
+            {
+              "radius_m": 0.04300000064790788,
+              "width_m": 0.034000004939351944
+            },
+            {
+              "radius_m": 0.07500000328233826,
+              "width_m": 0.030000000329508843
+            },
+            {
+              "radius_m": 0.14999999795969496,
+              "width_m": 0.020000001975791257
+            },
+            {
+              "radius_m": 0.2050000020760319,
+              "width_m": 0.009999998353717579
+            }
+          ],
+          [
+            {
+              "radius_m": 0.04300000064790788,
+              "width_m": 0.03400000493935194
+            },
+            {
+              "radius_m": 0.07500000328233826,
+              "width_m": 0.03000000032950884
+            },
+            {
+              "radius_m": 0.14999999795969496,
+              "width_m": 0.020000001975791243
+            },
+            {
+              "radius_m": 0.20500000207603186,
+              "width_m": 0.009999998353717593
+            }
+          ]
+        ],
+        "start_within_hub_face": true,
+        "widths_strictly_decrease_outward": true
+      }
+    },
+    "near_white_raised_letter_faces": {
+      "status": "PASS",
+      "evidence": {
+        "srgb_hex": "F2F2F2",
+        "linear_rgb": [
+          0.8879231214523315,
+          0.8879231214523315,
+          0.8879231214523315
+        ],
+        "real_geometry_relief_test": "raised_labels"
+      }
+    },
+    "body_and_non_barbell_topology_preserved": {
+      "status": "PASS",
+      "evidence": {
+        "body_coordinates_unchanged": true,
+        "all_mesh_topology_sha256": {
+          "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_back": "9eb53bbf053ba97bd493b6af3fcfb22025613b04c30e4de6572f778c77fd2e31",
+          "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_front": "9eb53bbf053ba97bd493b6af3fcfb22025613b04c30e4de6572f778c77fd2e31",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_body_data": "7a7a4c0f826ae785f8b3d3ccd88a8a5fcc44ed3d7411fb7f2bc3282b53aaef48",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_back_data": "eaa7462fe56586e47e1add8850a363a2c26b8e07d1c7e22b8c19fdd146537f23",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_front_data": "eaa7462fe56586e47e1add8850a363a2c26b8e07d1c7e22b8c19fdd146537f23",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_back_data": "b983166e0f306653bb9c2437e9904a06a8fcaf5e72a7f1c386890c1b28a1768a",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_front_data": "b983166e0f306653bb9c2437e9904a06a8fcaf5e72a7f1c386890c1b28a1768a",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_back_data": "78a48ec815ca96588cbe40a8fee017f32dfc5f4518d043b7efa6e7dc7dbde2b8",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_front_data": "78a48ec815ca96588cbe40a8fee017f32dfc5f4518d043b7efa6e7dc7dbde2b8",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_ribs_data": "f54e2e6586208f4686276be3d9404907273cd6d5238c933ba2e34d321684759c"
+        },
+        "all_existing_object_data_identity_preserved_during_edit": true,
+        "preservation_record": "correction-record.json"
+      }
+    },
+    "rib_roots_buried_in_hub_face": {
+      "status": "PASS",
+      "evidence": {
+        "root_measurements": [
+          {
+            "max_planar_radius_m": 0.04623851338462922,
+            "max_axial_m": 0.014000000432133675,
+            "min_planar_radius_m": 0.04577652423747902
+          },
+          {
+            "max_planar_radius_m": 0.04623851338462922,
+            "max_axial_m": 0.014000000432133675,
+            "min_planar_radius_m": 0.04577652423747902
+          },
+          {
+            "max_planar_radius_m": 0.04623851826120569,
+            "max_axial_m": 0.014000000432133675,
+            "min_planar_radius_m": 0.045776515502254055
+          },
+          {
+            "max_planar_radius_m": 0.04623851826120569,
+            "max_axial_m": 0.014000000432133675,
+            "min_planar_radius_m": 0.045776515502254055
+          },
+          {
+            "max_planar_radius_m": 0.04623851338462922,
+            "max_axial_m": 0.014000000432133675,
+            "min_planar_radius_m": 0.04577652423747902
+          },
+          {
+            "max_planar_radius_m": 0.04623851338462922,
+            "max_axial_m": 0.014000000432133675,
+            "min_planar_radius_m": 0.04577652423747902
+          },
+          {
+            "max_planar_radius_m": 0.04623851826120569,
+            "max_axial_m": 0.014000000432133675,
+            "min_planar_radius_m": 0.045776515502254055
+          },
+          {
+            "max_planar_radius_m": 0.04623851826120569,
+            "max_axial_m": 0.014000000432133675,
+            "min_planar_radius_m": 0.045776515502254055
+          }
+        ],
+        "hub_face_outer_radius_m": 0.052,
+        "hub_face_axial_m": 0.0145
+      }
+    },
+    "full_plate_rotation_proof_setup": {
+      "status": "PASS",
+      "evidence": {
+        "roll_degrees": 180,
+        "camera_position_and_scale_unchanged": true,
+        "image": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__rotated_180_check__standing.png",
+        "visual_acceptance": "BARBELL upright upper-arc shape inspected separately; see validation.md"
+      }
+    },
+    "no_external_assets": {
+      "status": "PASS",
+      "evidence": {
+        "external_fonts": 0,
+        "external_images": [],
+        "libraries": []
+      }
+    },
+    "shadow_free_setup": {
+      "status": "PASS",
+      "evidence": {
+        "engine": "BLENDER_WORKBENCH",
+        "lighting": "FLAT",
+        "shadows": false,
+        "cavity_ao": false,
+        "specular_highlight": false,
+        "lights": 0
+      }
+    },
+    "shader_roughness": {
+      "status": "PASS",
+      "evidence": {
+        "168h_equipment_olympic_plate_45lb_cast_iron__material_cast_iron": {
+          "roughness": 1,
+          "material_display_rgba": [
+            0.03688944876194,
+            0.0423114113509655,
+            0.05126945674419403,
+            1.0
+          ]
+        },
+        "168h_equipment_olympic_plate_45lb_cast_iron__material_hub": {
+          "roughness": 1,
+          "material_display_rgba": [
+            0.0802198201417923,
+            0.09084171056747437,
+            0.10702310502529144,
+            1.0
+          ]
+        },
+        "168h_equipment_olympic_plate_45lb_cast_iron__material_lettering": {
+          "roughness": 1,
+          "material_display_rgba": [
+            0.8879231214523315,
+            0.8879231214523315,
+            0.8879231214523315,
+            1.0
+          ]
+        },
+        "168h_equipment_olympic_plate_45lb_cast_iron__material_rim": {
+          "roughness": 1,
+          "material_display_rgba": [
+            0.023153366521000862,
+            0.026241222396492958,
+            0.03189603239297867,
+            1.0
+          ]
+        },
+        "168h_equipment_olympic_plate_45lb_cast_iron__material_web": {
+          "roughness": 1,
+          "material_display_rgba": [
+            0.05951123684644699,
+            0.06847816705703735,
+            0.08228270709514618,
+            1.0
+          ]
+        }
+      }
+    },
+    "source_digest_matches_renders": {
+      "status": "PASS",
+      "evidence": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2"
+    },
+    "reference_reproduction_front": {
+      "status": "PASS",
+      "evidence": {
+        "reference": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__front__standing.png",
+        "file_sha256": "0e5633033d476778d61892b215c30bf239ca2a29e79bffc65a882b7ae5e975c3",
+        "pixel_sha256": "7cde465dfb8ecbd7d9ab45ee893c793c39c2fd9d793101b803522956f9ab57f2",
+        "fresh_process_pixels_identical": true,
+        "maximum_pixel_channel_delta": 0.0,
+        "note": "Compare decoded pixels; PNG metadata may differ between processes."
+      }
+    },
+    "reference_reproduction_side": {
+      "status": "PASS",
+      "evidence": {
+        "reference": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__side__standing.png",
+        "file_sha256": "5bd7a6bd3b66dc80f91cb73433e64b1aaa25a032f57d652e550c75da96baa5c2",
+        "pixel_sha256": "32f29dc1f954c7b05b3e612c8195d623dbd9bec71541132f299e500548911efb",
+        "fresh_process_pixels_identical": true,
+        "maximum_pixel_channel_delta": 0.0,
+        "note": "Compare decoded pixels; PNG metadata may differ between processes."
+      }
+    },
+    "reference_reproduction_three_quarter": {
+      "status": "PASS",
+      "evidence": {
+        "reference": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__three_quarter__standing.png",
+        "file_sha256": "8e8cf1e056d352e9c13a2f921daa78083ead8d9bb85f04c079c189422deabecc",
+        "pixel_sha256": "3431d206bb5b1d8dea65127d9f96f65ff539df9555f164d62a1cc4bae452b698",
+        "fresh_process_pixels_identical": true,
+        "maximum_pixel_channel_delta": 0.0,
+        "note": "Compare decoded pixels; PNG metadata may differ between processes."
+      }
+    },
+    "reference_reproduction_back": {
+      "status": "PASS",
+      "evidence": {
+        "reference": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__back__standing.png",
+        "file_sha256": "49bb699bfdefe1e55b6dd3d7d6819ff1944edf960dd83514728bcc542a3bc1d4",
+        "pixel_sha256": "4b0ed25714ef2634a8ef9246c229bf817eec64391416c9d9521b8061154cec3f",
+        "fresh_process_pixels_identical": true,
+        "maximum_pixel_channel_delta": 0.0,
+        "note": "Compare decoded pixels; PNG metadata may differ between processes."
+      }
+    },
+    "reference_reproduction_rotated_180_check": {
+      "status": "PASS",
+      "evidence": {
+        "reference": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__rotated_180_check__standing.png",
+        "file_sha256": "afcca42041ed1d1132f1f0d8f0eea669a6b51828e8c73a02226e09177730d5e1",
+        "pixel_sha256": "3d85ddeeb3025f5ea82624434598dff74d79e35ed0b795226b125cfd243d3dc6",
+        "fresh_process_pixels_identical": true,
+        "maximum_pixel_channel_delta": 0.0,
+        "note": "Compare decoded pixels; PNG metadata may differ between processes."
+      }
+    },
+    "linked_collection_reuse": {
+      "status": "PASS",
+      "evidence": {
+        "instance_count": 3,
+        "linked_collection": "168h_equipment_olympic_plate_45lb_cast_iron",
+        "linked_source": "/Users/joeldehoog/Developer/168hours-fitness-assets/assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
+        "shared_mesh_data": [
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_body_data",
+          "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_front",
+          "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_back",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_ribs_data",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_front_data",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_front_data",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_front_data",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_back_data",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_back_data",
+          "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_back_data"
+        ]
+      }
+    },
+    "stack_pitch_no_overlap": {
+      "status": "PASS",
+      "evidence": {
+        "pitch_m": 0.03302,
+        "adjacent_envelope_gaps_m": [
+          0.0,
+          0.0
+        ],
+        "configuration": "3 upright instances along +Y; no rotation"
+      }
+    },
+    "bore_anchor_placement": {
+      "status": "PASS",
+      "evidence": {
+        "target_m": [
+          1.0,
+          2.0,
+          0.8999999761581421
+        ],
+        "root_translation_m": [
+          1.0,
+          2.0,
+          0.6749999523162842
+        ]
+      }
+    },
+    "rotated_anchor_placement": {
+      "status": "PASS",
+      "evidence": {
+        "target_m": [
+          1.0,
+          2.0,
+          0.8999999761581421
+        ],
+        "actual_center_m": [
+          1.0,
+          2.0,
+          0.8999999761581421
+        ],
+        "actual_stack_axis": [
+          1.0,
+          -4.371138828673793e-08,
+          0.0
+        ],
+        "positive_determinant": 1.0
+      }
+    }
+  },
+  "limitations": [
+    "No real barbell, human, exercise consumer, or alternative plate exists for substitution tests.",
+    "Prototype settings approved under A09 only; artwork licensing and production standards remain open.",
+    "Separate cast-on ribs and text solids overlap body intentionally; not a fabrication-ready union."
+  ]
+}

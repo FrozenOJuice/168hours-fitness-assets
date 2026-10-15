@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "version": "0.1.1",
+  "source_sha256": "6a1c111e801358dc62e44040ed6fce2ed2c40c6b3444928c9db603b17e5b63fb",
+  "protected_files_unchanged": 62,
+  "reference_and_zip_digests": "four current PNGs plus preset verified",
+  "current_local_markdown_links": "resolved",
+  "review_status": "review; approval pending; not_ready",
+  "qa": {
+    "pass": 72,
+    "fail": 0
+  },
+  "original_predecessor": "history/0.1.0 retained; no rebuild of whole bench"
+}

@@ -4,9 +4,13 @@ A modular library for reusable human models, rigs, fitness equipment, materials,
 
 **Status:** the [45 lb cast-iron plate, geometry 0.1.4](assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/SPEC.md), is the **first approved equipment visual-direction reference** and current [traditional cast-iron plate visual standard](docs/category-standards.md#approved-cast-iron-plate-visual-reference), approved 2026-10-14 under A10. Its model and five renders are pinned in [reference-approval.json](assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/reference-approval.json). Visual approval is complete; production dimensions/fit, global software/render/export choices and artwork terms remain explicitly provisional/open. No redesign was performed during approval.
 
+A14 (2026-10-15) approves functional origins and their safe migration: plate/barbell asset/interface versions1.0.0, unchanged geometry0.1.4/0.1.2 and visual family; bench remains0.1.1. [Origin audit and current file paths](docs/audits/origin-audit.md). Historical approvals pin retained predecessor artifacts.
+
 ## Current library assets
 
-- [20 kg Olympic barbell](assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/SPEC.md), 0.1.2, **approved and production-ready for internal Blender illustration use** under A12: preserved steel finish/knurling, independent sleeves and validated plate anchors. Exact source/images and five-plate example pinned in its approval-record.json; external artwork licensing and physical load certification are not claimed.
+- [Standalone flat gym bench](assets/equipment/benches/168h_equipment_flat_bench/SPEC.md), 0.1.1, **review prototype / not approved** under A13: separate padded top and charcoal frame components, proposed support anchors, four standalone reference views, measured dimensions and explicit manufacturer-context/provisional distinctions.
+
+- [20 kg Olympic barbell](assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/SPEC.md), 1.0.0 (geometry0.1.2), **approved and production-ready for internal Blender illustration use** under A12: preserved steel finish/knurling, independent sleeves and validated plate anchors. Exact source/images and five-plate example pinned in its approval-record.json; external artwork licensing and physical load certification are not claimed.
 - [Linked barbell / plate compatibility fixtures](scenes/templates/168h_template_barbell_plate_compatibility/SPEC.md): digital alignment/clearance/intersection tests, original approved plate linked in one-per-sleeve, five-per-sleeve presentation example and calculated ten-per-sleeve diagnostic configurations; collar allowance reserved. This is a technical fixture, not an exercise scene or approved shared template.
 
 ## Library structure
@@ -67,3 +71,5 @@ Clean anatomical illustrations, precise outlines, no cast or contact shadows, an
 ## Licensing
 
 Code, automation, documentation, and metadata templates use the MIT terms in [LICENSE](LICENSE). Future 3D artwork and artistic deliverables are excluded from that grant and require separate approved terms. No artwork license has been selected. See [Licensing policy](docs/licensing.md) for scope, provenance, and third-party requirements.
+
+A14 origin migration is **approved and complete**,2026-10-15:375 current validation checks passed; all three linked configurations retain fit and placement. [Finalization evidence](docs/audits/origin-final-audit.json). Bench stays review.

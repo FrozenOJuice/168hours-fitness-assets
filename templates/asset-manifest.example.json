@@ -88,5 +88,24 @@
     "tested_replacements": [],
     "limitations": [],
     "migration": null
+  },
+  "origin_contract": {
+    "standard": "equipment_origins@1",
+    "profile": "flat_bench",
+    "authoring_root_position_m": [
+      0,
+      0,
+      0
+    ],
+    "collection_instance_offset_m": [
+      0,
+      0,
+      0
+    ],
+    "source_authoring_floor_z_m": 0,
+    "geometry_objects": [],
+    "allowed_component_rotations": {},
+    "component_frames": {},
+    "note": "Draft only: populate intentional component frames and run category validator before review; empty fields do not satisfy release gates"
   }
 }

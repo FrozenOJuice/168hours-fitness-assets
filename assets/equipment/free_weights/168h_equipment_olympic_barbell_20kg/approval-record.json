@@ -9,28 +9,28 @@
   "date": "2026-10-14",
   "approval_evidence": "Finalize and approve the 20 kg Olympic barbell as a production-ready asset for the 168Hours Fitness library.",
   "source": {
-    "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
+    "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
     "sha256": "9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb"
   },
   "reference_example": {
-    "path": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+    "path": "docs/audits/origin_baseline/scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
     "sha256": "a10ad55bf52c1873fe5ccd8a2b73ef100382276cf7aa9ebd7c580019cbb9b0f7",
     "plates_per_sleeve": 5,
     "role": "approved presentation reference; not a capacity limit"
   },
   "fixture_sources": [
     {
-      "path": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend",
+      "path": "docs/audits/origin_baseline/scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend",
       "sha256": "808cb6a15c6041908b1fd4d95cb8091c0a691a7288324f7fcbf0005417b901ec"
     },
     {
-      "path": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
+      "path": "docs/audits/origin_baseline/scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
       "sha256": "e6ff6f88ca0f59539dbfb77dc914f4a1777e8daaef770d10d889f0c5960621f1",
       "configuration": "10_45lb_plates_per_sleeve",
       "role": "diagnostic_maximum"
     },
     {
-      "path": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+      "path": "docs/audits/origin_baseline/scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
       "sha256": "a10ad55bf52c1873fe5ccd8a2b73ef100382276cf7aa9ebd7c580019cbb9b0f7",
       "configuration": "5_45lb_plates_per_sleeve",
       "role": "requested_example"
@@ -40,83 +40,83 @@
     {
       "view": "full_length",
       "configuration": "unloaded",
-      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__full_length__unloaded.png",
+      "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__full_length__unloaded.png",
       "sha256": "39fa539f54a694a663b46e88b7a04a91a7e60a60b496ec7e7f3584f851edae58"
     },
     {
       "view": "side",
       "configuration": "unloaded",
-      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__side__unloaded.png",
+      "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__side__unloaded.png",
       "sha256": "47218fa4293e9290a3363e712634af75c8608336b45e15e2986bd435d6dfa5ec"
     },
     {
       "view": "three_quarter",
       "configuration": "unloaded",
-      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__three_quarter__unloaded.png",
+      "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__three_quarter__unloaded.png",
       "sha256": "5d03a918fe4e0a89421460df520d9064f41095fcdb1bcccac78397d6560dd69c"
     },
     {
       "view": "detail",
       "configuration": "unloaded",
-      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__detail__unloaded.png",
+      "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__detail__unloaded.png",
       "sha256": "a03efca4713420d90b4af34c6648c65ce55aae169b35bda3e766c259bff16743"
     },
     {
       "view": "end_detail",
       "configuration": "unloaded",
-      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__end_detail__unloaded.png",
+      "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__end_detail__unloaded.png",
       "sha256": "42c2658b972272a5085ba46271523f1d618f5496286a16e7c259f59e427bd2b2"
     },
     {
       "view": "assembled_with_plates",
       "configuration": "two_45lb_plates",
-      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__assembled_with_plates__two_45lb_plates.png",
+      "path": "docs/audits/origin_baseline/scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__assembled_with_plates__two_45lb_plates.png",
       "sha256": "92c13469b2290fb2cbc847b12eabf47388d79847b6a437a4ff4574e2a0ff438d"
     },
     {
       "view": "loaded_side",
       "configuration": "10_45lb_plates_per_sleeve",
-      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_side__10_per_sleeve.png",
+      "path": "docs/audits/origin_baseline/scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_side__10_per_sleeve.png",
       "sha256": "d969253664191285b619aa6f3fef18cc4ba4c9e8c90aab3e92d2168ab34b8aff"
     },
     {
       "view": "loaded_three_quarter",
       "configuration": "10_45lb_plates_per_sleeve",
-      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_three_quarter__10_per_sleeve.png",
+      "path": "docs/audits/origin_baseline/scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_three_quarter__10_per_sleeve.png",
       "sha256": "d13af30b28699e7d18040b5d1d0a1edc659dd313299ea028223c3cc72de320a5"
     },
     {
       "view": "loaded_sleeve_detail",
       "configuration": "10_45lb_plates_per_sleeve",
-      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_sleeve_detail__10_per_sleeve.png",
+      "path": "docs/audits/origin_baseline/scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_sleeve_detail__10_per_sleeve.png",
       "sha256": "d6ecd56eef0b15b498cf7cf6be750f234f1c2ea5de5217615c0360677995aaca"
     },
     {
       "view": "example_side",
       "configuration": "5_45lb_plates_per_sleeve",
-      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_side__5_per_sleeve.png",
+      "path": "docs/audits/origin_baseline/scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_side__5_per_sleeve.png",
       "sha256": "9c5d71d1c1571bdacfdfffcbd1144054eee0ad92226a34eaf4150037e2f01d6f"
     },
     {
       "view": "example_three_quarter",
       "configuration": "5_45lb_plates_per_sleeve",
-      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_three_quarter__5_per_sleeve.png",
+      "path": "docs/audits/origin_baseline/scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_three_quarter__5_per_sleeve.png",
       "sha256": "235325e70d506773a5f92ecd93c7be42502bb57c6bd3bd567439c0be827c6e49"
     },
     {
       "view": "example_sleeve_detail",
       "configuration": "5_45lb_plates_per_sleeve",
-      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_sleeve_detail__5_per_sleeve.png",
+      "path": "docs/audits/origin_baseline/scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_sleeve_detail__5_per_sleeve.png",
       "sha256": "32f2f45c15182a041b9af273ff469d3aa463b10b35d837b67675a491a238c656"
     }
   ],
   "render_settings": [
     {
-      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/render-settings.json",
+      "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/render-settings.json",
       "sha256": "ada64ee13dfeb5daeafb60b827d07382ab94d2a6e70c44ad5a2612345269659d"
     },
     {
-      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/render-settings.json",
+      "path": "docs/audits/origin_baseline/scenes/templates/168h_template_barbell_plate_compatibility/previews/render-settings.json",
       "sha256": "6d41105d03a2e17d679b79f3f31ecfba9829eaf94dcf87a3ea4a6020f19c13eb"
     }
   ],
@@ -148,5 +148,6 @@
   "immutable_native_artifacts": true,
   "internal_blend_review_labels": "historical; external approval manifest is authoritative, no resave performed just to relabel",
   "changes_this_step": "approval documentation/metadata and read-only QA only; no model/material/render edits",
-  "successor_policy": "Preserve this pinned baseline. User authorization, versioned successor evidence and revalidation required before replacement. No other weight/category/global style inherits numeric values by inference."
+  "successor_policy": "Preserve this pinned baseline. User authorization, versioned successor evidence and revalidation required before replacement. No other weight/category/global style inherits numeric values by inference.",
+  "origin_migration_note": "A14 current1.0.0 root migration preserves appearance; this approval record pins retained historical geometry/visual baseline. Current master pins in origin-migration-record.json."
 }

@@ -5,7 +5,7 @@
   "blender_build_hash": "b70da489d7f4",
   "addons_required": [],
   "engine": "BLENDER_WORKBENCH",
-  "source_sha256": "9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb",
+  "source_sha256": "4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30",
   "resolution": [
     1600,
     1000
@@ -79,7 +79,9 @@
       "clip_start_m": 0.0010000000474974513,
       "clip_end_m": 100.0,
       "configuration": "unloaded",
-      "frame": 1
+      "frame": 1,
+      "sha256": "39fa539f54a694a663b46e88b7a04a91a7e60a60b496ec7e7f3584f851edae58",
+      "source_sha256": "4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30"
     },
     "side": {
       "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__side__unloaded.png",
@@ -103,7 +105,9 @@
       "clip_start_m": 0.0010000000474974513,
       "clip_end_m": 100.0,
       "configuration": "unloaded",
-      "frame": 1
+      "frame": 1,
+      "sha256": "47218fa4293e9290a3363e712634af75c8608336b45e15e2986bd435d6dfa5ec",
+      "source_sha256": "4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30"
     },
     "three_quarter": {
       "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__three_quarter__unloaded.png",
@@ -127,7 +131,9 @@
       "clip_start_m": 0.0010000000474974513,
       "clip_end_m": 100.0,
       "configuration": "unloaded",
-      "frame": 1
+      "frame": 1,
+      "sha256": "5d03a918fe4e0a89421460df520d9064f41095fcdb1bcccac78397d6560dd69c",
+      "source_sha256": "4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30"
     },
     "detail": {
       "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__detail__unloaded.png",
@@ -151,7 +157,9 @@
       "clip_start_m": 0.0010000000474974513,
       "clip_end_m": 100.0,
       "configuration": "unloaded",
-      "frame": 1
+      "frame": 1,
+      "sha256": "a03efca4713420d90b4af34c6648c65ce55aae169b35bda3e766c259bff16743",
+      "source_sha256": "4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30"
     },
     "end_detail": {
       "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__end_detail__unloaded.png",
@@ -175,7 +183,9 @@
       "clip_start_m": 0.0010000000474974513,
       "clip_end_m": 100.0,
       "configuration": "unloaded",
-      "frame": 1
+      "frame": 1,
+      "sha256": "42c2658b972272a5085ba46271523f1d618f5496286a16e7c259f59e427bd2b2",
+      "source_sha256": "4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30"
     }
   },
   "builder": "scripts/blender/build_olympic_barbell_20kg.py",
@@ -211,5 +221,8 @@
     "decision": "A12",
     "date": "2026-10-14",
     "scope": "current stored appearance/output settings for this asset/reference only"
-  }
+  },
+  "origin_contract": "A14 / equipment_origins@1; no style/preset change",
+  "current_link_helper_sha256": "742abf6a7e584794957e709e7853f9181e34014a7fa269843be9c0e7d7e4cfec",
+  "captured_preset_code_note": "Original captured setup remains in archived code; A14 current helper changes linking/pins only, not renderer/cameras/materials."
 }

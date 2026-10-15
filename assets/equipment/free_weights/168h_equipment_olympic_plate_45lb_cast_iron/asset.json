@@ -1,7 +1,7 @@
 {
   "id": "168h_equipment_olympic_plate_45lb_cast_iron",
   "category": "equipment",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "status": "review",
   "source": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
   "blender_version": "5.1.1",
@@ -27,7 +27,7 @@
   "interfaces": [
     {
       "id": "olympic_plate_bore",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "status": "asset-local review contract; global approval pending A03/A09",
       "required_anchors": [
         "bore_center",
@@ -41,42 +41,62 @@
     "bore_center": {
       "object": "168h_equipment_olympic_plate_45lb_cast_iron__anchor_bore_center",
       "position_m": [
-        0,
-        0,
-        0.225
+        0.0,
+        0.0,
+        0.0
       ],
       "forward": "+Y",
-      "up": "+Z"
+      "up": "+Z",
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        0.0
+      ]
     },
     "stack_front": {
       "object": "168h_equipment_olympic_plate_45lb_cast_iron__anchor_stack_front",
       "position_m": [
-        0,
-        0.01651,
-        0.225
+        0.0,
+        0.016510000452399254,
+        0.0
       ],
       "forward": "+Y",
-      "up": "+Z"
+      "up": "+Z",
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        0.0
+      ]
     },
     "stack_back": {
       "object": "168h_equipment_olympic_plate_45lb_cast_iron__anchor_stack_back",
       "position_m": [
-        0,
-        -0.01651,
-        0.225
+        0.0,
+        -0.016510000452399254,
+        0.0
       ],
       "forward": "+Y",
-      "up": "+Z"
+      "up": "+Z",
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        0.0
+      ]
     },
     "floor_contact": {
       "object": "168h_equipment_olympic_plate_45lb_cast_iron__anchor_floor_contact",
       "position_m": [
-        0,
-        0,
-        0
+        0.0,
+        0.0,
+        -0.22499999403953552
       ],
       "forward": "+Y",
-      "up": "+Z"
+      "up": "+Z",
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        0.0
+      ]
     }
   },
   "configuration_ranges": {},
@@ -145,7 +165,13 @@
     "reviewer": "Codex technical/visual review",
     "date": "2026-10-14",
     "notes": "Current 0.1.4 accepted as first equipment visual reference A10. Documentation finalized; 35 existing measured checks retained. Production release remains review/not_ready with explicit provisional facts.",
-    "approval_reference": "A10 user approval, 2026-10-14; current source/images accepted, no redesign."
+    "approval_reference": "A10 user approval, 2026-10-14; current source/images accepted, no redesign.",
+    "origin_audit": {
+      "date": "2026-10-15",
+      "result": "PASS",
+      "checks": 69,
+      "record": "docs/audits/origin-audit-results.json"
+    }
   },
   "specification": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/SPEC.md",
   "validation_record": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/validation.md",
@@ -155,50 +181,55 @@
     "shared_conventions": "docs/asset-conventions.md",
     "category_standard": "docs/category-standards.md",
     "style_preset": "asset-local plate_review_flat@0.1.4",
-    "style_preset_revision": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329",
+    "style_preset_revision": "cb162896e0624f2c68ceb502f90449cf3e662eaf734f88f7417e3c9b30efee83",
     "category_visual_reference": "cast_iron_plate_visual@1"
   },
-  "source_revision_or_digest": "sha256:b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+  "source_revision_or_digest": "sha256:5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6",
   "reference_renders": [
     {
       "view": "front",
       "configuration": "standing",
       "frame": 1,
       "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__front__standing.png",
-      "source_revision_or_digest": "sha256:b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
-      "preset_revision": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329"
+      "source_revision_or_digest": "sha256:5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6",
+      "preset_revision": "cb162896e0624f2c68ceb502f90449cf3e662eaf734f88f7417e3c9b30efee83",
+      "sha256": "0e5633033d476778d61892b215c30bf239ca2a29e79bffc65a882b7ae5e975c3"
     },
     {
       "view": "side",
       "configuration": "standing",
       "frame": 1,
       "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__side__standing.png",
-      "source_revision_or_digest": "sha256:b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
-      "preset_revision": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329"
+      "source_revision_or_digest": "sha256:5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6",
+      "preset_revision": "cb162896e0624f2c68ceb502f90449cf3e662eaf734f88f7417e3c9b30efee83",
+      "sha256": "5bd7a6bd3b66dc80f91cb73433e64b1aaa25a032f57d652e550c75da96baa5c2"
     },
     {
       "view": "three_quarter",
       "configuration": "standing",
       "frame": 1,
       "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__three_quarter__standing.png",
-      "source_revision_or_digest": "sha256:b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
-      "preset_revision": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329"
+      "source_revision_or_digest": "sha256:5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6",
+      "preset_revision": "cb162896e0624f2c68ceb502f90449cf3e662eaf734f88f7417e3c9b30efee83",
+      "sha256": "8e8cf1e056d352e9c13a2f921daa78083ead8d9bb85f04c079c189422deabecc"
     },
     {
       "view": "back",
       "configuration": "standing",
       "frame": 1,
       "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__back__standing.png",
-      "source_revision_or_digest": "sha256:b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
-      "preset_revision": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329"
+      "source_revision_or_digest": "sha256:5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6",
+      "preset_revision": "cb162896e0624f2c68ceb502f90449cf3e662eaf734f88f7417e3c9b30efee83",
+      "sha256": "49bb699bfdefe1e55b6dd3d7d6819ff1944edf960dd83514728bcc542a3bc1d4"
     },
     {
       "view": "rotated_180_check",
       "configuration": "standing",
       "frame": 1,
       "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__rotated_180_check__standing.png",
-      "source_revision_or_digest": "sha256:b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
-      "preset_revision": "fd62020582d5291f84ff02c30858abc666ca880968956405389e017a549e9329"
+      "source_revision_or_digest": "sha256:5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6",
+      "preset_revision": "cb162896e0624f2c68ceb502f90449cf3e662eaf734f88f7417e3c9b30efee83",
+      "sha256": "afcca42041ed1d1132f1f0d8f0eea669a6b51828e8c73a02226e09177730d5e1"
     }
   ],
   "render_settings": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/render-settings.json",
@@ -354,5 +385,133 @@
     "coordinate_and_anchor_contract": "implemented_locally_global_ratification_open",
     "artwork_license": "open",
     "physical_fit_and_mass_validation": "unverified"
+  },
+  "origin_contract": {
+    "standard": "equipment_origins@1",
+    "profile": "olympic_plate",
+    "approval": "A14 user origin standardization request; migration explicitly approved2026-10-15",
+    "coordinate_space": "root_local for anchor position_m; authoring-space root position recorded separately",
+    "source_authoring_floor_z_m": 0,
+    "geometry_objects": [
+      "168h_equipment_olympic_plate_45lb_cast_iron__mesh_body"
+    ],
+    "allowed_component_rotations": {},
+    "component_origins": "declared intentional component/pivot frames; not required to coincide with root",
+    "audit": "docs/audits/origin-audit-results.json",
+    "authoring_root_position_m": [
+      0.0,
+      0.0,
+      0.22499999403953552
+    ],
+    "collection_instance_offset_m": [
+      0.0,
+      0.0,
+      0.22499999403953552
+    ],
+    "validation_result": {
+      "date": "2026-10-15",
+      "pass": 69,
+      "fail": 0,
+      "source_sha256": "5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6",
+      "report": "docs/audits/origin-audit-results.json",
+      "migration_regression": "docs/audits/origin-migration-validation.json",
+      "checks": 69,
+      "finalized": "2026-10-15",
+      "compatibility_report": "docs/audits/origin-compatibility-validation.json"
+    },
+    "component_frames": {
+      "168h_equipment_olympic_plate_45lb_cast_iron__mesh_body": {
+        "root_local_position_m": [
+          0.0,
+          0.0,
+          -0.22499999403953552
+        ],
+        "purpose": "Intentional retained component construction/pivot frame; asset insertion uses root and matching collection offset"
+      },
+      "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_front": {
+        "root_local_position_m": [
+          0.0,
+          0.0,
+          -0.22499999403953552
+        ],
+        "purpose": "Intentional retained component construction/pivot frame; asset insertion uses root and matching collection offset"
+      },
+      "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_back": {
+        "root_local_position_m": [
+          0.0,
+          0.0,
+          -0.22499999403953552
+        ],
+        "purpose": "Intentional retained component construction/pivot frame; asset insertion uses root and matching collection offset"
+      },
+      "168h_equipment_olympic_plate_45lb_cast_iron__mesh_ribs": {
+        "root_local_position_m": [
+          0.0,
+          0.0,
+          -0.22499999403953552
+        ],
+        "purpose": "Intentional retained component construction/pivot frame; asset insertion uses root and matching collection offset"
+      },
+      "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_front": {
+        "root_local_position_m": [
+          0.0,
+          0.0,
+          -0.22499999403953552
+        ],
+        "purpose": "Intentional retained component construction/pivot frame; asset insertion uses root and matching collection offset"
+      },
+      "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_front": {
+        "root_local_position_m": [
+          0.0,
+          0.0,
+          -0.22499999403953552
+        ],
+        "purpose": "Intentional retained component construction/pivot frame; asset insertion uses root and matching collection offset"
+      },
+      "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_front": {
+        "root_local_position_m": [
+          0.0,
+          0.0,
+          -0.22499999403953552
+        ],
+        "purpose": "Intentional retained component construction/pivot frame; asset insertion uses root and matching collection offset"
+      },
+      "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_back": {
+        "root_local_position_m": [
+          0.0,
+          0.0,
+          -0.22499999403953552
+        ],
+        "purpose": "Intentional retained component construction/pivot frame; asset insertion uses root and matching collection offset"
+      },
+      "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_back": {
+        "root_local_position_m": [
+          0.0,
+          0.0,
+          -0.22499999403953552
+        ],
+        "purpose": "Intentional retained component construction/pivot frame; asset insertion uses root and matching collection offset"
+      },
+      "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_back": {
+        "root_local_position_m": [
+          0.0,
+          0.0,
+          -0.22499999403953552
+        ],
+        "purpose": "Intentional retained component construction/pivot frame; asset insertion uses root and matching collection offset"
+      }
+    },
+    "migration_status": "approved_complete_A14"
+  },
+  "geometry_version": "0.1.4",
+  "origin_migration": {
+    "decision": "A14",
+    "status": "approved_complete",
+    "date": "2026-10-15",
+    "predecessor_source": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
+    "predecessor_sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+    "world_geometry_changed": false,
+    "breaking_origin_interface": true,
+    "consumer_compensation": "M_new=M_old@Translation(new_collection_offset-old_collection_offset)"
   }
 }

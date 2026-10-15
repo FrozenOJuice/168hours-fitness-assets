@@ -1,0 +1,582 @@
+{
+  "id": "168h_equipment_olympic_barbell_20kg",
+  "category": "equipment",
+  "version": "0.1.2",
+  "status": "ready",
+  "source": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
+  "blender_version": "5.1.1",
+  "units": "meters",
+  "axes": {
+    "up": "+Z",
+    "forward": "+Y",
+    "subject_left": "+X"
+  },
+  "dimensions_m": [
+    2.200000047683716,
+    0.0729999989271164,
+    0.0729999989271164
+  ],
+  "dimension_source": "Published dimensional references and explicit provisional assumptions; see SPEC.md",
+  "dimension_tolerance_m": 1e-06,
+  "canonical_configuration": "horizontal +X shaft, zero sleeve spin, ground root and 0.0365 m axis height",
+  "collection": "168h_equipment_olympic_barbell_20kg",
+  "root": "168h_equipment_olympic_barbell_20kg__root",
+  "published_datablocks": [
+    "168h_equipment_olympic_barbell_20kg"
+  ],
+  "interfaces": [
+    {
+      "id": "olympic_barbell_load",
+      "version": "0.1.0",
+      "status": "approved asset-local contract A12; global ratification unchanged",
+      "required_anchors": [
+        "grip_center",
+        "grip_l",
+        "grip_r",
+        "axis_center",
+        "load_l",
+        "load_r",
+        "sleeve_end_l",
+        "sleeve_end_r",
+        "floor_contact"
+      ]
+    }
+  ],
+  "anchors": {
+    "grip_center": {
+      "object": "168h_equipment_olympic_barbell_20kg__anchor_grip_center",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0364999994635582
+      ],
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "forward": "+Y",
+      "up": "+Z",
+      "moves_with": "168h_equipment_olympic_barbell_20kg__root"
+    },
+    "grip_l": {
+      "object": "168h_equipment_olympic_barbell_20kg__anchor_grip_l",
+      "position_m": [
+        0.3499999940395355,
+        0.0,
+        0.0364999994635582
+      ],
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "forward": "+Y",
+      "up": "+Z",
+      "moves_with": "168h_equipment_olympic_barbell_20kg__root"
+    },
+    "grip_r": {
+      "object": "168h_equipment_olympic_barbell_20kg__anchor_grip_r",
+      "position_m": [
+        -0.3499999940395355,
+        0.0,
+        0.0364999994635582
+      ],
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "forward": "+Y",
+      "up": "+Z",
+      "moves_with": "168h_equipment_olympic_barbell_20kg__root"
+    },
+    "axis_center": {
+      "object": "168h_equipment_olympic_barbell_20kg__anchor_axis_center",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0364999994635582
+      ],
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "forward": "+X",
+      "up": "+Z",
+      "moves_with": "168h_equipment_olympic_barbell_20kg__root"
+    },
+    "floor_contact": {
+      "object": "168h_equipment_olympic_barbell_20kg__anchor_floor_contact",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "forward": "+Y",
+      "up": "+Z",
+      "moves_with": "168h_equipment_olympic_barbell_20kg__root"
+    },
+    "load_l": {
+      "object": "168h_equipment_olympic_barbell_20kg__anchor_load_l",
+      "position_m": [
+        0.6850000023841858,
+        0.0,
+        0.0364999994635582
+      ],
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "forward": "+X",
+      "up": "+Z",
+      "moves_with": "168h_equipment_olympic_barbell_20kg__control_sleeve_l"
+    },
+    "sleeve_end_l": {
+      "object": "168h_equipment_olympic_barbell_20kg__anchor_sleeve_end_l",
+      "position_m": [
+        1.100000023841858,
+        0.0,
+        0.0364999994635582
+      ],
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "forward": "+X",
+      "up": "+Z",
+      "moves_with": "168h_equipment_olympic_barbell_20kg__control_sleeve_l"
+    },
+    "load_r": {
+      "object": "168h_equipment_olympic_barbell_20kg__anchor_load_r",
+      "position_m": [
+        -0.6850000023841858,
+        0.0,
+        0.0364999994635582
+      ],
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        1.5707963705062866
+      ],
+      "forward": "-X",
+      "up": "+Z",
+      "moves_with": "168h_equipment_olympic_barbell_20kg__control_sleeve_r"
+    },
+    "sleeve_end_r": {
+      "object": "168h_equipment_olympic_barbell_20kg__anchor_sleeve_end_r",
+      "position_m": [
+        -1.100000023841858,
+        0.0,
+        0.0364999994635582
+      ],
+      "rotation_euler_xyz_radians": [
+        0.0,
+        -0.0,
+        1.5707963705062866
+      ],
+      "forward": "-X",
+      "up": "+Z",
+      "moves_with": "168h_equipment_olympic_barbell_20kg__control_sleeve_r"
+    }
+  },
+  "configuration_ranges": {
+    "sleeve_l_angle_deg": {
+      "periodic": true,
+      "default": 0
+    },
+    "sleeve_r_angle_deg": {
+      "periodic": true,
+      "default": 0
+    }
+  },
+  "rig_interface": "rigid sleeve pivots; library-overridable root properties",
+  "material_slots": {
+    "0": {
+      "material": "168h_equipment_olympic_barbell_20kg__material_steel_value_0",
+      "semantic_role": "equipment_frame",
+      "srgb_hex": "6D747E"
+    },
+    "1": {
+      "material": "168h_equipment_olympic_barbell_20kg__material_steel_value_1",
+      "semantic_role": "equipment_frame",
+      "srgb_hex": "8C949F"
+    },
+    "2": {
+      "material": "168h_equipment_olympic_barbell_20kg__material_steel_value_2",
+      "semantic_role": "equipment_frame",
+      "srgb_hex": "ADB5BE"
+    },
+    "3": {
+      "material": "168h_equipment_olympic_barbell_20kg__material_steel_value_3",
+      "semantic_role": "equipment_frame",
+      "srgb_hex": "C5CBD2"
+    },
+    "4": {
+      "material": "168h_equipment_olympic_barbell_20kg__material_steel_value_4",
+      "semantic_role": "equipment_frame",
+      "srgb_hex": "DDE2E7"
+    },
+    "5": {
+      "material": "168h_equipment_olympic_barbell_20kg__material_steel_value_5",
+      "semantic_role": "equipment_frame",
+      "srgb_hex": "EDF0F3"
+    },
+    "6": {
+      "material": "168h_equipment_olympic_barbell_20kg__material_steel_value_6",
+      "semantic_role": "equipment_frame",
+      "srgb_hex": "FAFBFC"
+    },
+    "7": {
+      "material": "168h_equipment_olympic_barbell_20kg__material_grip_mark",
+      "semantic_role": "equipment_grip",
+      "srgb_hex": "89929E"
+    },
+    "smooth_ramp": {
+      "indices": [
+        8,
+        135
+      ],
+      "semantic_role": "equipment_frame",
+      "source": "previews/render-settings.json",
+      "count": 128,
+      "note": "append-only; original slots 0..7 unchanged"
+    }
+  },
+  "dependencies": [],
+  "provenance": {
+    "creator": "Codex for 168Hours Fitness",
+    "source_url": null,
+    "license": null,
+    "attribution": "Original geometry; published dimensions only, no imported artwork"
+  },
+  "review": {
+    "reviewer": "user approval; Codex technical QA",
+    "date": "2026-10-14",
+    "notes": "Approved production-ready for documented internal illustration scope under A12;55 barbell checks PASS,35 plate checks PASS on disposable copy; accepted source/renders unchanged.",
+    "approval_reference": "A12 user production approval,2026-10-14"
+  },
+  "specification": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/SPEC.md",
+  "validation_record": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/validation.md",
+  "standards": {
+    "revision": "standards-snapshot.json working-tree hashes",
+    "global_style": "docs/visual-style.md",
+    "shared_conventions": "docs/asset-conventions.md",
+    "category_standard": "docs/category-standards.md",
+    "style_preset": "barbell_review_flat@0.1.2",
+    "style_preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+    "style_cue": "cast_iron_plate_visual@1"
+  },
+  "source_revision_or_digest": "sha256:9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb",
+  "reference_renders": [
+    {
+      "view": "full_length",
+      "configuration": "unloaded",
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__full_length__unloaded.png",
+      "source_revision_or_digest": "sha256:9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb",
+      "preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+      "sha256": "39fa539f54a694a663b46e88b7a04a91a7e60a60b496ec7e7f3584f851edae58"
+    },
+    {
+      "view": "side",
+      "configuration": "unloaded",
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__side__unloaded.png",
+      "source_revision_or_digest": "sha256:9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb",
+      "preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+      "sha256": "47218fa4293e9290a3363e712634af75c8608336b45e15e2986bd435d6dfa5ec"
+    },
+    {
+      "view": "three_quarter",
+      "configuration": "unloaded",
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__three_quarter__unloaded.png",
+      "source_revision_or_digest": "sha256:9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb",
+      "preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+      "sha256": "5d03a918fe4e0a89421460df520d9064f41095fcdb1bcccac78397d6560dd69c"
+    },
+    {
+      "view": "detail",
+      "configuration": "unloaded",
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__detail__unloaded.png",
+      "source_revision_or_digest": "sha256:9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb",
+      "preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+      "sha256": "a03efca4713420d90b4af34c6648c65ce55aae169b35bda3e766c259bff16743"
+    },
+    {
+      "view": "end_detail",
+      "configuration": "unloaded",
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__end_detail__unloaded.png",
+      "source_revision_or_digest": "sha256:9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb",
+      "preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+      "sha256": "42c2658b972272a5085ba46271523f1d618f5496286a16e7c259f59e427bd2b2"
+    },
+    {
+      "view": "assembled_with_plates",
+      "configuration": "two_45lb_plates",
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__assembled_with_plates__two_45lb_plates.png",
+      "source_revision_or_digest": "sha256:808cb6a15c6041908b1fd4d95cb8091c0a691a7288324f7fcbf0005417b901ec",
+      "preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+      "sha256": "92c13469b2290fb2cbc847b12eabf47388d79847b6a437a4ff4574e2a0ff438d"
+    },
+    {
+      "view": "loaded_side",
+      "configuration": "10_45lb_plates_per_sleeve",
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_side__10_per_sleeve.png",
+      "source_revision_or_digest": "sha256:e6ff6f88ca0f59539dbfb77dc914f4a1777e8daaef770d10d889f0c5960621f1",
+      "preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+      "sha256": "d969253664191285b619aa6f3fef18cc4ba4c9e8c90aab3e92d2168ab34b8aff"
+    },
+    {
+      "view": "loaded_three_quarter",
+      "configuration": "10_45lb_plates_per_sleeve",
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_three_quarter__10_per_sleeve.png",
+      "source_revision_or_digest": "sha256:e6ff6f88ca0f59539dbfb77dc914f4a1777e8daaef770d10d889f0c5960621f1",
+      "preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+      "sha256": "d13af30b28699e7d18040b5d1d0a1edc659dd313299ea028223c3cc72de320a5"
+    },
+    {
+      "view": "loaded_sleeve_detail",
+      "configuration": "10_45lb_plates_per_sleeve",
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_sleeve_detail__10_per_sleeve.png",
+      "source_revision_or_digest": "sha256:e6ff6f88ca0f59539dbfb77dc914f4a1777e8daaef770d10d889f0c5960621f1",
+      "preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+      "sha256": "d6ecd56eef0b15b498cf7cf6be750f234f1c2ea5de5217615c0360677995aaca"
+    },
+    {
+      "view": "example_side",
+      "configuration": "5_45lb_plates_per_sleeve",
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_side__5_per_sleeve.png",
+      "source_revision_or_digest": "sha256:a10ad55bf52c1873fe5ccd8a2b73ef100382276cf7aa9ebd7c580019cbb9b0f7",
+      "preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+      "sha256": "9c5d71d1c1571bdacfdfffcbd1144054eee0ad92226a34eaf4150037e2f01d6f"
+    },
+    {
+      "view": "example_three_quarter",
+      "configuration": "5_45lb_plates_per_sleeve",
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_three_quarter__5_per_sleeve.png",
+      "source_revision_or_digest": "sha256:a10ad55bf52c1873fe5ccd8a2b73ef100382276cf7aa9ebd7c580019cbb9b0f7",
+      "preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+      "sha256": "235325e70d506773a5f92ecd93c7be42502bb57c6bd3bd567439c0be827c6e49"
+    },
+    {
+      "view": "example_sleeve_detail",
+      "configuration": "5_45lb_plates_per_sleeve",
+      "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_sleeve_detail__5_per_sleeve.png",
+      "source_revision_or_digest": "sha256:a10ad55bf52c1873fe5ccd8a2b73ef100382276cf7aa9ebd7c580019cbb9b0f7",
+      "preset_revision": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+      "sha256": "32f2f45c15182a041b9af273ff469d3aa463b10b35d837b67675a491a238c656"
+    }
+  ],
+  "render_settings": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/render-settings.json",
+  "exceptions": [],
+  "design_decisions": [
+    {
+      "scope": "asset-local review prototype",
+      "authorization": "User explicitly requested barbell prototype; no global choice approved",
+      "pending_approval": [],
+      "id": "A11",
+      "superseded_by": "A12 asset-local production approval; original prototype history retained"
+    },
+    {
+      "id": "A12",
+      "status": "approved",
+      "scope": "current0.1.2 barbell, its numeric dimensions/local interfaces/materials/preset and saved five-plate example; internal illustration production",
+      "approval_reference": "Finalize and approve the 20 kg Olympic barbell as a production-ready asset for the 168Hours Fitness library.",
+      "global_standards_changed": false
+    }
+  ],
+  "compatibility": {
+    "tested_consumers": [
+      {
+        "id": "168h_template_barbell_plate_compatibility",
+        "version": "0.1.2",
+        "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend",
+        "source_sha256": "808cb6a15c6041908b1fd4d95cb8091c0a691a7288324f7fcbf0005417b901ec",
+        "configuration": "one plate per sleeve",
+        "result": "PASS",
+        "evidence": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/validation-results.json"
+      },
+      {
+        "id": "168h_template_barbell_plate_compatibility__capacity",
+        "version": "0.1.2",
+        "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
+        "source_sha256": "e6ff6f88ca0f59539dbfb77dc914f4a1777e8daaef770d10d889f0c5960621f1",
+        "configuration": "10 linked original 45lb plates per sleeve, collar allowance reserved",
+        "result": "PASS",
+        "evidence": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/validation-results.json"
+      },
+      {
+        "id": "168h_template_barbell_plate_compatibility__example",
+        "version": "0.1.2",
+        "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+        "source_sha256": "a10ad55bf52c1873fe5ccd8a2b73ef100382276cf7aa9ebd7c580019cbb9b0f7",
+        "configuration": "5 original linked 45lb plates per sleeve, partial example",
+        "result": "PASS",
+        "evidence": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/validation-results.json"
+      }
+    ],
+    "tested_replacements": [],
+    "limitations": [
+      "Internal Blender illustration/library production only; external artwork redistribution terms remain unselected (A07), separate from MIT code/docs.",
+      "Physical mass, load rating, strength, bearings/dynamics and manufactured collar/plate fit are not verified.",
+      "Capacity10/side depends on the recorded50mm collar occupancy,5mm tip,1mm flange and0.5mm scene gaps; exact future collar/casting must be rechecked.",
+      "No human/exercise/alternative bar or plate replacements, authored library-override actions or general cross-renderer compatibility claimed.",
+      "Asset-local Blender5.1.1/Workbench preset and interfaces approved for this asset; global defaults remain unchanged.",
+      "Linked assembly reference comparisons retain <=1/255 per channel on <0.1% of channels; exact bitwise image reproduction is not universal.",
+      "Remote hosting/LFS quota or upload/fetch has not been tested; local Git/LFS checkout QA recorded separately."
+    ],
+    "migration": "Version/revalidate interface or envelope changes",
+    "measured_fit": {
+      "plate_source_sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+      "plate_stack_pitch_m": 0.03302000090479851,
+      "radial_clearance_m": 0.00039998236702236054,
+      "flange_gap_m": 0.0009999773777567,
+      "sleeve_capacity_remaining_m": 0.3809799835957132,
+      "surface_intersections": 0,
+      "scope": "digital fixture only, no hardware or dynamic load claim"
+    },
+    "capacity": {
+      "plates_per_sleeve": 10,
+      "collar_allowance_m": 0.05,
+      "tip_margin_m": 0.005,
+      "interplate_gap_m": 0.0005,
+      "flange_gap_m": 0.001,
+      "plate_pitch_m": 0.03302000090479851,
+      "spare_after_all_allowances_m": 0.024300007066812568,
+      "calculation": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/capacity-calculation.json",
+      "scope": "digital geometric packing; no strength/load rating"
+    },
+    "preferred_example": {
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+      "plates_per_sleeve": 5,
+      "plate_stack_length_m": 0.1671,
+      "spare_after_collar_and_tip_m": 0.1919,
+      "capacity_limit_changed": false
+    }
+  },
+  "production_release": {
+    "status": "ready",
+    "scope": "internal_168hours_fitness_blender_illustration_library",
+    "decision": "A12",
+    "source_version": "0.1.2",
+    "approved_source_sha256": "9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb",
+    "geometry_material_render_changes": false,
+    "asset_local_settings_accepted": true,
+    "artwork_use_basis": "Explicit user/project approval for internal production; no external redistribution license granted or inferred.",
+    "external_artwork_distribution": "not_licensed_for_redistribution",
+    "limitations": [
+      "Internal Blender illustration/library production only; external artwork redistribution terms remain unselected (A07), separate from MIT code/docs.",
+      "Physical mass, load rating, strength, bearings/dynamics and manufactured collar/plate fit are not verified.",
+      "Capacity10/side depends on the recorded50mm collar occupancy,5mm tip,1mm flange and0.5mm scene gaps; exact future collar/casting must be rechecked.",
+      "No human/exercise/alternative bar or plate replacements, authored library-override actions or general cross-renderer compatibility claimed.",
+      "Asset-local Blender5.1.1/Workbench preset and interfaces approved for this asset; global defaults remain unchanged.",
+      "Linked assembly reference comparisons retain <=1/255 per channel on <0.1% of channels; exact bitwise image reproduction is not universal.",
+      "Remote hosting/LFS quota or upload/fetch has not been tested; local Git/LFS checkout QA recorded separately."
+    ],
+    "global_decisions_unchanged": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08"
+    ],
+    "checkout_validation": "PASS fresh committed local Git/LFS clone,5 native objects fetched/checked out,fsck and55+35 checks; no remote upload test"
+  },
+  "visual_reference": {
+    "id": "barbell_20kg_illustration@1",
+    "status": "approved",
+    "decision": "A12",
+    "scope": "this barbell appearance and five-plate reference example; no shared style standard change",
+    "frozen": true
+  },
+  "physical_properties": {
+    "nominal_mass_kg": 20,
+    "mass_simulation_validated": false,
+    "overall_length_m": 2.2,
+    "shaft_diameter_m": 0.028,
+    "exposed_shaft_length_m": 1.31,
+    "sleeve_diameter_max_m": 0.05,
+    "loadable_sleeve_length_m": 0.415,
+    "flange_width_m": 0.03,
+    "flange_diameter_m": 0.073,
+    "knurl_pitch_m": 0.0018325957145940458,
+    "knurl_radial_recess_m": 0.00016,
+    "verified_proportions": "Manufacturer-specified dimensions matched by digital measurements; no rescaling required"
+  },
+  "components": {
+    "shaft": "168h_equipment_olympic_barbell_20kg__mesh_shaft",
+    "sleeves": [
+      "168h_equipment_olympic_barbell_20kg__mesh_sleeve_l",
+      "168h_equipment_olympic_barbell_20kg__mesh_sleeve_r"
+    ],
+    "end_caps": [
+      "168h_equipment_olympic_barbell_20kg__mesh_end_cap_l",
+      "168h_equipment_olympic_barbell_20kg__mesh_end_cap_r"
+    ],
+    "controls": [
+      "168h_equipment_olympic_barbell_20kg__control_sleeve_l",
+      "168h_equipment_olympic_barbell_20kg__control_sleeve_r"
+    ],
+    "bilateral_shared_mesh_data": true
+  },
+  "validation_results": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/validation-results.json",
+  "status_scope": "production_release_lifecycle",
+  "approval_states": {
+    "asset_creation": "approved_for_internal_library_production_A12",
+    "visual_appearance": "approved_A12",
+    "nominal_20kg_2200mm_50mm_requirement": "user_requested; digital dimensions verified",
+    "28mm_shaft_center_knurl_profile": "approved_asset_design_A12",
+    "knurl_depth_internal_clearances_shader": "approved_visual_implementation_A12_not_manufacturing_spec",
+    "load_interface_and_sleeve_controls": "approved_asset_local_A12",
+    "hardware_fit_mass_load_rating": "unverified",
+    "artwork_license": "no external grant; internal production authorized by user A12",
+    "manufacturer_bar_dimensions": "digitally_verified_against_published_specifications",
+    "plate_thickness": "existing_approved_visual_asset_pitch_matches_published_1.3in_context; physical_casting_provisional",
+    "capacity": "calculated_and_tested_for_explicit_collar_and_clearance_assumptions",
+    "surface_finish": "approved_current0.1.2_A12",
+    "dimension_changes": "none; manufacturer comparison supports retaining geometry",
+    "steel_contrast": "approved_current0.1.2_A12",
+    "plate_diameter": "450mm original approved reference retained; cited manufacturer444.5mm difference documented, no correction authorized"
+  },
+  "capacity_calculation": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/capacity-calculation.json",
+  "refinement": {
+    "record": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/refinement-record.json",
+    "script": "scripts/blender/refine_olympic_barbell_20kg.py",
+    "predecessor_version": "0.1.0",
+    "predecessor_sha256": "c793827972356c14feda32d41ba44c26c303a41e106b9a4e5946e60894b4566a",
+    "shaft_geometry_preserved": true,
+    "anchors_and_interface_preserved": true,
+    "existing_object_and_data_identity_preserved": true,
+    "scope": "Historical 0.1.1 geometry refinement; current 0.1.2 appearance record is appearance_update."
+  },
+  "compatibility_review": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/compatibility-review.md",
+  "appearance_update": {
+    "record": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/contrast-record.json",
+    "script": "scripts/blender/contrast_olympic_barbell_20kg.py",
+    "predecessor_version": "0.1.1",
+    "predecessor_sha256": "b110293514ec7254607361679c02e244994cefe3470e69c1a7d774675d4838ce",
+    "geometry_changes": false,
+    "dimension_changes": false,
+    "contrast_factor": 1.18,
+    "contrast_pivot_srgb": 0.72
+  },
+  "approval": {
+    "status": "approved",
+    "decision": "A12",
+    "approver": "user",
+    "date": "2026-10-14",
+    "evidence": "Finalize and approve the 20 kg Olympic barbell as a production-ready asset for the 168Hours Fitness library.",
+    "record": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/approval-record.json",
+    "scope": "production-ready reusable Blender illustration asset for internal168Hours Fitness library; accepted current0.1.2 artifacts"
+  }
+}

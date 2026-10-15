@@ -1,0 +1,92 @@
+{
+  "_note": "Illustrative draft only, not a real asset or schema. Replace example values; use repository-relative paths. Nulls/empty evidence do not satisfy ready gates. SPEC.md and this manifest must agree.",
+  "id": "168h_equipment_flat_bench",
+  "category": "equipment",
+  "version": "0.1.0",
+  "status": "draft",
+  "source": "assets/equipment/benches/168h_equipment_flat_bench/168h_equipment_flat_bench.blend",
+  "blender_version": null,
+  "units": "meters",
+  "axes": {
+    "up": "+Z",
+    "forward": "+Y",
+    "subject_left": "+X"
+  },
+  "dimensions_m": null,
+  "dimension_source": null,
+  "dimension_tolerance_m": null,
+  "canonical_configuration": "unadjusted rest configuration",
+  "collection": "168h_equipment_flat_bench",
+  "root": "168h_equipment_flat_bench__root",
+  "published_datablocks": [
+    "168h_equipment_flat_bench"
+  ],
+  "interfaces": [
+    {
+      "id": "bench_support",
+      "version": 1,
+      "required_anchors": [
+        "seat_center",
+        "back_support",
+        "floor_contact"
+      ]
+    }
+  ],
+  "anchors": {
+    "seat_center": {
+      "object": "168h_equipment_flat_bench__anchor_seat_center",
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "back_support": {
+      "object": "168h_equipment_flat_bench__anchor_back_support",
+      "forward": "+Y",
+      "up": "+Z"
+    },
+    "floor_contact": {
+      "object": "168h_equipment_flat_bench__anchor_floor_contact",
+      "forward": "+Y",
+      "up": "+Z"
+    }
+  },
+  "configuration_ranges": {},
+  "rig_interface": null,
+  "material_slots": {
+    "equipment_frame": null,
+    "equipment_padding": null
+  },
+  "dependencies": [],
+  "provenance": {
+    "creator": null,
+    "source_url": null,
+    "license": null,
+    "attribution": null
+  },
+  "review": {
+    "reviewer": null,
+    "date": null,
+    "notes": "Replace all illustrative values before review.",
+    "approval_reference": null
+  },
+  "specification": "assets/equipment/benches/168h_equipment_flat_bench/SPEC.md",
+  "validation_record": "assets/equipment/benches/168h_equipment_flat_bench/validation.md",
+  "standards": {
+    "revision": null,
+    "global_style": "docs/visual-style.md",
+    "shared_conventions": "docs/asset-conventions.md",
+    "category_standard": "docs/category-standards.md",
+    "style_preset": null,
+    "style_preset_revision": null
+  },
+  "source_revision_or_digest": null,
+  "reference_renders": [],
+  "render_settings": null,
+  "exceptions": [],
+  "design_decisions": [],
+  "compatibility": {
+    "tested_consumers": [],
+    "tested_replacements": [],
+    "limitations": [],
+    "migration": null
+  }
+}

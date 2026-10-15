@@ -1,21 +1,23 @@
 {
   "id": "168h_template_barbell_plate_compatibility",
   "category": "template",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "status": "ready",
   "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend",
   "dependencies": [
     {
       "id": "168h_equipment_olympic_barbell_20kg",
-      "version": "0.1.2",
+      "version": "1.0.0",
       "source": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
-      "sha256": "9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb"
+      "sha256": "9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb",
+      "source_sha256": "4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30"
     },
     {
       "id": "168h_equipment_olympic_plate_45lb_cast_iron",
-      "version": "0.1.4",
+      "version": "1.0.0",
       "source": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
-      "sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2"
+      "sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+      "source_sha256": "5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6"
     }
   ],
   "provenance": {
@@ -26,7 +28,7 @@
   "specification": "scenes/templates/168h_template_barbell_plate_compatibility/SPEC.md",
   "validation_record": "scenes/templates/168h_template_barbell_plate_compatibility/validation.md",
   "blender_version": "5.1.1",
-  "source_revision_or_digest": "sha256:808cb6a15c6041908b1fd4d95cb8091c0a691a7288324f7fcbf0005417b901ec",
+  "source_revision_or_digest": "sha256:ccc01b01e9b84106cd561e86e258860c4402789c98340cc8e0472227dbbe7cc4",
   "reference_renders": [
     {
       "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__assembled_with_plates__two_45lb_plates.png",
@@ -51,7 +53,9 @@
       "clip_end_m": 100.0,
       "configuration": "two_45lb_plates",
       "frame": 1,
-      "sha256": "92c13469b2290fb2cbc847b12eabf47388d79847b6a437a4ff4574e2a0ff438d"
+      "sha256": "92c13469b2290fb2cbc847b12eabf47388d79847b6a437a4ff4574e2a0ff438d",
+      "source_revision_or_digest": "sha256:ccc01b01e9b84106cd561e86e258860c4402789c98340cc8e0472227dbbe7cc4",
+      "preset_revision": "cae71a63c4c581b88b6609e9ecc22faa328e5bc8f01f34d793a4112646792178"
     },
     {
       "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_side__10_per_sleeve.png",
@@ -78,7 +82,9 @@
       "frame": 1,
       "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
       "plates_per_sleeve": 10,
-      "sha256": "d969253664191285b619aa6f3fef18cc4ba4c9e8c90aab3e92d2168ab34b8aff"
+      "sha256": "d969253664191285b619aa6f3fef18cc4ba4c9e8c90aab3e92d2168ab34b8aff",
+      "source_revision_or_digest": "sha256:bf922c2291593e77d2dc12a7290e7a27092f366ba9115ae26df6122027fddca9",
+      "preset_revision": "cae71a63c4c581b88b6609e9ecc22faa328e5bc8f01f34d793a4112646792178"
     },
     {
       "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_three_quarter__10_per_sleeve.png",
@@ -105,7 +111,9 @@
       "frame": 1,
       "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
       "plates_per_sleeve": 10,
-      "sha256": "d13af30b28699e7d18040b5d1d0a1edc659dd313299ea028223c3cc72de320a5"
+      "sha256": "dfd4aef77f97b8e6e10f41fd7c5d4cf99a2ad358bb4f6e3651453f520895ebbf",
+      "source_revision_or_digest": "sha256:bf922c2291593e77d2dc12a7290e7a27092f366ba9115ae26df6122027fddca9",
+      "preset_revision": "cae71a63c4c581b88b6609e9ecc22faa328e5bc8f01f34d793a4112646792178"
     },
     {
       "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_sleeve_detail__10_per_sleeve.png",
@@ -132,7 +140,9 @@
       "frame": 1,
       "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
       "plates_per_sleeve": 10,
-      "sha256": "d6ecd56eef0b15b498cf7cf6be750f234f1c2ea5de5217615c0360677995aaca"
+      "sha256": "7028378d2814d605ceeba6bc7bbd695b736857a0c60412989795844276e77c4b",
+      "source_revision_or_digest": "sha256:bf922c2291593e77d2dc12a7290e7a27092f366ba9115ae26df6122027fddca9",
+      "preset_revision": "cae71a63c4c581b88b6609e9ecc22faa328e5bc8f01f34d793a4112646792178"
     },
     {
       "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_side__5_per_sleeve.png",
@@ -159,7 +169,9 @@
       "frame": 1,
       "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
       "plates_per_sleeve": 5,
-      "sha256": "9c5d71d1c1571bdacfdfffcbd1144054eee0ad92226a34eaf4150037e2f01d6f"
+      "sha256": "9c5d71d1c1571bdacfdfffcbd1144054eee0ad92226a34eaf4150037e2f01d6f",
+      "source_revision_or_digest": "sha256:1480a973c0614c54ee7c73b5753526dea5f2fa0a4056368380a5f7b3ebfeb076",
+      "preset_revision": "cae71a63c4c581b88b6609e9ecc22faa328e5bc8f01f34d793a4112646792178"
     },
     {
       "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_three_quarter__5_per_sleeve.png",
@@ -186,7 +198,9 @@
       "frame": 1,
       "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
       "plates_per_sleeve": 5,
-      "sha256": "235325e70d506773a5f92ecd93c7be42502bb57c6bd3bd567439c0be827c6e49"
+      "sha256": "01aa06ec6c66cba8c31b07c2a5824d8fd509d7d76f37bcce62707b053f2b4d02",
+      "source_revision_or_digest": "sha256:1480a973c0614c54ee7c73b5753526dea5f2fa0a4056368380a5f7b3ebfeb076",
+      "preset_revision": "cae71a63c4c581b88b6609e9ecc22faa328e5bc8f01f34d793a4112646792178"
     },
     {
       "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_sleeve_detail__5_per_sleeve.png",
@@ -213,7 +227,9 @@
       "frame": 1,
       "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
       "plates_per_sleeve": 5,
-      "sha256": "32f2f45c15182a041b9af273ff469d3aa463b10b35d837b67675a491a238c656"
+      "sha256": "ba3cee94b2700b8cba97d29a404e223f1a04508da30842f644c5ccfe7b18cf79",
+      "source_revision_or_digest": "sha256:1480a973c0614c54ee7c73b5753526dea5f2fa0a4056368380a5f7b3ebfeb076",
+      "preset_revision": "cae71a63c4c581b88b6609e9ecc22faa328e5bc8f01f34d793a4112646792178"
     }
   ],
   "render_settings": "scenes/templates/168h_template_barbell_plate_compatibility/previews/render-settings.json",
@@ -293,13 +309,13 @@
   "secondary_sources": [
     {
       "path": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
-      "sha256": "e6ff6f88ca0f59539dbfb77dc914f4a1777e8daaef770d10d889f0c5960621f1",
+      "sha256": "bf922c2291593e77d2dc12a7290e7a27092f366ba9115ae26df6122027fddca9",
       "configuration": "10_45lb_plates_per_sleeve",
       "role": "diagnostic_maximum"
     },
     {
       "path": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
-      "sha256": "a10ad55bf52c1873fe5ccd8a2b73ef100382276cf7aa9ebd7c580019cbb9b0f7",
+      "sha256": "1480a973c0614c54ee7c73b5753526dea5f2fa0a4056368380a5f7b3ebfeb076",
       "configuration": "5_45lb_plates_per_sleeve",
       "role": "requested_example"
     }
@@ -313,5 +329,6 @@
     "approver": "user",
     "reference_source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
     "scope": "five-plate reference example; single/ten files retained as validated fixtures"
-  }
+  },
+  "origin_migration": "A14 compensated all collection instances; geometry and world anchors preserved"
 }

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-14",
+  "version": "0.1.2",
+  "decision": "A12",
+  "approval_status": "approved",
+  "production_status": "ready",
+  "scope": "internal Blender illustration production",
+  "source_sha256": "9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb",
+  "fixture_sha256": "808cb6a15c6041908b1fd4d95cb8091c0a691a7288324f7fcbf0005417b901ec",
+  "geometry_and_render_changes": false,
+  "barbell_checks": 55,
+  "plate_checks": 35,
+  "approval_record": "approval-record.json",
+  "finalization_qa": "finalization-qa.json",
+  "documentation_sha256": {
+    "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/SPEC.md": "28768a989b1c0410181a09e30f9cc1d0455ecee298071399712328b627e9442e",
+    "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/asset.json": "8e344211cfd3543a2f2ce3c59fa37869a45dae985757506cfaa585e3b59831c7",
+    "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/validation.md": "49b49d463f09d9d128dd86682087ce2df81f88e38c4cdaf82ea6f5b10c37af49",
+    "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/approval-record.json": "004b9ff2a73e71cc9c1986bfc9eeb690a8bf2e827a2fb32bb98cb08aeecf0d55",
+    "scenes/templates/168h_template_barbell_plate_compatibility/SPEC.md": "02f09087f1d4b8925ff70f5ba5e26dd624ede76c3d8fd2250212e4f8e4e98677",
+    "scenes/templates/168h_template_barbell_plate_compatibility/asset.json": "3a32e0a6aefeff88ffd63c2a4406d3e9b5d64465cd4c01f2547ea7c0cb7fd8c9",
+    "scenes/templates/168h_template_barbell_plate_compatibility/validation.md": "9434c6c8035370e25a09fc2aeab333a8835fc2433b36b9b7e7ef66bf8990b5de",
+    "README.md": "616efc60f12ea9c280b50db4c1b5f0b38f36101d89f6a89245d485dc136f3d56",
+    "docs/decisions.md": "5893b456197ccaa30a0cae3e773713ea85ade84b913e72f0c949eafcc197f76f"
+  },
+  "final_local_checkout": "PASS",
+  "validation_results_sha256": "7f58009c2a0d62ce24c37401b4c438022e00670f7cf584f3ef7acaf20f239e6e"
+}

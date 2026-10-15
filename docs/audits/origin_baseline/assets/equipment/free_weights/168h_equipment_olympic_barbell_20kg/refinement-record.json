@@ -1,0 +1,27 @@
+{
+  "version": "0.1.1",
+  "predecessor_source_sha256": "c793827972356c14feda32d41ba44c26c303a41e106b9a4e5946e60894b4566a",
+  "source_sha256": "b110293514ec7254607361679c02e244994cefe3470e69c1a7d774675d4838ce",
+  "refinement_script_sha256": "701b7194908751d17feb82ad1db2016e90f64e2ef751c4dae26d17753f37734b",
+  "all_object_and_data_identity_retained": true,
+  "anchors_unchanged": true,
+  "shaft_coordinates_unchanged": true,
+  "shaft_coordinate_sha256": "6f8ae933d6b5d1d359a7247655ac64f2eada2fb0ad79ae6d529fb57b5294a880",
+  "old_mesh_vertex_counts": {
+    "168h_equipment_olympic_barbell_20kg__data_end_cap_l": 770,
+    "168h_equipment_olympic_barbell_20kg__data_shaft": 420672,
+    "168h_equipment_olympic_barbell_20kg__data_sleeve_l": 48576
+  },
+  "new_mesh_vertex_counts": {
+    "168h_equipment_olympic_barbell_20kg__data_end_cap_l": 2306,
+    "168h_equipment_olympic_barbell_20kg__data_shaft": 420672,
+    "168h_equipment_olympic_barbell_20kg__data_sleeve_l": 145728
+  },
+  "profile_dimensions_unchanged": true,
+  "new_ramp_slots": [
+    8,
+    135
+  ],
+  "existing_slots_0_to_7_preserved": true,
+  "roughness": 0.48
+}

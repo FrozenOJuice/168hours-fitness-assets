@@ -40,7 +40,7 @@ Gate: review views and relevant configurations are complete and reproducible fro
 
 ## 5. Validate the implementation
 
-Complete `validation.md` with `PASS`, `FAIL`, `NOT RUN`, or justified `N/A` for each check, observed values, evidence, date, and reviewer. Check dimensions and naming, local frames and transforms, dependency resolution from a fresh checkout, supported controls/configurations, replacement behavior in named consumers, and visual output. Recheck moving contacts over the motion range, not just one frame.
+Complete `validation.md` with `PASS`, `FAIL`, `NOT RUN`, or justified `N/A` for each check, observed values, evidence, date, and reviewer. Run the generic category-driven origin audit under A14, recording expected/actual root/collection pivots and component/anchor frames. Check dimensions and naming, local frames and transforms, dependency resolution from a fresh checkout, supported controls/configurations, replacement behavior in named consumers, and visual output. Recheck moving contacts over the motion range, not just one frame.
 
 Gate: no applicable `FAIL` or `NOT RUN`, no unresolved release decisions, and no undocumented exception. First assets must identify missing downstream tests; use an explicit fixture, and limit compatibility claims to demonstrated cases. Never fabricate a passing result to complete the checklist.
 

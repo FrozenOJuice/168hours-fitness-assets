@@ -1,0 +1,90 @@
+{
+  "id": "equipment_origins@1",
+  "decision": "A14",
+  "tolerance_m": 1e-06,
+  "axes": {
+    "up": "+Z",
+    "forward": "+Y",
+    "subject_left": "+X"
+  },
+  "profiles": {
+    "olympic_plate": {
+      "datum": "bore_center",
+      "primary_axis": "Y",
+      "primary_axis_rule": "shortest",
+      "required_anchors": [
+        "bore_center",
+        "floor_contact",
+        "stack_front",
+        "stack_back"
+      ],
+      "anchor_rules": {
+        "bore_center": "center",
+        "floor_contact": "floor",
+        "stack_front": "max_axis",
+        "stack_back": "min_axis"
+      }
+    },
+    "olympic_barbell": {
+      "datum": "bounds_center",
+      "primary_axis": "X",
+      "primary_axis_rule": "longest",
+      "required_anchors": [
+        "axis_center",
+        "grip_center",
+        "floor_contact",
+        "load_l",
+        "load_r",
+        "sleeve_end_l",
+        "sleeve_end_r"
+      ],
+      "anchor_rules": {
+        "axis_center": "center",
+        "grip_center": "center",
+        "floor_contact": "floor",
+        "sleeve_end_l": "max_axis",
+        "sleeve_end_r": "min_axis"
+      }
+    },
+    "flat_bench": {
+      "datum": "floor_bounds_center",
+      "primary_axis": "Y",
+      "primary_axis_rule": "longest",
+      "required_anchors": [
+        "floor_contact",
+        "pad_center",
+        "seat_center",
+        "back_support"
+      ],
+      "anchor_rules": {
+        "floor_contact": "floor",
+        "pad_center": "top",
+        "seat_center": "top",
+        "back_support": "top",
+        "head_support": "top"
+      }
+    },
+    "rack": {
+      "datum": "floor_bounds_center",
+      "primary_axis": "Z",
+      "primary_axis_rule": "none",
+      "required_anchors": [
+        "floor_contact"
+      ],
+      "anchor_rules": {
+        "floor_contact": "floor"
+      }
+    },
+    "machine": {
+      "datum": "floor_bounds_center",
+      "primary_axis": "Z",
+      "primary_axis_rule": "none",
+      "required_anchors": [
+        "floor_contact"
+      ],
+      "anchor_rules": {
+        "floor_contact": "floor"
+      }
+    }
+  }
+}

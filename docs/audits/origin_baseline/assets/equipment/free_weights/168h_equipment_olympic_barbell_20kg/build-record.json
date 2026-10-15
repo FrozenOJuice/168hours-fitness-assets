@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "source_sha256": "c793827972356c14feda32d41ba44c26c303a41e106b9a4e5946e60894b4566a",
+  "prebuild_specification_sha256": "0dbc015b54abfd0d879ee2b76025174a80d7745230fb255a15bc4e9a6eefa849",
+  "builder_sha256": "aed1ee8e2de7f39811e50a58984fa5ffdab444dee5fb2f9531a9fc4702ec858c",
+  "helpers_sha256": "1a82a61e56e2ee195e75a2c02b2691d14b533d1300b098e4efb1f9633a5f644b",
+  "plate_source_sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+  "prebuild_specification_defined": true,
+  "original_geometry": true
+}

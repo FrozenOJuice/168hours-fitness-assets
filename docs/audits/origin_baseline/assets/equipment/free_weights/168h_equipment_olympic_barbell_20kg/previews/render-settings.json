@@ -1,0 +1,215 @@
+{
+  "status": "Approved captured asset-local preset under A12; existing preset name retained; global render standards unchanged",
+  "preset": "barbell_review_flat@0.1.2",
+  "blender_version": "5.1.1",
+  "blender_build_hash": "b70da489d7f4",
+  "addons_required": [],
+  "engine": "BLENDER_WORKBENCH",
+  "source_sha256": "9c6c8c83666553c0f2d49e8a4547aba6b8eaa191d493940e8d16f8b319f9cfcb",
+  "resolution": [
+    1600,
+    1000
+  ],
+  "format": "PNG",
+  "color_mode": "RGBA",
+  "bit_depth": 8,
+  "view_transform": "Standard",
+  "look": "None",
+  "exposure": 0,
+  "gamma": 1,
+  "palette_srgb_hex": [
+    "6D747E",
+    "8C949F",
+    "ADB5BE",
+    "C5CBD2",
+    "DDE2E7",
+    "EDF0F3",
+    "FAFBFC",
+    "89929E"
+  ],
+  "metallic": 0.85,
+  "roughness": 0.48,
+  "material_interpretation": "Existing soft-steel swatches contrast transformed by .72+1.18*(value-.72); broad smooth shading preserved; Workbench unlit, no reflections/shadows/AO",
+  "lighting": "FLAT; no lights",
+  "shadows": false,
+  "ambient_occlusion": false,
+  "cavity": false,
+  "baked_textures": [],
+  "specular_highlight": false,
+  "outlines": {
+    "method": "native Workbench object silhouette",
+    "enabled": true,
+    "width": "native at 1600x1000; no exposed pixel-width control",
+    "color_linear_rgb": [
+      0.015,
+      0.018,
+      0.022
+    ]
+  },
+  "background": {
+    "linear_rgb": [
+      1,
+      1,
+      1
+    ],
+    "transparent": false
+  },
+  "antialiasing_samples": "32",
+  "random_seed": "N/A deterministic Workbench",
+  "camera_views": {
+    "full_length": {
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__full_length__unloaded.png",
+      "position_m": [
+        0.0,
+        3.0,
+        0.0364999994635582
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -1.5099578831723193e-07,
+        3.141592502593994
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.5,
+      "target_m": [
+        0,
+        0,
+        0.0365
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "unloaded",
+      "frame": 1
+    },
+    "side": {
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__side__unloaded.png",
+      "position_m": [
+        3.0,
+        0.0,
+        0.0364999994635582
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.11999999731779099,
+      "target_m": [
+        0,
+        0,
+        0.0365
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "unloaded",
+      "frame": 1
+    },
+    "three_quarter": {
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__three_quarter__unloaded.png",
+      "position_m": [
+        2.0,
+        3.799999952316284,
+        1.649999976158142
+      ],
+      "rotation_euler_xyz_radians": [
+        1.211376428604126,
+        4.749585169605552e-10,
+        2.6571147441864014
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.5,
+      "target_m": [
+        0,
+        0,
+        0.0365
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "unloaded",
+      "frame": 1
+    },
+    "detail": {
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__detail__unloaded.png",
+      "position_m": [
+        0.6200000047683716,
+        0.4000000059604645,
+        0.20999999344348907
+      ],
+      "rotation_euler_xyz_radians": [
+        1.1704763174057007,
+        5.082212339857506e-08,
+        2.9202780723571777
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.3799999952316284,
+      "target_m": [
+        0.53,
+        0,
+        0.0365
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "unloaded",
+      "frame": 1
+    },
+    "end_detail": {
+      "path": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__end_detail__unloaded.png",
+      "position_m": [
+        1.4500000476837158,
+        0.47999998927116394,
+        0.23999999463558197
+      ],
+      "rotation_euler_xyz_radians": [
+        1.2678910493850708,
+        -6.932881291277226e-08,
+        2.3996453285217285
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.30000001192092896,
+      "target_m": [
+        1.01,
+        0,
+        0.0365
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "unloaded",
+      "frame": 1
+    }
+  },
+  "builder": "scripts/blender/build_olympic_barbell_20kg.py",
+  "builder_sha256": "aed1ee8e2de7f39811e50a58984fa5ffdab444dee5fb2f9531a9fc4702ec858c",
+  "helpers_sha256": "1a82a61e56e2ee195e75a2c02b2691d14b533d1300b098e4efb1f9633a5f644b",
+  "asset_version": "0.1.2",
+  "refinement_script": "scripts/blender/refine_olympic_barbell_20kg.py",
+  "refinement_script_sha256": "701b7194908751d17feb82ad1db2016e90f64e2ef751c4dae26d17753f37734b",
+  "smooth_ramp": {
+    "slots": [
+      8,
+      135
+    ],
+    "srgb_low": [
+      0.5194,
+      0.54064,
+      0.5607
+    ],
+    "srgb_high": [
+      0.8734,
+      0.89464,
+      0.9147
+    ],
+    "quantization": 128,
+    "existing_semantic_slot_prefix_preserved": 8,
+    "contrast_transform": ".72+1.18*(previous_srgb-.72)"
+  },
+  "contrast_script": "scripts/blender/contrast_olympic_barbell_20kg.py",
+  "contrast_script_sha256": "00c5963d7c178f271effc13d52a11656f61f633777b7527f57f26b24dc1c67d4",
+  "contrast_factor": 1.18,
+  "contrast_pivot_srgb": 0.72,
+  "approval": {
+    "decision": "A12",
+    "date": "2026-10-14",
+    "scope": "current stored appearance/output settings for this asset/reference only"
+  }
+}

@@ -1,5 +1,7 @@
 # Asset review checklist and validation record
 
+**Current A14 result: asset1.0.0, 84 origin/transform/component/anchor checks PASS; current migration regression28 PASS.** Native/source/preset pins in current asset.json and docs/audits/origin-migration-record.json. Historical0.x rows below retain frozen geometry/visual approval evidence and are superseded for changed origin semantics by the A14 section.
+
 Copy this reusable checklist into each future asset directory as `validation.md`. Apply to new assets and updates; extend with [category-specific cases](../../../../docs/category-standards.md). Adjust policy links relative to the asset folder when copying this file. Barbell 0.1.2 review record: 55 automated checks passed plus visual review. This combines the reusable checklist, asset-specific automated checks and manual image review.
 
 Use `PASS`, `FAIL`, `NOT RUN`, or `N/A — reason`. Record measured/observed values, repository-relative evidence paths, and commands or manual steps; a checkbox or assertion without evidence is insufficient. Every applicable `FAIL`/`NOT RUN` blocks `ready`; checks outside the explicitly approved A12 internal illustration scope are recorded as exclusions, not passing hardware tests. An inapplicable check requires a reason; missing equipment/consumers does not justify an unqualified compatibility claim.
@@ -88,3 +90,11 @@ Source and primary fixture hashes pinned; capacity fixture hash in metadata and 
 ## A12 finalization outcome
 
 User explicitly approves current0.1.2 for production-ready internal library illustration use. All55 barbell checks and35 existing plate checks were rerun successfully. Master/fixture/PNG hashes unchanged; approved plate and shared guides untouched. Ready is scoped to the documented Blender illustration workflow; mass/strength/manufacturing, actual collars/other assets/override actions and external artwork distribution are not claimed. Local committed-checkout QA PASS is recorded in finalization-qa.json, including5 native LFS objects,fsck and55+35 repeated checks.
+
+
+## A14 current-origin validation —2026-10-15
+
+Origin profile olympic_barbell approved; root/collection pivot [0.0, 0.0, 0.0364999994635582]m in authoring frame, root-local datum zero. Current expected/actual results in [origin audit](../../../../docs/audits/origin-audit-results.json). This section supersedes historical floor-root expectations for plate/barbell. Current geometry/materials and evaluated world frames checked against archived baseline; three linked fixture sources compensated. New functional-origin interface is1.0.0 for free weights; bench remains0.1.1. Frozen historical reports/approvals remain under docs/audits/origin_baseline. Four assembly PNGs refreshed only for micro anti-alias differences; see origin-render-refresh.json and current render regression. External consumers/rig overrides beyond recorded tests remain unverified. No redesign or new artwork grant.
+
+
+A14 finalization2026-10-15: origin migration **approved and complete**. Current library audit297 PASS; world/geometry/material/render regression28 PASS; all three fixture stacking/clearance checks42 PASS;6 failure-injection and2 automatic placement cases PASS. No native geometry/source edit during finalization. Existing visual/release scope unchanged. Final evidence: docs/audits/origin-migration-record.json and origin-compatibility-validation.json; repository commit identifies this finalized snapshot.

@@ -5,7 +5,7 @@
   "blender_build_hash": "b70da489d7f4",
   "addons_required": [],
   "engine": "BLENDER_WORKBENCH",
-  "source_sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2",
+  "source_sha256": "5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6",
   "builder_sha256": "2764f3d3613f527365e8209baa49cbf7562e0cb2597655280db2e37fedf22455",
   "resolution": [
     1024,
@@ -82,7 +82,9 @@
         0.22499999403953552
       ],
       "clip_start_m": 0.10000000149011612,
-      "clip_end_m": 1000.0
+      "clip_end_m": 1000.0,
+      "sha256": "0e5633033d476778d61892b215c30bf239ca2a29e79bffc65a882b7ae5e975c3",
+      "source_sha256": "5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6"
     },
     "side": {
       "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__side__standing.png",
@@ -104,7 +106,9 @@
         0.22499999403953552
       ],
       "clip_start_m": 0.10000000149011612,
-      "clip_end_m": 1000.0
+      "clip_end_m": 1000.0,
+      "sha256": "5bd7a6bd3b66dc80f91cb73433e64b1aaa25a032f57d652e550c75da96baa5c2",
+      "source_sha256": "5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6"
     },
     "three_quarter": {
       "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__three_quarter__standing.png",
@@ -126,7 +130,9 @@
         0.22499999403953552
       ],
       "clip_start_m": 0.10000000149011612,
-      "clip_end_m": 1000.0
+      "clip_end_m": 1000.0,
+      "sha256": "8e8cf1e056d352e9c13a2f921daa78083ead8d9bb85f04c079c189422deabecc",
+      "source_sha256": "5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6"
     },
     "back": {
       "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__back__standing.png",
@@ -148,7 +154,9 @@
         0.22499999403953552
       ],
       "clip_start_m": 0.10000000149011612,
-      "clip_end_m": 1000.0
+      "clip_end_m": 1000.0,
+      "sha256": "49bb699bfdefe1e55b6dd3d7d6819ff1944edf960dd83514728bcc542a3bc1d4",
+      "source_sha256": "5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6"
     },
     "rotated_180_check": {
       "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__rotated_180_check__standing.png",
@@ -171,7 +179,9 @@
       ],
       "clip_start_m": 0.10000000149011612,
       "clip_end_m": 1000.0,
-      "purpose": "Full plate rotated 180 degrees in image plane: BARBELL must read like ordinary upright upper-arc text."
+      "purpose": "Full plate rotated 180 degrees in image plane: BARBELL must read like ordinary upright upper-arc text.",
+      "sha256": "afcca42041ed1d1132f1f0d8f0eea669a6b51828e8c73a02226e09177730d5e1",
+      "source_sha256": "5a3eda217bf168d9a964dc8a6bcfef579e4567a2537de1a012afae026bc7bde6"
     }
   },
   "asset_version": "0.1.4",
@@ -189,5 +199,8 @@
     "decision": "A10",
     "date": "2026-10-14",
     "scope": "existing rendered result accepted; recorded engine/camera/delivery values not universal defaults"
-  }
+  },
+  "origin_contract": "A14 / equipment_origins@1; no style/preset change",
+  "current_link_helper_sha256": "742abf6a7e584794957e709e7853f9181e34014a7fa269843be9c0e7d7e4cfec",
+  "captured_preset_code_note": "Original captured setup remains in archived code; A14 current helper changes linking/pins only, not renderer/cameras/materials."
 }

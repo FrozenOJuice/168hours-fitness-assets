@@ -39,3 +39,17 @@ Do not rerun a builder/refinement script, resave the `.blend`, regenerate accept
 ## Delivery preference
 
 For every asset creation or refinement delivery, provide the full absolute file paths to the asset `.blend`, any relevant assembly/test `.blend`, and the render ZIP. Create or refresh separate ZIPs for unassembled asset renders and assembled/test-scene renders under `exports/illustrations/`, and include clickable links plus full absolute paths to each. Include all current views in the appropriate bundle; do not mix assembled and unassembled views in one ZIP unless the user requests it. If only one group exists, provide that group only. Keep authoritative renders in their existing `previews/` locations. Do not make the user ask separately for paths or the render bundle.
+
+
+## Mandatory functional origins — A14
+
+Every future equipment asset must select the approved category origin from docs/category-standards.md and declare origin_contract in metadata before modeling. Plates use bore center; barbells use shaft midpoint; benches/racks/machines use centered floor support. Intentionally position asset roots and collection instance offsets; do not use a generic geometry-center command. Distinguish component object origins and controller pivots from the asset root, document intentional rotations/authoring translations, require unit positive scale and root-local full anchor frames, and use offset-aware linked-instance placement.
+
+Run scripts/blender/validate_asset_origins.py plus relevant geometry/consumer/render checks before delivery; record expected/actual deviations. Unknown categories fail closed and need a data-driven rule, not asset-name conditions. A root/pivot change is a published breaking change: retain predecessors, obtain explicit approval, major-version interfaces, compensate existing linked consumers and prove world geometry, materials, anchors and appearance preserved. A14 has explicit user approval for the current plate/barbell migration; do not repeat it. Legacy0.x validator assumptions/approval evidence remain historical; use `-- --origins` for current generic checks and validate_origin_migration.py for current-vs-archived regression. Do not overwrite frozen A10/A12 approval reports. Current appearance references remain the same visual family; archived approval paths identify exact predecessor bytes.
+
+Existing plate/barbell/bench validator entry points now default to the current generic origin audit plus migration regression; `-- --origins` selects the origin audit alone. Original0.x detailed validators/code are retained in the archived baseline for historical geometry checks.
+
+A14 current plate asset/interface is1.0.0 using unchanged geometry0.1.4; reference-approval.json pins the archived accepted native/visual baseline. Verify both those archive pins and the current master source pin in docs/audits/origin-migration-record.json before reusing it. Moving approval paths does not permit unapproved successor geometry.
+
+
+For origin-migration finalization, default asset validator entry points also run `validate_origin_compatibility.py`: check all saved fixture counts, measured bore/sleeve clearance, plate alignment, stacking/envelope gaps, mirrored placement, and documented flange/collar/tip reserves. Preserve immutable predecessors and compare evaluated geometry/materials/world frames and reference renders. Origin migration approval is separate from asset visual/release approval: the flat bench remains review until explicitly approved.

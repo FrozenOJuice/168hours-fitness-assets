@@ -1,0 +1,63 @@
+{
+  "version": "0.1.3",
+  "predecessor_version": "0.1.2",
+  "predecessor_sha256": "6459107e4e960f5157c3a8b735e3753eea71b376945547a4cb04f01c39c41393",
+  "input_sha256": "6459107e4e960f5157c3a8b735e3753eea71b376945547a4cb04f01c39c41393",
+  "source_sha256": "61557cd8d31ded1c5d6700792ad8b2e7e7b6924099315056047a3d2f55d8ca13",
+  "script_sha256": "37db7b4860ca5c42c77a643977cd454fa25a3e1a6405ceb999f50e30ed71dc57",
+  "all_object_and_mesh_data_identity_preserved": true,
+  "all_mesh_topology_preserved": true,
+  "mesh_topology_sha256": {
+    "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_back": "9eb53bbf053ba97bd493b6af3fcfb22025613b04c30e4de6572f778c77fd2e31",
+    "168h_equipment_olympic_plate_45lb_cast_iron__font_temporary_front": "9eb53bbf053ba97bd493b6af3fcfb22025613b04c30e4de6572f778c77fd2e31",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_body_data": "7a7a4c0f826ae785f8b3d3ccd88a8a5fcc44ed3d7411fb7f2bc3282b53aaef48",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_back_data": "94203638177f15a578cfc0668bd7156dddc241d85ec51005134668d88b2fdd81",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_barbell_front_data": "94203638177f15a578cfc0668bd7156dddc241d85ec51005134668d88b2fdd81",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_back_data": "b983166e0f306653bb9c2437e9904a06a8fcaf5e72a7f1c386890c1b28a1768a",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_kg_front_data": "b983166e0f306653bb9c2437e9904a06a8fcaf5e72a7f1c386890c1b28a1768a",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_back_data": "78a48ec815ca96588cbe40a8fee017f32dfc5f4518d043b7efa6e7dc7dbde2b8",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_label_standard_front_data": "78a48ec815ca96588cbe40a8fee017f32dfc5f4518d043b7efa6e7dc7dbde2b8",
+    "168h_equipment_olympic_plate_45lb_cast_iron__mesh_ribs_data": "f54e2e6586208f4686276be3d9404907273cd6d5238c933ba2e34d321684759c"
+  },
+  "body_coordinates_unchanged": true,
+  "body_coordinate_sha256": "23dadfb143e674b38f16485e36227be8cb403690c7bc58eb338a64fa373551bf",
+  "anchors_unchanged": true,
+  "letter_face_srgb_hex": "F2F2F2",
+  "planar_letter_scale": 1.08,
+  "letter_exposed_relief_m": 0.0035,
+  "barbell_orientation": "180-degree glyph rotation with reversed lower-arc placement on both faces",
+  "rib_stations_m": [
+    [
+      0.049,
+      0.017,
+      0.0135,
+      0.0149
+    ],
+    [
+      0.075,
+      0.015,
+      0.0062,
+      0.012
+    ],
+    [
+      0.15,
+      0.01,
+      0.0062,
+      0.012
+    ],
+    [
+      0.205,
+      0.005,
+      0.0135,
+      0.016
+    ]
+  ],
+  "rib_half_widths_m": [
+    0.017,
+    0.015,
+    0.01,
+    0.005
+  ],
+  "visual_direction_approval": "User: Refine the approved 45 lb Olympic plate visual direction. Keep the current overall design and style. 2026-10-14.",
+  "approval_scope": "this plate visual direction; not global standards or production/licensing acceptance"
+}

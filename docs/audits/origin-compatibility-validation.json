@@ -1,0 +1,848 @@
+{
+  "date": "2026-10-15",
+  "scope": "digital packing and alignment of unchanged, previously manifold/BVH-validated geometry; no physical strength claim",
+  "checks": [
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:linked_instance_counts",
+      "expected": {
+        "bars": 1,
+        "plates": 2
+      },
+      "actual": {
+        "bars": 1,
+        "plates": 2
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:l:plate_count",
+      "expected": 1,
+      "actual": 1,
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:l:alignment",
+      "expected": "<=1e-6m/rad-vector error",
+      "actual": [
+        {
+          "instance": "plate_l",
+          "center_m": [
+            0.7025099992752075,
+            -7.653864209089534e-10,
+            0.22499999403953552
+          ],
+          "start_m": 0.0009999177731119246,
+          "end_m": 0.03402007600893153,
+          "axis_error_m": 1.6653345369377348e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:l:bore_sleeve_clearance",
+      "expected": ">=0.00039m",
+      "actual": {
+        "minimum_bore_m": 0.05079998182090381,
+        "maximum_sleeve_radius_m": 0.02500002271261897,
+        "radial_clearance_m": 0.0003999681978329346
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:l:stack_spacing",
+      "expected": 0.0005,
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:l:flange_collar_tip_clearance",
+      "expected": {
+        "flange_gap_m": 0.001,
+        "collar_m": 0.05,
+        "tip_m": 0.005,
+        "spare_after_reserves_m": ">=0"
+      },
+      "actual": {
+        "flange_gap_m": 0.0009999177731119246,
+        "spare_after_reserves_m": 0.3259799454487406
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:r:plate_count",
+      "expected": 1,
+      "actual": 1,
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:r:alignment",
+      "expected": "<=1e-6m/rad-vector error",
+      "actual": [
+        {
+          "instance": "plate_r",
+          "center_m": [
+            -0.7025099992752075,
+            -7.653864209089534e-10,
+            0.22499999403953552
+          ],
+          "start_m": 0.0009999177731119246,
+          "end_m": 0.03402007600893153,
+          "axis_error_m": 1.6653345369377348e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:r:bore_sleeve_clearance",
+      "expected": ">=0.00039m",
+      "actual": {
+        "minimum_bore_m": 0.05079998182090381,
+        "maximum_sleeve_radius_m": 0.025000024022290117,
+        "radial_clearance_m": 0.00039996688816178877
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:r:stack_spacing",
+      "expected": 0.0005,
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:r:flange_collar_tip_clearance",
+      "expected": {
+        "flange_gap_m": 0.001,
+        "collar_m": 0.05,
+        "tip_m": 0.005,
+        "spare_after_reserves_m": ">=0"
+      },
+      "actual": {
+        "flange_gap_m": 0.0009999177731119246,
+        "spare_after_reserves_m": 0.3259799454487406
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:symmetric_placement",
+      "expected": "<=1e-6m",
+      "actual": 0.0,
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:intersection_exclusion",
+      "expected": "positive radial and flange/interplate envelope clearances",
+      "actual": {
+        "l": {
+          "sleeve_length_m": 0.4150000214576721,
+          "plate_pitch_m": 0.03302015823581961,
+          "minimum_gap_m": null,
+          "radial_clearance_m": 0.0003999681978329346,
+          "spare_after_reserves_m": 0.3259799454487406
+        },
+        "r": {
+          "sleeve_length_m": 0.4150000214576721,
+          "plate_pitch_m": 0.03302015823581961,
+          "minimum_gap_m": null,
+          "radial_clearance_m": 0.00039996688816178877,
+          "spare_after_reserves_m": 0.3259799454487406
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend:source_unchanged",
+      "expected": "ccc01b01e9b84106cd561e86e258860c4402789c98340cc8e0472227dbbe7cc4",
+      "actual": "ccc01b01e9b84106cd561e86e258860c4402789c98340cc8e0472227dbbe7cc4",
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:linked_instance_counts",
+      "expected": {
+        "bars": 1,
+        "plates": 20
+      },
+      "actual": {
+        "bars": 1,
+        "plates": 20
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:l:plate_count",
+      "expected": 10,
+      "actual": 10,
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:l:alignment",
+      "expected": "<=1e-6m/rad-vector error",
+      "actual": [
+        {
+          "instance": "plate_l",
+          "center_m": [
+            0.7025099992752075,
+            -7.653864209089534e-10,
+            0.22499999403953552
+          ],
+          "start_m": 0.0009999177731119246,
+          "end_m": 0.03402007600893153,
+          "axis_error_m": 1.6653345369377348e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_02",
+          "center_m": [
+            0.7360300421714783,
+            -2.2305921554277575e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.03451996066938268,
+          "end_m": 0.06754011890520228,
+          "axis_error_m": 1.7763568394002505e-15,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_03",
+          "center_m": [
+            0.7695499658584595,
+            -3.6957978899465616e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.06803988435636388,
+          "end_m": 0.10106004259218349,
+          "axis_error_m": 1.5543122344752192e-15,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_04",
+          "center_m": [
+            0.8030700087547302,
+            -5.161003624465366e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.10155992725263552,
+          "end_m": 0.13458008548845424,
+          "axis_error_m": 4.440892098500626e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_05",
+          "center_m": [
+            0.8365899920463562,
+            -6.62620935898417e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.1350799105442615,
+          "end_m": 0.16810006878008021,
+          "axis_error_m": 4.440892098500626e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_06",
+          "center_m": [
+            0.8701099753379822,
+            -8.091415537592184e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.16859989383588747,
+          "end_m": 0.2016200520717062,
+          "axis_error_m": 1.7763568394002505e-15,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_07",
+          "center_m": [
+            0.9036300182342529,
+            -9.556621272110988e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.20211993673215822,
+          "end_m": 0.23514009496797694,
+          "axis_error_m": 0.0,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_08",
+          "center_m": [
+            0.9371500015258789,
+            -1.1021826118451372e-08,
+            0.22499999403953552
+          ],
+          "start_m": 0.2356399200237842,
+          "end_m": 0.2686600782596029,
+          "axis_error_m": 0.0,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_09",
+          "center_m": [
+            0.9706700444221497,
+            -1.2487032741148596e-08,
+            0.22499999403953552
+          ],
+          "start_m": 0.26915996292005495,
+          "end_m": 0.30218012115587367,
+          "axis_error_m": 1.7763568394002505e-15,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_10",
+          "center_m": [
+            1.0041899681091309,
+            -1.395223758748898e-08,
+            0.22499999403953552
+          ],
+          "start_m": 0.30267988660703615,
+          "end_m": 0.3356999852382101,
+          "axis_error_m": 8.881784197001252e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:l:bore_sleeve_clearance",
+      "expected": ">=0.00039m",
+      "actual": {
+        "minimum_bore_m": 0.05079998182090381,
+        "maximum_sleeve_radius_m": 0.02500002271261897,
+        "radial_clearance_m": 0.0003999681978329346
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:l:stack_spacing",
+      "expected": 0.0005,
+      "actual": [
+        0.0004998846604511442,
+        0.0004997654511615934,
+        0.0004998846604520324,
+        0.000499825055807257,
+        0.000499825055807257,
+        0.0004998846604520324,
+        0.000499825055807257,
+        0.0004998846604520324,
+        0.0004997654511624816
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:l:flange_collar_tip_clearance",
+      "expected": {
+        "flange_gap_m": 0.001,
+        "collar_m": 0.05,
+        "tip_m": 0.005,
+        "spare_after_reserves_m": ">=0"
+      },
+      "actual": {
+        "flange_gap_m": 0.0009999177731119246,
+        "spare_after_reserves_m": 0.02430003621946202
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:r:plate_count",
+      "expected": 10,
+      "actual": 10,
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:r:alignment",
+      "expected": "<=1e-6m/rad-vector error",
+      "actual": [
+        {
+          "instance": "plate_r",
+          "center_m": [
+            -0.7025099992752075,
+            -7.653864209089534e-10,
+            0.22499999403953552
+          ],
+          "start_m": 0.0009999177731119246,
+          "end_m": 0.03402007600893153,
+          "axis_error_m": 1.6653345369377348e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_02",
+          "center_m": [
+            -0.7360300421714783,
+            -2.2305921554277575e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.03451996066938268,
+          "end_m": 0.06754011890520228,
+          "axis_error_m": 1.7763568394002505e-15,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_03",
+          "center_m": [
+            -0.7695499658584595,
+            -3.6957978899465616e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.06803988435636388,
+          "end_m": 0.10106004259218349,
+          "axis_error_m": 1.5543122344752192e-15,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_04",
+          "center_m": [
+            -0.8030700087547302,
+            -5.161003624465366e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.10155992725263552,
+          "end_m": 0.13458008548845424,
+          "axis_error_m": 4.440892098500626e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_05",
+          "center_m": [
+            -0.8365899920463562,
+            -6.62620935898417e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.1350799105442615,
+          "end_m": 0.16810006878008021,
+          "axis_error_m": 4.440892098500626e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_06",
+          "center_m": [
+            -0.8701099753379822,
+            -8.091415537592184e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.16859989383588747,
+          "end_m": 0.2016200520717062,
+          "axis_error_m": 1.7763568394002505e-15,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_07",
+          "center_m": [
+            -0.9036300182342529,
+            -9.556621272110988e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.20211993673215822,
+          "end_m": 0.23514009496797694,
+          "axis_error_m": 0.0,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_08",
+          "center_m": [
+            -0.9371500015258789,
+            -1.1021826118451372e-08,
+            0.22499999403953552
+          ],
+          "start_m": 0.2356399200237842,
+          "end_m": 0.2686600782596029,
+          "axis_error_m": 0.0,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_09",
+          "center_m": [
+            -0.9706700444221497,
+            -1.2487032741148596e-08,
+            0.22499999403953552
+          ],
+          "start_m": 0.26915996292005495,
+          "end_m": 0.30218012115587367,
+          "axis_error_m": 1.7763568394002505e-15,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_10",
+          "center_m": [
+            -1.0041899681091309,
+            -1.395223758748898e-08,
+            0.22499999403953552
+          ],
+          "start_m": 0.30267988660703615,
+          "end_m": 0.3356999852382101,
+          "axis_error_m": 8.881784197001252e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:r:bore_sleeve_clearance",
+      "expected": ">=0.00039m",
+      "actual": {
+        "minimum_bore_m": 0.05079998182090381,
+        "maximum_sleeve_radius_m": 0.025000024022290117,
+        "radial_clearance_m": 0.00039996688816178877
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:r:stack_spacing",
+      "expected": 0.0005,
+      "actual": [
+        0.0004998846604511442,
+        0.0004997654511615934,
+        0.0004998846604520324,
+        0.000499825055807257,
+        0.000499825055807257,
+        0.0004998846604520324,
+        0.000499825055807257,
+        0.0004998846604520324,
+        0.0004997654511624816
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:r:flange_collar_tip_clearance",
+      "expected": {
+        "flange_gap_m": 0.001,
+        "collar_m": 0.05,
+        "tip_m": 0.005,
+        "spare_after_reserves_m": ">=0"
+      },
+      "actual": {
+        "flange_gap_m": 0.0009999177731119246,
+        "spare_after_reserves_m": 0.02430003621946202
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:symmetric_placement",
+      "expected": "<=1e-6m",
+      "actual": 0.0,
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:intersection_exclusion",
+      "expected": "positive radial and flange/interplate envelope clearances",
+      "actual": {
+        "l": {
+          "sleeve_length_m": 0.4150000214576721,
+          "plate_pitch_m": 0.03302015823581961,
+          "minimum_gap_m": 0.0004997654511615934,
+          "radial_clearance_m": 0.0003999681978329346,
+          "spare_after_reserves_m": 0.02430003621946202
+        },
+        "r": {
+          "sleeve_length_m": 0.4150000214576721,
+          "plate_pitch_m": 0.03302015823581961,
+          "minimum_gap_m": 0.0004997654511615934,
+          "radial_clearance_m": 0.00039996688816178877,
+          "spare_after_reserves_m": 0.02430003621946202
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend:source_unchanged",
+      "expected": "bf922c2291593e77d2dc12a7290e7a27092f366ba9115ae26df6122027fddca9",
+      "actual": "bf922c2291593e77d2dc12a7290e7a27092f366ba9115ae26df6122027fddca9",
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:linked_instance_counts",
+      "expected": {
+        "bars": 1,
+        "plates": 10
+      },
+      "actual": {
+        "bars": 1,
+        "plates": 10
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:l:plate_count",
+      "expected": 5,
+      "actual": 5,
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:l:alignment",
+      "expected": "<=1e-6m/rad-vector error",
+      "actual": [
+        {
+          "instance": "plate_l",
+          "center_m": [
+            0.7025099992752075,
+            -7.653864209089534e-10,
+            0.22499999403953552
+          ],
+          "start_m": 0.0009999177731119246,
+          "end_m": 0.03402007600893153,
+          "axis_error_m": 1.6653345369377348e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_02",
+          "center_m": [
+            0.7360300421714783,
+            -2.2305921554277575e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.03451996066938268,
+          "end_m": 0.06754011890520228,
+          "axis_error_m": 1.7763568394002505e-15,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_03",
+          "center_m": [
+            0.7695499658584595,
+            -3.6957978899465616e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.06803988435636388,
+          "end_m": 0.10106004259218349,
+          "axis_error_m": 1.5543122344752192e-15,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_04",
+          "center_m": [
+            0.8030700087547302,
+            -5.161003624465366e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.10155992725263552,
+          "end_m": 0.13458008548845424,
+          "axis_error_m": 4.440892098500626e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_l_05",
+          "center_m": [
+            0.8365899920463562,
+            -6.62620935898417e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.1350799105442615,
+          "end_m": 0.16810006878008021,
+          "axis_error_m": 4.440892098500626e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:l:bore_sleeve_clearance",
+      "expected": ">=0.00039m",
+      "actual": {
+        "minimum_bore_m": 0.05079998182090381,
+        "maximum_sleeve_radius_m": 0.02500002271261897,
+        "radial_clearance_m": 0.0003999681978329346
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:l:stack_spacing",
+      "expected": 0.0005,
+      "actual": [
+        0.0004998846604511442,
+        0.0004997654511615934,
+        0.0004998846604520324,
+        0.000499825055807257
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:l:flange_collar_tip_clearance",
+      "expected": {
+        "flange_gap_m": 0.001,
+        "collar_m": 0.05,
+        "tip_m": 0.005,
+        "spare_after_reserves_m": ">=0"
+      },
+      "actual": {
+        "flange_gap_m": 0.0009999177731119246,
+        "spare_after_reserves_m": 0.1918999526775919
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:r:plate_count",
+      "expected": 5,
+      "actual": 5,
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:r:alignment",
+      "expected": "<=1e-6m/rad-vector error",
+      "actual": [
+        {
+          "instance": "plate_r",
+          "center_m": [
+            -0.7025099992752075,
+            -7.653864209089534e-10,
+            0.22499999403953552
+          ],
+          "start_m": 0.0009999177731119246,
+          "end_m": 0.03402007600893153,
+          "axis_error_m": 1.6653345369377348e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_02",
+          "center_m": [
+            -0.7360300421714783,
+            -2.2305921554277575e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.03451996066938268,
+          "end_m": 0.06754011890520228,
+          "axis_error_m": 1.7763568394002505e-15,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_03",
+          "center_m": [
+            -0.7695499658584595,
+            -3.6957978899465616e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.06803988435636388,
+          "end_m": 0.10106004259218349,
+          "axis_error_m": 1.5543122344752192e-15,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_04",
+          "center_m": [
+            -0.8030700087547302,
+            -5.161003624465366e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.10155992725263552,
+          "end_m": 0.13458008548845424,
+          "axis_error_m": 4.440892098500626e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        },
+        {
+          "instance": "plate_r_05",
+          "center_m": [
+            -0.8365899920463562,
+            -6.62620935898417e-09,
+            0.22499999403953552
+          ],
+          "start_m": 0.1350799105442615,
+          "end_m": 0.16810006878008021,
+          "axis_error_m": 4.440892098500626e-16,
+          "axis_direction_error": 2.384185791015625e-07,
+          "floor_z_m": 0.0
+        }
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:r:bore_sleeve_clearance",
+      "expected": ">=0.00039m",
+      "actual": {
+        "minimum_bore_m": 0.05079998182090381,
+        "maximum_sleeve_radius_m": 0.025000024022290117,
+        "radial_clearance_m": 0.00039996688816178877
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:r:stack_spacing",
+      "expected": 0.0005,
+      "actual": [
+        0.0004998846604511442,
+        0.0004997654511615934,
+        0.0004998846604520324,
+        0.000499825055807257
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:r:flange_collar_tip_clearance",
+      "expected": {
+        "flange_gap_m": 0.001,
+        "collar_m": 0.05,
+        "tip_m": 0.005,
+        "spare_after_reserves_m": ">=0"
+      },
+      "actual": {
+        "flange_gap_m": 0.0009999177731119246,
+        "spare_after_reserves_m": 0.1918999526775919
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:symmetric_placement",
+      "expected": "<=1e-6m",
+      "actual": 0.0,
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:intersection_exclusion",
+      "expected": "positive radial and flange/interplate envelope clearances",
+      "actual": {
+        "l": {
+          "sleeve_length_m": 0.4150000214576721,
+          "plate_pitch_m": 0.03302015823581961,
+          "minimum_gap_m": 0.0004997654511615934,
+          "radial_clearance_m": 0.0003999681978329346,
+          "spare_after_reserves_m": 0.1918999526775919
+        },
+        "r": {
+          "sleeve_length_m": 0.4150000214576721,
+          "plate_pitch_m": 0.03302015823581961,
+          "minimum_gap_m": 0.0004997654511615934,
+          "radial_clearance_m": 0.00039996688816178877,
+          "spare_after_reserves_m": 0.1918999526775919
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend:source_unchanged",
+      "expected": "1480a973c0614c54ee7c73b5753526dea5f2fa0a4056368380a5f7b3ebfeb076",
+      "actual": "1480a973c0614c54ee7c73b5753526dea5f2fa0a4056368380a5f7b3ebfeb076",
+      "result": "PASS"
+    }
+  ],
+  "pass": 42,
+  "fail": 0,
+  "validator_sha256": "4f890370b6986d787b11f84e11a7465278b739720ab6b09f38cf3128f97bd01a"
+}

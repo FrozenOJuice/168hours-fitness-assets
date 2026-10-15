@@ -1,0 +1,243 @@
+{
+  "date": "2026-10-15",
+  "checks": [
+    {
+      "source": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
+      "result": "PASS",
+      "mesh_instances": 5,
+      "identical_mesh_topology_coordinates_and_materials": true,
+      "world_vertex_max_error_m": 0,
+      "anchor_world_matrix_max_error": 1.1920928955078125e-07,
+      "libraries": []
+    },
+    {
+      "source": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
+      "result": "PASS",
+      "mesh_instances": 10,
+      "identical_mesh_topology_coordinates_and_materials": true,
+      "world_vertex_max_error_m": 0,
+      "anchor_world_matrix_max_error": 0.0,
+      "libraries": []
+    },
+    {
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility.blend",
+      "result": "PASS",
+      "mesh_instances": 25,
+      "identical_mesh_topology_coordinates_and_materials": true,
+      "world_vertex_max_error_m": 2.682208788407081e-08,
+      "anchor_world_matrix_max_error": 1.1920928955078125e-07,
+      "libraries": [
+        {
+          "path": "//../../../assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
+          "resolved": true
+        },
+        {
+          "path": "//../../../assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__capacity.blend",
+      "result": "PASS",
+      "mesh_instances": 205,
+      "identical_mesh_topology_coordinates_and_materials": true,
+      "world_vertex_max_error_m": 2.682208788407081e-08,
+      "anchor_world_matrix_max_error": 1.1920928955078125e-07,
+      "libraries": [
+        {
+          "path": "//../../../assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
+          "resolved": true
+        },
+        {
+          "path": "//../../../assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "source": "scenes/templates/168h_template_barbell_plate_compatibility/168h_template_barbell_plate_compatibility__example.blend",
+      "result": "PASS",
+      "mesh_instances": 105,
+      "identical_mesh_topology_coordinates_and_materials": true,
+      "world_vertex_max_error_m": 2.682208788407081e-08,
+      "anchor_world_matrix_max_error": 1.1920928955078125e-07,
+      "libraries": [
+        {
+          "path": "//../../../assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
+          "resolved": true
+        },
+        {
+          "path": "//../../../assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "source": "assets/equipment/benches/168h_equipment_flat_bench/168h_equipment_flat_bench.blend",
+      "result": "PASS",
+      "mesh_instances": 30,
+      "identical_mesh_topology_coordinates_and_materials": true,
+      "world_vertex_max_error_m": 0,
+      "anchor_world_matrix_max_error": 0.0,
+      "libraries": []
+    },
+    {
+      "source": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
+      "check": "independent_controller_sweeps_preserved",
+      "result": "PASS",
+      "sampled_object_frames": 192,
+      "max_world_matrix_error": 1.1920928955078125e-07
+    },
+    {
+      "render": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__side__flat.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__three_quarter__flat.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__front__flat.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/benches/168h_equipment_flat_bench/previews/168h_equipment_flat_bench__top__flat.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__full_length__unloaded.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__side__unloaded.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__three_quarter__unloaded.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__detail__unloaded.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/previews/168h_equipment_olympic_barbell_20kg__end_detail__unloaded.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__front__standing.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__side__standing.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__three_quarter__standing.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__back__standing.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__rotated_180_check__standing.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__assembled_with_plates__two_45lb_plates.png",
+      "result": "PASS",
+      "max_channel_delta": 0.003921568393707275,
+      "changed_channel_fraction": 2.34375e-06,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_side__10_per_sleeve.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_three_quarter__10_per_sleeve.png",
+      "result": "PASS",
+      "max_channel_delta": 0.003921568393707275,
+      "changed_channel_fraction": 3.28125e-06,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_sleeve_detail__10_per_sleeve.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_side__5_per_sleeve.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_three_quarter__5_per_sleeve.png",
+      "result": "PASS",
+      "max_channel_delta": 0.003921568393707275,
+      "changed_channel_fraction": 2.5e-06,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    },
+    {
+      "render": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_sleeve_detail__5_per_sleeve.png",
+      "result": "PASS",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "acceptance": "exact standalone; linked <=1/255 on <0.1% channels"
+    }
+  ],
+  "pass": 28,
+  "fail": 0,
+  "script_sha256": "09c14c62f3a889c3be96be46c0eb718a1c0fab32d2d6b65244c2c1721711ab66"
+}

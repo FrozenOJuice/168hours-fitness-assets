@@ -1,0 +1,15 @@
+{
+  "prebuild_document_sha256": {
+    "SPEC.md": "091e9ebc5195384c61a0690160fa974fc347dc47a9d8c12ac5ddfb8ed89c4348",
+    "asset.json": "00bb0683842f0ad8b8f410cad8d75b8379d73a95821886f9123e241f6b12bcee",
+    "validation.md": "3b7a6ad1f83530a9b4809030f53858d02d8f07c18087e4fb2fa71ea7c3448a41"
+  },
+  "blender_version": "5.1.1",
+  "source_sha256": "146c810a216858409fa0e3fdaba987a69f87aa1a74ddc61949ce388ad8be339c",
+  "builder_sha256": "09dde61e9c864976805a15c07f6a495dbea3bc8d8814dad8646ebc5bcf1131fd",
+  "helper_sha256": "1a82a61e56e2ee195e75a2c02b2691d14b533d1300b098e4efb1f9633a5f644b",
+  "component_counts": {
+    "meshes": 13,
+    "unique_mesh_data": 8
+  }
+}

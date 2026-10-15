@@ -1,8 +1,9 @@
+<!-- Current A14 origin section supersedes historical0.x origin/reproduction statements below; archived approvals retain their original scope. -->
 # Asset specification: 168h_equipment_olympic_barbell_20kg
 
 ## Identity and status
 
-Version **0.1.2**, equipment/free_weights, **approved / production-ready for internal168Hours Fitness Blender illustration use**, Codex for 168Hours Fitness, 2026-10-14. User requested renewed manufacturer/plate compatibility review, a slight steel contrast increase and a 4–5-plate example; selected five per sleeve. Findings and recommendations were documented before the appearance-only edit. No dimension change was needed or applied. User production approval is recorded under A12; this does not change shared standards. Geometry version0.1.2 remains unchanged. [Source](168h_equipment_olympic_barbell_20kg.blend), [metadata](asset.json), [validation](validation.md), [measured results](validation-results.json).
+Version **1.0.0**, geometry **0.1.2**, equipment/free_weights, **approved / production-ready for internal168Hours Fitness Blender illustration use**, Codex for 168Hours Fitness, 2026-10-14. User requested renewed manufacturer/plate compatibility review, a slight steel contrast increase and a 4–5-plate example; selected five per sleeve. Findings and recommendations were documented before the appearance-only edit. No dimension change was needed or applied. User production approval is recorded under A12; this does not change shared standards. Geometry version0.1.2 remains unchanged. [Source](168h_equipment_olympic_barbell_20kg.blend), [metadata](asset.json), [validation](validation.md), [measured results](validation-results.json).
 
 Reviewed [AGENTS](../../../../AGENTS.md), [global style](../../../../docs/visual-style.md), [common conventions](../../../../docs/asset-conventions.md), [category standards](../../../../docs/category-standards.md), [workflow](../../../../docs/asset-workflow.md), [decisions](../../../../docs/decisions.md), [licensing](../../../../docs/licensing.md), and approved plate 0.1.4 spec/metadata/validation/approval. A10 supplies the clean illustrated equipment cue; its geometry/palette remain specific to cast iron. A11 remains the local barbell/interface proposal. Global A01/A03/A04/A05/A06/A07/A08 are open. Pre-build [standards snapshot](standards-snapshot.json); current pre-edit plan and protected hashes in [refinement-plan.json](refinement-plan.json). Specification plan existed before the refinement; source/fixture/script predecessor copies retained locally under ignored exports/models/barbell_review_history/0.1.0.
 
@@ -54,20 +55,9 @@ The existing sleeve/cap circumferential edges were locally subdivided 3× (192�
 
 Actual diamond knurl geometry, pitch 1.832596 mm and 0.160 mm maximum radial recess, is preserved. Center knurl ±60 mm; side knurl ±210→±655 mm, smooth 5 mm markings ±455→±460 mm. Sleeve grooves remain 0.080 mm deep at 5 mm pitch. These detailing values and simplified 0.300 mm internal axle clearance are provisional original design, not manufacturer-exact machining specifications.
 
-Interface **`olympic_barbell_load@0.1.0` unchanged**, locally tested/proposed, not globally ratified. Published anchor object suffix `__anchor_<name>`:
+Current interface **olympic_barbell_load@1.0.0**, root and collection.instance_offset at the shaft-axis midpoint(0,0,.0365)m in preserved floor-Z0 authoring space. Shaft+X, front+Y, up+Z. Root-local axis_center/grip_center=(0,0,0), grips=(±.350,0,0), load=(±.685,0,0), sleeve_end=(±1.100,0,0), floor_contact=(0,0,−.0365)m. Load/end local+Y points outward±X; other frames retain+Y forward/+Z up. Independent sleeve controls are now root-local(±.670,0,0), retain their existing world axes and degree properties/drivers. Opposite sleeve/cap share mesh data through declared proper Zπ rotations, not negative scale.
 
-| Anchor | Root-local position (m) | Frame at zero spin |
-| --- | --- | --- |
-| grip_center | (0,0,0.0365) | +Y forward, +Z up |
-| grip_l / grip_r | (±0.350,0,0.0365) | +Y forward, +Z up; human fit untested |
-| axis_center | (0,0,0.0365) | local +Y points +X, +Z up |
-| load_l / load_r | (±0.685,0,0.0365) | local +Y points outward ±X, +Z up |
-| sleeve_end_l / sleeve_end_r | (±1.100,0,0.0365) | local +Y points outward ±X, +Z up |
-| floor_contact | (0,0,0) | +Y forward, +Z up |
-
-Independent `__control_sleeve_l/r` pivots at (±0.670,0,0.0365) retain X rotation drivers from root `sleeve_l_angle_deg/r`, default 0, library-overridable. Global +X angle convention on both sides; periodic. Linked collection instances are static; future authored animation needs hierarchy overrides and consumer plate updates from evaluated load frames. Tested independent controls and kinematic plate frames through 0/45/90/180/270/360°, not a complete override-action workflow.
-
-Automatic plate placement maps linked plate +Y onto outward load-frame +Y, compensates its floor-root/bore offset, uses measured back/front envelopes and each index's measured pitch plus selected interplate gap. Actual plate floor-to-bore sets bar height. No plate copying or edits. One-plate and full-capacity [fixture sources](../../../../scenes/templates/168h_template_barbell_plate_compatibility/SPEC.md) retain relative links; full stack has 20 collection instances sharing original plate data and no local meshes. Instance placement remains symmetric under compound whole-assembly transforms. Version/revalidate future anchor/dimension/slot/path breaks; no consumer break introduced here.
+Source components, materials, knurl geometry and world anchor frames are unchanged. Use asset_instance_frame(instance) to remove collection offset before reading source-space anchors. place_plate and make_fixture are updated accordingly. All three linked fixtures preserve world geometry and plate fit; controls are checked through0/45/90/180/270/360°. New root semantics are a major interface change approved under A14; external consumers must migrate deliberately.
 
 ## Materials and illustration
 
@@ -153,3 +143,11 @@ Manufacturer dimensions and URLs remain in the verified dimension table and comp
 [Finalization QA](finalization-qa.json): all55 existing barbell checks rerun PASS; all35 existing plate checks rerun PASS in a disposable copy so its frozen report remains unchanged. Names, normalized/positive transforms, roots, nine frames, independent rotation controls, relative links, plate reuse, digital dimensions, clearance, symmetry, topology and reference reproduction are confirmed. No claim of humans/alternative replacements, physics or authored override-action testing is added. Fresh committed local clone/LFS fetch/checkout and fsck pass, with55+35 checks repeated from the checkout; no remote push/upload requested.
 
 All accepted artifacts are frozen for this reference. Future edits need explicit authorization, retained predecessor and new validation/approval evidence. Historical findings remain history; unresolved external licensing/global/hardware topics do not reopen the user's current scoped internal-production approval.
+
+
+## A14 origin audit and migration —2026-10-15
+
+Approved profile `olympic_barbell`, equipment_origins@1. Authoring root and collection offset `[0.0, 0.0, 0.0364999994635582]`m; functional root-local origin(0,0,0). Current source SHA256 `4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30`. Explicit user root/pivot migration approval applied; source/interface1.0.0, original geometry version and visual family retained. Source geometry/materials/world anchors unchanged; all three linked fixture instances compensated. Root-local anchor positions and intentional component rotations are declared in asset.json. [Audit](../../../../docs/audits/origin-audit-results.json), [migration/regression](../../../../docs/audits/origin-migration-validation.json), [proposal](../../../../docs/audits/origin-migration-proposal.md). Current validation commands: validate_asset_origins.py; validate_origin_migration.py. Existing per-asset scripts expose `-- --origins`; their full0.x suites are historical and were rerun on a disposable baseline. Do not run historical builders/refiners on migrated masters. Global visual/style/artwork settings unchanged. External consumers outside the repository remain untested and need versioned migration.
+
+
+A14 finalization2026-10-15: origin migration **approved and complete**. Current library audit297 PASS; world/geometry/material/render regression28 PASS; all three fixture stacking/clearance checks42 PASS;6 failure-injection and2 automatic placement cases PASS. No native geometry/source edit during finalization. Existing visual/release scope unchanged. Final evidence: docs/audits/origin-migration-record.json and origin-compatibility-validation.json; repository commit identifies this finalized snapshot.

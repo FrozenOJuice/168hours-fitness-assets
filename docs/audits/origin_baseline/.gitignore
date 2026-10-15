@@ -1,0 +1,43 @@
+# Operating system and editor noise
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Blender backup saves and crash output (keep authoritative .blend sources)
+*.blend[0-9]*
+*.blend@
+*.blend.tmp
+*.blend[0-9]*.tmp
+quit.blend
+*.crash.txt
+
+# Disposable local state and generated caches
+.cache/
+.tmp/
+tmp/
+cache/
+caches/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated export contents; keep export structure and instructions
+/exports/**
+!/exports/**/
+!/exports/**/.gitkeep
+!/exports/README.md
+
+# Local staging for downloads and experiments
+/downloads/
+/scratch/

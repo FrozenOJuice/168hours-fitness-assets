@@ -1,6 +1,6 @@
 # Architecture decisions requiring approval
 
-Status: A01–A08 below remain open for global production choices. A10 approves the first equipment visual reference and the traditional cast-iron plate appearance standard only. The mandatory documentation/workflow requirements and the original user-specified visual direction are recorded separately below; they do not approve these technical choices. A09 authorizes the first asset-local plate review prototype; it does not select global renderer/software standards or install dependencies. Code/documentation licensing is separated from future artwork in [Licensing policy](licensing.md); an artwork license has not been selected. Proposed defaults in the other documents are planning assumptions until approved.
+Status: A14 resolves the origin/axis/transform/link portion of A03; other A01–A08 global choices remain open. A10 approves the first equipment visual reference and the traditional cast-iron plate appearance standard only. The mandatory documentation/workflow requirements and the original user-specified visual direction are recorded separately below; they do not approve these technical choices. A09 authorizes the first asset-local plate review prototype; it does not select global renderer/software standards or install dependencies. Code/documentation licensing is separated from future artwork in [Licensing policy](licensing.md); an artwork license has not been selected. Proposed defaults in the other documents are planning assumptions until approved.
 
 | ID | Decision | Proposed direction | Approval needed because |
 | --- | --- | --- | --- |
@@ -91,3 +91,32 @@ Approver:user,2026-10-14. Explicit instruction: “Finalize and approve the20kg 
 Status ready/approved for **internal reusable Blender illustration production**; all55 existing barbell checks PASS and35 plate checks PASS on an isolated copy. Native geometry/material/render bytes preserved. Ten-per-sleeve packing result and50mm collar/5mm tip/scene gaps are accepted documented illustration assumptions, not hardware/strength certification. Five is the presentation reference; ten remains diagnostic maximum.
 
 A12 supersedes A11's pending asset-local acceptance and prototype-only status for this existing barbell. It does not change global technical standards or the approved plate; existing globals A01–A08 retain their separate status. Original artwork can be used internally as explicitly requested; no external artwork licensing/redistribution grant is selected or inferred. MIT code/docs remain separate. Local commit/LFS reproducibility QA will be recorded; remote upload/quotas are outside the requested commit. No new models or unrelated asset edits.
+
+
+## A13 — Standalone flat utility bench prototype (design approval pending)
+
+- User,2026-10-14, authorized a standard commercial standalone flat bench, explicitly review prototype; no rack/human/exercise scene or shared-standard change. [Specification](../assets/equipment/benches/168h_equipment_flat_bench/SPEC.md) records scoped choices before build, manufacturer facts and provisional geometry/interfaces/settings.
+- Proposed asset `168h_equipment_flat_bench`0.1.0; `bench_support@0.1.0`, floor root, length/head+Y, width+X. Fixed pad angle0°. Geometry13 meshes/8 unique data blocks; feet/rails/boots shared. No approved plate/barbell changes.
+- Dimensional context from [Rogue Flat Utility Bench2.0](https://www.roguefitness.com/rogue-flat-utility-bench-2-0), consulted2026-10-14: 47/14/18in overall,12in pad width,2.5in pad thickness. Local pad-length inference1193.8mm, support layout/1025mm ground footprint, rounded edges/substrate/foot details remain provisional. No physical load certification or exact manufacturer replica claimed.
+- Review choices: matte charcoal pad/frame face values, existing shadow-free Workbench capture settings scoped locally; proposed support anchors and generic sloped-leg/two-foot construction. User must review bench appearance/proportions and anchor proposal before readiness. A01–A08 and shared style/category standards remain unchanged.
+- Evidence:47 prototype checks PASS, four retained views manually inspected and exactly reproduced; two original-source collection instances and rotated back-support frame alignment checked. No human/rack/alternate bench compatibility certified. No conflicting exception or migration required for existing consumers; future dimensional/interface breaks must be versioned/retested.
+- Separate artwork terms and release gates remain open. This entry records authorized prototype work, **not design acceptance or a new category/global standard**.
+
+
+### A13 refinement0.1.1 — authorized, design approval still pending
+
+User requested in-place commercial-quality refinement. All original bench objects/data identities, main frame/substrate geometry, pad topology, root/anchors, nominal dimensions and material roles preserved. Cushion roll/corners and subtle geometry upholstery seam refined; rounded tapered rubber shoes replace blocky profiles in the original shared data; upper gussets, saddle plates and reusable fasteners added. Manufacturer dimensional reference rechecked; no overall scaling correction. 72 saved-source checks PASS plus exact four-view reproduction. Original0.1.0 is retained in the asset history folder for reproducible preservation QA. New details remain provisional, no fabrication/load rating inferred. Review lifecycle and open global standards unchanged.
+
+
+## A14 — Functional equipment origins and approved linked migration (2026-10-15)
+
+User requested intentional category roots, axes, root/object distinction, anchors, normalized transforms, generic automation and safe corrections. Explicit follow-up approval: **“Approve the root/pivot migration and fixture updates.”** [Concrete proposal](audits/origin-migration-proposal.md), [applied record](audits/origin-migration-record.json), [current audit](audits/origin-audit-results.json), [regression](audits/origin-migration-validation.json).
+
+Approved scope: plate root at bore center, barbell root at midpoint, bench at centered floor support; collection pivots coincide with roots. Common+Z up/+Y front/+X subject-left; plate bore+Y, bar shaft+X, bench length+Y. Declared authoring translations and proper shared-component rotations allowed; unit positive scale, full root-local anchor frames and offset-aware linked placement required. Root changes are interface-major migrations, not visual redesigns. Plate/barbell become1.0.0 with geometry0.1.4/0.1.2 unchanged; bench0.1.1 source unchanged. Three fixture sources compensated and versioned1.0.0. Original native files, references and approval records retained under audits/origin_baseline; existing visual/artwork approval scopes unchanged. A03 origin/axis/transform/link portion is resolved by A14; other open design/software/licensing decisions are not ratified by inference.
+
+Four assembled reference images require refresh due float/anti-alias rounding at<=3/255 on<0.0024% channels; original evidence retained and differences in origin-render-refresh.json. Standalone appearances unchanged exactly; refreshed current references must pass original reproduction tolerances. No standard/tolerance is silently relaxed. External linked consumers outside this repository must migrate deliberately using the documented compensation; none were inspected or modified.
+
+
+### A14 finalization — approved and complete,2026-10-15
+
+User requested final validation and commit if all checks pass. All375 current checks PASS (297 origins,28 preserved-geometry/world/render,42 all-fixture stacking/clearance,6 failure injection,2 placement). Native source bytes unchanged during finalization; original approval evidence retained. Existing root/axis/transform/link standards enforced by metadata/rules and default validator entry points. Bench remains review/not_ready; no model redesign, new visual standard or artwork license. This finalized snapshot is recorded by its repository commit.

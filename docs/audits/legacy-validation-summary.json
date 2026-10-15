@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-15",
+  "scope": "original full geometry/compatibility/render suites on disposable pre-A14 repository copy; current sources separately validated by origin/migration suites",
+  "plate": {
+    "pass": 35,
+    "fail": 0
+  },
+  "barbell_and_fixtures": {
+    "pass": 55,
+    "fail": 0
+  },
+  "bench": {
+    "pass": 72,
+    "fail": 0
+  },
+  "initial_harness_issues": "Disposable report modifications and missing exports/README initially invalidated protected-hash checks; restored exact prerequisites and reran successfully. No asset defect."
+}

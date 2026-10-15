@@ -1,0 +1,34 @@
+[
+  {
+    "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_three_quarter__10_per_sleeve.png",
+    "old_sha256": "d13af30b28699e7d18040b5d1d0a1edc659dd313299ea028223c3cc72de320a5",
+    "new_sha256": "dfd4aef77f97b8e6e10f41fd7c5d4cf99a2ad358bb4f6e3651453f520895ebbf",
+    "max_channel_delta": 0.00784313678741455,
+    "changed_channel_fraction": 7.65625e-06,
+    "reason": "A14 origin compensation changes float/AA rounding; retained predecessor evidence; no geometry/style change"
+  },
+  {
+    "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__loaded_sleeve_detail__10_per_sleeve.png",
+    "old_sha256": "d6ecd56eef0b15b498cf7cf6be750f234f1c2ea5de5217615c0360677995aaca",
+    "new_sha256": "7028378d2814d605ceeba6bc7bbd695b736857a0c60412989795844276e77c4b",
+    "max_channel_delta": 0.011764705181121826,
+    "changed_channel_fraction": 2.328125e-05,
+    "reason": "A14 origin compensation changes float/AA rounding; retained predecessor evidence; no geometry/style change"
+  },
+  {
+    "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_three_quarter__5_per_sleeve.png",
+    "old_sha256": "235325e70d506773a5f92ecd93c7be42502bb57c6bd3bd567439c0be827c6e49",
+    "new_sha256": "01aa06ec6c66cba8c31b07c2a5824d8fd509d7d76f37bcce62707b053f2b4d02",
+    "max_channel_delta": 0.00784313678741455,
+    "changed_channel_fraction": 3.75e-06,
+    "reason": "A14 origin compensation changes float/AA rounding; retained predecessor evidence; no geometry/style change"
+  },
+  {
+    "path": "scenes/templates/168h_template_barbell_plate_compatibility/previews/168h_template_barbell_plate_compatibility__example_sleeve_detail__5_per_sleeve.png",
+    "old_sha256": "32f2f45c15182a041b9af273ff469d3aa463b10b35d837b67675a491a238c656",
+    "new_sha256": "ba3cee94b2700b8cba97d29a404e223f1a04508da30842f644c5ccfe7b18cf79",
+    "max_channel_delta": 0.00784313678741455,
+    "changed_channel_fraction": 9.53125e-06,
+    "reason": "A14 origin compensation changes float/AA rounding; retained predecessor evidence; no geometry/style change"
+  }
+]

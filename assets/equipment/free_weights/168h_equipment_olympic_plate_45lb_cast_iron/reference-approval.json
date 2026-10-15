@@ -8,43 +8,43 @@
   "asset_id": "168h_equipment_olympic_plate_45lb_cast_iron",
   "asset_version": "0.1.4",
   "source": {
-    "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
+    "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/168h_equipment_olympic_plate_45lb_cast_iron.blend",
     "sha256": "b56d464dfcb9881b944acb7d13501c3e3ebc1e22bfa34690295a47be9fd941f2"
   },
   "images": [
     {
       "view": "front",
-      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__front__standing.png",
+      "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__front__standing.png",
       "sha256": "0e5633033d476778d61892b215c30bf239ca2a29e79bffc65a882b7ae5e975c3"
     },
     {
       "view": "side",
-      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__side__standing.png",
+      "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__side__standing.png",
       "sha256": "5bd7a6bd3b66dc80f91cb73433e64b1aaa25a032f57d652e550c75da96baa5c2"
     },
     {
       "view": "three_quarter",
-      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__three_quarter__standing.png",
+      "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__three_quarter__standing.png",
       "sha256": "8e8cf1e056d352e9c13a2f921daa78083ead8d9bb85f04c079c189422deabecc"
     },
     {
       "view": "back",
-      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__back__standing.png",
+      "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__back__standing.png",
       "sha256": "49bb699bfdefe1e55b6dd3d7d6819ff1944edf960dd83514728bcc542a3bc1d4"
     },
     {
       "view": "rotated_180_check",
-      "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__rotated_180_check__standing.png",
+      "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/168h_equipment_olympic_plate_45lb_cast_iron__rotated_180_check__standing.png",
       "sha256": "afcca42041ed1d1132f1f0d8f0eea669a6b51828e8c73a02226e09177730d5e1"
     }
   ],
   "render_settings": {
-    "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/render-settings.json",
+    "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/previews/render-settings.json",
     "sha256": "679400a0b3d51ad5239c12e28eb182156e03171b634e80c6ba2ac27862d2d12b",
     "scope": "frozen reproduction snapshot; production technical defaults provisional"
   },
   "validation_results": {
-    "path": "assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/validation-results.json",
+    "path": "docs/audits/origin_baseline/assets/equipment/free_weights/168h_equipment_olympic_plate_45lb_cast_iron/validation-results.json",
     "sha256": "02d4dca5e5e77c7bb48cc25d7fb6b71a5829c252517104d435fd3b0045be79b7",
     "passed_checks": 35,
     "new_execution_performed_for_approval": false
@@ -55,5 +55,6 @@
   "production_release_status": "not_ready",
   "frozen_artifacts": true,
   "changes_in_this_step": "documentation and approval metadata only; model/render/script/test-report bytes unchanged",
-  "supersession_policy": "Retain this approved source/images and approval record before an authorized change; version, revalidate and explicitly approve a successor before changing the current reference."
+  "supersession_policy": "Retain this approved source/images and approval record before an authorized change; version, revalidate and explicitly approve a successor before changing the current reference.",
+  "origin_migration_note": "A14 current1.0.0 root migration preserves appearance; this approval record pins retained historical geometry/visual baseline. Current master pins in origin-migration-record.json."
 }
