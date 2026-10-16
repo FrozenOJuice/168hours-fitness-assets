@@ -1,0 +1,65 @@
+{
+  "source_sha256": "839aa792f464b2b043f4d95ca219159b067710c0ee314febc7f59f419983caad",
+  "assembly_sha256": "428d889d0300e443fd3e3a8b52b20a7f22bcd6eedb52dfe6fa9e095027ac2318",
+  "renderer_sha256": "1bba27e41353da4523a70b9c3ba429585f46ccbeb523dcca38df68a8006500b4",
+  "checks": [
+    {
+      "view": "168h_equipment_barbell_stands:front",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "changed_channels": 0,
+      "result": "PASS"
+    },
+    {
+      "view": "168h_equipment_barbell_stands:side",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "changed_channels": 0,
+      "result": "PASS"
+    },
+    {
+      "view": "168h_equipment_barbell_stands:three_quarter",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "changed_channels": 0,
+      "result": "PASS"
+    },
+    {
+      "view": "168h_equipment_barbell_stands:maximum_height",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "changed_channels": 0,
+      "result": "PASS"
+    },
+    {
+      "view": "168h_equipment_barbell_stands:hook_detail",
+      "max_channel_delta": 0.0,
+      "changed_channel_fraction": 0.0,
+      "changed_channels": 0,
+      "result": "PASS"
+    },
+    {
+      "view": "168h_template_stands_bench_barbell:assembled",
+      "max_channel_delta": 0.023529410362243652,
+      "changed_channel_fraction": 0.000516875,
+      "changed_channels": 3308,
+      "result": "FAIL"
+    },
+    {
+      "view": "168h_template_stands_bench_barbell:side",
+      "max_channel_delta": 0.01960785686969757,
+      "changed_channel_fraction": 0.00010375,
+      "changed_channels": 664,
+      "result": "FAIL"
+    },
+    {
+      "view": "168h_template_stands_bench_barbell:front",
+      "max_channel_delta": 0.0156862735748291,
+      "changed_channel_fraction": 0.00012515625,
+      "changed_channels": 801,
+      "result": "FAIL"
+    }
+  ],
+  "pass": false,
+  "master_sources_resaved": false
+}

@@ -1,0 +1,805 @@
+{
+  "comparisons": [
+    {
+      "view": "assembled",
+      "reference_comparisons": [
+        {
+          "probe": 0,
+          "against_reference": {
+            "max_8bit_delta": 1,
+            "changed_channel_fraction": 1.09375e-05,
+            "changed_pixel_fraction": 2.4375e-05,
+            "mean_absolute_8bit_delta": 1.09375e-05,
+            "changed_pixel_bbox_xy_bottom_origin": [
+              [
+                496,
+                302
+              ],
+              [
+                1213,
+                817
+              ]
+            ]
+          }
+        },
+        {
+          "probe": 1,
+          "against_reference": {
+            "max_8bit_delta": 6,
+            "changed_channel_fraction": 0.00033703125,
+            "changed_pixel_fraction": 0.000546875,
+            "mean_absolute_8bit_delta": 0.0004421875,
+            "changed_pixel_bbox_xy_bottom_origin": [
+              [
+                666,
+                154
+              ],
+              [
+                1357,
+                883
+              ]
+            ]
+          }
+        },
+        {
+          "probe": 2,
+          "against_reference": {
+            "max_8bit_delta": 6,
+            "changed_channel_fraction": 0.00032828125,
+            "changed_pixel_fraction": 0.000525625,
+            "mean_absolute_8bit_delta": 0.00043265625,
+            "changed_pixel_bbox_xy_bottom_origin": [
+              [
+                496,
+                154
+              ],
+              [
+                1357,
+                804
+              ]
+            ]
+          }
+        },
+        {
+          "probe": 3,
+          "against_reference": {
+            "max_8bit_delta": 1,
+            "changed_channel_fraction": 5.625e-06,
+            "changed_pixel_fraction": 1.625e-05,
+            "mean_absolute_8bit_delta": 5.625e-06,
+            "changed_pixel_bbox_xy_bottom_origin": [
+              [
+                496,
+                302
+              ],
+              [
+                1160,
+                804
+              ]
+            ]
+          }
+        },
+        {
+          "probe": 4,
+          "against_reference": {
+            "max_8bit_delta": 6,
+            "changed_channel_fraction": 0.000503125,
+            "changed_pixel_fraction": 0.00078875,
+            "mean_absolute_8bit_delta": 0.00070875,
+            "changed_pixel_bbox_xy_bottom_origin": [
+              [
+                590,
+                154
+              ],
+              [
+                1357,
+                804
+              ]
+            ]
+          }
+        },
+        {
+          "probe": 5,
+          "against_reference": {
+            "max_8bit_delta": 6,
+            "changed_channel_fraction": 0.00034453125,
+            "changed_pixel_fraction": 0.0005625,
+            "mean_absolute_8bit_delta": 0.0004496875,
+            "changed_pixel_bbox_xy_bottom_origin": [
+              [
+                496,
+                154
+              ],
+              [
+                1357,
+                883
+              ]
+            ]
+          }
+        }
+      ],
+      "pairwise_repeat_comparisons": [
+        {
+          "a": 0,
+          "b": 1,
+          "max_8bit_delta": 6,
+          "changed_channel_fraction": 0.00034796875,
+          "changed_pixel_fraction": 0.00057125,
+          "mean_absolute_8bit_delta": 0.000453125,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              496,
+              154
+            ],
+            [
+              1357,
+              883
+            ]
+          ]
+        },
+        {
+          "a": 0,
+          "b": 2,
+          "max_8bit_delta": 6,
+          "changed_channel_fraction": 0.00033484375,
+          "changed_pixel_fraction": 0.000535,
+          "mean_absolute_8bit_delta": 0.00043921875,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              666,
+              154
+            ],
+            [
+              1357,
+              817
+            ]
+          ]
+        },
+        {
+          "a": 0,
+          "b": 3,
+          "max_8bit_delta": 1,
+          "changed_channel_fraction": 1.21875e-05,
+          "changed_pixel_fraction": 2.5625e-05,
+          "mean_absolute_8bit_delta": 1.21875e-05,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              666,
+              659
+            ],
+            [
+              1213,
+              817
+            ]
+          ]
+        },
+        {
+          "a": 0,
+          "b": 4,
+          "max_8bit_delta": 6,
+          "changed_channel_fraction": 0.0005140625,
+          "changed_pixel_fraction": 0.000813125,
+          "mean_absolute_8bit_delta": 0.0007196875,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              496,
+              154
+            ],
+            [
+              1357,
+              817
+            ]
+          ]
+        },
+        {
+          "a": 0,
+          "b": 5,
+          "max_8bit_delta": 6,
+          "changed_channel_fraction": 0.00033359375,
+          "changed_pixel_fraction": 0.000538125,
+          "mean_absolute_8bit_delta": 0.00043875,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              715,
+              154
+            ],
+            [
+              1357,
+              883
+            ]
+          ]
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "max_8bit_delta": 2,
+          "changed_channel_fraction": 1.3125e-05,
+          "changed_pixel_fraction": 3.625e-05,
+          "mean_absolute_8bit_delta": 1.390625e-05,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              496,
+              302
+            ],
+            [
+              1237,
+              883
+            ]
+          ]
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "max_8bit_delta": 6,
+          "changed_channel_fraction": 0.00033578125,
+          "changed_pixel_fraction": 0.000545625,
+          "mean_absolute_8bit_delta": 0.0004409375,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              496,
+              154
+            ],
+            [
+              1357,
+              883
+            ]
+          ]
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "max_8bit_delta": 5,
+          "changed_channel_fraction": 0.00018796875,
+          "changed_pixel_fraction": 0.000299375,
+          "mean_absolute_8bit_delta": 0.00029,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              590,
+              250
+            ],
+            [
+              1237,
+              883
+            ]
+          ]
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "max_8bit_delta": 1,
+          "changed_channel_fraction": 1.4375e-05,
+          "changed_pixel_fraction": 3.3125e-05,
+          "mean_absolute_8bit_delta": 1.4375e-05,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              496,
+              302
+            ],
+            [
+              1213,
+              817
+            ]
+          ]
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "max_8bit_delta": 6,
+          "changed_channel_fraction": 0.00032265625,
+          "changed_pixel_fraction": 0.000509375,
+          "mean_absolute_8bit_delta": 0.00042703125,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              827,
+              154
+            ],
+            [
+              1357,
+              340
+            ]
+          ]
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "max_8bit_delta": 5,
+          "changed_channel_fraction": 0.00017921875,
+          "changed_pixel_fraction": 0.000278125,
+          "mean_absolute_8bit_delta": 0.00028046875,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              496,
+              250
+            ],
+            [
+              1113,
+              459
+            ]
+          ]
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "max_8bit_delta": 2,
+          "changed_channel_fraction": 2.3125e-05,
+          "changed_pixel_fraction": 5.4375e-05,
+          "mean_absolute_8bit_delta": 2.390625e-05,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              666,
+              659
+            ],
+            [
+              1237,
+              883
+            ]
+          ]
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "max_8bit_delta": 6,
+          "changed_channel_fraction": 0.000501875,
+          "changed_pixel_fraction": 0.0007875,
+          "mean_absolute_8bit_delta": 0.0007075,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              496,
+              154
+            ],
+            [
+              1357,
+              459
+            ]
+          ]
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "max_8bit_delta": 6,
+          "changed_channel_fraction": 0.00034578125,
+          "changed_pixel_fraction": 0.00056375,
+          "mean_absolute_8bit_delta": 0.0004509375,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              666,
+              154
+            ],
+            [
+              1357,
+              883
+            ]
+          ]
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "max_8bit_delta": 5,
+          "changed_channel_fraction": 0.00020234375,
+          "changed_pixel_fraction": 0.0003325,
+          "mean_absolute_8bit_delta": 0.000304375,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              496,
+              250
+            ],
+            [
+              1237,
+              883
+            ]
+          ]
+        }
+      ],
+      "changed_pixel_ray_hits_first_probe": {
+        "168h_equipment_flat_bench__mesh_pad": 7,
+        "168h_equipment_flat_bench__mesh_upholstery_seam": 5,
+        "168h_equipment_barbell_stands__mesh_hook_back_r": 9,
+        "168h_equipment_barbell_stands__mesh_hook_shelf_r": 6,
+        "168h_equipment_barbell_stands__mesh_hook_shelf_l": 5,
+        "168h_equipment_barbell_stands__mesh_hook_back_l": 7
+      }
+    },
+    {
+      "view": "side",
+      "reference_comparisons": [
+        {
+          "probe": 0,
+          "against_reference": {
+            "max_8bit_delta": 8,
+            "changed_channel_fraction": 0.0002175,
+            "changed_pixel_fraction": 0.000296875,
+            "mean_absolute_8bit_delta": 0.00061578125,
+            "changed_pixel_bbox_xy_bottom_origin": [
+              [
+                503,
+                345
+              ],
+              [
+                982,
+                367
+              ]
+            ]
+          }
+        },
+        {
+          "probe": 1,
+          "against_reference": {
+            "max_8bit_delta": 8,
+            "changed_channel_fraction": 0.00010796875,
+            "changed_pixel_fraction": 0.000148125,
+            "mean_absolute_8bit_delta": 0.0003090625,
+            "changed_pixel_bbox_xy_bottom_origin": [
+              [
+                952,
+                345
+              ],
+              [
+                982,
+                708
+              ]
+            ]
+          }
+        },
+        {
+          "probe": 2,
+          "against_reference": {
+            "max_8bit_delta": 1,
+            "changed_channel_fraction": 3.125e-07,
+            "changed_pixel_fraction": 1.25e-06,
+            "mean_absolute_8bit_delta": 3.125e-07,
+            "changed_pixel_bbox_xy_bottom_origin": [
+              [
+                961,
+                707
+              ],
+              [
+                961,
+                708
+              ]
+            ]
+          }
+        },
+        {
+          "probe": 3,
+          "against_reference": {
+            "max_8bit_delta": 8,
+            "changed_channel_fraction": 0.00035484375,
+            "changed_pixel_fraction": 0.000490625,
+            "mean_absolute_8bit_delta": 0.00092125,
+            "changed_pixel_bbox_xy_bottom_origin": [
+              [
+                503,
+                162
+              ],
+              [
+                1097,
+                708
+              ]
+            ]
+          }
+        },
+        {
+          "probe": 4,
+          "against_reference": {
+            "max_8bit_delta": 4,
+            "changed_channel_fraction": 3.375e-05,
+            "changed_pixel_fraction": 4.75e-05,
+            "mean_absolute_8bit_delta": 6.171875e-05,
+            "changed_pixel_bbox_xy_bottom_origin": [
+              [
+                957,
+                689
+              ],
+              [
+                1046,
+                708
+              ]
+            ]
+          }
+        },
+        {
+          "probe": 5,
+          "against_reference": {
+            "max_8bit_delta": 8,
+            "changed_channel_fraction": 0.00024734375,
+            "changed_pixel_fraction": 0.000344375,
+            "mean_absolute_8bit_delta": 0.00061265625,
+            "changed_pixel_bbox_xy_bottom_origin": [
+              [
+                503,
+                162
+              ],
+              [
+                1097,
+                708
+              ]
+            ]
+          }
+        }
+      ],
+      "pairwise_repeat_comparisons": [
+        {
+          "a": 0,
+          "b": 1,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.00011015625,
+          "changed_pixel_fraction": 0.00015125,
+          "mean_absolute_8bit_delta": 0.00030734375,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              503,
+              345
+            ],
+            [
+              961,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 0,
+          "b": 2,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.0002178125,
+          "changed_pixel_fraction": 0.000298125,
+          "mean_absolute_8bit_delta": 0.00061609375,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              503,
+              345
+            ],
+            [
+              982,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 0,
+          "b": 3,
+          "max_8bit_delta": 5,
+          "changed_channel_fraction": 0.00013734375,
+          "changed_pixel_fraction": 0.00019375,
+          "mean_absolute_8bit_delta": 0.00030546875,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              957,
+              162
+            ],
+            [
+              1097,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 0,
+          "b": 4,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.00025125,
+          "changed_pixel_fraction": 0.000344375,
+          "mean_absolute_8bit_delta": 0.0006775,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              503,
+              345
+            ],
+            [
+              1046,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 0,
+          "b": 5,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.00024515625,
+          "changed_pixel_fraction": 0.00034125,
+          "mean_absolute_8bit_delta": 0.000614375,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              952,
+              162
+            ],
+            [
+              1097,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.00010765625,
+          "changed_pixel_fraction": 0.000146875,
+          "mean_absolute_8bit_delta": 0.00030875,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              952,
+              345
+            ],
+            [
+              982,
+              367
+            ]
+          ]
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.0002475,
+          "changed_pixel_fraction": 0.000345,
+          "mean_absolute_8bit_delta": 0.0006128125,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              503,
+              162
+            ],
+            [
+              1097,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.00014140625,
+          "changed_pixel_fraction": 0.000194375,
+          "mean_absolute_8bit_delta": 0.00037046875,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              952,
+              345
+            ],
+            [
+              1046,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.000355,
+          "changed_pixel_fraction": 0.00049125,
+          "mean_absolute_8bit_delta": 0.00092140625,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              503,
+              162
+            ],
+            [
+              1097,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.00035515625,
+          "changed_pixel_fraction": 0.000491875,
+          "mean_absolute_8bit_delta": 0.0009215625,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              503,
+              162
+            ],
+            [
+              1097,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "max_8bit_delta": 4,
+          "changed_channel_fraction": 3.375e-05,
+          "changed_pixel_fraction": 4.75e-05,
+          "mean_absolute_8bit_delta": 6.171875e-05,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              957,
+              689
+            ],
+            [
+              1046,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.00024734375,
+          "changed_pixel_fraction": 0.000344375,
+          "mean_absolute_8bit_delta": 0.00061265625,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              503,
+              162
+            ],
+            [
+              1097,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.00032140625,
+          "changed_pixel_fraction": 0.000444375,
+          "mean_absolute_8bit_delta": 0.00085984375,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              503,
+              162
+            ],
+            [
+              1097,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.0001078125,
+          "changed_pixel_fraction": 0.0001475,
+          "mean_absolute_8bit_delta": 0.00030890625,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              952,
+              345
+            ],
+            [
+              982,
+              708
+            ]
+          ]
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "max_8bit_delta": 8,
+          "changed_channel_fraction": 0.00021359375,
+          "changed_pixel_fraction": 0.000296875,
+          "mean_absolute_8bit_delta": 0.0005509375,
+          "changed_pixel_bbox_xy_bottom_origin": [
+            [
+              503,
+              162
+            ],
+            [
+              1097,
+              367
+            ]
+          ]
+        }
+      ],
+      "changed_pixel_ray_hits_first_probe": {
+        "168h_equipment_flat_bench__mesh_leg_foot": 51,
+        "168h_equipment_flat_bench__mesh_gusset_foot_l": 3,
+        "168h_equipment_flat_bench__mesh_gusset_head_l": 1,
+        "168h_equipment_flat_bench__mesh_leg_head": 51,
+        "168h_equipment_flat_bench__mesh_spine": 358,
+        "168h_equipment_flat_bench__mesh_mount_cheek_foot_l": 5,
+        "168h_equipment_flat_bench__mesh_mount_cheek_head_l": 6
+      }
+    }
+  ],
+  "comparison_domain": "decoded RGBA8, no image registration/filtering; exact criterion unchanged",
+  "approval": "none; diagnostic only"
+}

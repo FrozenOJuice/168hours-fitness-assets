@@ -1,0 +1,29 @@
+{
+  "purpose": "selected retained diagnostic evidence; complete repeated-render statistics retained in JSON; all other disposable probes remain under ignored exports",
+  "files": [
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/qa/render_comparison/assembled_0_0.png",
+      "sha256": "4e6df9d75482b13e70943381c668334154ccb91203071ba52c0dbd333be6fd61"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/qa/render_comparison/assembled_0_1.png",
+      "sha256": "73772cde2d7d243375b421c80bdb1671527dd49520919310915d722278bd28b4"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/qa/render_comparison/no_outline_0.png",
+      "sha256": "1a82fa56b457c1b67c8aa35c8c14448c459b062d7d4a3dbc96d88f2f2c9f4b98"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/qa/render_comparison/no_outline_1.png",
+      "sha256": "9cfea9a081d2e200553eb8de92fd0c574cc25308d5dd5d8472aa6b3d1841fe1f"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/qa/render_comparison/side_0_0.png",
+      "sha256": "b38239d35d519ac56e275c75149d175b308d8b48d10c1e1cc11e44bb57357838"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/qa/render_comparison/side_0_1.png",
+      "sha256": "f6204c2921a1475fd7f51c66de4e58af40080f29b45f69ecbcfcc889605acec4"
+    }
+  ]
+}

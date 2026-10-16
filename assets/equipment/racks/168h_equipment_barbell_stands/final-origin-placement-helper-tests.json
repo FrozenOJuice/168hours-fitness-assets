@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "side": "l",
+      "axis_error_m": 1.6653345369377348e-16,
+      "center_offset_from_flange_m": 0.017509996891021763,
+      "expected_m": 0.01751,
+      "result": "PASS"
+    },
+    {
+      "side": "r",
+      "axis_error_m": 1.6653345369377348e-16,
+      "center_offset_from_flange_m": 0.017509996891021763,
+      "expected_m": 0.01751,
+      "result": "PASS"
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,94 @@
+{
+  "records": [
+    {
+      "view": "assembled",
+      "trial": 0,
+      "repeat": 0,
+      "path": "exports/illustrations/stands_gate_investigation/assembled_0_0.png",
+      "sha256": "b17a35964b15a5b8ea505c246e7718f5165ea1b7c8c0b6a0618a4ed149282bb1"
+    },
+    {
+      "view": "assembled",
+      "trial": 0,
+      "repeat": 1,
+      "path": "exports/illustrations/stands_gate_investigation/assembled_0_1.png",
+      "sha256": "50e0e2cdde657649b85c6564e38df8ef004d4991895a2af9a35b67a0e01c8c83"
+    },
+    {
+      "view": "side",
+      "trial": 0,
+      "repeat": 0,
+      "path": "exports/illustrations/stands_gate_investigation/side_0_0.png",
+      "sha256": "8b2de6dc92c424a65feb03b54ee2500c29d9e4b0b25774886b9b3382fe17d09a"
+    },
+    {
+      "view": "side",
+      "trial": 0,
+      "repeat": 1,
+      "path": "exports/illustrations/stands_gate_investigation/side_0_1.png",
+      "sha256": "68c7e71d1340e06cdc748ce483579c82f5753413931277252fcadcbca8a903fc"
+    },
+    {
+      "view": "assembled",
+      "trial": 1,
+      "repeat": 0,
+      "path": "exports/illustrations/stands_gate_investigation/assembled_1_0.png",
+      "sha256": "b5ba3aab3967149eb20ff9b122b202ab965261c5beb0c1b33575e16cef0c6326"
+    },
+    {
+      "view": "assembled",
+      "trial": 1,
+      "repeat": 1,
+      "path": "exports/illustrations/stands_gate_investigation/assembled_1_1.png",
+      "sha256": "c4ff695a1b52c968e85f69cda63d2ed67857cde241d14db16393c05bde54070f"
+    },
+    {
+      "view": "side",
+      "trial": 1,
+      "repeat": 0,
+      "path": "exports/illustrations/stands_gate_investigation/side_1_0.png",
+      "sha256": "c37c1a9acb88b762c81e9570d25314e06f902a90a4df02249f5964ab769cd33f"
+    },
+    {
+      "view": "side",
+      "trial": 1,
+      "repeat": 1,
+      "path": "exports/illustrations/stands_gate_investigation/side_1_1.png",
+      "sha256": "c29355dacd8deca29d8fa3b6cb8758fc59a616a64931cdc78ef3bfc329551b2c"
+    },
+    {
+      "view": "assembled",
+      "trial": 2,
+      "repeat": 0,
+      "path": "exports/illustrations/stands_gate_investigation/assembled_2_0.png",
+      "sha256": "f5b74548d1bf4c452f02a8f6b2c01e57bdda36741b9cad9312c3773571d4979e"
+    },
+    {
+      "view": "assembled",
+      "trial": 2,
+      "repeat": 1,
+      "path": "exports/illustrations/stands_gate_investigation/assembled_2_1.png",
+      "sha256": "31d7de54e51e19583eade145754badbcd7b7913a6f5fa602391aa807d68f6a07"
+    },
+    {
+      "view": "side",
+      "trial": 2,
+      "repeat": 0,
+      "path": "exports/illustrations/stands_gate_investigation/side_2_0.png",
+      "sha256": "dcef587b80ff1223baba47cc0ed8976b3e34c73e6ca436b07c2d7e6cb39bd661"
+    },
+    {
+      "view": "side",
+      "trial": 2,
+      "repeat": 1,
+      "path": "exports/illustrations/stands_gate_investigation/side_2_1.png",
+      "sha256": "f2247ea49b7c636dfe5d5dc97bf22bb0f0862a00b52e9e925204b8f835575a0a"
+    }
+  ],
+  "native_sources_resaved": false,
+  "gpu": {
+    "backend": "METAL"
+  },
+  "version": "5.1.1",
+  "script_sha256": "a9024ab9c13ea71fe6ca0e83d18cf0c998a6b6d8db658869b58f600d5e9102f1"
+}

@@ -1,0 +1,29 @@
+{
+  "version": "0.1.1",
+  "status": "review_final_validation_failed",
+  "geometry_checks": 646,
+  "geometry_fail": 0,
+  "generic_origin_checks": 243,
+  "generic_origin_fail": 0,
+  "source_sha256": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+  "assembly_sha256": "e43c0d1fd6785291090603f2da51f7d9d1c05573edac44dd3f9410f56424ec78",
+  "relocation": "646PASS final source/validator in relocated library",
+  "protected_files_unchanged": 269,
+  "shared_standards_changed": false,
+  "original_approved_assets_modified": false,
+  "source_rebuilt": false,
+  "original_objects_data_frames_preserved": true,
+  "standalone_exact_views": 6,
+  "assembly_exact_views": 1,
+  "assembly_strict_fail_views": 2,
+  "render_reproduction": "7PASS/2FAIL current probe; no waiver",
+  "manufacturer_reference": "manufacturer-reference.md",
+  "release_and_artwork_approval": "production approval withheld; current visual design preserved",
+  "git_commit": "conditional approval/commit requested; not performed because checks fail",
+  "final_measurements": {
+    "pass": 43,
+    "fail": 2,
+    "report": "final-measurements.json"
+  },
+  "final_audit": "final-audit.json"
+}

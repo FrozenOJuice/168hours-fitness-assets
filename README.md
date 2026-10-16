@@ -8,6 +8,8 @@ A14 (2026-10-15) approves functional origins and their safe migration: plate/bar
 
 ## Current library assets
 
+- [Independent adjustable barbell stands](assets/equipment/racks/168h_equipment_barbell_stands/SPEC.md),0.1.1 **approved / ready for internal Blender illustration use**: separate adjustable supports with16detents, lined cradles and pin/clip hardware. [Approval/evidence](assets/equipment/racks/168h_equipment_barbell_stands/approval-record.json);647compatibility+243origin+45measured checks PASS. Corrected linked fixture0.1.2; all9views pass, with explicit asset-local comparison exception in twoassembly views. Approved source equipment and shared standards unchanged.
+
 - [Standalone flat gym bench](assets/equipment/benches/168h_equipment_flat_bench/SPEC.md), 0.1.2, **approved / ready for internal Blender illustration-library use**,2026-10-15 ([approval record](assets/equipment/benches/168h_equipment_flat_bench/approval-record.json)); original prototype history under A13: separate padded top and charcoal frame components, approved asset-local support anchors, four standalone reference views, measured dimensions and explicit manufacturer-context/provisional distinctions.
 
 - [20 kg Olympic barbell](assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/SPEC.md), 1.0.0 (geometry0.1.2), **approved and production-ready for internal Blender illustration use** under A12: preserved steel finish/knurling, independent sleeves and validated plate anchors. Exact source/images and five-plate example pinned in its approval-record.json; external artwork licensing and physical load certification are not claimed.

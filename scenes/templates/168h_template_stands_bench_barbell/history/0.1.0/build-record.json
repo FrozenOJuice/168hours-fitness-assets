@@ -1,0 +1,32 @@
+{
+  "source_sha256": "428d889d0300e443fd3e3a8b52b20a7f22bcd6eedb52dfe6fa9e095027ac2318",
+  "builder_sha256": "3c62a75848323f4893a9ccca9d664ae585bb3f4ed3441977239f9244b0e4bbb3",
+  "dependencies": [
+    {
+      "id": "168h_equipment_barbell_stands",
+      "version": "0.1.0",
+      "source": "assets/equipment/racks/168h_equipment_barbell_stands/168h_equipment_barbell_stands.blend",
+      "sha256": "839aa792f464b2b043f4d95ca219159b067710c0ee314febc7f59f419983caad"
+    },
+    {
+      "id": "168h_equipment_flat_bench",
+      "version": "0.1.2",
+      "source": "assets/equipment/benches/168h_equipment_flat_bench/168h_equipment_flat_bench.blend",
+      "sha256": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3"
+    },
+    {
+      "id": "168h_equipment_olympic_barbell_20kg",
+      "version": "1.0.0",
+      "source": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
+      "sha256": "4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30"
+    }
+  ],
+  "bar_center_m": [
+    0.0,
+    0.4399999976158142,
+    0.9419999718666077
+  ],
+  "placement": "existing bar axis_center frame aligned automatically to midpoint of two stands bar_axis anchors",
+  "source_revision_or_digest": "sha256:428d889d0300e443fd3e3a8b52b20a7f22bcd6eedb52dfe6fa9e095027ac2318",
+  "axis_correction": "Preserve canonical bar shaft+X; source axis_center anchor +Y follows shaft+X, so its frame rotation must be preserved in target. Added actual shaft-line radial alignment tests."
+}

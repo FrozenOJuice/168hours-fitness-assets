@@ -1,0 +1,524 @@
+{
+  "date": "2026-10-15",
+  "source_sha256": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+  "assembly_sha256": "440357773d30d0b06d2130f53847641880673c5c4b416a2c8da81256c008f8ae",
+  "validator_sha256": "05131dfb1af5f99b8a0d121ab0ee621c0637342382e9024c90082097dbb7816b",
+  "checks": [
+    {
+      "check": "manufacturer_base:l",
+      "expected": "596.9x622.3mm contextual orientation",
+      "actual": [
+        0.5968999862670898,
+        0.6223000288009644
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "manufacturer_base:r",
+      "expected": "596.9x622.3mm contextual orientation",
+      "actual": [
+        0.5968999862670898,
+        0.6223000288009644
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "manufacturer_max_tube_top:l",
+      "expected": "1778mm; manufacturer height datum interpretation remains provisional",
+      "actual": 1.777999997138977,
+      "result": "PASS"
+    },
+    {
+      "check": "manufacturer_max_tube_top:r",
+      "expected": "1778mm; manufacturer height datum interpretation remains provisional",
+      "actual": 1.777999997138977,
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:0",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 99,
+        "min_vertex_hole_radius_m": 0.008481902424352449,
+        "nearest_hole_face_distance_m": 0.008481742814183235,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442425608634949
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:0",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 99,
+        "min_vertex_hole_radius_m": 0.008481902424352449,
+        "nearest_hole_face_distance_m": 0.008481742814183235,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442425608634949
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:1",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 99,
+        "min_vertex_hole_radius_m": 0.008481729315966259,
+        "nearest_hole_face_distance_m": 0.008481710217893124,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442099645733833
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:1",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 99,
+        "min_vertex_hole_radius_m": 0.008481729315966259,
+        "nearest_hole_face_distance_m": 0.008481710217893124,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442099645733833
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:2",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 99,
+        "min_vertex_hole_radius_m": 0.008481806401107312,
+        "nearest_hole_face_distance_m": 0.008481718599796295,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442183464765549
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:2",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 99,
+        "min_vertex_hole_radius_m": 0.008481806401107312,
+        "nearest_hole_face_distance_m": 0.008481718599796295,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442183464765549
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:3",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 99,
+        "min_vertex_hole_radius_m": 0.008493969991545523,
+        "nearest_hole_face_distance_m": 0.008481742814183235,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442425608634949
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:3",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 99,
+        "min_vertex_hole_radius_m": 0.008493969991545523,
+        "nearest_hole_face_distance_m": 0.008481742814183235,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442425608634949
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:4",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 100,
+        "min_vertex_hole_radius_m": 0.008481909360957074,
+        "nearest_hole_face_distance_m": 0.008481742814183235,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442425608634949
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:4",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 100,
+        "min_vertex_hole_radius_m": 0.008481909360957074,
+        "nearest_hole_face_distance_m": 0.008481742814183235,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442425608634949
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:5",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008489450078300311,
+        "nearest_hole_face_distance_m": 0.008481742814183235,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442425608634949
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:5",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008489450078300311,
+        "nearest_hole_face_distance_m": 0.008481742814183235,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442425608634949
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:6",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.00849541746879088,
+        "nearest_hole_face_distance_m": 0.008481742814183235,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442425608634949
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:6",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.00849541746879088,
+        "nearest_hole_face_distance_m": 0.008481742814183235,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442425608634949
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:7",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.00848604121472254,
+        "nearest_hole_face_distance_m": 0.008481687866151333,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005441876128315926
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:7",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.00848604121472254,
+        "nearest_hole_face_distance_m": 0.008481687866151333,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005441876128315926
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:8",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008482342633338706,
+        "nearest_hole_face_distance_m": 0.008481742814183235,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442425608634949
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:8",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008482342633338706,
+        "nearest_hole_face_distance_m": 0.008481742814183235,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442425608634949
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:9",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008481904500069722,
+        "nearest_hole_face_distance_m": 0.008481721393764019,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442211404442787
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:9",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008481904500069722,
+        "nearest_hole_face_distance_m": 0.008481721393764019,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442211404442787
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:10",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.0084835809069007,
+        "nearest_hole_face_distance_m": 0.008481738157570362,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442379042506218
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:10",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.0084835809069007,
+        "nearest_hole_face_distance_m": 0.008481738157570362,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442379042506218
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:11",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008486443096008135,
+        "nearest_hole_face_distance_m": 0.008481710217893124,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442099645733833
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:11",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008486443096008135,
+        "nearest_hole_face_distance_m": 0.008481710217893124,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442099645733833
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:12",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008489864709739916,
+        "nearest_hole_face_distance_m": 0.008481710217893124,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442099645733833
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:12",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008489864709739916,
+        "nearest_hole_face_distance_m": 0.008481710217893124,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442099645733833
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:13",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008491607731599488,
+        "nearest_hole_face_distance_m": 0.00848162081092596,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005441205576062202
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:13",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008491607731599488,
+        "nearest_hole_face_distance_m": 0.00848162081092596,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005441205576062202
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:14",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008497899229315849,
+        "nearest_hole_face_distance_m": 0.008481710217893124,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442099645733833
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:14",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 98,
+        "min_vertex_hole_radius_m": 0.008497899229315849,
+        "nearest_hole_face_distance_m": 0.008481710217893124,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442099645733833
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:l:15",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 96,
+        "min_vertex_hole_radius_m": 0.008499957266205097,
+        "nearest_hole_face_distance_m": 0.008481722325086594,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442220717668533
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_pin_clearance:r:15",
+      "expected": "positive measured clearance; nominal0.5625mm, tessellated opening recorded",
+      "actual": {
+        "sampled_rim_vertices": 96,
+        "min_vertex_hole_radius_m": 0.008499957266205097,
+        "nearest_hole_face_distance_m": 0.008481722325086594,
+        "pin_radius_m": 0.00793750025331974,
+        "radial_clearance_m": 0.0005442220717668533
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_bench_to_stand:l",
+      "expected": ">=73.75mm horizontal separating envelope",
+      "actual": {
+        "stand_inner_x_m": 0.25154995918273926,
+        "bench_half_width_m": 0.1777999997138977,
+        "horizontal_gap_m": 0.07374995946884155
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_hook_flange_margin:l",
+      "expected": "75mm based on actual shaft and hook envelopes",
+      "actual": {
+        "half_shaft_m": 0.6550000309944153,
+        "hook_outer_station_m": 0.5800000429153442,
+        "margin_m": 0.07499998807907104
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "actual_bar_bottom_contact:l",
+      "expected": "no penetration; actual bottom contact within1e-6m",
+      "actual": {
+        "rays": 59,
+        "min_vertical_gap_m": 2.086162567138672e-06,
+        "max_vertical_gap_m": 0.00013780593872070312,
+        "actual_vertex_to_liner_min_gap_m": 1.1920928955078125e-07,
+        "surface_vertices": 24192
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_bench_to_stand:r",
+      "expected": ">=73.75mm horizontal separating envelope",
+      "actual": {
+        "stand_inner_x_m": 0.25154995918273926,
+        "bench_half_width_m": 0.1777999997138977,
+        "horizontal_gap_m": 0.07374995946884155
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "measured_hook_flange_margin:r",
+      "expected": "75mm based on actual shaft and hook envelopes",
+      "actual": {
+        "half_shaft_m": 0.6550000309944153,
+        "hook_outer_station_m": 0.5799999833106995,
+        "margin_m": 0.07500004768371582
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "actual_bar_bottom_contact:r",
+      "expected": "no penetration; actual bottom contact within1e-6m",
+      "actual": {
+        "rays": 59,
+        "min_vertical_gap_m": 2.086162567138672e-06,
+        "max_vertical_gap_m": 0.00013780593872070312,
+        "actual_vertex_to_liner_min_gap_m": 1.1920928955078125e-07,
+        "surface_vertices": 24192
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "symmetric_j_hook_contacts",
+      "expected": "X mirrored around bar midpoint, equalY/Z;1100mm separation",
+      "actual": {
+        "left": [
+          -0.550000011920929,
+          0.440000057220459,
+          0.9279999732971191
+        ],
+        "right": [
+          0.550000011920929,
+          0.43999990820884705,
+          0.9279999732971191
+        ],
+        "center": [
+          0.0,
+          0.4399999976158142,
+          0.9419952630996704
+        ],
+        "separation_m": 1.100000017339543
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "source_bytes_preserved:168h_equipment_barbell_stands.blend",
+      "expected": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+      "actual": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+      "result": "PASS"
+    },
+    {
+      "check": "source_bytes_preserved:168h_template_stands_bench_barbell.blend",
+      "expected": "440357773d30d0b06d2130f53847641880673c5c4b416a2c8da81256c008f8ae",
+      "actual": "440357773d30d0b06d2130f53847641880673c5c4b416a2c8da81256c008f8ae",
+      "result": "PASS"
+    }
+  ],
+  "pass": 45,
+  "fail": 0,
+  "scope": "independent measured digital geometry and static contact; no manufacturing or strength certification"
+}

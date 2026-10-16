@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-15",
+  "version": "0.1.1",
+  "status": "approval_withheld",
+  "requested_action": "Approve and commit if everything passes; preserve current design and standards",
+  "approval_condition_met": false,
+  "commit_performed": false,
+  "source_sha256": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+  "assembly_sha256": "e43c0d1fd6785291090603f2da51f7d9d1c05573edac44dd3f9410f56424ec78",
+  "source_models_or_reference_images_edited_during_final_validation": false,
+  "visual_design": "preserved as instructed; production approval withheld",
+  "existing_geometry_suite": {
+    "pass": 646,
+    "fail": 0,
+    "record": "validation-results.json"
+  },
+  "origin_details": {
+    "pass": 243,
+    "fail": 0,
+    "record": "origin-validation.json"
+  },
+  "independent_measurements": {
+    "pass": 43,
+    "fail": 2,
+    "record": "final-measurements.json"
+  },
+  "origin_failure_injection": {
+    "pass": 6,
+    "fail": 0,
+    "record": "final-origin-validator-tests.json"
+  },
+  "automatic_placement_regression": {
+    "pass": 2,
+    "fail": 0,
+    "record": "final-origin-placement-helper-tests.json"
+  },
+  "render_reproduction": {
+    "pass": 7,
+    "fail": 2,
+    "standalone_exact": 6,
+    "assembly_front_exact": true,
+    "max_channel_delta": 0.0313725471496582,
+    "max_changed_channel_fraction": 0.0002309375,
+    "record": "render-reproduction.json"
+  },
+  "measured_dimensions": {
+    "per_stand_base_xy_m": [
+      0.5969,
+      0.6223
+    ],
+    "maximum_tube_top_m": 1.778,
+    "maximum_hook_backplate_top_m": 1.798,
+    "support_spacing_m": 1.1,
+    "bar_axis_m": [
+      0,
+      0.44,
+      0.942
+    ],
+    "bench_to_stand_horizontal_gap_m": 0.07374995946884155,
+    "flange_margin_m": [
+      0.07499998807907104,
+      0.07500004768371582
+    ],
+    "pin_diameter_m": 0.015875,
+    "pin_nominal_radial_clearance_m": 0.0005625,
+    "tessellated_pin_face_radial_clearance_range_m": [
+      0.0005441205576062202,
+      0.0005442425608634949
+    ]
+  },
+  "source_digest_reconciliation": {
+    "resolved": true,
+    "record": "saved-revision-comparison.json",
+    "note": "Unrecorded prior resave differs in binary SHA; exact compared geometry, hierarchy, transforms, materials, controllers/drivers, cameras and render semantics equal. Retained validated old bytes; updated current source/dependency pins, preserved original capture/refinement evidence."
+  },
+  "issues_before_approval": [
+    {
+      "id": "F01",
+      "issue": "Additional measured seating criterion fails on both hooks",
+      "observed": "Sampled actual knurled-shaft vertices remain4.827976um above actual liner surface;59axial rays minimum6.79493um; nominal axis/frame alignment is correct and symmetric, no intersections.",
+      "criterion": "The additional final-audit actual-contact check uses1e-6m; existing nominal anchor/origin tolerance is unchanged. This is sampled surface evidence, not an exhaustive triangle-distance proof.",
+      "recommended_correction": "Verify exact closest triangle contact and derive a small scene-owned seating offset if needed, without moving published stand anchors or editing approved barbell/bench geometry; recheck symmetry/intersections and reference evidence."
+    },
+    {
+      "id": "F02",
+      "issue": "V06 strict assembly pixel reproduction still fails",
+      "observed": "Assembled and assemblyside fail; standalone6views and assemblyfront exact. Current max8/255 on0.02309375% channels.",
+      "recommended_correction": "Resolve deterministic linked-scene raster reproduction without redesigning accepted models or silently changing renderer/style/tolerance, then rerun frozen-reference comparison."
+    }
+  ],
+  "remaining_assumptions": "Manufacturer footprint and5/8in pin corroborated;70in height datum interpreted as tube top. Hole pitch/count, sections/walls, hook/guide/clip details original unpublished choices, not exact manufacturer drawings or engineering certification.",
+  "protected_assets_and_shared_standards_unchanged": true
+}

@@ -1,0 +1,31 @@
+{
+  "diagnostic_settings_only": true,
+  "authoritative_settings_changed": false,
+  "results": [
+    {
+      "variant": "threads1",
+      "max_8bit_delta": 8,
+      "max_changed_channel_fraction": 0.00023109375
+    },
+    {
+      "variant": "no_outline",
+      "max_8bit_delta": 0,
+      "max_changed_channel_fraction": 0.0
+    },
+    {
+      "variant": "no_aa",
+      "max_8bit_delta": 11,
+      "max_changed_channel_fraction": 0.00015796875
+    },
+    {
+      "variant": "bench_hidden",
+      "max_8bit_delta": 5,
+      "max_changed_channel_fraction": 0.0001375
+    },
+    {
+      "variant": "clip10",
+      "max_8bit_delta": 8,
+      "max_changed_channel_fraction": 0.0002709375
+    }
+  ]
+}

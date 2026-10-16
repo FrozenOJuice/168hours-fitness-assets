@@ -1,0 +1,15 @@
+{
+  "before_sha256": "e43c0d1fd6785291090603f2da51f7d9d1c05573edac44dd3f9410f56424ec78",
+  "after_sha256": "7fe7bdd136f8d4c50cadd29b904839e650c07aef66c6e909fd875ce728fe6104",
+  "requested_vertical_offset_m": -4.8e-06,
+  "actual_vertical_offset_m": -4.827976226806641e-06,
+  "scope": "only barbell_primary instance world Z and local descriptive properties; bench/stands instances, source geometry/materials/anchors and shared standards unchanged",
+  "evidence": "contact-investigation.json",
+  "source_sha256": {
+    "assets/equipment/racks/168h_equipment_barbell_stands/168h_equipment_barbell_stands.blend": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+    "assets/equipment/benches/168h_equipment_flat_bench/168h_equipment_flat_bench.blend": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+    "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend": "4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30"
+  },
+  "script_sha256": "a20940be5109725639103a2c6aa8951915698a4b0cacadf4511c10deee6c70b1",
+  "archive": "scenes/templates/168h_template_stands_bench_barbell/history/0.1.1-before-contact"
+}

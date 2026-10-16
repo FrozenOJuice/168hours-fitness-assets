@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-15",
+  "status": "approved",
+  "asset_id": "168h_equipment_barbell_stands",
+  "asset_version": "0.1.1",
+  "fixture_version": "0.1.2",
+  "scope": "Internal168Hours reusable Blender illustration library; original construction assumptions accepted as illustration choices, not physical certification or external artwork grant",
+  "authorization": [
+    "User: If everything passes under approved validation criteria, mark the stands approved and commit",
+    "User: Approve this scoped comparison exception"
+  ],
+  "artifacts": [
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/168h_equipment_barbell_stands.blend",
+      "sha256": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae"
+    },
+    {
+      "path": "scenes/templates/168h_template_stands_bench_barbell/168h_template_stands_bench_barbell.blend",
+      "sha256": "440357773d30d0b06d2130f53847641880673c5c4b416a2c8da81256c008f8ae"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/render-settings.json",
+      "sha256": "e5a83f4c2260704d4ba49c792d63aaece44805288fd4fa9b0cd3ff4475e9c6bf"
+    },
+    {
+      "path": "scenes/templates/168h_template_stands_bench_barbell/previews/render-settings.json",
+      "sha256": "77bf467a60fe6f575d27e69a93f3aa366d52b03ad3ddf8e7eee313126838c927"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__adjustment_detail__bench.png",
+      "sha256": "66c3d3ca7acc46a6f5af378aac421ef41c91555c35b9a0aa3e8dae298deeade4"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__front__bench.png",
+      "sha256": "d217076e28af60e88cf7b41fc6e71d8fb3220b7ce0a4b47aa794f9b328674144"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__hook_detail__bench.png",
+      "sha256": "04a3b2237ee4027d27a4d81c5546527d54186b57e4a81e8a5314a2ba8fd2e7e9"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__maximum_height__maximum_height.png",
+      "sha256": "d279a89b30344d6772bb24c70de45d6717c599cce3cb95f355833fac3a3f8e48"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__side__bench.png",
+      "sha256": "cbac30cd041eee433508f2f67cd527f50c691bcf44d7035ae6f45fc039e9fa66"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__three_quarter__bench.png",
+      "sha256": "7ea8c7644afd5441b7918fbf8173ca6332692ee4bbbf05a227bd83c3f7ea5b99"
+    },
+    {
+      "path": "scenes/templates/168h_template_stands_bench_barbell/previews/168h_template_stands_bench_barbell__assembled__bench_barbell.png",
+      "sha256": "b3fc765be4051c57a628ff183eba27b0acd1df7dc9ba0bdd1eabdef70be91bc0"
+    },
+    {
+      "path": "scenes/templates/168h_template_stands_bench_barbell/previews/168h_template_stands_bench_barbell__front__bench_barbell.png",
+      "sha256": "572896a6f9918746494f2f12c5c01dafbb4078b0ecfd577375fbe03376c48ae4"
+    },
+    {
+      "path": "scenes/templates/168h_template_stands_bench_barbell/previews/168h_template_stands_bench_barbell__side__bench_barbell.png",
+      "sha256": "51cdf34b9b611a7786f9992a8deb720e04bb9d2cad8b6daf7c720834654bb1ff"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/render-comparison-policy.json",
+      "sha256": "94d060370f89d4c775335575974e994ec3b2b370aa29b17d8bb6f3ec10003441"
+    }
+  ],
+  "validation": {
+    "geometry": 647,
+    "origin_details": 243,
+    "independent_measurements": 45,
+    "origin_fault_injection": 6,
+    "placement_regression": 2,
+    "comparison_boundary_tests": 9,
+    "reference_views": 9,
+    "repeated_reference_checks": 27,
+    "failures": 0,
+    "relocated_geometry": 647,
+    "relocated_measurements": 45,
+    "relocated_render_views": 9
+  },
+  "remaining_blockers": [],
+  "remaining_limitations": [
+    "Manufacturer context is documented; tube section/wall, hook profile/liner and hardware detail,50mm hole pitch/count/minimum height/support offsets and spacing are original provisional choices.",
+    "No mass/load/strength/dynamic stability/physical safety or manufacturer-product certification.",
+    "External artwork terms remain unselected, separate from MIT code/documentation.",
+    "No human/alternative stand/bar substitution or authored library-override animation tested.",
+    "Two assembly views use the explicitly approved scoped image-comparison exception; all other views pixel-exact."
+  ],
+  "approval_is_not_shared_standard_promotion": true,
+  "source_models_unchanged": true,
+  "contact_correction": "contact-correction.json",
+  "final_audit": "final-audit.json",
+  "committed_checkout": "committed-checkout-validation.json"
+}

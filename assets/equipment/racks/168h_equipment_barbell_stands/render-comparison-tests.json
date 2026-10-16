@@ -1,0 +1,138 @@
+{
+  "checks": [
+    {
+      "case": "exact image accepted",
+      "expected": "PASS",
+      "observed": {
+        "result": "PASS",
+        "comparison": "approved_stands_assembly_exception",
+        "max_channel_delta": 0.0,
+        "max_8bit_delta": 0,
+        "changed_channel_fraction": 0.0,
+        "changed_channels": 0,
+        "changed_pixel_fraction": 0.0,
+        "mean_absolute_8bit_delta": 0.0,
+        "alpha_exact": true,
+        "pixel_exact": true
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "sparse 8-code edge difference accepted",
+      "expected": "PASS",
+      "observed": {
+        "result": "PASS",
+        "comparison": "approved_stands_assembly_exception",
+        "max_channel_delta": 0.03137254901960784,
+        "max_8bit_delta": 8,
+        "changed_channel_fraction": 1.5625e-07,
+        "changed_channels": 1,
+        "changed_pixel_fraction": 6.25e-07,
+        "mean_absolute_8bit_delta": 1.25e-06,
+        "alpha_exact": true,
+        "pixel_exact": false
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "9-code error rejected",
+      "expected": "FAIL",
+      "observed": {
+        "result": "FAIL",
+        "comparison": "approved_stands_assembly_exception",
+        "max_channel_delta": 0.03529411764705882,
+        "max_8bit_delta": 9,
+        "changed_channel_fraction": 1.5625e-07,
+        "changed_channels": 1,
+        "changed_pixel_fraction": 6.25e-07,
+        "mean_absolute_8bit_delta": 1.40625e-06,
+        "alpha_exact": true,
+        "pixel_exact": false
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "any alpha change rejected",
+      "expected": "FAIL",
+      "observed": {
+        "result": "FAIL",
+        "comparison": "approved_stands_assembly_exception",
+        "max_channel_delta": 0.00392156862745098,
+        "max_8bit_delta": 1,
+        "changed_channel_fraction": 1.5625e-07,
+        "changed_channels": 1,
+        "changed_pixel_fraction": 6.25e-07,
+        "mean_absolute_8bit_delta": 1.5625e-07,
+        "alpha_exact": false,
+        "pixel_exact": false
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "broad drift rejected",
+      "expected": "FAIL",
+      "observed": {
+        "result": "FAIL",
+        "comparison": "approved_stands_assembly_exception",
+        "max_channel_delta": 0.00392156862745098,
+        "max_8bit_delta": 1,
+        "changed_channel_fraction": 0.00375,
+        "changed_channels": 24000,
+        "changed_pixel_fraction": 0.005,
+        "mean_absolute_8bit_delta": 0.00375,
+        "alpha_exact": true,
+        "pixel_exact": false
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "mean-error gate rejects sparse excessive aggregate energy",
+      "expected": "FAIL",
+      "observed": {
+        "result": "FAIL",
+        "comparison": "approved_stands_assembly_exception",
+        "max_channel_delta": 0.03137254901960784,
+        "max_8bit_delta": 8,
+        "changed_channel_fraction": 0.00046875,
+        "changed_channels": 3000,
+        "changed_pixel_fraction": 0.000625,
+        "mean_absolute_8bit_delta": 0.00375,
+        "alpha_exact": true,
+        "pixel_exact": false
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "unscoped exact view rejects 1-code change",
+      "expected": "FAIL",
+      "observed": {
+        "result": "FAIL",
+        "comparison": "exact",
+        "max_channel_delta": 0.00392156862745098,
+        "max_8bit_delta": 1,
+        "changed_channel_fraction": 1.5625e-07,
+        "changed_channels": 1,
+        "changed_pixel_fraction": 6.25e-07,
+        "mean_absolute_8bit_delta": 1.5625e-07,
+        "alpha_exact": true,
+        "pixel_exact": false
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "resolution mismatch rejected",
+      "expected": "FAIL",
+      "observed": {
+        "result": "FAIL",
+        "reason": "RGBA dimensions differ"
+      },
+      "result": "PASS"
+    },
+    {
+      "case": "channel coverage boundary fails",
+      "result": "PASS"
+    }
+  ],
+  "pass": 9,
+  "fail": 0
+}

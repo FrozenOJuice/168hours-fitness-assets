@@ -1,0 +1,50 @@
+{
+  "old_sha256": "5ef637f51837c3459a1bb51e8faec479fb894af6700f59ed5bb837026fd8460d",
+  "current_sha256": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+  "compared_predecessor": "assets/equipment/racks/168h_equipment_barbell_stands/history/0.1.1-before-resave/168h_equipment_barbell_stands.blend",
+  "validator_sha256": "4ccc473ce4debee873f09fe161fc8ed094bb2f411a0df02d22bfab2cb279e5d8",
+  "semantic_changes": {
+    "objects": [],
+    "materials": [],
+    "settings": []
+  },
+  "semantic_equal": true,
+  "old_ui": {
+    "filepath": "/Users/joeldehoog/Developer/168hours-fitness-assets/assets/equipment/racks/168h_equipment_barbell_stands/history/0.1.1-before-resave/168h_equipment_barbell_stands.blend",
+    "active_object": null,
+    "selected": [],
+    "viewport_hidden": [
+      "168h_equipment_barbell_stands__root",
+      "168h_equipment_barbell_stands__control_stand_l",
+      "168h_equipment_barbell_stands__control_upper_l",
+      "168h_equipment_barbell_stands__control_stand_r",
+      "168h_equipment_barbell_stands__control_upper_r",
+      "168h_equipment_barbell_stands__anchor_floor_contact",
+      "168h_equipment_barbell_stands__anchor_floor_l",
+      "168h_equipment_barbell_stands__anchor_bar_support_l",
+      "168h_equipment_barbell_stands__anchor_bar_axis_l",
+      "168h_equipment_barbell_stands__anchor_floor_r",
+      "168h_equipment_barbell_stands__anchor_bar_support_r",
+      "168h_equipment_barbell_stands__anchor_bar_axis_r"
+    ]
+  },
+  "current_ui": {
+    "filepath": "/Users/joeldehoog/Developer/168hours-fitness-assets/assets/equipment/racks/168h_equipment_barbell_stands/168h_equipment_barbell_stands.blend",
+    "active_object": null,
+    "selected": [],
+    "viewport_hidden": [
+      "168h_equipment_barbell_stands__root",
+      "168h_equipment_barbell_stands__control_stand_l",
+      "168h_equipment_barbell_stands__control_upper_l",
+      "168h_equipment_barbell_stands__control_stand_r",
+      "168h_equipment_barbell_stands__control_upper_r",
+      "168h_equipment_barbell_stands__anchor_floor_contact",
+      "168h_equipment_barbell_stands__anchor_floor_l",
+      "168h_equipment_barbell_stands__anchor_bar_support_l",
+      "168h_equipment_barbell_stands__anchor_bar_axis_l",
+      "168h_equipment_barbell_stands__anchor_floor_r",
+      "168h_equipment_barbell_stands__anchor_bar_support_r",
+      "168h_equipment_barbell_stands__anchor_bar_axis_r"
+    ]
+  }
+}

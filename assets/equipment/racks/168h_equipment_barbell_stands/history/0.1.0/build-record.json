@@ -1,0 +1,32 @@
+{
+  "prebuild_document_sha256": {
+    "SPEC.md": "2ed81222045aa510cd9e242b701c6129ffabec864d1a245e260e85ff445e9a1b",
+    "asset.json": "f2fdfb6d2180e37a678174fdc646e1a769d4f065bdd5bb7909684348de3d6b17",
+    "validation.md": "595ce0c173cf3d5d3a5fa5593acef1880948a84627ef44ab846de71f6c2f7492"
+  },
+  "source_sha256": "839aa792f464b2b043f4d95ca219159b067710c0ee314febc7f59f419983caad",
+  "builder_sha256": "e6210eaf285adc3b989a41892f144881bd8460f2f2088d4347d44a54469dfd8a",
+  "blender_version": "5.1.1",
+  "components": {
+    "mesh_objects": 64,
+    "unique_mesh_data": 32,
+    "controllers": {
+      "l": "168h_equipment_barbell_stands__control_stand_l",
+      "r": "168h_equipment_barbell_stands__control_stand_r"
+    },
+    "upper_controllers": {
+      "l": "168h_equipment_barbell_stands__control_upper_l",
+      "r": "168h_equipment_barbell_stands__control_upper_r"
+    },
+    "reuse": "Every opposite-stand mesh shares corresponding left mesh data; no negative scale"
+  },
+  "initial_qa_corrections": {
+    "pre_cleanup_sha256": "87f76adc2f93da5a0d17aab73feb502b91c8d738157c080788a6f132f5dd2d73",
+    "tube": "Removed post-hole bevel that produced degeneracies; closed7 accidental Boolean boundary edges in shared inner mesh; all through openings retained; clear empty material slots in initial builder",
+    "assembly": "Evaluate linked source anchor after instantiation before aligning bar, correcting36.5mm authoring-offset error",
+    "framing": "Increase standalone three-quarter orthographic scale to2.85m and maximum-height to3.7m to keep foot pads within frame",
+    "assembly_axis": "Preserve source axis_center orientation, whose+Y points alongshaft+X; added actual shaft-line and canonicalX tests",
+    "floor_anchor_owner": "Pair floor_contact is parented directly to aggregate root, not right stand controller; canonical position unchanged."
+  },
+  "final_builder_sha256": "b7c428a54db9e4d725512cc013d99ef0be7261195170088c675656b86caa1ac7"
+}

@@ -1,0 +1,879 @@
+{
+  "id": "168h_equipment_barbell_stands",
+  "category": "equipment",
+  "version": "0.1.0",
+  "status": "review",
+  "source": "assets/equipment/racks/168h_equipment_barbell_stands/168h_equipment_barbell_stands.blend",
+  "blender_version": "5.1.1",
+  "units": "meters",
+  "axes": {
+    "up": "+Z",
+    "forward": "+Y",
+    "subject_left": "+X"
+  },
+  "dimensions_m": [
+    1.6969,
+    0.6223,
+    1.048
+  ],
+  "dimension_tolerance_m": 1e-06,
+  "collection": "168h_equipment_barbell_stands",
+  "root": "168h_equipment_barbell_stands__root",
+  "published_datablocks": [
+    "168h_equipment_barbell_stands"
+  ],
+  "canonical_configuration": "bench; independent stands centered X+/-0.55m; hooks face+Y",
+  "interfaces": [
+    {
+      "id": "independent_barbell_support",
+      "version": "0.1.0",
+      "status": "asset-local review proposal",
+      "required_anchors": [
+        "floor_contact",
+        "floor_l",
+        "bar_support_l",
+        "bar_axis_l",
+        "floor_r",
+        "bar_support_r",
+        "bar_axis_r"
+      ]
+    }
+  ],
+  "anchors": {
+    "floor_contact": {
+      "object": "168h_equipment_barbell_stands__anchor_floor_contact",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z",
+      "owner_controller": "168h_equipment_barbell_stands__root",
+      "configuration": "rest height_index_l/r0; sliding anchors add index*0.05 toZ"
+    },
+    "floor_l": {
+      "object": "168h_equipment_barbell_stands__anchor_floor_l",
+      "position_m": [
+        0.55,
+        0,
+        0
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z",
+      "owner_controller": "168h_equipment_barbell_stands__control_stand_l",
+      "configuration": "rest height_index_l/r0; sliding anchors add index*0.05 toZ"
+    },
+    "bar_support_l": {
+      "object": "168h_equipment_barbell_stands__anchor_bar_support_l",
+      "position_m": [
+        0.55,
+        0.14,
+        0.928
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z",
+      "owner_controller": "168h_equipment_barbell_stands__control_upper_l",
+      "configuration": "rest height_index_l/r0; sliding anchors add index*0.05 toZ"
+    },
+    "bar_axis_l": {
+      "object": "168h_equipment_barbell_stands__anchor_bar_axis_l",
+      "position_m": [
+        0.55,
+        0.14,
+        0.942
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z",
+      "owner_controller": "168h_equipment_barbell_stands__control_upper_l",
+      "configuration": "rest height_index_l/r0; sliding anchors add index*0.05 toZ"
+    },
+    "floor_r": {
+      "object": "168h_equipment_barbell_stands__anchor_floor_r",
+      "position_m": [
+        -0.55,
+        0,
+        0
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z",
+      "owner_controller": "168h_equipment_barbell_stands__control_stand_r",
+      "configuration": "rest height_index_l/r0; sliding anchors add index*0.05 toZ"
+    },
+    "bar_support_r": {
+      "object": "168h_equipment_barbell_stands__anchor_bar_support_r",
+      "position_m": [
+        -0.55,
+        0.14,
+        0.928
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z",
+      "owner_controller": "168h_equipment_barbell_stands__control_upper_r",
+      "configuration": "rest height_index_l/r0; sliding anchors add index*0.05 toZ"
+    },
+    "bar_axis_r": {
+      "object": "168h_equipment_barbell_stands__anchor_bar_axis_r",
+      "position_m": [
+        -0.55,
+        0.14,
+        0.942
+      ],
+      "rotation_euler_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "forward": "+Y",
+      "up": "+Z",
+      "owner_controller": "168h_equipment_barbell_stands__control_upper_r",
+      "configuration": "rest height_index_l/r0; sliding anchors add index*0.05 toZ"
+    }
+  },
+  "configuration_ranges": {
+    "height_index_l": [
+      0,
+      15
+    ],
+    "height_index_r": [
+      0,
+      15
+    ],
+    "step_m": 0.05,
+    "bar_support_height_m": [
+      0.928,
+      1.678
+    ],
+    "spacing": "source controllers X+/-0.55m; assembly may translate independent controller frames only after contact review"
+  },
+  "rig_interface": "independent root height_index_l/r integer custom properties drive sliding parts and support anchors; no physics rig",
+  "material_slots": {
+    "equipment_frame": [
+      "168h_equipment_barbell_stands__material_frame_body",
+      "168h_equipment_barbell_stands__material_frame_top",
+      "168h_equipment_barbell_stands__material_frame_side",
+      "168h_equipment_barbell_stands__material_hardware_body",
+      "168h_equipment_barbell_stands__material_hardware_top",
+      "168h_equipment_barbell_stands__material_hardware_side"
+    ],
+    "equipment_grip": [
+      "168h_equipment_barbell_stands__material_grip_body",
+      "168h_equipment_barbell_stands__material_grip_top",
+      "168h_equipment_barbell_stands__material_grip_side"
+    ]
+  },
+  "dependencies": [],
+  "provenance": {
+    "creator": "Codex for168Hours Fitness",
+    "origin": "Original procedural geometry; published manufacturer proportions only, no imported artwork",
+    "source_url": "https://www.vulcanstrength.com/Adjustable-Squat-Stands-Olympic-p/v-oly1.htm",
+    "license": null,
+    "attribution": "Artwork separate from MIT code/docs"
+  },
+  "review": {
+    "reviewer": "Codex technical/manual QA; user acceptance pending",
+    "date": "2026-10-15",
+    "approval_reference": null,
+    "notes": "449 geometry/control/assembly checks PASS;243 generic origin details PASS;5standalone exact comparisons PASS;3assembly strict pixel comparisons FAIL, pending review/investigation; no tolerance change",
+    "status": "review_prototype"
+  },
+  "specification": "assets/equipment/racks/168h_equipment_barbell_stands/SPEC.md",
+  "validation_record": "assets/equipment/racks/168h_equipment_barbell_stands/validation.md",
+  "standards": {
+    "global_style": "docs/visual-style.md",
+    "shared_conventions": "docs/asset-conventions.md",
+    "category_standard": "docs/category-standards.md",
+    "style_preset": "stands_review_flat@0.1.0",
+    "revision": "prebuild-record.json",
+    "style_preset_revision": "0bf2ed0637846172998a2e8bba6d86f6d4b4f7ec230fc91ee14debac4202d2a9"
+  },
+  "reference_renders": [
+    {
+      "view": "front",
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__front__bench.png",
+      "configuration": "bench",
+      "frame": 1,
+      "sha256": "b62dd6b41d40410f6ae6d508e08fb12323599eaa94dabdac9950045d48b90ec6",
+      "source_revision_or_digest": "sha256:839aa792f464b2b043f4d95ca219159b067710c0ee314febc7f59f419983caad",
+      "preset_revision": "0bf2ed0637846172998a2e8bba6d86f6d4b4f7ec230fc91ee14debac4202d2a9"
+    },
+    {
+      "view": "side",
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__side__bench.png",
+      "configuration": "bench",
+      "frame": 1,
+      "sha256": "dc8b6498fd128362670499d21235c129589e74e877b4984c3b54ff0f4359353b",
+      "source_revision_or_digest": "sha256:839aa792f464b2b043f4d95ca219159b067710c0ee314febc7f59f419983caad",
+      "preset_revision": "0bf2ed0637846172998a2e8bba6d86f6d4b4f7ec230fc91ee14debac4202d2a9"
+    },
+    {
+      "view": "three_quarter",
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__three_quarter__bench.png",
+      "configuration": "bench",
+      "frame": 1,
+      "sha256": "dead864dab9cabdc1da2aa419d32f74faa227701f9ecc25376969d2a1db120f2",
+      "source_revision_or_digest": "sha256:839aa792f464b2b043f4d95ca219159b067710c0ee314febc7f59f419983caad",
+      "preset_revision": "0bf2ed0637846172998a2e8bba6d86f6d4b4f7ec230fc91ee14debac4202d2a9"
+    },
+    {
+      "view": "maximum_height",
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__maximum_height__maximum_height.png",
+      "configuration": "maximum_height",
+      "frame": 1,
+      "sha256": "1bdbbe3ce49144fe7946e2240faaec62644b8d1b64c0d81e144ec7558cd97d95",
+      "source_revision_or_digest": "sha256:839aa792f464b2b043f4d95ca219159b067710c0ee314febc7f59f419983caad",
+      "preset_revision": "0bf2ed0637846172998a2e8bba6d86f6d4b4f7ec230fc91ee14debac4202d2a9"
+    },
+    {
+      "view": "hook_detail",
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__hook_detail__bench.png",
+      "configuration": "bench",
+      "frame": 1,
+      "sha256": "95854b142605fe6ac1f6219a437ff0748264cf7926c73ab0aba1341096692b9d",
+      "source_revision_or_digest": "sha256:839aa792f464b2b043f4d95ca219159b067710c0ee314febc7f59f419983caad",
+      "preset_revision": "0bf2ed0637846172998a2e8bba6d86f6d4b4f7ec230fc91ee14debac4202d2a9"
+    }
+  ],
+  "render_settings": "assets/equipment/racks/168h_equipment_barbell_stands/previews/render-settings.json",
+  "exceptions": [],
+  "design_decisions": [
+    {
+      "id": "asset-local stands prototype2026-10-15",
+      "approval": "creation authorized; appearance/detailed dimensions/interface acceptance pending",
+      "scope": "this asset and review fixture only"
+    }
+  ],
+  "origin_contract": {
+    "standard": "equipment_origins@1",
+    "profile": "rack",
+    "source_authoring_floor_z_m": 0,
+    "authoring_root_position_m": [
+      0,
+      0,
+      0
+    ],
+    "collection_instance_offset_m": [
+      0,
+      0,
+      0
+    ],
+    "geometry_objects": [],
+    "allowed_component_rotations": {},
+    "component_frames": {
+      "168h_equipment_barbell_stands__mesh_base_rail_outer_l": {
+        "root_local_position_m": [
+          0.8034499883651733,
+          0.0,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rubber_outer_front_l": {
+        "root_local_position_m": [
+          0.8034499883651733,
+          0.2611500024795532,
+          0.004999999888241291
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rubber_outer_rear_l": {
+        "root_local_position_m": [
+          0.8034499883651733,
+          -0.2611500024795532,
+          0.004999999888241291
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l": {
+        "root_local_position_m": [
+          0.8034499883651733,
+          0.30114999413490295,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l": {
+        "root_local_position_m": [
+          0.8034499883651733,
+          -0.30114999413490295,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_base_rail_inner_l": {
+        "root_local_position_m": [
+          0.2965500056743622,
+          0.0,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rubber_inner_front_l": {
+        "root_local_position_m": [
+          0.2965500056743622,
+          0.2611500024795532,
+          0.004999999888241291
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rubber_inner_rear_l": {
+        "root_local_position_m": [
+          0.2965500056743622,
+          -0.2611500024795532,
+          0.004999999888241291
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l": {
+        "root_local_position_m": [
+          0.2965500056743622,
+          0.30114999413490295,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l": {
+        "root_local_position_m": [
+          0.2965500056743622,
+          -0.30114999413490295,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_base_tie_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.0,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_upright_outer_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.0,
+          0.5199999809265137
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_upright_inner_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.0,
+          0.5529999732971191
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_polymer_guide_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.0,
+          0.9589999914169312
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_inner_top_cap_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.0,
+          1.024999976158142
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_base_gusset_a_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.0,
+          0.0
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l": {
+        "root_local_position_m": [
+          0.4970000088214874,
+          0.0,
+          0.11999999731779099
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l": {
+        "root_local_position_m": [
+          0.4970000088214874,
+          0.0,
+          0.2150000035762787
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_base_gusset_b_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.0,
+          0.0
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l": {
+        "root_local_position_m": [
+          0.6029999852180481,
+          0.0,
+          0.11999999731779099
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l": {
+        "root_local_position_m": [
+          0.6029999852180481,
+          0.0,
+          0.2150000035762787
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_adjustment_pin_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.0,
+          0.8999999761581421
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_pin_washer_l": {
+        "root_local_position_m": [
+          0.6270000338554382,
+          0.0,
+          0.8999999761581421
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_pin_grip_l": {
+        "root_local_position_m": [
+          0.6470000147819519,
+          0.0,
+          0.8999999761581421
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_pin_retainer_l": {
+        "root_local_position_m": [
+          0.4780000150203705,
+          0.0,
+          0.8999999761581421
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_back_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.04800000041723251,
+          0.9729999899864197
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_shelf_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.1340000033378601,
+          0.9169999957084656
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_lip_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.20800000429153442,
+          0.9440000057220459
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_liner_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.13899999856948853,
+          0.925000011920929
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_back_liner_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.05700000002980232,
+          0.9775000214576721
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_lip_liner_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.19900000095367432,
+          0.9474999904632568
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_fastener_l": {
+        "root_local_position_m": [
+          0.550000011920929,
+          0.04800000041723251,
+          0.9940000176429749
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_base_rail_outer_r": {
+        "root_local_position_m": [
+          -0.2965500056743622,
+          0.0,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rubber_outer_front_r": {
+        "root_local_position_m": [
+          -0.2965500056743622,
+          0.2611500024795532,
+          0.004999999888241291
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rubber_outer_rear_r": {
+        "root_local_position_m": [
+          -0.2965500056743622,
+          -0.2611500024795532,
+          0.004999999888241291
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r": {
+        "root_local_position_m": [
+          -0.2965500056743622,
+          0.30114999413490295,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r": {
+        "root_local_position_m": [
+          -0.2965500056743622,
+          -0.30114999413490295,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_base_rail_inner_r": {
+        "root_local_position_m": [
+          -0.8034499883651733,
+          0.0,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rubber_inner_front_r": {
+        "root_local_position_m": [
+          -0.8034499883651733,
+          0.2611500024795532,
+          0.004999999888241291
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rubber_inner_rear_r": {
+        "root_local_position_m": [
+          -0.8034499883651733,
+          -0.2611500024795532,
+          0.004999999888241291
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r": {
+        "root_local_position_m": [
+          -0.8034499883651733,
+          0.30114999413490295,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r": {
+        "root_local_position_m": [
+          -0.8034499883651733,
+          -0.30114999413490295,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_base_tie_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.0,
+          0.03999999910593033
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_upright_outer_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.0,
+          0.5199999809265137
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_upright_inner_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.0,
+          0.5529999732971191
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_polymer_guide_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.0,
+          0.9589999914169312
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_inner_top_cap_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.0,
+          1.024999976158142
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_base_gusset_a_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.0,
+          0.0
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r": {
+        "root_local_position_m": [
+          -0.6029999852180481,
+          0.0,
+          0.11999999731779099
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r": {
+        "root_local_position_m": [
+          -0.6029999852180481,
+          0.0,
+          0.2150000035762787
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_base_gusset_b_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.0,
+          0.0
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r": {
+        "root_local_position_m": [
+          -0.4970000088214874,
+          0.0,
+          0.11999999731779099
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r": {
+        "root_local_position_m": [
+          -0.4970000088214874,
+          0.0,
+          0.2150000035762787
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_adjustment_pin_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.0,
+          0.8999999761581421
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_pin_washer_r": {
+        "root_local_position_m": [
+          -0.47300001978874207,
+          0.0,
+          0.8999999761581421
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_pin_grip_r": {
+        "root_local_position_m": [
+          -0.453000009059906,
+          0.0,
+          0.8999999761581421
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_pin_retainer_r": {
+        "root_local_position_m": [
+          -0.621999979019165,
+          0.0,
+          0.8999999761581421
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_back_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.04800000041723251,
+          0.9729999899864197
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_shelf_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.1340000033378601,
+          0.9169999957084656
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_lip_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.20800000429153442,
+          0.9440000057220459
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_liner_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.13899999856948853,
+          0.925000011920929
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_back_liner_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.05700000002980232,
+          0.9775000214576721
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_lip_liner_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.19900000095367432,
+          0.9474999904632568
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      },
+      "168h_equipment_barbell_stands__mesh_hook_fastener_r": {
+        "root_local_position_m": [
+          -0.550000011920929,
+          0.04800000041723251,
+          0.9940000176429749
+        ],
+        "purpose": "Intentional component construction frame at canonical index0; upper parts follow declared height controller"
+      }
+    },
+    "audit": "assets/equipment/racks/168h_equipment_barbell_stands/origin-validation.json",
+    "validation_result": {
+      "pass": 243,
+      "fail": 0,
+      "source_sha256": "839aa792f464b2b043f4d95ca219159b067710c0ee314febc7f59f419983caad"
+    }
+  },
+  "production_release": {
+    "status": "not_ready",
+    "limitations": [
+      "Review prototype; visual/design acceptance pending",
+      "No physical load/strength/stability certification",
+      "Local dimensions and interface/preset not shared standards",
+      "External artwork redistribution terms unselected",
+      "Exact linked-assembly pixel reproduction unresolved: final probe max6/255 on0.05169% channels; five standalone references exact. Strict reproduction gate remains FAIL, no threshold waived.",
+      "Published as one pair collection with two independent floor controllers; per-stand standalone publication/library override animation not validated."
+    ]
+  },
+  "components": {
+    "mesh_objects": 64,
+    "unique_mesh_data": 32,
+    "controllers": {
+      "l": "168h_equipment_barbell_stands__control_stand_l",
+      "r": "168h_equipment_barbell_stands__control_stand_r"
+    },
+    "upper_controllers": {
+      "l": "168h_equipment_barbell_stands__control_upper_l",
+      "r": "168h_equipment_barbell_stands__control_upper_r"
+    },
+    "reuse": "Every opposite-stand mesh shares corresponding left mesh data; no negative scale"
+  },
+  "source_revision_or_digest": "sha256:839aa792f464b2b043f4d95ca219159b067710c0ee314febc7f59f419983caad",
+  "dimension_source": "Vulcan published24.5x23.5in base/70in maximum upright; original provisional detailed geometry/bench spacing, see SPEC.md",
+  "dimension_approval_states": {
+    "manufacturer_supported": [
+      "base footprint622.3x596.9mm",
+      "maximum telescope tube top1778mm",
+      "pin nominal15.875mm"
+    ],
+    "provisional": [
+      "base dimension orientation",
+      "80x80x4mm outer/60x60x3mm inner sections",
+      "950mm slider,50mm pitch,928\u20131678mm support range",
+      "1100mm support spacing",
+      "hook/base/gusset/feet/guide/hardware geometry",
+      "asset-local materials and render preset",
+      "support and axis anchor/control contract"
+    ],
+    "review_acceptance": "pending",
+    "manufacturer_physical_certification": false
+  },
+  "validation_results": "assets/equipment/racks/168h_equipment_barbell_stands/validation-results.json",
+  "compatibility": {
+    "tested_consumers": [
+      {
+        "id": "168h_template_stands_bench_barbell",
+        "version": "0.1.0",
+        "result": "PASS digital geometry/links/contacts; exact assembly pixel reproduction FAIL",
+        "record": "scenes/templates/168h_template_stands_bench_barbell/validation-results.json"
+      }
+    ],
+    "supported_bar": "approved20kg barbell1.0.0,28mm shaft; no other physical or authored human/rack consumer tested",
+    "spacing_m": 1.1,
+    "bar_axis_height_m": 0.942,
+    "bar_above_pad_m": 0.4848,
+    "flange_clearance_m": 0.075,
+    "bench_base_clearance_m": 0.07375
+  },
+  "measured_dimensions_m": [
+    1.6969000101089478,
+    0.6223000288009644,
+    1.0479999780654907
+  ]
+}

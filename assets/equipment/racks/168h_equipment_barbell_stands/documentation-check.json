@@ -1,0 +1,30 @@
+{
+  "version": "0.1.1",
+  "status": "approved_ready",
+  "geometry_checks": 647,
+  "geometry_fail": 0,
+  "generic_origin_checks": 243,
+  "generic_origin_fail": 0,
+  "source_sha256": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+  "assembly_sha256": "440357773d30d0b06d2130f53847641880673c5c4b416a2c8da81256c008f8ae",
+  "relocation": "647+45+9PASS from relocated repository",
+  "protected_files_unchanged": 269,
+  "shared_standards_changed": false,
+  "original_approved_assets_modified": false,
+  "source_rebuilt": false,
+  "original_objects_data_frames_preserved": true,
+  "standalone_exact_views": 6,
+  "assembly_exact_views": 1,
+  "assembly_strict_fail_views": 0,
+  "render_reproduction": "9PASS;7exact+2approved exception;27 repeated checks PASS",
+  "manufacturer_reference": "manufacturer-reference.md",
+  "release_and_artwork_approval": "Approved internal illustration use; external artwork grant remains unselected",
+  "git_commit": "Focused finalization committed; fresh Git/LFS checkout647+45+9checks PASS; git/LFS fsck PASS",
+  "final_measurements": {
+    "pass": 45,
+    "fail": 0,
+    "report": "final-measurements.json"
+  },
+  "final_audit": "final-audit.json",
+  "fresh_committed_checkout": "committed-checkout-validation.json"
+}

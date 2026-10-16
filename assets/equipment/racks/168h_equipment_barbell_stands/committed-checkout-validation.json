@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "tested_source_commit": "aa65d8dcba780909decc3fa6903a4225415edaaf",
+  "final_commit_note": "Final amendment only records this QA and documentation clarifications; source assets, policy, scripts and references unchanged from tested commit",
+  "git_clone": "fresh local Git clone; automatic LFS content checkout succeeded",
+  "git_lfs_fsck": "PASS",
+  "git_fsck": "PASS",
+  "checks": {
+    "geometry": 647,
+    "origin_details": 243,
+    "independent_measurements": 45,
+    "render_views": 9,
+    "failures": 0
+  },
+  "records": "qa/committed_checkout/"
+}

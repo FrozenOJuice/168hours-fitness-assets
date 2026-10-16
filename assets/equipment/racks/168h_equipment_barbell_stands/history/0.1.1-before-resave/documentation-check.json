@@ -1,0 +1,23 @@
+{
+  "version": "0.1.1",
+  "status": "review_prototype",
+  "geometry_checks": 646,
+  "geometry_fail": 0,
+  "generic_origin_checks": 243,
+  "generic_origin_fail": 0,
+  "source_sha256": "5ef637f51837c3459a1bb51e8faec479fb894af6700f59ed5bb837026fd8460d",
+  "assembly_sha256": "e43c0d1fd6785291090603f2da51f7d9d1c05573edac44dd3f9410f56424ec78",
+  "relocation": "646PASS final source/validator in relocated library",
+  "protected_files_unchanged": 269,
+  "shared_standards_changed": false,
+  "original_approved_assets_modified": false,
+  "source_rebuilt": false,
+  "original_objects_data_frames_preserved": true,
+  "standalone_exact_views": 6,
+  "assembly_exact_views": 1,
+  "assembly_strict_fail_views": 2,
+  "render_reproduction": "render-reproduction.json",
+  "manufacturer_reference": "manufacturer-reference.md",
+  "release_and_artwork_approval": "pending",
+  "git_commit": "not requested/untracked sources"
+}

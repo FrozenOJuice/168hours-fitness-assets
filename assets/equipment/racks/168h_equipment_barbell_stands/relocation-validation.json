@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "geometry_pass": 647,
+  "measurement_pass": 45,
+  "render_pass": 9,
+  "source_hashes_preserved": true,
+  "relative_links_resolved": true,
+  "records": "qa/relocation/",
+  "note": "Filesystem relocation and fresh committed Git/LFS checkout both pass; see committed-checkout-validation.json"
+}

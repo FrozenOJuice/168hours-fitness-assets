@@ -1,0 +1,31 @@
+{
+  "status": "review_prototype",
+  "geometry_checks": 449,
+  "geometry_fail": 0,
+  "generic_origin_checks": 243,
+  "generic_origin_fail": 0,
+  "relocation": "PASS final sources and449checks; relative links and anchor ownership verified",
+  "standalone_exact_views": 5,
+  "assembly_exact_gate": "FAIL; no threshold waived",
+  "render_reproduction": "render-reproduction.json",
+  "protected_files_unchanged": 269,
+  "shared_standards_changed": false,
+  "original_approved_assets_modified": false,
+  "source_sha256": "839aa792f464b2b043f4d95ca219159b067710c0ee314febc7f59f419983caad",
+  "assembly_sha256": "428d889d0300e443fd3e3a8b52b20a7f22bcd6eedb52dfe6fa9e095027ac2318",
+  "commit": "not requested/untracked",
+  "lfs": "both new blend paths have filter=lfs",
+  "ignores": "backups and generated render bundles ignored",
+  "review_pending": [
+    "visual design and original construction dimensions",
+    "spacing, detents and independent pair-control interface",
+    "asset-local capture preset and artwork release scope",
+    "exact assembly pixel reproduction"
+  ],
+  "assembly_pixel_probe": {
+    "result": "FAIL",
+    "max_channel_delta": 0.023529410362243652,
+    "changed_channel_fraction_max": 0.000516875,
+    "record": "render-reproduction.json"
+  }
+}

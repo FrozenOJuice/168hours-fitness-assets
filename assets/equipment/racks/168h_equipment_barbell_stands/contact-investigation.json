@@ -1,0 +1,51 @@
+{
+  "method": "exhaustive triangle-pair minimum with conservative AABB pruning, float64 world transforms, vertex-face and clamped edge-edge distances; existing BVH test separately excludes crossing",
+  "source_sha256": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+  "assembly_sha256": "e43c0d1fd6785291090603f2da51f7d9d1c05573edac44dd3f9410f56424ec78",
+  "script_sha256": "a9024ab9c13ea71fe6ca0e83d18cf0c998a6b6d8db658869b58f600d5e9102f1",
+  "checks": [
+    {
+      "side": "l",
+      "minimum_triangle_distance_m": 4.799192357286226e-06,
+      "witness": {
+        "shaft_triangle": 111642,
+        "liner_triangle": 260,
+        "shaft_point_m": [
+          -0.5222535133361816,
+          0.43908476788783446,
+          0.9280362641438842
+        ],
+        "liner_point_m": [
+          -0.5222535133362065,
+          0.43908460288016055,
+          0.9280314677890443
+        ]
+      },
+      "triangle_pairs_tested": 10530,
+      "shaft_triangles": 841340,
+      "liner_triangles": 300
+    },
+    {
+      "side": "r",
+      "minimum_triangle_distance_m": 4.7981676823965854e-06,
+      "witness": {
+        "shaft_triangle": 729122,
+        "liner_triangle": 263,
+        "shaft_point_m": [
+          0.5222535133361816,
+          0.44091522734379396,
+          0.9280362641438842
+        ],
+        "liner_point_m": [
+          0.5222535133362065,
+          0.4409153923162371,
+          0.9280314688131134
+        ]
+      },
+      "triangle_pairs_tested": 9545,
+      "shaft_triangles": 841340,
+      "liner_triangles": 300
+    }
+  ],
+  "criteria_changed": false
+}

@@ -1,0 +1,177 @@
+{
+  "id": "stands_review_flat@0.1.0",
+  "status": "asset-local review proposal; no shared change",
+  "source_sha256": "839aa792f464b2b043f4d95ca219159b067710c0ee314febc7f59f419983caad",
+  "renderer_sha256": "1bba27e41353da4523a70b9c3ba429585f46ccbeb523dcca38df68a8006500b4",
+  "helper_sha256": "742abf6a7e584794957e709e7853f9181e34014a7fa269843be9c0e7d7e4cfec",
+  "blender_version": "5.1.1",
+  "add_ons": [],
+  "engine": "BLENDER_WORKBENCH",
+  "lighting": "FLAT; no lights/ground/baked lighting",
+  "shadows": false,
+  "ambient_occlusion": false,
+  "cavity": false,
+  "specular": false,
+  "resolution": [
+    1600,
+    1000
+  ],
+  "percentage": 100,
+  "format": "PNG",
+  "color_mode": "RGBA",
+  "bit_depth": 8,
+  "sampling": "32AA",
+  "seed": null,
+  "view_transform": "Standard",
+  "look": "None",
+  "exposure": 0,
+  "gamma": 1,
+  "background": "opaque white WORLD",
+  "outline": {
+    "method": "native Workbench object outline",
+    "color_linear": [
+      0.015,
+      0.018,
+      0.022
+    ],
+    "width": "native fixed screen space; not global numeric standard"
+  },
+  "palette": {
+    "168h_equipment_barbell_stands__material_frame_body": "363A40",
+    "168h_equipment_barbell_stands__material_frame_side": "2A2D32",
+    "168h_equipment_barbell_stands__material_frame_top": "454A51",
+    "168h_equipment_barbell_stands__material_grip_body": "17191D",
+    "168h_equipment_barbell_stands__material_grip_side": "17191D",
+    "168h_equipment_barbell_stands__material_grip_top": "24272C",
+    "168h_equipment_barbell_stands__material_hardware_body": "6D747E",
+    "168h_equipment_barbell_stands__material_hardware_side": "454A51",
+    "168h_equipment_barbell_stands__material_hardware_top": "8C949F"
+  },
+  "views": {
+    "front": {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__front__bench.png",
+      "position_m": [
+        0.0,
+        4.0,
+        0.550000011920929
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -1.5099578831723193e-07,
+        3.141592502593994
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.200000047683716,
+      "target_m": [
+        0,
+        0,
+        0.55
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "bench",
+      "frame": 1,
+      "sha256": "b62dd6b41d40410f6ae6d508e08fb12323599eaa94dabdac9950045d48b90ec6"
+    },
+    "side": {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__side__bench.png",
+      "position_m": [
+        4.0,
+        0.0,
+        0.550000011920929
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.0,
+      "target_m": [
+        0,
+        0,
+        0.55
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "bench",
+      "frame": 1,
+      "sha256": "dc8b6498fd128362670499d21235c129589e74e877b4984c3b54ff0f4359353b"
+    },
+    "three_quarter": {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__three_quarter__bench.png",
+      "position_m": [
+        3.299999952316284,
+        4.400000095367432,
+        2.799999952316284
+      ],
+      "rotation_euler_xyz_radians": [
+        1.1824777126312256,
+        8.338856360978752e-08,
+        2.498091697692871
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.8499999046325684,
+      "target_m": [
+        0,
+        0,
+        0.55
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "bench",
+      "frame": 1,
+      "sha256": "dead864dab9cabdc1da2aa419d32f74faa227701f9ecc25376969d2a1db120f2"
+    },
+    "maximum_height": {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__maximum_height__maximum_height.png",
+      "position_m": [
+        3.299999952316284,
+        4.400000095367432,
+        2.799999952316284
+      ],
+      "rotation_euler_xyz_radians": [
+        1.241429090499878,
+        9.306968706823682e-08,
+        2.498091697692871
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 3.700000047683716,
+      "target_m": [
+        0,
+        0,
+        0.92
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "maximum_height",
+      "frame": 1,
+      "sha256": "1bdbbe3ce49144fe7946e2240faaec62644b8d1b64c0d81e144ec7558cd97d95"
+    },
+    "hook_detail": {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__hook_detail__bench.png",
+      "position_m": [
+        1.0,
+        0.6000000238418579,
+        1.2200000286102295
+      ],
+      "rotation_euler_xyz_radians": [
+        1.2149684429168701,
+        -2.416306443819849e-08,
+        2.4087774753570557
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.3799999952316284,
+      "target_m": [
+        0.55,
+        0.1,
+        0.97
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "bench",
+      "frame": 1,
+      "sha256": "95854b142605fe6ac1f6219a437ff0748264cf7926c73ab0aba1341096692b9d"
+    }
+  }
+}

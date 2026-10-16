@@ -1,0 +1,5331 @@
+{
+  "date": "2026-10-15",
+  "source_sha256": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+  "assembly_sha256": "e43c0d1fd6785291090603f2da51f7d9d1c05573edac44dd3f9410f56424ec78",
+  "validator_sha256": "3c5eca6b6c5e7d1e2563f5b68749163da5b29e16eb50736ab85cea660292bcac",
+  "blender_version": "5.1.1",
+  "checks": [
+    {
+      "check": "generic_origin_contract",
+      "expected": "zero deviations",
+      "actual": {
+        "pass": 243,
+        "fail": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "canonical_bounds_m",
+      "expected": [
+        1.6969,
+        0.6223,
+        1.048
+      ],
+      "actual": [
+        1.6969000101089478,
+        0.6223000288009644,
+        1.0479999780654907
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_base_rail_outer_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0021655805527899517,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_base_rail_outer_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_base_rail_outer_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_rail_outer_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_base_rail_outer_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_base_rail_outer",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rubber_outer_front_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 8.9261494453205e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rubber_outer_front_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rubber_outer_front_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_outer_front_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rubber_outer_front_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rubber_outer_front",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rubber_outer_rear_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 8.9261494453205e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rubber_outer_rear_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rubber_outer_rear_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_outer_rear_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rubber_outer_rear_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rubber_outer_rear",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 4.562975540138381e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rail_cap_outer_front",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 4.562975540138381e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rail_cap_outer_rear",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_base_rail_inner_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0021655805527899517,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_base_rail_inner_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_base_rail_inner_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_rail_inner_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_base_rail_inner_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_base_rail_inner",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rubber_inner_front_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 8.9261494453205e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rubber_inner_front_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rubber_inner_front_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_inner_front_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rubber_inner_front_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rubber_inner_front",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rubber_inner_rear_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 8.9261494453205e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rubber_inner_rear_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rubber_inner_rear_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_inner_rear_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rubber_inner_rear_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rubber_inner_rear",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 4.562975540138381e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rail_cap_inner_front",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 4.562975540138381e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rail_cap_inner_rear",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_base_tie_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0027184784742782216,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_base_tie_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_base_tie_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_tie_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_base_tie_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_base_tie",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_upright_outer_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0010923941208461497,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_upright_outer_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_upright_outer_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_upright_outer_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_upright_outer_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_upright_outer",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_upright_inner_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0006276911802474217,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_upright_inner_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_upright_inner_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_upright_inner_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_upright_inner_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_upright_inner",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_polymer_guide_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.00011024990741907378,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_polymer_guide_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_polymer_guide_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_polymer_guide_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_polymer_guide_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_polymer_guide",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_inner_top_cap_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 2.2060898567980052e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_inner_top_cap_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_inner_top_cap_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_inner_top_cap_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_inner_top_cap_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_inner_top_cap",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_base_gusset_a_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0002496852080118146,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_base_gusset_a_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_base_gusset_a_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_gusset_a_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_base_gusset_a_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_base_gusset_a",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 3.3510923340119537e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_gusset_bolt_a_120",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 3.3510923340119537e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_gusset_bolt_a_215",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_base_gusset_b_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0002496852076278655,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_base_gusset_b_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_base_gusset_b_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_gusset_b_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_base_gusset_b_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_base_gusset_b",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 3.3510923340119537e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_gusset_bolt_b_120",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 3.3510923340119537e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_gusset_bolt_b_215",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_adjustment_pin_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 3.3353767053444935e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_adjustment_pin_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_adjustment_pin_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_adjustment_pin_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_adjustment_pin_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_adjustment_pin",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_pin_washer_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 7.048412989077479e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_pin_washer_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_pin_washer_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_pin_washer_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_pin_washer_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_pin_washer",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_pin_grip_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 3.833696861053394e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_pin_grip_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_pin_grip_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_pin_grip_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_pin_grip_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_pin_grip",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_pin_retainer_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 4.26995721579605e-07,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_pin_retainer_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_pin_retainer_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_pin_retainer_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_pin_retainer_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_pin_retainer",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_back_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0002159999794810984,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_back_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_back_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_back_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_back_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_back",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_shelf_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 9.811981483395367e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_shelf_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_shelf_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_shelf_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_shelf_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_shelf",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_lip_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 4.332005883069367e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_lip_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_lip_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_lip_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_lip_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_lip",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_liner_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 5.5751713915061916e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_liner_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_liner_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_liner_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_liner_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_liner",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_back_liner_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 2.9232003556243286e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_back_liner_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_back_liner_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_back_liner_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_back_liner_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_back_liner",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_lip_liner_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 5.306972093933372e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_lip_liner_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_lip_liner_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_lip_liner_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_lip_liner_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_lip_liner",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_fastener_l",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 7.682835031474488e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_fastener_l",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_fastener_l",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_fastener_l",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_fastener_l",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_fastener",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_base_rail_outer_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0021655805527899517,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_base_rail_outer_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_base_rail_outer_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_rail_outer_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_base_rail_outer_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_base_rail_outer",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rubber_outer_front_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 8.9261494453205e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rubber_outer_front_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rubber_outer_front_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_outer_front_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rubber_outer_front_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rubber_outer_front",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rubber_outer_rear_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 8.9261494453205e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rubber_outer_rear_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rubber_outer_rear_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_outer_rear_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rubber_outer_rear_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rubber_outer_rear",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 4.562975540138381e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rail_cap_outer_front",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 4.562975540138381e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rail_cap_outer_rear",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_base_rail_inner_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0021655805527899517,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_base_rail_inner_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_base_rail_inner_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_rail_inner_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_base_rail_inner_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_base_rail_inner",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rubber_inner_front_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 8.9261494453205e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rubber_inner_front_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rubber_inner_front_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_inner_front_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rubber_inner_front_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rubber_inner_front",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rubber_inner_rear_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 8.9261494453205e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rubber_inner_rear_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rubber_inner_rear_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_inner_rear_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rubber_inner_rear_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rubber_inner_rear",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 4.562975540138381e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rail_cap_inner_front",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 4.562975540138381e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_rail_cap_inner_rear",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_base_tie_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0027184784742782216,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_base_tie_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_base_tie_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_tie_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_base_tie_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_base_tie",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_upright_outer_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0010923941208461497,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_upright_outer_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_upright_outer_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_upright_outer_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_upright_outer_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_upright_outer",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_upright_inner_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0006276911802474217,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_upright_inner_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_upright_inner_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_upright_inner_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_upright_inner_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_upright_inner",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_polymer_guide_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.00011024990741907378,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_polymer_guide_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_polymer_guide_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_polymer_guide_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_polymer_guide_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_polymer_guide",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_inner_top_cap_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 2.2060898567980052e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_inner_top_cap_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_inner_top_cap_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_inner_top_cap_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_inner_top_cap_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_inner_top_cap",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_base_gusset_a_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0002496852080118146,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_base_gusset_a_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_base_gusset_a_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_gusset_a_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_base_gusset_a_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_base_gusset_a",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 3.3510923340119537e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_gusset_bolt_a_120",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 3.3510923340119537e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_gusset_bolt_a_215",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_base_gusset_b_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0002496852076278655,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_base_gusset_b_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_base_gusset_b_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_gusset_b_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_base_gusset_b_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_base_gusset_b",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 3.3510923340119537e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_gusset_bolt_b_120",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 3.3510923340119537e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_gusset_bolt_b_215",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_adjustment_pin_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 3.3353767053444935e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_adjustment_pin_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_adjustment_pin_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_adjustment_pin_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_adjustment_pin_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_adjustment_pin",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_pin_washer_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 7.048412989077479e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_pin_washer_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_pin_washer_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_pin_washer_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_pin_washer_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_pin_washer",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_pin_grip_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 3.833696861053394e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_pin_grip_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_pin_grip_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_pin_grip_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_pin_grip_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_pin_grip",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_pin_retainer_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 4.26995721579605e-07,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_pin_retainer_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_pin_retainer_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_pin_retainer_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_pin_retainer_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_pin_retainer",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_back_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 0.0002159999794810984,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_back_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_back_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_back_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_back_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_back",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_shelf_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 9.811981483395367e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_shelf_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_shelf_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_shelf_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_shelf_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_shelf",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_lip_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 4.332005883069367e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_lip_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_lip_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_lip_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_lip_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_lip",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_liner_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 5.5751713915061916e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_liner_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_liner_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_liner_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_liner_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_liner",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_back_liner_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 2.9232003556243286e-05,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_back_liner_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_back_liner_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_back_liner_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_back_liner_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_back_liner",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_lip_liner_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 5.306972093933372e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_lip_liner_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_lip_liner_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_lip_liner_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_lip_liner_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_lip_liner",
+      "result": "PASS"
+    },
+    {
+      "check": "closed_outward:168h_equipment_barbell_stands__mesh_hook_fastener_r",
+      "expected": "no boundary/nonmanifold/degenerate faces; positive volume",
+      "actual": {
+        "nonmanifold": 0,
+        "volume_m3": 7.682835031474488e-06,
+        "degenerate": 0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "material_slots:168h_equipment_barbell_stands__mesh_hook_fastener_r",
+      "expected": "3 nonempty semantic slots",
+      "actual": 3,
+      "result": "PASS"
+    },
+    {
+      "check": "naming:168h_equipment_barbell_stands__mesh_hook_fastener_r",
+      "expected": "stable lower snake_case, no numeric suffix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_fastener_r",
+      "result": "PASS"
+    },
+    {
+      "check": "shared_opposite_mesh:168h_equipment_barbell_stands__mesh_hook_fastener_r",
+      "expected": "same datablock",
+      "actual": "168h_equipment_barbell_stands__geometry_hook_fastener",
+      "result": "PASS"
+    },
+    {
+      "check": "original_objects_retained",
+      "expected": [
+        "168h_equipment_barbell_stands__anchor_bar_axis_l",
+        "168h_equipment_barbell_stands__anchor_bar_axis_r",
+        "168h_equipment_barbell_stands__anchor_bar_support_l",
+        "168h_equipment_barbell_stands__anchor_bar_support_r",
+        "168h_equipment_barbell_stands__anchor_floor_contact",
+        "168h_equipment_barbell_stands__anchor_floor_l",
+        "168h_equipment_barbell_stands__anchor_floor_r",
+        "168h_equipment_barbell_stands__control_stand_l",
+        "168h_equipment_barbell_stands__control_stand_r",
+        "168h_equipment_barbell_stands__control_upper_l",
+        "168h_equipment_barbell_stands__control_upper_r",
+        "168h_equipment_barbell_stands__mesh_adjustment_pin_l",
+        "168h_equipment_barbell_stands__mesh_adjustment_pin_r",
+        "168h_equipment_barbell_stands__mesh_base_gusset_a_l",
+        "168h_equipment_barbell_stands__mesh_base_gusset_a_r",
+        "168h_equipment_barbell_stands__mesh_base_gusset_b_l",
+        "168h_equipment_barbell_stands__mesh_base_gusset_b_r",
+        "168h_equipment_barbell_stands__mesh_base_rail_inner_l",
+        "168h_equipment_barbell_stands__mesh_base_rail_inner_r",
+        "168h_equipment_barbell_stands__mesh_base_rail_outer_l",
+        "168h_equipment_barbell_stands__mesh_base_rail_outer_r",
+        "168h_equipment_barbell_stands__mesh_base_tie_l",
+        "168h_equipment_barbell_stands__mesh_base_tie_r",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r",
+        "168h_equipment_barbell_stands__mesh_hook_back_l",
+        "168h_equipment_barbell_stands__mesh_hook_back_liner_l",
+        "168h_equipment_barbell_stands__mesh_hook_back_liner_r",
+        "168h_equipment_barbell_stands__mesh_hook_back_r",
+        "168h_equipment_barbell_stands__mesh_hook_fastener_l",
+        "168h_equipment_barbell_stands__mesh_hook_fastener_r",
+        "168h_equipment_barbell_stands__mesh_hook_liner_l",
+        "168h_equipment_barbell_stands__mesh_hook_liner_r",
+        "168h_equipment_barbell_stands__mesh_hook_lip_l",
+        "168h_equipment_barbell_stands__mesh_hook_lip_liner_l",
+        "168h_equipment_barbell_stands__mesh_hook_lip_liner_r",
+        "168h_equipment_barbell_stands__mesh_hook_lip_r",
+        "168h_equipment_barbell_stands__mesh_hook_shelf_l",
+        "168h_equipment_barbell_stands__mesh_hook_shelf_r",
+        "168h_equipment_barbell_stands__mesh_inner_top_cap_l",
+        "168h_equipment_barbell_stands__mesh_inner_top_cap_r",
+        "168h_equipment_barbell_stands__mesh_pin_grip_l",
+        "168h_equipment_barbell_stands__mesh_pin_grip_r",
+        "168h_equipment_barbell_stands__mesh_pin_retainer_l",
+        "168h_equipment_barbell_stands__mesh_pin_retainer_r",
+        "168h_equipment_barbell_stands__mesh_pin_washer_l",
+        "168h_equipment_barbell_stands__mesh_pin_washer_r",
+        "168h_equipment_barbell_stands__mesh_polymer_guide_l",
+        "168h_equipment_barbell_stands__mesh_polymer_guide_r",
+        "168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l",
+        "168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r",
+        "168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l",
+        "168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r",
+        "168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l",
+        "168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r",
+        "168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l",
+        "168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r",
+        "168h_equipment_barbell_stands__mesh_rubber_inner_front_l",
+        "168h_equipment_barbell_stands__mesh_rubber_inner_front_r",
+        "168h_equipment_barbell_stands__mesh_rubber_inner_rear_l",
+        "168h_equipment_barbell_stands__mesh_rubber_inner_rear_r",
+        "168h_equipment_barbell_stands__mesh_rubber_outer_front_l",
+        "168h_equipment_barbell_stands__mesh_rubber_outer_front_r",
+        "168h_equipment_barbell_stands__mesh_rubber_outer_rear_l",
+        "168h_equipment_barbell_stands__mesh_rubber_outer_rear_r",
+        "168h_equipment_barbell_stands__mesh_upright_inner_l",
+        "168h_equipment_barbell_stands__mesh_upright_inner_r",
+        "168h_equipment_barbell_stands__mesh_upright_outer_l",
+        "168h_equipment_barbell_stands__mesh_upright_outer_r",
+        "168h_equipment_barbell_stands__root"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__anchor_bar_axis_l",
+        "168h_equipment_barbell_stands__anchor_bar_axis_r",
+        "168h_equipment_barbell_stands__anchor_bar_support_l",
+        "168h_equipment_barbell_stands__anchor_bar_support_r",
+        "168h_equipment_barbell_stands__anchor_floor_contact",
+        "168h_equipment_barbell_stands__anchor_floor_l",
+        "168h_equipment_barbell_stands__anchor_floor_r",
+        "168h_equipment_barbell_stands__control_stand_l",
+        "168h_equipment_barbell_stands__control_stand_r",
+        "168h_equipment_barbell_stands__control_upper_l",
+        "168h_equipment_barbell_stands__control_upper_r",
+        "168h_equipment_barbell_stands__mesh_adjustment_pin_l",
+        "168h_equipment_barbell_stands__mesh_adjustment_pin_r",
+        "168h_equipment_barbell_stands__mesh_base_gusset_a_l",
+        "168h_equipment_barbell_stands__mesh_base_gusset_a_r",
+        "168h_equipment_barbell_stands__mesh_base_gusset_b_l",
+        "168h_equipment_barbell_stands__mesh_base_gusset_b_r",
+        "168h_equipment_barbell_stands__mesh_base_rail_inner_l",
+        "168h_equipment_barbell_stands__mesh_base_rail_inner_r",
+        "168h_equipment_barbell_stands__mesh_base_rail_outer_l",
+        "168h_equipment_barbell_stands__mesh_base_rail_outer_r",
+        "168h_equipment_barbell_stands__mesh_base_tie_l",
+        "168h_equipment_barbell_stands__mesh_base_tie_r",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l",
+        "168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r",
+        "168h_equipment_barbell_stands__mesh_hook_back_l",
+        "168h_equipment_barbell_stands__mesh_hook_back_liner_l",
+        "168h_equipment_barbell_stands__mesh_hook_back_liner_r",
+        "168h_equipment_barbell_stands__mesh_hook_back_r",
+        "168h_equipment_barbell_stands__mesh_hook_fastener_l",
+        "168h_equipment_barbell_stands__mesh_hook_fastener_r",
+        "168h_equipment_barbell_stands__mesh_hook_liner_l",
+        "168h_equipment_barbell_stands__mesh_hook_liner_r",
+        "168h_equipment_barbell_stands__mesh_hook_lip_l",
+        "168h_equipment_barbell_stands__mesh_hook_lip_liner_l",
+        "168h_equipment_barbell_stands__mesh_hook_lip_liner_r",
+        "168h_equipment_barbell_stands__mesh_hook_lip_r",
+        "168h_equipment_barbell_stands__mesh_hook_shelf_l",
+        "168h_equipment_barbell_stands__mesh_hook_shelf_r",
+        "168h_equipment_barbell_stands__mesh_inner_top_cap_l",
+        "168h_equipment_barbell_stands__mesh_inner_top_cap_r",
+        "168h_equipment_barbell_stands__mesh_pin_grip_l",
+        "168h_equipment_barbell_stands__mesh_pin_grip_r",
+        "168h_equipment_barbell_stands__mesh_pin_retainer_l",
+        "168h_equipment_barbell_stands__mesh_pin_retainer_r",
+        "168h_equipment_barbell_stands__mesh_pin_washer_l",
+        "168h_equipment_barbell_stands__mesh_pin_washer_r",
+        "168h_equipment_barbell_stands__mesh_polymer_guide_l",
+        "168h_equipment_barbell_stands__mesh_polymer_guide_r",
+        "168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l",
+        "168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r",
+        "168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l",
+        "168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r",
+        "168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l",
+        "168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r",
+        "168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l",
+        "168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r",
+        "168h_equipment_barbell_stands__mesh_rubber_inner_front_l",
+        "168h_equipment_barbell_stands__mesh_rubber_inner_front_r",
+        "168h_equipment_barbell_stands__mesh_rubber_inner_rear_l",
+        "168h_equipment_barbell_stands__mesh_rubber_inner_rear_r",
+        "168h_equipment_barbell_stands__mesh_rubber_outer_front_l",
+        "168h_equipment_barbell_stands__mesh_rubber_outer_front_r",
+        "168h_equipment_barbell_stands__mesh_rubber_outer_rear_l",
+        "168h_equipment_barbell_stands__mesh_rubber_outer_rear_r",
+        "168h_equipment_barbell_stands__mesh_upright_inner_l",
+        "168h_equipment_barbell_stands__mesh_upright_inner_r",
+        "168h_equipment_barbell_stands__mesh_upright_outer_l",
+        "168h_equipment_barbell_stands__mesh_upright_outer_r",
+        "168h_equipment_barbell_stands__root"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_base_rail_outer_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_rail_outer_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_base_rail_outer_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_base_rail_outer_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_base_rail_outer_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rubber_outer_front_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_outer_front_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rubber_outer_front_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rubber_outer_front_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_outer_front_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rubber_outer_rear_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_outer_rear_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rubber_outer_rear_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rubber_outer_rear_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_outer_rear_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_outer_front_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_base_rail_inner_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_rail_inner_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_base_rail_inner_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_base_rail_inner_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_base_rail_inner_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rubber_inner_front_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_inner_front_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rubber_inner_front_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rubber_inner_front_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_inner_front_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rubber_inner_rear_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_inner_rear_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rubber_inner_rear_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rubber_inner_rear_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_inner_rear_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_inner_front_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_base_tie_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_tie_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_base_tie_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_base_tie_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_base_tie_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_upright_outer_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_upright_outer_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_upright_outer_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_upright_outer_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_upright_outer_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_upright_inner_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_upright_inner_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_upright_inner_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_polymer_guide_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_polymer_guide_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_polymer_guide_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_inner_top_cap_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_inner_top_cap_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_inner_top_cap_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_inner_top_cap_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_inner_top_cap_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_base_gusset_a_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_gusset_a_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_base_gusset_a_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_base_gusset_a_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_base_gusset_a_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_base_gusset_b_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_gusset_b_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_base_gusset_b_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_base_gusset_b_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_base_gusset_b_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_adjustment_pin_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_adjustment_pin_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_adjustment_pin_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_pin_washer_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_pin_washer_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_pin_washer_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_pin_grip_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_pin_grip_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_pin_grip_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_pin_retainer_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_pin_retainer_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_pin_retainer_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_back_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_back_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_back_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_shelf_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_shelf_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_shelf_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_lip_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_lip_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_lip_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_liner_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_liner_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_liner_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_back_liner_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_back_liner_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_back_liner_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_lip_liner_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_lip_liner_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_lip_liner_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_fastener_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_fastener_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_fastener_l",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_base_rail_outer_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_rail_outer_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_base_rail_outer_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_base_rail_outer_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_base_rail_outer_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rubber_outer_front_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_outer_front_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rubber_outer_front_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rubber_outer_front_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_outer_front_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rubber_outer_rear_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_outer_rear_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rubber_outer_rear_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rubber_outer_rear_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_outer_rear_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_outer_front_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_outer_rear_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_base_rail_inner_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_rail_inner_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_base_rail_inner_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_base_rail_inner_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_base_rail_inner_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rubber_inner_front_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_inner_front_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rubber_inner_front_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rubber_inner_front_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_inner_front_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rubber_inner_rear_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_inner_rear_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rubber_inner_rear_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rubber_inner_rear_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rubber_inner_rear_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_inner_front_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_rail_cap_inner_rear_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_base_tie_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_tie_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_base_tie_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_base_tie_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_base_tie_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_upright_outer_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_upright_outer_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_upright_outer_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_upright_outer_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_upright_outer_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_upright_inner_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_upright_inner_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_upright_inner_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_polymer_guide_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_polymer_guide_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_polymer_guide_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_inner_top_cap_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_inner_top_cap_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_inner_top_cap_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_inner_top_cap_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_inner_top_cap_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_base_gusset_a_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_gusset_a_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_base_gusset_a_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_base_gusset_a_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_base_gusset_a_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_a_120_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_a_215_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_base_gusset_b_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_base_gusset_b_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_base_gusset_b_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_base_gusset_b_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_base_gusset_b_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_b_120_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_unedited_geometry:168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r",
+      "expected": "exact vertex coordinates/topology",
+      "actual": "168h_equipment_barbell_stands__mesh_gusset_bolt_b_215_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_adjustment_pin_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_adjustment_pin_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_adjustment_pin_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_pin_washer_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_pin_washer_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_pin_washer_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_pin_grip_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_pin_grip_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_pin_grip_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_pin_retainer_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_pin_retainer_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_pin_retainer_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_back_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_back_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_back_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_shelf_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_shelf_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_shelf_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_lip_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_lip_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_lip_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_frame_body",
+        "168h_equipment_barbell_stands__material_frame_top",
+        "168h_equipment_barbell_stands__material_frame_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_liner_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_liner_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_liner_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_back_liner_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_back_liner_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_back_liner_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_lip_liner_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_lip_liner_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_lip_liner_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_grip_body",
+        "168h_equipment_barbell_stands__material_grip_top",
+        "168h_equipment_barbell_stands__material_grip_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__mesh_hook_fastener_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__mesh_hook_fastener_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_slots:168h_equipment_barbell_stands__mesh_hook_fastener_r",
+      "expected": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "actual": [
+        "168h_equipment_barbell_stands__material_hardware_body",
+        "168h_equipment_barbell_stands__material_hardware_top",
+        "168h_equipment_barbell_stands__material_hardware_side"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__root",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__root",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__control_stand_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__control_stand_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__control_upper_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__control_upper_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__control_stand_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__control_stand_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__control_upper_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__control_upper_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__anchor_floor_contact",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__anchor_floor_contact",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__anchor_floor_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__anchor_floor_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__anchor_bar_support_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__anchor_bar_support_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__anchor_bar_axis_l",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__anchor_bar_axis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__anchor_floor_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__anchor_floor_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__anchor_bar_support_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__anchor_bar_support_r",
+      "result": "PASS"
+    },
+    {
+      "check": "preserved_frame:168h_equipment_barbell_stands__anchor_bar_axis_r",
+      "expected": "exact parent-local matrix",
+      "actual": "168h_equipment_barbell_stands__anchor_bar_axis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "hook_welded_connection:l",
+      "expected": "shelf intersects backplate at intended welded rear",
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "check": "hook_backplate_mount:l",
+      "expected": "backplate rear flush with inner frontY30mm",
+      "actual": 0.029999999329447746,
+      "result": "PASS"
+    },
+    {
+      "check": "conformal_cradle:hook_liner:l:0.02",
+      "expected": "at least32 vertices on specified concentric arc",
+      "actual": 66,
+      "result": "PASS"
+    },
+    {
+      "check": "conformal_cradle:hook_liner:l:0.026",
+      "expected": "at least32 vertices on specified concentric arc",
+      "actual": 66,
+      "result": "PASS"
+    },
+    {
+      "check": "conformal_cradle:hook_shelf:l:0.026",
+      "expected": "at least32 vertices on specified concentric arc",
+      "actual": 66,
+      "result": "PASS"
+    },
+    {
+      "check": "conformal_cradle:hook_shelf:l:0.036",
+      "expected": "at least32 vertices on specified concentric arc",
+      "actual": 66,
+      "result": "PASS"
+    },
+    {
+      "check": "pin_actual_diameter:l",
+      "expected": "15.875mm",
+      "actual": [
+        0.01587500050663948,
+        0.015875041484832764
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "hook_through_bolt_opening:l",
+      "expected": "real9mm Y opening through inner tube",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "retaining_clip_cross_drill:l",
+      "expected": "real3.5mm hole through pin",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "hook_welded_connection:r",
+      "expected": "shelf intersects backplate at intended welded rear",
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "check": "hook_backplate_mount:r",
+      "expected": "backplate rear flush with inner frontY30mm",
+      "actual": 0.029999999329447746,
+      "result": "PASS"
+    },
+    {
+      "check": "conformal_cradle:hook_liner:r:0.02",
+      "expected": "at least32 vertices on specified concentric arc",
+      "actual": 66,
+      "result": "PASS"
+    },
+    {
+      "check": "conformal_cradle:hook_liner:r:0.026",
+      "expected": "at least32 vertices on specified concentric arc",
+      "actual": 66,
+      "result": "PASS"
+    },
+    {
+      "check": "conformal_cradle:hook_shelf:r:0.026",
+      "expected": "at least32 vertices on specified concentric arc",
+      "actual": 66,
+      "result": "PASS"
+    },
+    {
+      "check": "conformal_cradle:hook_shelf:r:0.036",
+      "expected": "at least32 vertices on specified concentric arc",
+      "actual": 66,
+      "result": "PASS"
+    },
+    {
+      "check": "pin_actual_diameter:r",
+      "expected": "15.875mm",
+      "actual": [
+        0.01587500050663948,
+        0.015875041484832764
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "hook_through_bolt_opening:r",
+      "expected": "real9mm Y opening through inner tube",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "retaining_clip_cross_drill:r",
+      "expected": "real3.5mm hole through pin",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_owner:floor_contact",
+      "expected": "168h_equipment_barbell_stands__root",
+      "actual": "168h_equipment_barbell_stands__root",
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_owner:floor_l",
+      "expected": "168h_equipment_barbell_stands__control_stand_l",
+      "actual": "168h_equipment_barbell_stands__control_stand_l",
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_owner:bar_support_l",
+      "expected": "168h_equipment_barbell_stands__control_upper_l",
+      "actual": "168h_equipment_barbell_stands__control_upper_l",
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_owner:bar_axis_l",
+      "expected": "168h_equipment_barbell_stands__control_upper_l",
+      "actual": "168h_equipment_barbell_stands__control_upper_l",
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_owner:floor_r",
+      "expected": "168h_equipment_barbell_stands__control_stand_r",
+      "actual": "168h_equipment_barbell_stands__control_stand_r",
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_owner:bar_support_r",
+      "expected": "168h_equipment_barbell_stands__control_upper_r",
+      "actual": "168h_equipment_barbell_stands__control_upper_r",
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_owner:bar_axis_r",
+      "expected": "168h_equipment_barbell_stands__control_upper_r",
+      "actual": "168h_equipment_barbell_stands__control_upper_r",
+      "result": "PASS"
+    },
+    {
+      "check": "detent_0:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.027999997138977,
+        "support_m": 0.9279999732971191,
+        "overlap_m": 0.8920000207424164
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_0:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          0.9279999732971191
+        ],
+        "anchor_z_m": 0.9279999732971191
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_0:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 99,
+        "center_z": 0.8999999761581421
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_0:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_0:l",
+      "expected": "14mm above lined support",
+      "actual": 0.013999998569488525,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_0:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.027999997138977,
+        "support_m": 0.9279999732971191,
+        "overlap_m": 0.8920000207424164
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_0:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          0.9279999732971191
+        ],
+        "anchor_z_m": 0.9279999732971191
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_0:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 99,
+        "center_z": 0.8999999761581421
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_0:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_0:r",
+      "expected": "14mm above lined support",
+      "actual": 0.013999998569488525,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_1:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.0779999494552612,
+        "support_m": 0.9779999852180481,
+        "overlap_m": 0.8420000088214874
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_1:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          0.9779999852180481
+        ],
+        "anchor_z_m": 0.9779999852180481
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_1:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 99,
+        "center_z": 0.9000000357627869
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_1:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_1:l",
+      "expected": "14mm above lined support",
+      "actual": 0.013999998569488525,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_1:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.0779999494552612,
+        "support_m": 0.9779999852180481,
+        "overlap_m": 0.8420000088214874
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_1:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          0.9779999852180481
+        ],
+        "anchor_z_m": 0.9779999852180481
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_1:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 99,
+        "center_z": 0.9000000357627869
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_1:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_1:r",
+      "expected": "14mm above lined support",
+      "actual": 0.013999998569488525,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_2:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.128000020980835,
+        "support_m": 1.027999997138977,
+        "overlap_m": 0.7919999969005584
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_2:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.0279998779296875
+        ],
+        "anchor_z_m": 1.027999997138977
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_2:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 99,
+        "center_z": 0.9000000357627869
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_2:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_2:l",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_2:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.128000020980835,
+        "support_m": 1.027999997138977,
+        "overlap_m": 0.7919999969005584
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_2:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.0279998779296875
+        ],
+        "anchor_z_m": 1.027999997138977
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_2:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 99,
+        "center_z": 0.9000000357627869
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_2:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_2:r",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_3:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.1779999732971191,
+        "support_m": 1.0779999494552612,
+        "overlap_m": 0.7420000445842743
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_3:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.0780000686645508
+        ],
+        "anchor_z_m": 1.0779999494552612
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_3:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 99,
+        "center_z": 0.8999999761581421
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_3:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_3:l",
+      "expected": "14mm above lined support",
+      "actual": 0.0140000581741333,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_3:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.1779999732971191,
+        "support_m": 1.0779999494552612,
+        "overlap_m": 0.7420000445842743
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_3:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.0780000686645508
+        ],
+        "anchor_z_m": 1.0779999494552612
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_3:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 99,
+        "center_z": 0.8999999761581421
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_3:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_3:r",
+      "expected": "14mm above lined support",
+      "actual": 0.0140000581741333,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_4:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.2279999256134033,
+        "support_m": 1.128000020980835,
+        "overlap_m": 0.6920000326633453
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_4:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.128000020980835
+        ],
+        "anchor_z_m": 1.128000020980835
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_4:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 100,
+        "center_z": 0.8999999761581421
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_4:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_4:l",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_4:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.2279999256134033,
+        "support_m": 1.128000020980835,
+        "overlap_m": 0.6920000326633453
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_4:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.128000020980835
+        ],
+        "anchor_z_m": 1.128000020980835
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_4:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 100,
+        "center_z": 0.8999999761581421
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_4:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_4:r",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_5:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.277999997138977,
+        "support_m": 1.1779999732971191,
+        "overlap_m": 0.6420000207424164
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_5:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.1779999732971191
+        ],
+        "anchor_z_m": 1.1779999732971191
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_5:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.8999999761581421
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_5:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_5:l",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_5:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.277999997138977,
+        "support_m": 1.1779999732971191,
+        "overlap_m": 0.6420000207424164
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_5:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.1779999732971191
+        ],
+        "anchor_z_m": 1.1779999732971191
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_5:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.8999999761581421
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_5:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_5:r",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_6:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.3279999494552612,
+        "support_m": 1.2279999256134033,
+        "overlap_m": 0.5920000684261322
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_6:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.2279999256134033
+        ],
+        "anchor_z_m": 1.2279999256134033
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_6:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.8999999761581421
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_6:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_6:l",
+      "expected": "14mm above lined support",
+      "actual": 0.0140000581741333,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_6:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.3279999494552612,
+        "support_m": 1.2279999256134033,
+        "overlap_m": 0.5920000684261322
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_6:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.2279999256134033
+        ],
+        "anchor_z_m": 1.2279999256134033
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_6:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.8999999761581421
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_6:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_6:r",
+      "expected": "14mm above lined support",
+      "actual": 0.0140000581741333,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_7:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.378000020980835,
+        "support_m": 1.277999997138977,
+        "overlap_m": 0.5419999969005584
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_7:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.2779998779296875
+        ],
+        "anchor_z_m": 1.277999997138977
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_7:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.9000000357627869
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_7:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_7:l",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_7:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.378000020980835,
+        "support_m": 1.277999997138977,
+        "overlap_m": 0.5419999969005584
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_7:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.2779998779296875
+        ],
+        "anchor_z_m": 1.277999997138977
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_7:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.9000000357627869
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_7:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_7:r",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_8:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.4279999732971191,
+        "support_m": 1.3279999494552612,
+        "overlap_m": 0.49200004458427427
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_8:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.3280000686645508
+        ],
+        "anchor_z_m": 1.3279999494552612
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_8:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.8999999761581421
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_8:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_8:l",
+      "expected": "14mm above lined support",
+      "actual": 0.0140000581741333,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_8:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.4279999732971191,
+        "support_m": 1.3279999494552612,
+        "overlap_m": 0.49200004458427427
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_8:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.3280000686645508
+        ],
+        "anchor_z_m": 1.3279999494552612
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_8:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.8999999761581421
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_8:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_8:r",
+      "expected": "14mm above lined support",
+      "actual": 0.0140000581741333,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_9:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.4780000448226929,
+        "support_m": 1.378000020980835,
+        "overlap_m": 0.4420000028610229
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_9:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.378000020980835
+        ],
+        "anchor_z_m": 1.378000020980835
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_9:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.9000000357627869
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_9:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_9:l",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_9:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.4780000448226929,
+        "support_m": 1.378000020980835,
+        "overlap_m": 0.4420000028610229
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_9:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.378000020980835
+        ],
+        "anchor_z_m": 1.378000020980835
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_9:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.9000000357627869
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_9:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_9:r",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_10:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.527999997138977,
+        "support_m": 1.4279999732971191,
+        "overlap_m": 0.39200005054473874
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_10:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.4279999732971191
+        ],
+        "anchor_z_m": 1.4279999732971191
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_10:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.9000000059604645
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_10:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_10:l",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_10:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.527999997138977,
+        "support_m": 1.4279999732971191,
+        "overlap_m": 0.39200005054473874
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_10:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.4279999732971191
+        ],
+        "anchor_z_m": 1.4279999732971191
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_10:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.9000000059604645
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_10:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_10:r",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_11:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.5779999494552612,
+        "support_m": 1.4779999256134033,
+        "overlap_m": 0.34200009822845456
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_11:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.4779999256134033
+        ],
+        "anchor_z_m": 1.4779999256134033
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_11:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.8999999463558197
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_11:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_11:l",
+      "expected": "14mm above lined support",
+      "actual": 0.0140000581741333,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_11:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.5779999494552612,
+        "support_m": 1.4779999256134033,
+        "overlap_m": 0.34200009822845456
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_11:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.4779999256134033
+        ],
+        "anchor_z_m": 1.4779999256134033
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_11:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.8999999463558197
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_11:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_11:r",
+      "expected": "14mm above lined support",
+      "actual": 0.0140000581741333,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_12:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.628000020980835,
+        "support_m": 1.527999997138977,
+        "overlap_m": 0.29200002670288083
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_12:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.5280001163482666
+        ],
+        "anchor_z_m": 1.527999997138977
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_12:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.9000000357627869
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_12:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_12:l",
+      "expected": "14mm above lined support",
+      "actual": 0.0140000581741333,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_12:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.628000020980835,
+        "support_m": 1.527999997138977,
+        "overlap_m": 0.29200002670288083
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_12:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.5280001163482666
+        ],
+        "anchor_z_m": 1.527999997138977
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_12:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.9000000357627869
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_12:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_12:r",
+      "expected": "14mm above lined support",
+      "actual": 0.0140000581741333,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_13:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.6780000925064087,
+        "support_m": 1.5780000686645508,
+        "overlap_m": 0.2419999551773071
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_13:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.5780000686645508
+        ],
+        "anchor_z_m": 1.5780000686645508
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_13:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.9000000953674316
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_13:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_13:l",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_13:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.6780000925064087,
+        "support_m": 1.5780000686645508,
+        "overlap_m": 0.2419999551773071
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_13:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.5780000686645508
+        ],
+        "anchor_z_m": 1.5780000686645508
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_13:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.9000000953674316
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_13:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_13:r",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_14:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.7280000448226929,
+        "support_m": 1.628000020980835,
+        "overlap_m": 0.19200000286102292
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_14:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.628000020980835
+        ],
+        "anchor_z_m": 1.628000020980835
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_14:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.9000000357627869
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_14:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_14:l",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_14:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.7280000448226929,
+        "support_m": 1.628000020980835,
+        "overlap_m": 0.19200000286102292
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_14:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.628000020980835
+        ],
+        "anchor_z_m": 1.628000020980835
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_14:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 98,
+        "center_z": 0.9000000357627869
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_14:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_14:r",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_15:l",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.777999997138977,
+        "support_m": 1.6779999732971191,
+        "overlap_m": 0.14200005054473874
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_15:l",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          0.550000011920929,
+          0.14000000059604645,
+          1.6779999732971191
+        ],
+        "anchor_z_m": 1.6779999732971191
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_15:l",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 96,
+        "center_z": 0.9000000059604645
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_15:l",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_15:l",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "detent_15:r",
+      "expected": "top1.028+index*.05, support.928+index*.05,142mm min overlap",
+      "actual": {
+        "top_m": 1.777999997138977,
+        "support_m": 1.6779999732971191,
+        "overlap_m": 0.14200005054473874
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_on_actual_liner_15:r",
+      "expected": "support equals measured cradle surface at anchorXY",
+      "actual": {
+        "surface_hit": [
+          -0.550000011920929,
+          0.14000000059604645,
+          1.6779999732971191
+        ],
+        "anchor_z_m": 1.6779999732971191
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "pin_hole_alignment_15:r",
+      "expected": "real opposite tube-wall opening centeredZ.9 with17mm diameter",
+      "actual": {
+        "ring_vertices": 96,
+        "center_z": 0.9000000059604645
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "open_pin_bore_15:r",
+      "expected": "ray passes both tube walls through real pin hole",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "support_axis_radius_15:r",
+      "expected": "14mm above lined support",
+      "actual": 0.01399993896484375,
+      "result": "PASS"
+    },
+    {
+      "check": "independent_height_controls",
+      "expected": "750mm right-only rise",
+      "actual": 0.7499999403953552,
+      "result": "PASS"
+    },
+    {
+      "check": "shadow_free",
+      "expected": "FLAT outlines,no shadows/cavity/specular",
+      "actual": [
+        "FLAT",
+        false,
+        false,
+        false
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "assembly_linked_assets",
+      "expected": "3 linked collection instances, no local meshes",
+      "actual": [
+        "stands_pair",
+        "bench_primary",
+        "barbell_primary"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "barbell_shaft_orientation",
+      "expected": "shaft parallel worldX",
+      "actual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "support_on_actual_shaft_line_l",
+      "expected": "<=1e-6m radial distance",
+      "actual": 5.960464477539063e-08,
+      "result": "PASS"
+    },
+    {
+      "check": "assembly_bar_contact_l",
+      "expected": "axis aligned with support+14mm; equalY/Z",
+      "actual": {
+        "support": [
+          -0.550000011920929,
+          0.440000057220459,
+          0.9279999732971191
+        ],
+        "barcenter": [
+          0.0,
+          0.4399999976158142,
+          0.9419999718666077
+        ],
+        "axis": [
+          -0.550000011920929,
+          0.440000057220459,
+          0.9419999718666077
+        ]
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "shaft_flange_clearance_l",
+      "expected": "75mm",
+      "actual": 0.07499998807907104,
+      "result": "PASS"
+    },
+    {
+      "check": "static_support_projection_l",
+      "expected": "bar vertical projection inside floor-pad convex rectangular envelope; not physical stability simulation",
+      "actual": [
+        -0.550000011920929,
+        0.440000057220459,
+        0.9419999718666077
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "support_on_actual_shaft_line_r",
+      "expected": "<=1e-6m radial distance",
+      "actual": 8.940696716308594e-08,
+      "result": "PASS"
+    },
+    {
+      "check": "assembly_bar_contact_r",
+      "expected": "axis aligned with support+14mm; equalY/Z",
+      "actual": {
+        "support": [
+          0.550000011920929,
+          0.43999990820884705,
+          0.9279999732971191
+        ],
+        "barcenter": [
+          0.0,
+          0.4399999976158142,
+          0.9419999718666077
+        ],
+        "axis": [
+          0.550000011920929,
+          0.43999990820884705,
+          0.9419999718666077
+        ]
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "shaft_flange_clearance_r",
+      "expected": "75mm",
+      "actual": 0.07499998807907104,
+      "result": "PASS"
+    },
+    {
+      "check": "static_support_projection_r",
+      "expected": "bar vertical projection inside floor-pad convex rectangular envelope; not physical stability simulation",
+      "actual": [
+        0.550000011920929,
+        0.43999990820884705,
+        0.9419999718666077
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bench_base_horizontal_clearance",
+      "expected": "73.75mm",
+      "actual": 0.07375000000000004,
+      "result": "PASS"
+    },
+    {
+      "check": "bar_above_pad",
+      "expected": "484.8mm",
+      "actual": 0.48479998111724854,
+      "result": "PASS"
+    },
+    {
+      "check": "inter_asset_bvh_crossings",
+      "expected": "0 triangle crossings; intended bar tangent contact",
+      "actual": {
+        "object_pairs": 2390,
+        "crossings": []
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "dependency_pin:168h_equipment_barbell_stands",
+      "expected": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+      "actual": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+      "result": "PASS"
+    },
+    {
+      "check": "dependency_pin:168h_equipment_flat_bench",
+      "expected": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+      "actual": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3",
+      "result": "PASS"
+    },
+    {
+      "check": "dependency_pin:168h_equipment_olympic_barbell_20kg",
+      "expected": "4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30",
+      "actual": "4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30",
+      "result": "PASS"
+    },
+    {
+      "check": "relative_link:168h_equipment_barbell_stands.blend",
+      "expected": "relative existing path",
+      "actual": "//../../../assets/equipment/racks/168h_equipment_barbell_stands/168h_equipment_barbell_stands.blend",
+      "result": "PASS"
+    },
+    {
+      "check": "relative_link:168h_equipment_flat_bench.blend",
+      "expected": "relative existing path",
+      "actual": "//../../../assets/equipment/benches/168h_equipment_flat_bench/168h_equipment_flat_bench.blend",
+      "result": "PASS"
+    },
+    {
+      "check": "relative_link:168h_equipment_olympic_barbell_20kg.blend",
+      "expected": "relative existing path",
+      "actual": "//../../../assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
+      "result": "PASS"
+    },
+    {
+      "check": "approved_assets_and_shared_standards_preserved",
+      "expected": "all protected hashes match",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check": "stand_master_not_resaved",
+      "expected": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+      "actual": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae",
+      "result": "PASS"
+    },
+    {
+      "check": "assembly_not_resaved",
+      "expected": "e43c0d1fd6785291090603f2da51f7d9d1c05573edac44dd3f9410f56424ec78",
+      "actual": "e43c0d1fd6785291090603f2da51f7d9d1c05573edac44dd3f9410f56424ec78",
+      "result": "PASS"
+    }
+  ],
+  "pass": 646,
+  "fail": 0,
+  "scope": "digital review prototype; actual inter-asset triangles, all detents and support geometry; not physical strength/ergonomic certification"
+}

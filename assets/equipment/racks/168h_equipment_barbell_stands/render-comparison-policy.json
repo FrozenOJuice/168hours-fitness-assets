@@ -1,0 +1,75 @@
+{
+  "id": "stands_assembly_comparison@1",
+  "status": "approved",
+  "date": "2026-10-15",
+  "scope": "only the two listed views of the pinned linked assembly; no shared standard change",
+  "approval_evidence": "User answered Approve this scoped comparison exception to the full numeric criteria after reviewing render-tolerance-proposal.md",
+  "views": [
+    "168h_template_stands_bench_barbell:assembled",
+    "168h_template_stands_bench_barbell:side"
+  ],
+  "limits": {
+    "max_rgb_8bit_delta": 8,
+    "alpha": "exact",
+    "changed_rgba_channel_fraction_lt": 0.001,
+    "changed_pixel_fraction_lt": 0.0015,
+    "mean_absolute_rgba_8bit_delta_lte": 0.002
+  },
+  "all_other_views": "exact decoded RGBA8",
+  "pinned_inputs": [
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/168h_equipment_barbell_stands.blend",
+      "sha256": "5b20912217f58c5659a0aed4ed79349c8d8186323daec3be762b30a91c75bcae"
+    },
+    {
+      "path": "scenes/templates/168h_template_stands_bench_barbell/168h_template_stands_bench_barbell.blend",
+      "sha256": "440357773d30d0b06d2130f53847641880673c5c4b416a2c8da81256c008f8ae"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/render-settings.json",
+      "sha256": "e5a83f4c2260704d4ba49c792d63aaece44805288fd4fa9b0cd3ff4475e9c6bf"
+    },
+    {
+      "path": "scenes/templates/168h_template_stands_bench_barbell/previews/render-settings.json",
+      "sha256": "77bf467a60fe6f575d27e69a93f3aa366d52b03ad3ddf8e7eee313126838c927"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__adjustment_detail__bench.png",
+      "sha256": "66c3d3ca7acc46a6f5af378aac421ef41c91555c35b9a0aa3e8dae298deeade4"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__front__bench.png",
+      "sha256": "d217076e28af60e88cf7b41fc6e71d8fb3220b7ce0a4b47aa794f9b328674144"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__hook_detail__bench.png",
+      "sha256": "04a3b2237ee4027d27a4d81c5546527d54186b57e4a81e8a5314a2ba8fd2e7e9"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__maximum_height__maximum_height.png",
+      "sha256": "d279a89b30344d6772bb24c70de45d6717c599cce3cb95f355833fac3a3f8e48"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__side__bench.png",
+      "sha256": "cbac30cd041eee433508f2f67cd527f50c691bcf44d7035ae6f45fc039e9fa66"
+    },
+    {
+      "path": "assets/equipment/racks/168h_equipment_barbell_stands/previews/168h_equipment_barbell_stands__three_quarter__bench.png",
+      "sha256": "7ea8c7644afd5441b7918fbf8173ca6332692ee4bbbf05a227bd83c3f7ea5b99"
+    },
+    {
+      "path": "scenes/templates/168h_template_stands_bench_barbell/previews/168h_template_stands_bench_barbell__assembled__bench_barbell.png",
+      "sha256": "b3fc765be4051c57a628ff183eba27b0acd1df7dc9ba0bdd1eabdef70be91bc0"
+    },
+    {
+      "path": "scenes/templates/168h_template_stands_bench_barbell/previews/168h_template_stands_bench_barbell__front__bench_barbell.png",
+      "sha256": "572896a6f9918746494f2f12c5c01dafbb4078b0ecfd577375fbe03376c48ae4"
+    },
+    {
+      "path": "scenes/templates/168h_template_stands_bench_barbell/previews/168h_template_stands_bench_barbell__side__bench_barbell.png",
+      "sha256": "51cdf34b9b611a7786f9992a8deb720e04bb9d2cad8b6daf7c720834654bb1ff"
+    }
+  ],
+  "proposal": "render-tolerance-proposal.md",
+  "criteria_for_geometry_contact_origins": "unchanged"
+}
