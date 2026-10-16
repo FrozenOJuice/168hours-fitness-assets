@@ -1,0 +1,418 @@
+{
+  "id": "168h_human_skeleton",
+  "version": "1.0.0",
+  "bones": [
+    {
+      "name": "root",
+      "parent": null,
+      "deform": false,
+      "connected": false
+    },
+    {
+      "name": "pelvis",
+      "parent": "root",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "spine_01",
+      "parent": "pelvis",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "spine_02",
+      "parent": "spine_01",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "spine_03",
+      "parent": "spine_02",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "neck",
+      "parent": "spine_03",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "head",
+      "parent": "neck",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "clavicle_l",
+      "parent": "spine_03",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "upper_arm_l",
+      "parent": "clavicle_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "forearm_l",
+      "parent": "upper_arm_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "hand_l",
+      "parent": "forearm_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "thumb_01_l",
+      "parent": "hand_l",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "thumb_02_l",
+      "parent": "thumb_01_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "thumb_03_l",
+      "parent": "thumb_02_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "index_01_l",
+      "parent": "hand_l",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "index_02_l",
+      "parent": "index_01_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "index_03_l",
+      "parent": "index_02_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "middle_01_l",
+      "parent": "hand_l",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "middle_02_l",
+      "parent": "middle_01_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "middle_03_l",
+      "parent": "middle_02_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "ring_01_l",
+      "parent": "hand_l",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "ring_02_l",
+      "parent": "ring_01_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "ring_03_l",
+      "parent": "ring_02_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "little_01_l",
+      "parent": "hand_l",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "little_02_l",
+      "parent": "little_01_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "little_03_l",
+      "parent": "little_02_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "thigh_l",
+      "parent": "pelvis",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "shin_l",
+      "parent": "thigh_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "foot_l",
+      "parent": "shin_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "toe_l",
+      "parent": "foot_l",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "clavicle_r",
+      "parent": "spine_03",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "upper_arm_r",
+      "parent": "clavicle_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "forearm_r",
+      "parent": "upper_arm_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "hand_r",
+      "parent": "forearm_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "thumb_01_r",
+      "parent": "hand_r",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "thumb_02_r",
+      "parent": "thumb_01_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "thumb_03_r",
+      "parent": "thumb_02_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "index_01_r",
+      "parent": "hand_r",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "index_02_r",
+      "parent": "index_01_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "index_03_r",
+      "parent": "index_02_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "middle_01_r",
+      "parent": "hand_r",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "middle_02_r",
+      "parent": "middle_01_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "middle_03_r",
+      "parent": "middle_02_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "ring_01_r",
+      "parent": "hand_r",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "ring_02_r",
+      "parent": "ring_01_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "ring_03_r",
+      "parent": "ring_02_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "little_01_r",
+      "parent": "hand_r",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "little_02_r",
+      "parent": "little_01_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "little_03_r",
+      "parent": "little_02_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "thigh_r",
+      "parent": "pelvis",
+      "deform": true,
+      "connected": false
+    },
+    {
+      "name": "shin_r",
+      "parent": "thigh_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "foot_r",
+      "parent": "shin_r",
+      "deform": true,
+      "connected": true
+    },
+    {
+      "name": "toe_r",
+      "parent": "foot_r",
+      "deform": true,
+      "connected": true
+    }
+  ],
+  "additional_deform_bones": "forbidden in V1 animation skeleton; optional twist/corrective bones live in private deformation rig with explicit bake mapping",
+  "bone_axis_rule": "Y=head_to_tail; Z=normalized projection of root-space +Y perpendicular to Y; if length<1e-6 use +Z projected instead; X=Y cross Z",
+  "a_pose": {
+    "arm_down_from_horizontal_degrees": 45,
+    "elbow_extension": "straight",
+    "knees": "straight",
+    "palms": "+Y",
+    "feet": "forward +Y, sole Z0",
+    "fingers": "index/middle/ring/little straight parallel to hand; thumb45deg toward projected +Z from hand direction",
+    "root_bone_head_m": [
+      0,
+      0,
+      0
+    ],
+    "root_bone_tail_m": [
+      0,
+      0,
+      0.1
+    ]
+  },
+  "anchors": [
+    {
+      "key": "floor_contact",
+      "bone": null,
+      "datum": "asset root at floor projection of pelvis; identity frame"
+    },
+    {
+      "key": "pelvis",
+      "bone": "pelvis",
+      "datum": "pelvis bone head; +Y front/+Z up"
+    },
+    {
+      "key": "back_support",
+      "bone": "spine_02",
+      "datum": "posterior torso contact patch; +Y toward head/+Z outward posterior"
+    },
+    {
+      "key": "hand_grip_l",
+      "bone": "hand_l",
+      "datum": "grip-cylinder center between palm and curled fingers; +Y transverse palm axis, +Z outward palm normal"
+    },
+    {
+      "key": "foot_contact_l",
+      "bone": "foot_l",
+      "datum": "sole support center; +Y forward/+Z up"
+    },
+    {
+      "key": "heel_contact_l",
+      "bone": "foot_l",
+      "datum": "heel sole contact; +Y forward/+Z up"
+    },
+    {
+      "key": "toe_contact_l",
+      "bone": "toe_l",
+      "datum": "forefoot/toe sole contact; +Y forward/+Z up"
+    },
+    {
+      "key": "hand_grip_r",
+      "bone": "hand_r",
+      "datum": "grip-cylinder center between palm and curled fingers; +Y transverse palm axis, +Z outward palm normal"
+    },
+    {
+      "key": "foot_contact_r",
+      "bone": "foot_r",
+      "datum": "sole support center; +Y forward/+Z up"
+    },
+    {
+      "key": "heel_contact_r",
+      "bone": "foot_r",
+      "datum": "heel sole contact; +Y forward/+Z up"
+    },
+    {
+      "key": "toe_contact_r",
+      "bone": "toe_r",
+      "datum": "forefoot/toe sole contact; +Y forward/+Z up"
+    }
+  ],
+  "required_controls": [
+    "root_motion",
+    "pelvis",
+    "ik_hand_l",
+    "pole_elbow_l",
+    "ik_foot_l",
+    "pole_knee_l",
+    "ik_hand_r",
+    "pole_elbow_r",
+    "ik_foot_r",
+    "pole_knee_r",
+    "ik_fk_arm_l",
+    "ik_fk_arm_r",
+    "ik_fk_leg_l",
+    "ik_fk_leg_r"
+  ],
+  "fk_interface": "fk_<bone_name> for every deform bone; character-specific physical control names mapped explicitly"
+}

@@ -1,0 +1,6 @@
+{
+  "input_sha256": "5e55ccd4dc136eb799e5d19282d1e9f5ab40397919c11762845d20fdaac7ce08",
+  "source_sha256": "bfbdbacfe77a703935b39beceb3bf66802837b5eb3e161d1a04b569cbeb197e4",
+  "script_sha256": "7812cb67a0a040884d0eaa4bf76a2eb0699cabe165899c58d809e6dbba0f5065",
+  "correction": "Explicitly mark private contact enable/radius properties library-overridable. Saved-state validation revealed enabled contact reverted to source default0 after reload; direct-source tests alone missed it. No shared interface, bone, anchor or equipment changes."
+}

@@ -1,0 +1,26 @@
+{
+  "builder_sha256": "2c555c34eb7b402245f3ed6c23da19da62f6105b8261f2da54fa73797cc58b29",
+  "source_sha256": "2a1b5d180166edf187bd99d27ebc5ac0e01b7e70dcfca0af8df148d81fc5ddd6",
+  "rig_sha256": "9b41fedb6636867d442eb70dbd32c88acd3c8a3fb3eb6e2f42614074d17759f6",
+  "mesh_vertices": 318766,
+  "mesh_faces": 318764,
+  "bone_count": 53,
+  "anchors": 11,
+  "implemented_muscles": [
+    "muscle_pectoralis_major_l",
+    "muscle_biceps_brachii_l",
+    "muscle_triceps_brachii_l",
+    "muscle_deltoid_anterior_l",
+    "muscle_deltoid_posterior_l",
+    "muscle_deltoid_middle_l",
+    "muscle_pectoralis_major_r",
+    "muscle_biceps_brachii_r",
+    "muscle_triceps_brachii_r",
+    "muscle_deltoid_anterior_r",
+    "muscle_deltoid_posterior_r",
+    "muscle_deltoid_middle_r",
+    "muscle_vastus_intermedius_l"
+  ],
+  "voxel_size_m": 0.0028,
+  "surface_fairing_iterations": 5
+}

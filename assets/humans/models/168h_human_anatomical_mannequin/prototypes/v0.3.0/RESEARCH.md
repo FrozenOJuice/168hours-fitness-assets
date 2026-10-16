@@ -1,0 +1,24 @@
+# Free human foundation evaluation —2026-10-16
+
+Decision: use **Dan Ulrich's Body Male - Realistic** from the official Blender Human Base Meshes1.4.1 bundle, plus a localized same-topology female-pelvis blend to remove genital emphasis. This is an isolated review implementation, not a master replacement or new shared physique standard. No purchases, subscriptions, installed add-ons or paid assets.
+
+| Candidate | Evidence / license | Suitability and selection |
+| --- | --- | --- |
+| Current0.2.1 MakeHuman-derived mannequin | Existing SPEC, actual native mesh, preserved current source digest in plan.json; upstream graphical data CC0 | Valuable tested V1 interfaces, partial masks, grips and preserved evidence. Too smooth; pose-specific shoulder correction. Retain unchanged as comparison/control source. |
+| Official Blender realistic male/female bodies | https://download.blender.org/demo/asset-bundles/human-base-meshes/human-base-meshes-bundle-v1.4.1.zip; both asset collections embed author Dan Ulrich/license CC0 | Selected after actual front/side/quarter candidate renders: coherent muscle shapes, practical10582vertex cage, three multires levels; source is unrigged. Male source has stronger visible superficial anatomy; female is smoother with breast emphasis. Need canonical reposing, weights, joint corrections and physique review. |
+| Official Blender stylized bodies | Same official bundle; embedded author Julien Kaspar/license CC0, Snow-derived stylized topology | Useful editable topology but cartoon proportions/large face/hands are a poorer match for adult anatomical illustration. Not selected. |
+| MB-Lab | https://github.com/animate1978/MB-Lab and https://raw.githubusercontent.com/animate1978/MB-Lab/master/license.txt | Parametric body variety and rigging tools are relevant. Published license distinguishes GPL code, AGPL database and AGPL generated3Dmodels; rendered2Dimages have separate terms. Commercial use is not forbidden, but copyleft asset obligations and the existing V1 adapter work make CC0 official assets preferable here. No code/database imported, no add-on installed. README says development moved to CharMorph. |
+| Z-Anatomy | https://github.com/Z-Anatomy/Models-of-human-anatomy | Valuable separate anatomical structures; published CC BY-SA4.0 with underlying BodyParts3D attribution. Commercial use is possible with attribution/share-alike conditions, not a noncommercial license. Primarily a navigable anatomy atlas rather than an animation-ready continuous human skin. Not selected/imported; deep-muscle prototype remains explicitly simplified original project geometry. |
+| Mike Freeman basemesh listing | https://blendswap.com/blend/19700 | Listing says CC0 and shows a muscular base. Older third-party upload and less direct source/version provenance than the official bundle; no authenticated download or import performed. Selection is not based on an unexamined paid/source-restricted mesh. |
+
+## Commercial rights and project terms
+
+Embedded collection metadata establishes CC0 for the selected Blender assets. CC0 permits commercial copying, adaptation and redistribution: https://creativecommons.org/publicdomain/zero/1.0/ and https://creativecommons.org/publicdomain/zero/1.0/legalcode.en. Native source and downloaded ZIP hashes are in references/provenance.json. Preserve attribution as provenance even though CC0 does not require it. No MakeHuman/MB-Lab/Z-Anatomy application code is copied into the implementation.
+
+Original project scripts/docs retain repository MIT scope. Upstream CC0 graphical content remains CC0. Original project artwork/rig/corrective additions do not silently inherit MIT; broader project artwork release terms remain unselected. This does not prevent internal prototype evaluation but blocks claims of an approved external release license.
+
+## Comparison method and limits
+
+Initial candidate renders normalize both realistic bodies to1.75m and use identical front/side/quarter framing with Workbench studio tonal evaluation, no cast shadows/cavity/AO/specular. These are source-quality screening images, not the final approved illustration preset. Final comparison links the unchanged current mannequin and adapted prototype at equal scale using identical Workbench STUDIO/SINGLE gray (.47,.50,.52), shadows/AO/specular disabled, so their different per-character normal/color ramps cannot bias the comparison. Their rest profiles differ, so matching pose names does not imply identical joint placement or action compatibility.
+
+The selected source has no supplier rig or muscle IDs. Bone-heat skinning is a starting point, not anatomical validation. Direct pose images revealed shoulder expansion and deep-flexion knee folds; weight cleanup and neutral-bound corrective deformation are being evaluated. Such failures must remain visible in the review report rather than be hidden by passing structural checks.

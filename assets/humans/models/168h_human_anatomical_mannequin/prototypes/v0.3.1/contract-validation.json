@@ -1,0 +1,4897 @@
+{
+  "contract": "168h_human_model@1.0.0",
+  "checks": [
+    {
+      "check": "contract_pin:docs/contracts/human-v1/contract.json",
+      "expected": "15b410b1b2b486236aef1babe7851aab6a2db87275e54211349dda1e87a7ab16",
+      "actual": "15b410b1b2b486236aef1babe7851aab6a2db87275e54211349dda1e87a7ab16",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:docs/contracts/human-v1/skeleton.json",
+      "expected": "c7a1335267257245e73c621b2359e193b97d08bcbc41765df421c1fa49156af4",
+      "actual": "c7a1335267257245e73c621b2359e193b97d08bcbc41765df421c1fa49156af4",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:docs/contracts/human-v1/muscles.json",
+      "expected": "c4804695ea5e46f10fcbf524514405ed4be271af2bb104a68edbdc06c9417400",
+      "actual": "c4804695ea5e46f10fcbf524514405ed4be271af2bb104a68edbdc06c9417400",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:schemas/exercise-muscles-v1.schema.json",
+      "expected": "021bbc287d103d8244fd8ef97bef754896b2adbba3fe1338815f6329c1536759",
+      "actual": "021bbc287d103d8244fd8ef97bef754896b2adbba3fe1338815f6329c1536759",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:schemas/human-character-v1.schema.json",
+      "expected": "4a1e3f5c361d0a02dda3378aab0e32a2be7ce12f54fa2999cc6f70880a0cb125",
+      "actual": "4a1e3f5c361d0a02dda3378aab0e32a2be7ce12f54fa2999cc6f70880a0cb125",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:schemas/human-export-v1.schema.json",
+      "expected": "41c54b90b85c79eccb24489bad0826926da1beca853d47cd9e10c3b917dfff7c",
+      "actual": "41c54b90b85c79eccb24489bad0826926da1beca853d47cd9e10c3b917dfff7c",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:schemas/human-muscle-catalog-v1.schema.json",
+      "expected": "c0c1c98ae99e00bb70dff514414f1ae17e4329b80d4dd0efee3f54f1b14f0571",
+      "actual": "c0c1c98ae99e00bb70dff514414f1ae17e4329b80d4dd0efee3f54f1b14f0571",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:schemas/human-snapshot-v1.schema.json",
+      "expected": "c5476302b1ff4147654f40a1c378ca38602a837190d8748715c6fbe50e40efc5",
+      "actual": "c5476302b1ff4147654f40a1c378ca38602a837190d8748715c6fbe50e40efc5",
+      "result": "PASS"
+    },
+    {
+      "check": "catalog_schema",
+      "expected": "valid catalog fields",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check": "registry_bone_names",
+      "expected": "unique snake_case",
+      "actual": [
+        "root",
+        "pelvis",
+        "spine_01",
+        "spine_02",
+        "spine_03",
+        "neck",
+        "head",
+        "clavicle_l",
+        "upper_arm_l",
+        "forearm_l",
+        "hand_l",
+        "thumb_01_l",
+        "thumb_02_l",
+        "thumb_03_l",
+        "index_01_l",
+        "index_02_l",
+        "index_03_l",
+        "middle_01_l",
+        "middle_02_l",
+        "middle_03_l",
+        "ring_01_l",
+        "ring_02_l",
+        "ring_03_l",
+        "little_01_l",
+        "little_02_l",
+        "little_03_l",
+        "thigh_l",
+        "shin_l",
+        "foot_l",
+        "toe_l",
+        "clavicle_r",
+        "upper_arm_r",
+        "forearm_r",
+        "hand_r",
+        "thumb_01_r",
+        "thumb_02_r",
+        "thumb_03_r",
+        "index_01_r",
+        "index_02_r",
+        "index_03_r",
+        "middle_01_r",
+        "middle_02_r",
+        "middle_03_r",
+        "ring_01_r",
+        "ring_02_r",
+        "ring_03_r",
+        "little_01_r",
+        "little_02_r",
+        "little_03_r",
+        "thigh_r",
+        "shin_r",
+        "foot_r",
+        "toe_r"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:root",
+      "expected": "parent precedes child; only root unparented",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:pelvis",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "root",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:spine_01",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "pelvis",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:spine_02",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "spine_01",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:spine_03",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "spine_02",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:neck",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "spine_03",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:head",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "neck",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:clavicle_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "spine_03",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:upper_arm_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "clavicle_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:forearm_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "upper_arm_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:hand_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "forearm_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thumb_01_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thumb_02_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "thumb_01_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thumb_03_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "thumb_02_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:index_01_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:index_02_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "index_01_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:index_03_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "index_02_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:middle_01_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:middle_02_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "middle_01_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:middle_03_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "middle_02_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:ring_01_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:ring_02_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "ring_01_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:ring_03_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "ring_02_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:little_01_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:little_02_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "little_01_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:little_03_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "little_02_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thigh_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "pelvis",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:shin_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "thigh_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:foot_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "shin_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:toe_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "foot_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:clavicle_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "spine_03",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:upper_arm_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "clavicle_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:forearm_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "upper_arm_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:hand_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "forearm_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thumb_01_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thumb_02_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "thumb_01_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thumb_03_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "thumb_02_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:index_01_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:index_02_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "index_01_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:index_03_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "index_02_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:middle_01_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:middle_02_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "middle_01_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:middle_03_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "middle_02_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:ring_01_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:ring_02_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "ring_01_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:ring_03_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "ring_02_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:little_01_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:little_02_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "little_01_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:little_03_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "little_02_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thigh_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "pelvis",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:shin_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "thigh_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:foot_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "shin_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:toe_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "foot_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_ids",
+      "expected": "unique bilateral IDs",
+      "actual": 78,
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_pectoralis_major_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_pectoralis_major_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_pectoralis_major_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_pectoralis_major_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_deltoid_anterior_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_deltoid_anterior_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_deltoid_anterior_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_deltoid_anterior_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_deltoid_middle_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_deltoid_middle_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_deltoid_middle_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_deltoid_middle_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_deltoid_posterior_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_deltoid_posterior_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_deltoid_posterior_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_deltoid_posterior_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_latissimus_dorsi_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_latissimus_dorsi_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_latissimus_dorsi_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_latissimus_dorsi_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_trapezius_upper_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_trapezius_upper_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_trapezius_upper_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_trapezius_upper_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_trapezius_middle_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_trapezius_middle_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_trapezius_middle_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_trapezius_middle_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_trapezius_lower_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_trapezius_lower_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_trapezius_lower_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_trapezius_lower_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_rhomboid_major_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_rhomboid_major_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_rhomboid_major_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_rhomboid_major_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_teres_major_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_teres_major_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_teres_major_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_teres_major_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_biceps_brachii_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_biceps_brachii_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_biceps_brachii_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_biceps_brachii_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_brachialis_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_brachialis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_brachialis_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_brachialis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_brachioradialis_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_brachioradialis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_brachioradialis_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_brachioradialis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_triceps_brachii_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_triceps_brachii_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_triceps_brachii_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_triceps_brachii_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_flexor_carpi_radialis_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_flexor_carpi_radialis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_flexor_carpi_radialis_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_flexor_carpi_radialis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_flexor_carpi_ulnaris_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_flexor_carpi_ulnaris_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_flexor_carpi_ulnaris_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_flexor_carpi_ulnaris_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_extensor_carpi_radialis_longus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_extensor_carpi_radialis_longus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_extensor_carpi_radialis_longus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_extensor_carpi_radialis_longus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_extensor_carpi_ulnaris_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_extensor_carpi_ulnaris_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_extensor_carpi_ulnaris_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_extensor_carpi_ulnaris_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_rectus_abdominis_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_rectus_abdominis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_rectus_abdominis_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_rectus_abdominis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_external_oblique_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_external_oblique_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_external_oblique_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_external_oblique_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_erector_spinae_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_erector_spinae_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_erector_spinae_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_erector_spinae_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gluteus_maximus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gluteus_maximus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gluteus_maximus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gluteus_maximus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gluteus_medius_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gluteus_medius_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gluteus_medius_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gluteus_medius_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gluteus_minimus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gluteus_minimus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gluteus_minimus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gluteus_minimus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_iliopsoas_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_iliopsoas_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_iliopsoas_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_iliopsoas_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_adductor_longus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_adductor_longus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_adductor_longus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_adductor_longus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_adductor_magnus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_adductor_magnus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_adductor_magnus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_adductor_magnus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_rectus_femoris_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_rectus_femoris_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_rectus_femoris_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_rectus_femoris_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_vastus_lateralis_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_vastus_lateralis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_vastus_lateralis_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_vastus_lateralis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_vastus_medialis_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_vastus_medialis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_vastus_medialis_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_vastus_medialis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_vastus_intermedius_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_vastus_intermedius_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_vastus_intermedius_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_vastus_intermedius_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_biceps_femoris_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_biceps_femoris_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_biceps_femoris_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_biceps_femoris_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_semitendinosus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_semitendinosus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_semitendinosus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_semitendinosus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_semimembranosus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_semimembranosus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_semimembranosus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_semimembranosus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gastrocnemius_medial_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gastrocnemius_medial_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gastrocnemius_medial_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gastrocnemius_medial_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gastrocnemius_lateral_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gastrocnemius_lateral_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gastrocnemius_lateral_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gastrocnemius_lateral_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_soleus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_soleus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_soleus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_soleus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_tibialis_anterior_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_tibialis_anterior_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_tibialis_anterior_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_tibialis_anterior_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_fibularis_longus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_fibularis_longus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_fibularis_longus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_fibularis_longus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "human-character-v1_schema",
+      "expected": "valid fields/types",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check": "human-snapshot-v1_schema",
+      "expected": "valid fields/types",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check": "skeleton_structure",
+      "expected": "exact core bone set, no duplicates",
+      "actual": [
+        "root",
+        "pelvis",
+        "spine_01",
+        "spine_02",
+        "spine_03",
+        "neck",
+        "head",
+        "clavicle_l",
+        "upper_arm_l",
+        "forearm_l",
+        "hand_l",
+        "thumb_01_l",
+        "thumb_02_l",
+        "thumb_03_l",
+        "index_01_l",
+        "index_02_l",
+        "index_03_l",
+        "middle_01_l",
+        "middle_02_l",
+        "middle_03_l",
+        "ring_01_l",
+        "ring_02_l",
+        "ring_03_l",
+        "little_01_l",
+        "little_02_l",
+        "little_03_l",
+        "clavicle_r",
+        "upper_arm_r",
+        "forearm_r",
+        "hand_r",
+        "thumb_01_r",
+        "thumb_02_r",
+        "thumb_03_r",
+        "index_01_r",
+        "index_02_r",
+        "index_03_r",
+        "middle_01_r",
+        "middle_02_r",
+        "middle_03_r",
+        "ring_01_r",
+        "ring_02_r",
+        "ring_03_r",
+        "little_01_r",
+        "little_02_r",
+        "little_03_r",
+        "thigh_l",
+        "shin_l",
+        "foot_l",
+        "toe_l",
+        "thigh_r",
+        "shin_r",
+        "foot_r",
+        "toe_r"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "root_matrix",
+      "expected": "identity in source authoring frame",
+      "actual": 0.0,
+      "result": "PASS"
+    },
+    {
+      "check": "armature_matrix",
+      "expected": "identity in source authoring frame",
+      "actual": 0.0,
+      "result": "PASS"
+    },
+    {
+      "check": "collection_pivot",
+      "expected": "floor root zero",
+      "actual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "units",
+      "expected": "meters, unit scale1",
+      "actual": 1.0,
+      "result": "PASS"
+    },
+    {
+      "check": "hierarchy_valid",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "check": "transforms_normalized",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "check": "skinning_valid",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "check": "ik_valid",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "check": "joint_constraints_valid",
+      "expected": true,
+      "actual": true,
+      "result": "PASS"
+    },
+    {
+      "check": "body_floor",
+      "expected": "lowest body point Z0 \u00b110um",
+      "actual": 4.319720137146987e-09,
+      "result": "PASS"
+    },
+    {
+      "check": "body_height",
+      "expected": "declared measured stature \u00b110um",
+      "actual": {
+        "declared": 1.75,
+        "measured": 1.7499999956802799
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:root",
+      "expected": {
+        "parent": null,
+        "deform": false,
+        "connected": false
+      },
+      "actual": {
+        "parent": null,
+        "deform": false,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:root",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -1.5099580252808664e-07,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:pelvis",
+      "expected": {
+        "parent": "root",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "root",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:pelvis",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -8.742277657347586e-08,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:spine_01",
+      "expected": {
+        "parent": "pelvis",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "pelvis",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:spine_01",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -8.742277657347586e-08,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:spine_01",
+      "expected": "head=parent tail",
+      "actual": [
+        0.0,
+        0.0,
+        1.0721427202224731
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:spine_02",
+      "expected": {
+        "parent": "spine_01",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "spine_01",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:spine_02",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -8.742277657347586e-08,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:spine_02",
+      "expected": "head=parent tail",
+      "actual": [
+        0.0,
+        0.0,
+        1.1917645931243896
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:spine_03",
+      "expected": {
+        "parent": "spine_02",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "spine_02",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:spine_03",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -8.742277657347586e-08,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:spine_03",
+      "expected": "head=parent tail",
+      "actual": [
+        0.0,
+        0.0,
+        1.341291904449463
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:neck",
+      "expected": {
+        "parent": "spine_03",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "spine_03",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:neck",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        1.509957741063772e-07,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:neck",
+      "expected": "head=parent tail",
+      "actual": [
+        0.0,
+        0.0,
+        1.4908192157745361
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:head",
+      "expected": {
+        "parent": "neck",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "neck",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:head",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -8.742277657347586e-08,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:head",
+      "expected": "head=parent tail",
+      "actual": [
+        0.0,
+        0.0,
+        1.5905041694641113
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:clavicle_l",
+      "expected": {
+        "parent": "spine_03",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "spine_03",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:clavicle_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -1.068856647634675e-08,
+        1.0,
+        -3.124346648064602e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:upper_arm_l",
+      "expected": {
+        "parent": "clavicle_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "clavicle_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:upper_arm_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        3.725276087607199e-09,
+        1.0,
+        3.725293851175593e-09
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:upper_arm_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.189401313662529,
+        0.0,
+        1.426024079322815
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:forearm_l",
+      "expected": {
+        "parent": "upper_arm_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "upper_arm_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:forearm_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        7.4505703828720016e-09,
+        1.0,
+        7.450591255064865e-09
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:forearm_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.4323636591434479,
+        0.0,
+        1.1830617189407349
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:hand_l",
+      "expected": {
+        "parent": "forearm_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "forearm_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:hand_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        4.0978164861371624e-08,
+        1.0,
+        4.097822881021784e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:hand_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.6052602529525757,
+        0.0,
+        1.0101650953292847
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:thumb_01_l",
+      "expected": {
+        "parent": "hand_l",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "hand_l",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:thumb_01_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        1.9913670712412568e-10,
+        1.0,
+        7.549790126404332e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:thumb_02_l",
+      "expected": {
+        "parent": "thumb_01_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "thumb_01_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:thumb_02_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -4.07035516403198e-14,
+        1.0,
+        7.549790126404332e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:thumb_02_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.6839589476585388,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:thumb_03_l",
+      "expected": {
+        "parent": "thumb_02_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "thumb_02_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:thumb_03_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -4.07035516403198e-14,
+        1.0,
+        7.549790126404332e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:thumb_03_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.7070376873016357,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:index_01_l",
+      "expected": {
+        "parent": "hand_l",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "hand_l",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:index_01_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        3.352753452645629e-08,
+        1.0,
+        3.3527619791584584e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:index_02_l",
+      "expected": {
+        "parent": "index_01_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "index_01_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:index_02_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        4.8428763221863846e-08,
+        1.0,
+        4.84287880908596e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:index_02_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.7225600481033325,
+        -0.010045277886092663,
+        0.9938129782676697
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:index_03_l",
+      "expected": {
+        "parent": "index_02_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "index_02_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:index_03_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        4.842875966915017e-08,
+        1.0,
+        4.8428795196286956e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:index_03_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.7395942211151123,
+        -0.010045277886092663,
+        0.9767788052558899
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:middle_01_l",
+      "expected": {
+        "parent": "hand_l",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "hand_l",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:middle_01_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        4.842874545829545e-08,
+        1.0,
+        4.842880940714167e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:middle_02_l",
+      "expected": {
+        "parent": "middle_01_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "middle_01_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:middle_02_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        1.1175831815535275e-08,
+        1.0,
+        1.1175885106240457e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:middle_02_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.7115840315818787,
+        -0.007744836155325174,
+        0.9700673818588257
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:middle_03_l",
+      "expected": {
+        "parent": "middle_02_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "middle_02_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:middle_03_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        7.450539740716522e-09,
+        1.0,
+        7.4505379643596825e-09
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:middle_03_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.7327538728713989,
+        -0.007744836155325174,
+        0.9488976001739502
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:ring_01_l",
+      "expected": {
+        "parent": "hand_l",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "hand_l",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:ring_01_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        4.097826078464095e-08,
+        1.0,
+        4.097832473348717e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:ring_02_l",
+      "expected": {
+        "parent": "ring_01_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "ring_01_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:ring_02_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        4.8428766774577525e-08,
+        1.0,
+        4.84287880908596e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:ring_02_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.6863667368888855,
+        -0.005827811546623707,
+        0.9525812268257141
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:ring_03_l",
+      "expected": {
+        "parent": "ring_02_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "ring_02_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:ring_03_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        4.8428766774577525e-08,
+        1.0,
+        4.84287880908596e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:ring_03_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.7096384167671204,
+        -0.005827811546623707,
+        0.9293095469474792
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:little_01_l",
+      "expected": {
+        "parent": "hand_l",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "hand_l",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:little_01_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        5.3891632489921903e-08,
+        1.0,
+        4.296591882280154e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:little_02_l",
+      "expected": {
+        "parent": "little_01_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "little_01_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:little_02_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        4.842875966915017e-08,
+        1.0,
+        4.8428795196286956e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:little_02_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.6445633172988892,
+        -0.002913950476795435,
+        0.9348254799842834
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:little_03_l",
+      "expected": {
+        "parent": "little_02_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "little_02_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:little_03_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -5.5879553428894724e-08,
+        1.0,
+        -5.587933316064664e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:little_03_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.6657683253288269,
+        -0.002913950476795435,
+        0.9136204719543457
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:clavicle_r",
+      "expected": {
+        "parent": "spine_03",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "spine_03",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:clavicle_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        1.068853805463732e-08,
+        1.0,
+        -3.124348779692809e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:upper_arm_r",
+      "expected": {
+        "parent": "clavicle_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "clavicle_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:upper_arm_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -3.7252920748187535e-09,
+        1.0,
+        3.7252796403208777e-09
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:upper_arm_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.189401313662529,
+        0.0,
+        1.426024079322815
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:forearm_r",
+      "expected": {
+        "parent": "upper_arm_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "upper_arm_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:forearm_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -7.450586814172766e-09,
+        1.0,
+        7.45057437967489e-09
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:forearm_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.4323636591434479,
+        0.0,
+        1.1830617189407349
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:hand_r",
+      "expected": {
+        "parent": "forearm_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "forearm_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:hand_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -4.097818262494002e-08,
+        1.0,
+        4.097821104664945e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:hand_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.6052602529525757,
+        0.0,
+        1.0101650953292847
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:thumb_01_r",
+      "expected": {
+        "parent": "hand_r",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "hand_r",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:thumb_01_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -1.9915447069251968e-10,
+        1.0,
+        7.549790126404332e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:thumb_02_r",
+      "expected": {
+        "parent": "thumb_01_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "thumb_01_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:thumb_02_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        1.6375789613221059e-15,
+        1.0,
+        7.549790126404332e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:thumb_02_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.6839589476585388,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:thumb_03_r",
+      "expected": {
+        "parent": "thumb_02_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "thumb_02_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:thumb_03_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        1.6237011735142914e-15,
+        1.0,
+        7.549790126404332e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:thumb_03_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.7070376873016357,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:index_01_r",
+      "expected": {
+        "parent": "hand_r",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "hand_r",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:index_01_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -3.352754873731101e-08,
+        1.0,
+        3.352760202801619e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:index_02_r",
+      "expected": {
+        "parent": "index_01_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "index_01_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:index_02_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -4.842878098543224e-08,
+        1.0,
+        4.8428770327291204e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:index_02_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.7225600481033325,
+        -0.010045277886092663,
+        0.9938129782676697
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:index_03_r",
+      "expected": {
+        "parent": "index_02_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "index_02_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:index_03_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -4.842877743271856e-08,
+        1.0,
+        4.842877743271856e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:index_03_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.7395942211151123,
+        -0.010045277886092663,
+        0.9767788052558899
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:middle_01_r",
+      "expected": {
+        "parent": "hand_r",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "hand_r",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:middle_01_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -4.842875966915017e-08,
+        1.0,
+        4.842879164357328e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:middle_02_r",
+      "expected": {
+        "parent": "middle_01_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "middle_01_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:middle_02_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -1.117584602638999e-08,
+        1.0,
+        1.1175867342672063e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:middle_02_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.7115840315818787,
+        -0.007744836155325174,
+        0.9700673818588257
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:middle_03_r",
+      "expected": {
+        "parent": "middle_02_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "middle_02_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:middle_03_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -7.450554395660447e-09,
+        1.0,
+        7.450521977148128e-09
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:middle_03_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.7327538728713989,
+        -0.007744836155325174,
+        0.9488976001739502
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:ring_01_r",
+      "expected": {
+        "parent": "hand_r",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "hand_r",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:ring_01_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -4.0978278548209346e-08,
+        1.0,
+        4.0978306969918776e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:ring_02_r",
+      "expected": {
+        "parent": "ring_01_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "ring_01_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:ring_02_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -4.842878098543224e-08,
+        1.0,
+        4.842877388000488e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:ring_02_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.6863667368888855,
+        -0.005827811546623707,
+        0.9525812268257141
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:ring_03_r",
+      "expected": {
+        "parent": "ring_02_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "ring_02_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:ring_03_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -4.842878098543224e-08,
+        1.0,
+        4.842877388000488e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:ring_03_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.7096384167671204,
+        -0.005827811546623707,
+        0.9293095469474792
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:little_01_r",
+      "expected": {
+        "parent": "hand_r",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "hand_r",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:little_01_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -5.3891653806203976e-08,
+        1.0,
+        4.2965904611946826e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:little_02_r",
+      "expected": {
+        "parent": "little_01_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "little_01_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:little_02_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -4.842877388000488e-08,
+        1.0,
+        4.842877743271856e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:little_02_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.6445633172988892,
+        -0.002913950476795435,
+        0.9348254799842834
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:little_03_r",
+      "expected": {
+        "parent": "little_02_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "little_02_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:little_03_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        5.587953921804001e-08,
+        1.0,
+        -5.587935092421503e-08
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:little_03_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.6657683253288269,
+        -0.002913950476795435,
+        0.9136204719543457
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:thigh_l",
+      "expected": {
+        "parent": "pelvis",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "pelvis",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:thigh_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:shin_l",
+      "expected": {
+        "parent": "thigh_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "thigh_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:shin_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:shin_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.10466914623975754,
+        0.0,
+        0.49338752031326294
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:foot_l",
+      "expected": {
+        "parent": "shin_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "shin_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:foot_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -0.1366996467113495,
+        0.43794524669647217,
+        0.8885478973388672
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:foot_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.10466914623975754,
+        0.0,
+        0.0940888300538063
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:toe_l",
+      "expected": {
+        "parent": "foot_l",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "foot_l",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:toe_l",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        -7.450580596923828e-09,
+        0.0,
+        1.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:toe_l",
+      "expected": "head=parent tail",
+      "actual": [
+        0.11463763564825058,
+        0.13457462191581726,
+        0.029293641448020935
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:thigh_r",
+      "expected": {
+        "parent": "pelvis",
+        "deform": true,
+        "connected": false
+      },
+      "actual": {
+        "parent": "pelvis",
+        "deform": true,
+        "connected": false
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:thigh_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:shin_r",
+      "expected": {
+        "parent": "thigh_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "thigh_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:shin_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:shin_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.10466914623975754,
+        0.0,
+        0.49338752031326294
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:foot_r",
+      "expected": {
+        "parent": "shin_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "shin_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:foot_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        0.1366996467113495,
+        0.43794524669647217,
+        0.8885478973388672
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:foot_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.10466914623975754,
+        0.0,
+        0.0940888300538063
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "bone_contract:toe_r",
+      "expected": {
+        "parent": "foot_r",
+        "deform": true,
+        "connected": true
+      },
+      "actual": {
+        "parent": "foot_r",
+        "deform": true,
+        "connected": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "bone_frame:toe_r",
+      "expected": "nonzero length, canonical roll, identity pose",
+      "actual": [
+        7.450580596923828e-09,
+        0.0,
+        1.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "connected_joint:toe_r",
+      "expected": "head=parent tail",
+      "actual": [
+        -0.11463763564825058,
+        0.13457462191581726,
+        0.029293641448020935
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "root_bone_datum",
+      "expected": "head0/tailZ0.1",
+      "actual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "pelvis_floor_projection",
+      "expected": "pelvis headXY0",
+      "actual": [
+        0.0,
+        0.0,
+        0.9624892473220825
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "axial_upright:pelvis",
+      "expected": "+Z",
+      "actual": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "axial_upright:spine_01",
+      "expected": "+Z",
+      "actual": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "axial_upright:spine_02",
+      "expected": "+Z",
+      "actual": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "axial_upright:spine_03",
+      "expected": "+Z",
+      "actual": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "axial_upright:neck",
+      "expected": "+Z",
+      "actual": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "axial_upright:head",
+      "expected": "+Z",
+      "actual": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "a_pose:upper_arm_l",
+      "expected": "45deg arm down \u00b10.1deg",
+      "actual": 1.9090959104164224e-06,
+      "result": "PASS"
+    },
+    {
+      "check": "a_pose:forearm_l",
+      "expected": "45deg arm down \u00b10.1deg",
+      "actual": 4.90455619685548e-06,
+      "result": "PASS"
+    },
+    {
+      "check": "a_pose:hand_l",
+      "expected": "45deg arm down \u00b10.1deg",
+      "actual": 2.6008585494473243e-05,
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:thumb_01_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:thumb_02_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:thumb_03_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:index_01_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        0.7071057605366184,
+        0.0,
+        -0.7071078018350034
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:index_02_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        0.7071067811865475,
+        0.0,
+        -0.7071067811865475
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:index_03_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865476
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:middle_01_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865476
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:middle_02_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        0.7071077766327959,
+        0.0,
+        -0.7071057857388979
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:middle_03_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        0.7071054222504296,
+        0.0,
+        -0.7071081401200539
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:ring_01_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        0.7071076467530146,
+        0.0,
+        -0.7071059156190209
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:ring_02_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        0.7071067811865475,
+        0.0,
+        -0.7071067811865475
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:ring_03_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        0.7071067811865475,
+        0.0,
+        -0.7071067811865475
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:little_01_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865476
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:little_02_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865476
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:little_03_l",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        0.7071054825622365,
+        0.0,
+        -0.7071080798084736
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "leg_rest:thigh_l",
+      "expected": "straight -Z",
+      "actual": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "leg_rest:shin_l",
+      "expected": "straight -Z",
+      "actual": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "toe_forward:l",
+      "expected": "+Y",
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "anatomical_side:l",
+      "expected": "hip/shoulder on declared side",
+      "actual": [
+        0.10466914623975754,
+        0.189401313662529
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "a_pose:upper_arm_r",
+      "expected": "45deg arm down \u00b10.1deg",
+      "actual": 1.9090959104164224e-06,
+      "result": "PASS"
+    },
+    {
+      "check": "a_pose:forearm_r",
+      "expected": "45deg arm down \u00b10.1deg",
+      "actual": 4.90455619685548e-06,
+      "result": "PASS"
+    },
+    {
+      "check": "a_pose:hand_r",
+      "expected": "45deg arm down \u00b10.1deg",
+      "actual": 2.6008585494473243e-05,
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:thumb_01_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:thumb_02_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:thumb_03_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:index_01_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -0.7071057605366184,
+        0.0,
+        -0.7071078018350034
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:index_02_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -0.7071067811865475,
+        0.0,
+        -0.7071067811865475
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:index_03_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -0.7071067811865476,
+        0.0,
+        -0.7071067811865476
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:middle_01_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -0.7071067811865476,
+        0.0,
+        -0.7071067811865476
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:middle_02_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -0.7071077766327959,
+        0.0,
+        -0.7071057857388979
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:middle_03_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -0.7071054222504296,
+        0.0,
+        -0.7071081401200539
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:ring_01_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -0.7071076467530146,
+        0.0,
+        -0.7071059156190209
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:ring_02_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -0.7071067811865475,
+        0.0,
+        -0.7071067811865475
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:ring_03_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -0.7071067811865475,
+        0.0,
+        -0.7071067811865475
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:little_01_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -0.7071067811865476,
+        0.0,
+        -0.7071067811865476
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:little_02_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -0.7071067811865476,
+        0.0,
+        -0.7071067811865476
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "finger_pose:little_03_r",
+      "expected": "straight canonical digit direction",
+      "actual": [
+        -0.7071054825622365,
+        0.0,
+        -0.7071080798084736
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "leg_rest:thigh_r",
+      "expected": "straight -Z",
+      "actual": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "leg_rest:shin_r",
+      "expected": "straight -Z",
+      "actual": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "toe_forward:r",
+      "expected": "+Y",
+      "actual": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "anatomical_side:r",
+      "expected": "hip/shoulder on declared side",
+      "actual": [
+        -0.10466914623975754,
+        -0.189401313662529
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "animation_armature_name",
+      "expected": "stable canonical object suffix",
+      "actual": "168h_human_anatomical_mannequin__armature_deform",
+      "result": "PASS"
+    },
+    {
+      "check": "body_inventory",
+      "expected": "nonempty unique body object set",
+      "actual": [
+        "168h_human_anatomical_mannequin__mesh_body",
+        "168h_human_anatomical_mannequin__mesh_vastus_intermedius_l"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "control_interface",
+      "expected": "all logical controls declared and resolve",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check": "ik_fk_switch:ik_fk_arm_l",
+      "expected": "canonical root property;0=FK,1=IK",
+      "actual": {
+        "object": "168h_human_anatomical_mannequin__root",
+        "bone": null,
+        "property": "ik_fk_arm_l"
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "ik_fk_switch:ik_fk_arm_r",
+      "expected": "canonical root property;0=FK,1=IK",
+      "actual": {
+        "object": "168h_human_anatomical_mannequin__root",
+        "bone": null,
+        "property": "ik_fk_arm_r"
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "ik_fk_switch:ik_fk_leg_l",
+      "expected": "canonical root property;0=FK,1=IK",
+      "actual": {
+        "object": "168h_human_anatomical_mannequin__root",
+        "bone": null,
+        "property": "ik_fk_leg_l"
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "ik_fk_switch:ik_fk_leg_r",
+      "expected": "canonical root property;0=FK,1=IK",
+      "actual": {
+        "object": "168h_human_anatomical_mannequin__root",
+        "bone": null,
+        "property": "ik_fk_leg_r"
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "solver_bindings",
+      "expected": "required limb mappings",
+      "actual": [
+        "ik_foot_l",
+        "ik_foot_r",
+        "ik_hand_l",
+        "ik_hand_r"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "joint_limit_bindings",
+      "expected": "required limb mappings",
+      "actual": [
+        "forearm_l",
+        "forearm_r",
+        "shin_l",
+        "shin_r"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "anchor_uniqueness",
+      "expected": "no duplicates",
+      "actual": 11,
+      "result": "PASS"
+    },
+    {
+      "check": "attachment:floor_contact",
+      "expected": "canonical name/owner/frame/datum",
+      "actual": {
+        "key": "floor_contact",
+        "object": "168h_human_anatomical_mannequin__anchor_floor_contact",
+        "bone": null,
+        "position_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "exists": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "attachment:pelvis",
+      "expected": "canonical name/owner/frame/datum",
+      "actual": {
+        "key": "pelvis",
+        "object": "168h_human_anatomical_mannequin__anchor_pelvis",
+        "bone": "pelvis",
+        "position_m": [
+          0.0,
+          0.0,
+          0.9624892473220825
+        ],
+        "rotation_quaternion_wxyz": [
+          1.0,
+          0.0,
+          2.93650568000247e-15,
+          -2.117582368135751e-22
+        ],
+        "exists": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "attachment:back_support",
+      "expected": "canonical name/owner/frame/datum",
+      "actual": {
+        "key": "back_support",
+        "object": "168h_human_anatomical_mannequin__anchor_back_support",
+        "bone": "spine_02",
+        "position_m": [
+          0.0,
+          -0.0728808045387268,
+          1.1917645931243896
+        ],
+        "rotation_quaternion_wxyz": [
+          0.7071067690849304,
+          0.7071067690849304,
+          3.0928502197641216e-25,
+          0.0
+        ],
+        "exists": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "attachment:hand_grip_l",
+      "expected": "canonical name/owner/frame/datum",
+      "actual": {
+        "key": "hand_grip_l",
+        "object": "168h_human_anatomical_mannequin__anchor_hand_grip_l",
+        "bone": "hand_l",
+        "position_m": [
+          0.6462724804878235,
+          0.029999999329447746,
+          0.9691529273986816
+        ],
+        "rotation_quaternion_wxyz": [
+          0.27059805393218994,
+          -0.2705981135368347,
+          -0.6532814502716064,
+          -0.653281569480896
+        ],
+        "exists": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "attachment:foot_contact_l",
+      "expected": "canonical name/owner/frame/datum",
+      "actual": {
+        "key": "foot_contact_l",
+        "object": "168h_human_anatomical_mannequin__anchor_foot_contact_l",
+        "bone": "foot_l",
+        "position_m": [
+          0.10466915369033813,
+          0.06999999284744263,
+          0.0
+        ],
+        "rotation_quaternion_wxyz": [
+          1.0,
+          0.0,
+          -5.587935447692871e-09,
+          -9.31322685637781e-10
+        ],
+        "exists": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "attachment:heel_contact_l",
+      "expected": "canonical name/owner/frame/datum",
+      "actual": {
+        "key": "heel_contact_l",
+        "object": "168h_human_anatomical_mannequin__anchor_heel_contact_l",
+        "bone": "foot_l",
+        "position_m": [
+          0.10466915369033813,
+          -0.034999996423721313,
+          3.725290298461914e-09
+        ],
+        "rotation_quaternion_wxyz": [
+          1.0,
+          0.0,
+          -5.587935447692871e-09,
+          -9.31322685637781e-10
+        ],
+        "exists": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "attachment:toe_contact_l",
+      "expected": "canonical name/owner/frame/datum",
+      "actual": {
+        "key": "toe_contact_l",
+        "object": "168h_human_anatomical_mannequin__anchor_toe_contact_l",
+        "bone": "toe_l",
+        "position_m": [
+          0.11463763564825058,
+          0.16999998688697815,
+          9.816512047677861e-10
+        ],
+        "rotation_quaternion_wxyz": [
+          1.0,
+          1.3322676295501878e-15,
+          -1.1102230246251565e-16,
+          9.992007221626409e-16
+        ],
+        "exists": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "attachment:hand_grip_r",
+      "expected": "canonical name/owner/frame/datum",
+      "actual": {
+        "key": "hand_grip_r",
+        "object": "168h_human_anatomical_mannequin__anchor_hand_grip_r",
+        "bone": "hand_r",
+        "position_m": [
+          -0.6462724804878235,
+          0.029999999329447746,
+          0.9691529273986816
+        ],
+        "rotation_quaternion_wxyz": [
+          0.27059805393218994,
+          -0.2705981135368347,
+          0.6532814502716064,
+          0.653281569480896
+        ],
+        "exists": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "attachment:foot_contact_r",
+      "expected": "canonical name/owner/frame/datum",
+      "actual": {
+        "key": "foot_contact_r",
+        "object": "168h_human_anatomical_mannequin__anchor_foot_contact_r",
+        "bone": "foot_r",
+        "position_m": [
+          -0.10466915369033813,
+          0.06999999284744263,
+          0.0
+        ],
+        "rotation_quaternion_wxyz": [
+          1.0,
+          0.0,
+          5.587935447692871e-09,
+          9.31322685637781e-10
+        ],
+        "exists": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "attachment:heel_contact_r",
+      "expected": "canonical name/owner/frame/datum",
+      "actual": {
+        "key": "heel_contact_r",
+        "object": "168h_human_anatomical_mannequin__anchor_heel_contact_r",
+        "bone": "foot_r",
+        "position_m": [
+          -0.10466915369033813,
+          -0.034999996423721313,
+          3.725290298461914e-09
+        ],
+        "rotation_quaternion_wxyz": [
+          1.0,
+          0.0,
+          5.587935447692871e-09,
+          9.31322685637781e-10
+        ],
+        "exists": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "attachment:toe_contact_r",
+      "expected": "canonical name/owner/frame/datum",
+      "actual": {
+        "key": "toe_contact_r",
+        "object": "168h_human_anatomical_mannequin__anchor_toe_contact_r",
+        "bone": "toe_r",
+        "position_m": [
+          -0.11463763564825058,
+          0.16999998688697815,
+          9.816512047677861e-10
+        ],
+        "rotation_quaternion_wxyz": [
+          1.0,
+          1.3322676295501878e-15,
+          1.1102230246251565e-16,
+          -9.992007221626409e-16
+        ],
+        "exists": true
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_coverage",
+      "expected": "all core IDs declared and observed; no duplicates",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_ids",
+      "expected": "only known IDs",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_pectoralis_major_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_pectoralis_major_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_pectoralis_major_l",
+        "positive_vertices": 1674,
+        "weight_min": 0.0010176438372582197,
+        "weight_max": 1.0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_pectoralis_major_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_pectoralis_major_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_pectoralis_major_r",
+        "positive_vertices": 1670,
+        "weight_min": 0.0010208217427134514,
+        "weight_max": 1.0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_deltoid_anterior_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_deltoid_anterior_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_deltoid_anterior_l",
+        "positive_vertices": 1888,
+        "weight_min": 0.001000424032099545,
+        "weight_max": 1.0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_deltoid_anterior_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_deltoid_anterior_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_deltoid_anterior_r",
+        "positive_vertices": 1904,
+        "weight_min": 0.0010061492212116718,
+        "weight_max": 1.0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_deltoid_middle_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_deltoid_middle_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_deltoid_middle_l",
+        "positive_vertices": 2100,
+        "weight_min": 0.0010410301620140672,
+        "weight_max": 0.999717652797699,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_deltoid_middle_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_deltoid_middle_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_deltoid_middle_r",
+        "positive_vertices": 2101,
+        "weight_min": 0.0010009047109633684,
+        "weight_max": 0.9997161030769348,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_deltoid_posterior_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_deltoid_posterior_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_deltoid_posterior_l",
+        "positive_vertices": 1383,
+        "weight_min": 0.0010098967468366027,
+        "weight_max": 0.9896712303161621,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_deltoid_posterior_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_deltoid_posterior_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_deltoid_posterior_r",
+        "positive_vertices": 1385,
+        "weight_min": 0.0010012553539127111,
+        "weight_max": 0.9879094362258911,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_latissimus_dorsi_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_latissimus_dorsi_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_latissimus_dorsi_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_latissimus_dorsi_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_latissimus_dorsi_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_latissimus_dorsi_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_trapezius_upper_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_trapezius_upper_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_trapezius_upper_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_trapezius_upper_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_trapezius_upper_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_trapezius_upper_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_trapezius_middle_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_trapezius_middle_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_trapezius_middle_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_trapezius_middle_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_trapezius_middle_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_trapezius_middle_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_trapezius_lower_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_trapezius_lower_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_trapezius_lower_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_trapezius_lower_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_trapezius_lower_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_trapezius_lower_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_rhomboid_major_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_rhomboid_major_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_rhomboid_major_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_rhomboid_major_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_rhomboid_major_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_rhomboid_major_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_teres_major_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_teres_major_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_teres_major_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_teres_major_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_teres_major_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_teres_major_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_biceps_brachii_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_biceps_brachii_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_biceps_brachii_l",
+        "positive_vertices": 2522,
+        "weight_min": 0.0010164189152419567,
+        "weight_max": 0.9500417709350586,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_biceps_brachii_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_biceps_brachii_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_biceps_brachii_r",
+        "positive_vertices": 2531,
+        "weight_min": 0.0010125070111826062,
+        "weight_max": 0.953960657119751,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_brachialis_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_brachialis_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_brachialis_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_brachialis_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_brachialis_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_brachialis_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_brachioradialis_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_brachioradialis_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_brachioradialis_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_brachioradialis_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_brachioradialis_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_brachioradialis_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_triceps_brachii_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_triceps_brachii_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_triceps_brachii_l",
+        "positive_vertices": 1953,
+        "weight_min": 0.0010154289193451405,
+        "weight_max": 0.9683377146720886,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_triceps_brachii_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_triceps_brachii_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_triceps_brachii_r",
+        "positive_vertices": 1954,
+        "weight_min": 0.0010024086805060506,
+        "weight_max": 0.9698219299316406,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_flexor_carpi_radialis_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_flexor_carpi_radialis_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_flexor_carpi_radialis_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_flexor_carpi_radialis_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_flexor_carpi_radialis_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_flexor_carpi_radialis_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_flexor_carpi_ulnaris_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_flexor_carpi_ulnaris_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_flexor_carpi_ulnaris_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_flexor_carpi_ulnaris_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_flexor_carpi_ulnaris_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_flexor_carpi_ulnaris_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_extensor_carpi_radialis_longus_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_extensor_carpi_radialis_longus_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_extensor_carpi_radialis_longus_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_extensor_carpi_radialis_longus_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_extensor_carpi_radialis_longus_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_extensor_carpi_radialis_longus_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_extensor_carpi_ulnaris_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_extensor_carpi_ulnaris_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_extensor_carpi_ulnaris_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_extensor_carpi_ulnaris_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_extensor_carpi_ulnaris_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_extensor_carpi_ulnaris_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_rectus_abdominis_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_rectus_abdominis_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_rectus_abdominis_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_rectus_abdominis_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_rectus_abdominis_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_rectus_abdominis_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_external_oblique_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_external_oblique_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_external_oblique_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_external_oblique_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_external_oblique_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_external_oblique_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_erector_spinae_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_erector_spinae_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_erector_spinae_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_erector_spinae_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_erector_spinae_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_erector_spinae_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_gluteus_maximus_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_gluteus_maximus_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_gluteus_maximus_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_gluteus_maximus_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_gluteus_maximus_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_gluteus_maximus_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_gluteus_medius_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_gluteus_medius_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_gluteus_medius_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_gluteus_medius_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_gluteus_medius_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_gluteus_medius_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_gluteus_minimus_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_gluteus_minimus_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_gluteus_minimus_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_gluteus_minimus_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_gluteus_minimus_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_gluteus_minimus_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_iliopsoas_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_iliopsoas_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_iliopsoas_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_iliopsoas_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_iliopsoas_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_iliopsoas_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_adductor_longus_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_adductor_longus_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_adductor_longus_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_adductor_longus_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_adductor_longus_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_adductor_longus_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_adductor_magnus_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_adductor_magnus_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_adductor_magnus_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_adductor_magnus_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_adductor_magnus_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_adductor_magnus_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_rectus_femoris_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_rectus_femoris_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_rectus_femoris_l",
+        "positive_vertices": 602,
+        "weight_min": 0.001023947261273861,
+        "weight_max": 1.0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_rectus_femoris_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_rectus_femoris_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_rectus_femoris_r",
+        "positive_vertices": 611,
+        "weight_min": 0.0010126074776053429,
+        "weight_max": 1.0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_vastus_lateralis_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_vastus_lateralis_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_vastus_lateralis_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_vastus_lateralis_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_vastus_lateralis_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_vastus_lateralis_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_vastus_medialis_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_vastus_medialis_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_vastus_medialis_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_vastus_medialis_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_vastus_medialis_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_vastus_medialis_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_vastus_intermedius_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_vastus_intermedius_l",
+        "object": "168h_human_anatomical_mannequin__mesh_vastus_intermedius_l",
+        "vertex_group": "muscle_vastus_intermedius_l",
+        "positive_vertices": 544,
+        "weight_min": 1.0,
+        "weight_max": 1.0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "muscle_binding:muscle_vastus_intermedius_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_vastus_intermedius_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_vastus_intermedius_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_biceps_femoris_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_biceps_femoris_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_biceps_femoris_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_biceps_femoris_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_biceps_femoris_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_biceps_femoris_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_semitendinosus_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_semitendinosus_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_semitendinosus_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_semitendinosus_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_semitendinosus_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_semitendinosus_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_semimembranosus_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_semimembranosus_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_semimembranosus_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_semimembranosus_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_semimembranosus_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_semimembranosus_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_gastrocnemius_medial_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_gastrocnemius_medial_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_gastrocnemius_medial_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_gastrocnemius_medial_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_gastrocnemius_medial_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_gastrocnemius_medial_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_gastrocnemius_lateral_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_gastrocnemius_lateral_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_gastrocnemius_lateral_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_gastrocnemius_lateral_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_gastrocnemius_lateral_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_gastrocnemius_lateral_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_soleus_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_soleus_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_soleus_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_soleus_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_soleus_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_soleus_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_tibialis_anterior_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_tibialis_anterior_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_tibialis_anterior_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_tibialis_anterior_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_tibialis_anterior_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_tibialis_anterior_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_fibularis_longus_l",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_fibularis_longus_l",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_fibularis_longus_l",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "muscle_binding:muscle_fibularis_longus_r",
+      "expected": "nonempty independently controlled mask, weights/controls0..1",
+      "actual": {
+        "id": "muscle_fibularis_longus_r",
+        "object": "168h_human_anatomical_mannequin__mesh_body",
+        "vertex_group": "muscle_fibularis_longus_r",
+        "positive_vertices": 0,
+        "weight_min": 0,
+        "weight_max": 0,
+        "primary_exists": true,
+        "secondary_exists": true,
+        "primary": 0.0,
+        "secondary": 0.0
+      },
+      "result": "FAIL"
+    },
+    {
+      "check": "independent_highlight_properties",
+      "expected": "distinct primary/secondary properties per ID",
+      "actual": 156,
+      "result": "PASS"
+    },
+    {
+      "check": "independent_muscle_masks",
+      "expected": "distinct body/group binding per region",
+      "actual": 78,
+      "result": "PASS"
+    },
+    {
+      "check": "clothing_inventory",
+      "expected": "metadata matches actual clothing presence",
+      "actual": false,
+      "result": "PASS"
+    },
+    {
+      "check": "clothing_highlight_route",
+      "expected": "visible through clothing; backend proof required for release",
+      "actual": {
+        "mode": "none",
+        "implementation_reference": null
+      },
+      "result": "PASS"
+    },
+    {
+      "check": "rest_profile_hash",
+      "expected": "observed fingerprint=declared fingerprint",
+      "actual": "9d06d26065ddc915329877aed6a49563f599614fe67972e6a1d303b40b2dce0a",
+      "result": "PASS"
+    }
+  ],
+  "pass": 394,
+  "fail": 63,
+  "limits": "Structural data checks are not proof of anatomy, deformation, retargeting or rendering quality. Release evidence must be independently reviewed."
+}

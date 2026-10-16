@@ -1,13 +1,13 @@
 # Asset category standards
 
-Level 2: category-specific requirements, inheriting the [shared technical conventions](asset-conventions.md) and [global style guide](visual-style.md). Do not copy those shared values into a second competing standard. Status: the documentation requirements are mandatory; origin/axis/transform/link rules are approved under A14; other numerical/technical defaults remain proposed under A03 unless approved. This page does not approve a skeleton, dimensions, or material implementation.
+Level 2: category-specific requirements, inheriting the [shared technical conventions](asset-conventions.md) and [global style guide](visual-style.md). Do not copy those shared values into a second competing standard. Status: the documentation requirements are mandatory; origin/axis/transform/link rules are approved under A14; other numerical/technical defaults remain proposed under A03 unless approved. Human V1 establishes its logical skeleton interface under A15; this does not select equipment dimensions, material implementations or a built rig.
 
 Every asset uses the shared ID, meter/axis, transform, naming, and metadata contract unless an approved exception says otherwise. Each specification must select the applicable row below and explicitly declare its implemented interface and required anchors. Suggested anchor names in the common guide are not proof that an interface exists. Record local position and orientation, tolerances, and the rest configuration for every published anchor.
 
 | Category / location | Required specification details | Origin, attachments, and compatibility |
 | --- | --- | --- |
-| Human models — `assets/humans/models/` | Height and body measurements with sources; anatomical simplifications; body proportions; mesh segmentation; deformation/topology needs; compatible rig and rest pose | Floor projection of pelvis per common proposal; pelvis, hand-grip, and foot-contact frames when supported; skinning, skeleton, and material compatibility must be declared, not assumed |
-| Rigs — `assets/humans/rigs/` | Skeleton/rest-pose version, bone/control names, axis and rotation conventions, IK/FK behavior, limits, skinning bind procedure, action compatibility | Root and contact-control frames; list tested human variants and actions; A02 must be resolved before a production skeleton is established |
+| Human models — `assets/humans/models/` | [Human V1](contracts/human-v1/README.md): measured rest profile, anatomy/muscle masks, binding, clothing highlighting and supported compatibility class | Floor root under pelvis; exact11 anchors and53-bone output interface; no proportion-independent contact guarantee |
+| Rigs — `assets/humans/rigs/` | Human V1 skeleton/roll/A-pose, private controls mapped to FK/IK facade, limits/solver/skin/export evidence | A15 establishes the interface portion of A02; H01–H05 implementation/profile choices and actual production evidence remain open |
 | Free weights — `assets/equipment/free_weights/` | Overall dimensions, grip diameter/length, plate/hole/sleeve sizes, weight labels and source, load configuration, reusable plate/handle components | Functional origin by subtype under A14; declare `grip_center` or `grip_l`/`grip_r` and `load_l`/`load_r` where applicable; verify hand fit and plate/sleeve clearance; mass labels never substitute for measured size |
 | Benches — `assets/equipment/benches/` | Pad/support height, width/length, frame footprint, adjustment pivots and angle ranges, supported configurations | Floor footprint root; declare seat/back support and floor frames as applicable; verify support/contact and pose at supported adjustments |
 | Racks — `assets/equipment/racks/` | Upright spacing, footprint/height, hole pitch, hook/safety heights, bar clearance, configurable components | Floor footprint root; document bar-support and attachment frames, naming any additions in the spec; verify compatible bars, load ranges, and safety clearances |
@@ -18,6 +18,12 @@ Every asset uses the shared ID, meter/axis, transform, naming, and metadata cont
 | Scene templates — `scenes/templates/` | Camera transforms/framing, render settings, background/alpha, color management, style dependencies, supported composition bounds | Stable camera/preset names; no dependency on exercise scenes; demonstrate reuse with different compatible subjects |
 
 ## New categories and interfaces
+
+Human-specific update2026-10-15: [A15](decisions.md#a15--human-model-contract-v1)
+establishes [Human Model Contract V1](contracts/human-v1/README.md), superseding
+only the prior human origin/skeleton/rest-pose proposals and corresponding
+opening disclaimer. Equipment rules remain unchanged. No human/rig exists yet;
+profile, anatomy, renderer and export implementations still require approval.
 
 Use existing components and interfaces where possible. If a new category or incompatible interface is needed, propose it in [Decisions](decisions.md) with affected assets, rationale, migration, and validation evidence. Publish the approved contract here or in the common guide, then reference it from individual specs. Do not invent exact equipment dimensions, anatomy standards, topology budgets, or rig compatibility to fill a template.
 

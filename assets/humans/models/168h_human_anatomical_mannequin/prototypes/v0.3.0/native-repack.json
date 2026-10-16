@@ -1,0 +1,8 @@
+{
+  "before_sha256": "60f08b65e3ede724b379d7a69c3121f6fdf8a6e7e1b83fec81cdef482a773d2d",
+  "source_sha256": "86bad3bb57a1bd1789d2f759aa485fbd957e64d971998c463b757f9b5d7cb1a2",
+  "geometry_sha256_before": "ac6db1b2a75e755e7f57d57a934fee44d6d870d084acaced42b9f3c0cb8c42f9",
+  "geometry_sha256_after": "ac6db1b2a75e755e7f57d57a934fee44d6d870d084acaced42b9f3c0cb8c42f9",
+  "script_sha256": "55ffe7f1e126c8f04b4dc3a02f5480819ac300f8d561479c92d3020891c633f3",
+  "purpose": "Clean inherited native scene/UI state; no geometry or rig-interface edits"
+}

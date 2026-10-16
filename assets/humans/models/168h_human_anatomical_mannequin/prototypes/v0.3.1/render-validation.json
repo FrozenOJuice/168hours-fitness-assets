@@ -1,0 +1,82 @@
+{
+  "source_sha256": "a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+  "fixture_sha256": "9949045adbef708ca547860a0dbf8271afc90226c627ce09325593584d2c57dd",
+  "validator_sha256": "590aaae75f2f98b65bdecbb97ec038464ea8ee0daf576b0c2985ab72c27f81f3",
+  "inputs": {
+    "on": {
+      "path": "scenes/templates/168h_template_mannequin_movement_review/previews/168h_template_mannequin_movement_review__xray_neutral__three_quarter.png",
+      "position_m": [
+        13.000066757202148,
+        25.023046493530273,
+        7.875
+      ],
+      "rotation_euler_xyz_radians": [
+        1.327304720878601,
+        4.292933653005093e-08,
+        2.6620733737945557
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.597238063812256,
+      "target_m": [
+        6.690621376037598e-05,
+        0.02304740995168686,
+        0.875
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "xray_neutral",
+      "frame": 1,
+      "sha256": "b9b00ffe3cc825de02f0753f75d4f784e21510b25d4707a6a6fa9d29477ca94c"
+    },
+    "off": {
+      "path": "scenes/templates/168h_template_mannequin_movement_review/previews/168h_template_mannequin_movement_review__xray_disabled__three_quarter.png",
+      "position_m": [
+        13.000066757202148,
+        25.023046493530273,
+        7.875
+      ],
+      "rotation_euler_xyz_radians": [
+        1.327304720878601,
+        4.292933653005093e-08,
+        2.6620733737945557
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.597238063812256,
+      "target_m": [
+        6.690621376037598e-05,
+        0.02304740995168686,
+        0.875
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "xray_disabled",
+      "frame": 1,
+      "sha256": "52b42826dce5f6c0a9c857b6c866449bc52dadf144975373d10719951f19b8c8"
+    }
+  },
+  "checks": [
+    {
+      "check": "visible_deep_color",
+      "result": "PASS",
+      "actual": {
+        "on_red_pixels": 4179,
+        "off_red_pixels": 0
+      },
+      "expected": "Actual Xray render visibly reveals selected deep color; disabled counterpart does not"
+    },
+    {
+      "check": "local_effect_and_opaque_background",
+      "result": "PASS",
+      "actual": {
+        "changed_pixel_fraction_above_0_01": 0.006050520833333333,
+        "max_alpha_background_error": 0.0
+      },
+      "expected": "Fewer than3% full-frame pixels change; opaque background preserved. Local experiment diagnostic, not a production pixel-match tolerance."
+    }
+  ],
+  "summary": {
+    "PASS": 2,
+    "FAIL": 0
+  },
+  "limitations": "Color/pixel evidence proves visible/localized effect, not clinical accuracy, transparency sorting over arbitrary camera motion or accepted anatomy."
+}

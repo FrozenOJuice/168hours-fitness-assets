@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-16",
+  "version": "0.2.0",
+  "status": "review",
+  "source_sha256": "5e6de698bbc2e7ec9ff9273e6649d0d52a9145b214deca65b18e021d855a6358",
+  "suite_sha256": "24e22eff2f358377d1af85a078296fc3ab3badade9df0d26770eeebcadb71cbb",
+  "protected_files_checked": 213,
+  "protected_changes": [],
+  "neutral_views": 4,
+  "core_pose_states": 7,
+  "core_views": 15,
+  "foundation_diagnostics": {
+    "PASS": 60,
+    "FAIL": 0
+  },
+  "V1_character": {
+    "PASS": 392,
+    "FAIL": 65,
+    "remaining_failures": "unimplemented muscle masks only; not waived"
+  },
+  "unit_tests": 47,
+  "registry_checks": 142,
+  "native_geometry_repack_unchanged": true,
+  "bundles": [
+    {
+      "path": "exports/illustrations/mannequin_unassembled_renders.zip",
+      "sha256": "f6664d08c35fef85ba681157575af67b91d5582c9c3573d4f1fe96207044cb3a",
+      "views": 4
+    },
+    {
+      "path": "exports/illustrations/mannequin_core_pose_renders.zip",
+      "sha256": "16528f80796b4ca9feb45a62ca5046cc80168f61751d3a71c989c949954c25f7",
+      "views": 15
+    }
+  ],
+  "remaining_weaknesses": [
+    "Overhead shoulder/scapular silhouette/volume",
+    "Extreme twist/ROM and continuous contacts",
+    "Residual high-flexion creases",
+    "One static28mmunderhand grip only",
+    "Manual anatomy acceptance and complete muscle coverage"
+  ],
+  "commit": "Not requested"
+}

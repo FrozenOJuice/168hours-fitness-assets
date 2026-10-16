@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:168hours:exercise-muscles-v1",
+  "title": "exercise-muscles-v1",
+  "type": "object",
+  "properties": {
+    "contract": {
+      "const": "168h_exercise_muscles@1.0.0"
+    },
+    "catalog": {
+      "const": "168h_muscle_catalog@1.0.0"
+    },
+    "exercise_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "variant": {
+      "type": "string",
+      "minLength": 1
+    },
+    "primary": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      }
+    },
+    "secondary": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      }
+    },
+    "review_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "contract",
+    "catalog",
+    "exercise_id",
+    "variant",
+    "primary",
+    "secondary",
+    "review_reference"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,11 @@
+{
+  "input_sha256": "f8d01f8f9a63b1170d06c8f107b75afd3c21f809b7c5ef2d16ac27429c71c35d",
+  "source_sha256": "93ecf11922ae8d3b75c8ae599cb5fdc23614fcf9a984172da717d11cba95a839",
+  "script_sha256": "ca6119bb24f4ca319675a7ea24ba479afd9fe4e5ac4e9e0843349fd6d91f2ba9",
+  "edited_cage_vertices": 10448,
+  "surface_finish_baked": true,
+  "floor_translation_m": 7.200984691735357e-05,
+  "surface_scale": 1.000094222524749,
+  "weights": "Localized torso/clavicle/upper-arm ownership,20edge-neighbor fairing steps; explicit smooth thigh/shin and pelvis transition",
+  "canonical_rest_profile": "unchanged by surface finish normalization"
+}

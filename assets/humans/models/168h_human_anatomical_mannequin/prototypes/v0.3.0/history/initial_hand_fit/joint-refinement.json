@@ -1,0 +1,7 @@
+{
+  "input_sha256": "93ecf11922ae8d3b75c8ae599cb5fdc23614fcf9a984172da717d11cba95a839",
+  "source_sha256": "6815b3efcb9e2737cf3a654ca16cdbe31576760118b494d7642a741fbee518e6",
+  "script_sha256": "1738f21c1cdd74766fc73a31985c8ad25322fbc33bbe4d1368b8a68e8e91bd96",
+  "arm_leakage_vertices": 18565,
+  "fairing": "Neutral-bound CorrectiveSmooth,12iterations, length-weighted, local knee/hip/shoulder vertex mask; no rig-bone or base anatomy change"
+}

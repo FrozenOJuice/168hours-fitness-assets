@@ -1,0 +1,13 @@
+{
+  "source_sha256": "dc07987eed9b55a2c7a49ee4d955f67486cf4afb23f8b781939817bdba4d9e51",
+  "script_sha256": "f574aeba69d8206ba7582a74836b0efeea11d6d688217f0948c33eea5d986bc7",
+  "sampler_max_error_m": 6.958945358042596e-07,
+  "method": "Measured canonical DQ hand sampling verified against Blender; bounded per-digit proximal/middle/distal coordinate descent, then final actual geometry validation required",
+  "shaft_center_m": [
+    0,
+    0.318,
+    1.08
+  ],
+  "shaft_radius_m": 0.014,
+  "scope": "One static underhand grip; no force, general hand pose, full-face collision or contact certification"
+}

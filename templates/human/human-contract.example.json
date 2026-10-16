@@ -1,0 +1,30 @@
+{
+  "contract": "168h_human_model@1.0.0",
+  "catalog": "168h_muscle_catalog@1.0.0",
+  "asset_id": "168h_human_replace_me",
+  "asset_manifest": "asset.json",
+  "armature": "168h_human_replace_me__armature_deform",
+  "body_objects": [],
+  "clothing_objects": [],
+  "morphology": "custom",
+  "height_m": null,
+  "rest_profile": {
+    "id": "replace_me",
+    "path": null,
+    "sha256": null
+  },
+  "controls": {},
+  "anchors": {},
+  "muscle_bindings": {},
+  "clothing_highlight": {
+    "mode": "none",
+    "implementation_reference": null
+  },
+  "joint_limits": {},
+  "export_profiles": [],
+  "evidence": [],
+  "resolved_decisions": [],
+  "extensions": {},
+  "solver_bindings": {},
+  "joint_limit_bindings": {}
+}

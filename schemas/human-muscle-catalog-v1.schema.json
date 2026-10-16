@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:168hours:human-muscle-catalog-v1",
+  "title": "human-muscle-catalog-v1",
+  "type": "object",
+  "properties": {
+    "id": {
+      "const": "168h_muscle_catalog"
+    },
+    "version": {
+      "const": "1.0.0"
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^muscle_[a-z0-9_]+_[lr]$"
+          },
+          "pair_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "side": {
+            "enum": [
+              "l",
+              "r"
+            ]
+          },
+          "anatomical_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "group": {
+            "type": "string",
+            "minLength": 1
+          },
+          "representation": {
+            "enum": [
+              "muscle",
+              "region",
+              "aggregate"
+            ]
+          },
+          "region": {
+            "type": "string",
+            "minLength": 1
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "deprecated": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "pair_id",
+          "side",
+          "anatomical_name",
+          "group",
+          "representation",
+          "region",
+          "required",
+          "deprecated"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "id",
+    "version",
+    "scope",
+    "entries",
+    "sources"
+  ],
+  "additionalProperties": false
+}

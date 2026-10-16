@@ -1,0 +1,830 @@
+{
+  "date": "2026-10-16",
+  "version": "0.2.0",
+  "source_sha256": "5e6de698bbc2e7ec9ff9273e6649d0d52a9145b214deca65b18e021d855a6358",
+  "suite_sha256": "24e22eff2f358377d1af85a078296fc3ab3badade9df0d26770eeebcadb71cbb",
+  "validator_sha256": "41f3d892b376ae7c4d1131777ac1dff0a07f595d699938d69f6c6fcce284df20",
+  "criteria_scope": "Asset-local diagnostic thresholds, not shared human approval or clinical limits",
+  "summary": {
+    "PASS": 60,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "check": "protected_equipment_and_V1",
+      "result": "PASS",
+      "actual": [],
+      "expected": "No changes to protected213files"
+    },
+    {
+      "check": "source_height_floor",
+      "result": "PASS",
+      "actual": {
+        "height_m": 1.750000003706392,
+        "floor_m": -3.7063920821367446e-09
+      },
+      "expected": "1.75m stature and floor0, each\u00b110um"
+    },
+    {
+      "check": "neutral_connected_manifold",
+      "result": "PASS",
+      "actual": {
+        "components": 1,
+        "nonmanifold_edges": 0
+      },
+      "expected": "One closed continuous skin; no disconnected construction parts"
+    },
+    {
+      "check": "four_native_IK_targets",
+      "result": "PASS",
+      "actual": {
+        "arm_l": {
+          "switch_back_position_error_m": 1.2867090135194766e-07,
+          "switch_back_axis_error": 1.3334835838721882e-07,
+          "switch_position_error_m": 1.56016885331316e-06,
+          "target_error_m": 3.7317536581171856e-06,
+          "orientation_axis_error": 1.4210854715202004e-14
+        },
+        "arm_r": {
+          "switch_back_position_error_m": 1.301187962038292e-07,
+          "switch_back_axis_error": 8.43477059728528e-08,
+          "switch_position_error_m": 1.560168853381024e-06,
+          "target_error_m": 3.7331219397037577e-06,
+          "orientation_axis_error": 1.5888218580782548e-14
+        },
+        "leg_l": {
+          "switch_back_position_error_m": 5.21540641784668e-08,
+          "switch_back_axis_error": 1.9443017766922547e-07,
+          "switch_position_error_m": 2.473595062048253e-06,
+          "target_error_m": 1.0256857412974704e-05,
+          "orientation_axis_error": 0.0
+        },
+        "leg_r": {
+          "switch_back_position_error_m": 5.21540641784668e-08,
+          "switch_back_axis_error": 1.3328003749250113e-07,
+          "switch_position_error_m": 2.473595062048253e-06,
+          "target_error_m": 1.0256857412974704e-05,
+          "orientation_axis_error": 0.0
+        }
+      },
+      "expected": "Reachable seeded targets within0.1mm; axes within1e-4; local diagnostic criteria only"
+    },
+    {
+      "check": "FK_to_IK_contact_continuity",
+      "result": "PASS",
+      "actual": {
+        "arm_l": {
+          "switch_back_position_error_m": 1.2867090135194766e-07,
+          "switch_back_axis_error": 1.3334835838721882e-07,
+          "switch_position_error_m": 1.56016885331316e-06,
+          "target_error_m": 3.7317536581171856e-06,
+          "orientation_axis_error": 1.4210854715202004e-14
+        },
+        "arm_r": {
+          "switch_back_position_error_m": 1.301187962038292e-07,
+          "switch_back_axis_error": 8.43477059728528e-08,
+          "switch_position_error_m": 1.560168853381024e-06,
+          "target_error_m": 3.7331219397037577e-06,
+          "orientation_axis_error": 1.5888218580782548e-14
+        },
+        "leg_l": {
+          "switch_back_position_error_m": 5.21540641784668e-08,
+          "switch_back_axis_error": 1.9443017766922547e-07,
+          "switch_position_error_m": 2.473595062048253e-06,
+          "target_error_m": 1.0256857412974704e-05,
+          "orientation_axis_error": 0.0
+        },
+        "leg_r": {
+          "switch_back_position_error_m": 5.21540641784668e-08,
+          "switch_back_axis_error": 1.3328003749250113e-07,
+          "switch_position_error_m": 2.473595062048253e-06,
+          "target_error_m": 1.0256857412974704e-05,
+          "orientation_axis_error": 0.0
+        }
+      },
+      "expected": "Position residual<0.1mm using explicit snap helper; no direct-toggle guarantee"
+    },
+    {
+      "check": "IK_to_FK_frame_continuity",
+      "result": "PASS",
+      "actual": {
+        "arm_l": {
+          "switch_back_position_error_m": 1.2867090135194766e-07,
+          "switch_back_axis_error": 1.3334835838721882e-07,
+          "switch_position_error_m": 1.56016885331316e-06,
+          "target_error_m": 3.7317536581171856e-06,
+          "orientation_axis_error": 1.4210854715202004e-14
+        },
+        "arm_r": {
+          "switch_back_position_error_m": 1.301187962038292e-07,
+          "switch_back_axis_error": 8.43477059728528e-08,
+          "switch_position_error_m": 1.560168853381024e-06,
+          "target_error_m": 3.7331219397037577e-06,
+          "orientation_axis_error": 1.5888218580782548e-14
+        },
+        "leg_l": {
+          "switch_back_position_error_m": 5.21540641784668e-08,
+          "switch_back_axis_error": 1.9443017766922547e-07,
+          "switch_position_error_m": 2.473595062048253e-06,
+          "target_error_m": 1.0256857412974704e-05,
+          "orientation_axis_error": 0.0
+        },
+        "leg_r": {
+          "switch_back_position_error_m": 5.21540641784668e-08,
+          "switch_back_axis_error": 1.3328003749250113e-07,
+          "switch_position_error_m": 2.473595062048253e-06,
+          "target_error_m": 1.0256857412974704e-05,
+          "orientation_axis_error": 0.0
+        }
+      },
+      "expected": "Explicit snap helper returns solved frames within0.1mm and1e-4 axes"
+    },
+    {
+      "check": "knee_sweep:0",
+      "result": "PASS",
+      "actual": {
+        "angle_degrees": 0,
+        "thigh_calf_crossings": 0
+      },
+      "expected": "Zero disjoint thigh/calf surface crossings with hip80deg and knee0..105deg"
+    },
+    {
+      "check": "knee_sweep:30",
+      "result": "PASS",
+      "actual": {
+        "angle_degrees": 30,
+        "thigh_calf_crossings": 0
+      },
+      "expected": "Zero disjoint thigh/calf surface crossings with hip80deg and knee0..105deg"
+    },
+    {
+      "check": "knee_sweep:60",
+      "result": "PASS",
+      "actual": {
+        "angle_degrees": 60,
+        "thigh_calf_crossings": 0
+      },
+      "expected": "Zero disjoint thigh/calf surface crossings with hip80deg and knee0..105deg"
+    },
+    {
+      "check": "knee_sweep:90",
+      "result": "PASS",
+      "actual": {
+        "angle_degrees": 90,
+        "thigh_calf_crossings": 0
+      },
+      "expected": "Zero disjoint thigh/calf surface crossings with hip80deg and knee0..105deg"
+    },
+    {
+      "check": "knee_sweep:105",
+      "result": "PASS",
+      "actual": {
+        "angle_degrees": 105,
+        "thigh_calf_crossings": 0
+      },
+      "expected": "Zero disjoint thigh/calf surface crossings with hip80deg and knee0..105deg"
+    },
+    {
+      "check": "source_bytes_unchanged",
+      "result": "PASS",
+      "actual": "5e6de698bbc2e7ec9ff9273e6649d0d52a9145b214deca65b18e021d855a6358",
+      "expected": "5e6de698bbc2e7ec9ff9273e6649d0d52a9145b214deca65b18e021d855a6358"
+    },
+    {
+      "check": "all_seven_saved_scenes",
+      "result": "PASS",
+      "actual": [
+        "neutral_a_pose",
+        "arms_raised",
+        "elbow_flexion",
+        "seated",
+        "lying_supine",
+        "hip_flexion_knee_bend",
+        "bar_grip"
+      ],
+      "expected": [
+        "neutral_a_pose",
+        "arms_raised",
+        "elbow_flexion",
+        "seated",
+        "lying_supine",
+        "hip_flexion_knee_bend",
+        "bar_grip"
+      ]
+    },
+    {
+      "check": "neutral_a_pose:linked_mesh",
+      "result": "PASS",
+      "actual": "//../../../assets/humans/models/168h_human_anatomical_mannequin/168h_human_anatomical_mannequin.blend",
+      "expected": "Shared source geometry, no per-pose mesh copy"
+    },
+    {
+      "check": "neutral_a_pose:finite_closed_surface",
+      "result": "PASS",
+      "actual": {
+        "vertices": 214050,
+        "faces": 214048,
+        "nonfinite": 0
+      },
+      "expected": "Same closed topology and finite evaluated vertices"
+    },
+    {
+      "check": "neutral_a_pose:no_bone_stretch",
+      "result": "PASS",
+      "actual": {
+        "max_error_m": 5.320704621336603e-08
+      },
+      "expected": "Every canonical bone length retained within10um"
+    },
+    {
+      "check": "neutral_a_pose:global_volume",
+      "result": "PASS",
+      "actual": 1.0,
+      "expected": "Diagnostic whole-body volume ratio0.85..1.15; not proof of local anatomy"
+    },
+    {
+      "check": "neutral_a_pose:knee_alignment",
+      "result": "PASS",
+      "actual": {
+        "l": {
+          "skeletal_x_drift_m": 0.0,
+          "skin_x_width_ratio": 1.0
+        },
+        "r": {
+          "skeletal_x_drift_m": 0.0,
+          "skin_x_width_ratio": 1.0
+        }
+      },
+      "expected": "No inward skeletal drift>10um; knee skin transverse width retained80..120%"
+    },
+    {
+      "check": "neutral_a_pose:knee_surface_gap",
+      "result": "PASS",
+      "actual": 0.08355145528912544,
+      "expected": "Positive lateral separation; projection overlap is not geometry collision"
+    },
+    {
+      "check": "neutral_a_pose:left_right_leg_intersections",
+      "result": "PASS",
+      "actual": 0,
+      "expected": "Zero triangle surface crossings for separate leg regions below hip"
+    },
+    {
+      "check": "arms_raised:linked_mesh",
+      "result": "PASS",
+      "actual": "//../../../assets/humans/models/168h_human_anatomical_mannequin/168h_human_anatomical_mannequin.blend",
+      "expected": "Shared source geometry, no per-pose mesh copy"
+    },
+    {
+      "check": "arms_raised:finite_closed_surface",
+      "result": "PASS",
+      "actual": {
+        "vertices": 214050,
+        "faces": 214048,
+        "nonfinite": 0
+      },
+      "expected": "Same closed topology and finite evaluated vertices"
+    },
+    {
+      "check": "arms_raised:no_bone_stretch",
+      "result": "PASS",
+      "actual": {
+        "max_error_m": 1.116769974031373e-07
+      },
+      "expected": "Every canonical bone length retained within10um"
+    },
+    {
+      "check": "arms_raised:global_volume",
+      "result": "PASS",
+      "actual": 1.0831434003875327,
+      "expected": "Diagnostic whole-body volume ratio0.85..1.15; not proof of local anatomy"
+    },
+    {
+      "check": "elbow_flexion:linked_mesh",
+      "result": "PASS",
+      "actual": "//../../../assets/humans/models/168h_human_anatomical_mannequin/168h_human_anatomical_mannequin.blend",
+      "expected": "Shared source geometry, no per-pose mesh copy"
+    },
+    {
+      "check": "elbow_flexion:finite_closed_surface",
+      "result": "PASS",
+      "actual": {
+        "vertices": 214050,
+        "faces": 214048,
+        "nonfinite": 0
+      },
+      "expected": "Same closed topology and finite evaluated vertices"
+    },
+    {
+      "check": "elbow_flexion:no_bone_stretch",
+      "result": "PASS",
+      "actual": {
+        "max_error_m": 3.45940886561924e-08
+      },
+      "expected": "Every canonical bone length retained within10um"
+    },
+    {
+      "check": "elbow_flexion:global_volume",
+      "result": "PASS",
+      "actual": 0.9980606344487312,
+      "expected": "Diagnostic whole-body volume ratio0.85..1.15; not proof of local anatomy"
+    },
+    {
+      "check": "seated:linked_mesh",
+      "result": "PASS",
+      "actual": "//../../../assets/humans/models/168h_human_anatomical_mannequin/168h_human_anatomical_mannequin.blend",
+      "expected": "Shared source geometry, no per-pose mesh copy"
+    },
+    {
+      "check": "seated:finite_closed_surface",
+      "result": "PASS",
+      "actual": {
+        "vertices": 214050,
+        "faces": 214048,
+        "nonfinite": 0
+      },
+      "expected": "Same closed topology and finite evaluated vertices"
+    },
+    {
+      "check": "seated:no_bone_stretch",
+      "result": "PASS",
+      "actual": {
+        "max_error_m": 5.320704621336603e-08
+      },
+      "expected": "Every canonical bone length retained within10um"
+    },
+    {
+      "check": "seated:global_volume",
+      "result": "PASS",
+      "actual": 0.9858325497311653,
+      "expected": "Diagnostic whole-body volume ratio0.85..1.15; not proof of local anatomy"
+    },
+    {
+      "check": "seated:knee_alignment",
+      "result": "PASS",
+      "actual": {
+        "l": {
+          "skeletal_x_drift_m": 0.0,
+          "skin_x_width_ratio": 0.9999999645403764
+        },
+        "r": {
+          "skeletal_x_drift_m": 0.0,
+          "skin_x_width_ratio": 0.9999999645403727
+        }
+      },
+      "expected": "No inward skeletal drift>10um; knee skin transverse width retained80..120%"
+    },
+    {
+      "check": "seated:knee_surface_gap",
+      "result": "PASS",
+      "actual": 0.08355146273970604,
+      "expected": "Positive lateral separation; projection overlap is not geometry collision"
+    },
+    {
+      "check": "seated:left_right_leg_intersections",
+      "result": "PASS",
+      "actual": 0,
+      "expected": "Zero triangle surface crossings for separate leg regions below hip"
+    },
+    {
+      "check": "seated:thigh_calf_intersection_l",
+      "result": "PASS",
+      "actual": 0,
+      "expected": "Zero disjoint thigh/calf surface crossings outside knee transition"
+    },
+    {
+      "check": "seated:thigh_calf_intersection_r",
+      "result": "PASS",
+      "actual": 0,
+      "expected": "Zero disjoint thigh/calf surface crossings outside knee transition"
+    },
+    {
+      "check": "lying_supine:linked_mesh",
+      "result": "PASS",
+      "actual": "//../../../assets/humans/models/168h_human_anatomical_mannequin/168h_human_anatomical_mannequin.blend",
+      "expected": "Shared source geometry, no per-pose mesh copy"
+    },
+    {
+      "check": "lying_supine:finite_closed_surface",
+      "result": "PASS",
+      "actual": {
+        "vertices": 214050,
+        "faces": 214048,
+        "nonfinite": 0
+      },
+      "expected": "Same closed topology and finite evaluated vertices"
+    },
+    {
+      "check": "lying_supine:no_bone_stretch",
+      "result": "PASS",
+      "actual": {
+        "max_error_m": 5.320704574152124e-08
+      },
+      "expected": "Every canonical bone length retained within10um"
+    },
+    {
+      "check": "lying_supine:global_volume",
+      "result": "PASS",
+      "actual": 0.9999999908279177,
+      "expected": "Diagnostic whole-body volume ratio0.85..1.15; not proof of local anatomy"
+    },
+    {
+      "check": "hip_flexion_knee_bend:linked_mesh",
+      "result": "PASS",
+      "actual": "//../../../assets/humans/models/168h_human_anatomical_mannequin/168h_human_anatomical_mannequin.blend",
+      "expected": "Shared source geometry, no per-pose mesh copy"
+    },
+    {
+      "check": "hip_flexion_knee_bend:finite_closed_surface",
+      "result": "PASS",
+      "actual": {
+        "vertices": 214050,
+        "faces": 214048,
+        "nonfinite": 0
+      },
+      "expected": "Same closed topology and finite evaluated vertices"
+    },
+    {
+      "check": "hip_flexion_knee_bend:no_bone_stretch",
+      "result": "PASS",
+      "actual": {
+        "max_error_m": 9.906977316287424e-08
+      },
+      "expected": "Every canonical bone length retained within10um"
+    },
+    {
+      "check": "hip_flexion_knee_bend:global_volume",
+      "result": "PASS",
+      "actual": 0.992463703174456,
+      "expected": "Diagnostic whole-body volume ratio0.85..1.15; not proof of local anatomy"
+    },
+    {
+      "check": "hip_flexion_knee_bend:knee_alignment",
+      "result": "PASS",
+      "actual": {
+        "l": {
+          "skeletal_x_drift_m": 0.0,
+          "skin_x_width_ratio": 1.0
+        },
+        "r": {
+          "skeletal_x_drift_m": 0.0,
+          "skin_x_width_ratio": 1.0
+        }
+      },
+      "expected": "No inward skeletal drift>10um; knee skin transverse width retained80..120%"
+    },
+    {
+      "check": "hip_flexion_knee_bend:knee_surface_gap",
+      "result": "PASS",
+      "actual": 0.08355145528912544,
+      "expected": "Positive lateral separation; projection overlap is not geometry collision"
+    },
+    {
+      "check": "hip_flexion_knee_bend:left_right_leg_intersections",
+      "result": "PASS",
+      "actual": 0,
+      "expected": "Zero triangle surface crossings for separate leg regions below hip"
+    },
+    {
+      "check": "hip_flexion_knee_bend:thigh_calf_intersection_l",
+      "result": "PASS",
+      "actual": 0,
+      "expected": "Zero disjoint thigh/calf surface crossings outside knee transition"
+    },
+    {
+      "check": "hip_flexion_knee_bend:thigh_calf_intersection_r",
+      "result": "PASS",
+      "actual": 0,
+      "expected": "Zero disjoint thigh/calf surface crossings outside knee transition"
+    },
+    {
+      "check": "bar_grip:linked_mesh",
+      "result": "PASS",
+      "actual": "//../../../assets/humans/models/168h_human_anatomical_mannequin/168h_human_anatomical_mannequin.blend",
+      "expected": "Shared source geometry, no per-pose mesh copy"
+    },
+    {
+      "check": "bar_grip:finite_closed_surface",
+      "result": "PASS",
+      "actual": {
+        "vertices": 214050,
+        "faces": 214048,
+        "nonfinite": 0
+      },
+      "expected": "Same closed topology and finite evaluated vertices"
+    },
+    {
+      "check": "bar_grip:no_bone_stretch",
+      "result": "PASS",
+      "actual": {
+        "max_error_m": 1.2613192310051424e-07
+      },
+      "expected": "Every canonical bone length retained within10um"
+    },
+    {
+      "check": "bar_grip:global_volume",
+      "result": "PASS",
+      "actual": 0.994742047221249,
+      "expected": "Diagnostic whole-body volume ratio0.85..1.15; not proof of local anatomy"
+    },
+    {
+      "check": "bar_grip:knee_alignment",
+      "result": "PASS",
+      "actual": {
+        "l": {
+          "skeletal_x_drift_m": 0.0,
+          "skin_x_width_ratio": 1.0
+        },
+        "r": {
+          "skeletal_x_drift_m": 0.0,
+          "skin_x_width_ratio": 1.0
+        }
+      },
+      "expected": "No inward skeletal drift>10um; knee skin transverse width retained80..120%"
+    },
+    {
+      "check": "bar_grip:knee_surface_gap",
+      "result": "PASS",
+      "actual": 0.08355145528912544,
+      "expected": "Positive lateral separation; projection overlap is not geometry collision"
+    },
+    {
+      "check": "bar_grip:left_right_leg_intersections",
+      "result": "PASS",
+      "actual": 0,
+      "expected": "Zero triangle surface crossings for separate leg regions below hip"
+    },
+    {
+      "check": "bar_grip:anchor_contacts",
+      "result": "PASS",
+      "actual": {
+        "l": 5.755861641251844e-06,
+        "r": 5.7483728068492095e-06
+      },
+      "expected": "Both shaft grip centers within0.1mm, mirrored580mm spacing"
+    },
+    {
+      "check": "bar_grip:finger_contacts",
+      "result": "PASS",
+      "actual": {
+        "max_penetration_m": 0,
+        "max_finger_gap_m": 0.00040562569714173817,
+        "by_digit": {
+          "l": {
+            "thumb": {
+              "minimum_radial_distance_m": 0.01444203746710832,
+              "penetration_m": 0,
+              "closest_gap_m": 0.00044203746710832006
+            },
+            "index": {
+              "minimum_radial_distance_m": 0.01435601484236974,
+              "penetration_m": 0,
+              "closest_gap_m": 0.0003560148423697399
+            },
+            "middle": {
+              "minimum_radial_distance_m": 0.014374587609543441,
+              "penetration_m": 0,
+              "closest_gap_m": 0.0003745876095434409
+            },
+            "ring": {
+              "minimum_radial_distance_m": 0.014405615017194581,
+              "penetration_m": 0,
+              "closest_gap_m": 0.0004056150171945806
+            },
+            "little": {
+              "minimum_radial_distance_m": 0.014368697154886036,
+              "penetration_m": 0,
+              "closest_gap_m": 0.0003686971548860357
+            },
+            "palm": {
+              "minimum_radial_distance_m": 0.014504832968140249,
+              "penetration_m": 0,
+              "closest_gap_m": 0.0005048329681402487
+            }
+          },
+          "r": {
+            "thumb": {
+              "minimum_radial_distance_m": 0.014442091351613874,
+              "penetration_m": 0,
+              "closest_gap_m": 0.0004420913516138738
+            },
+            "index": {
+              "minimum_radial_distance_m": 0.014356163721124974,
+              "penetration_m": 0,
+              "closest_gap_m": 0.0003561637211249736
+            },
+            "middle": {
+              "minimum_radial_distance_m": 0.014374720501629233,
+              "penetration_m": 0,
+              "closest_gap_m": 0.0003747205016292332
+            },
+            "ring": {
+              "minimum_radial_distance_m": 0.014405625697141738,
+              "penetration_m": 0,
+              "closest_gap_m": 0.00040562569714173817
+            },
+            "little": {
+              "minimum_radial_distance_m": 0.014368610408789537,
+              "penetration_m": 0,
+              "closest_gap_m": 0.00036861040878953706
+            },
+            "palm": {
+              "minimum_radial_distance_m": 0.014505109897980449,
+              "penetration_m": 0,
+              "closest_gap_m": 0.0005051098979804488
+            }
+          }
+        }
+      },
+      "expected": "Proposed diagnostic limits\u22642mm penetration and\u22645mm closest finger gap; thumb opposition separately reviewed"
+    },
+    {
+      "check": "all_artifacts_unchanged_by_validation",
+      "result": "PASS",
+      "actual": {
+        "source_sha256": "5e6de698bbc2e7ec9ff9273e6649d0d52a9145b214deca65b18e021d855a6358",
+        "suite_sha256": "24e22eff2f358377d1af85a078296fc3ab3badade9df0d26770eeebcadb71cbb"
+      },
+      "expected": "No source file saved by validator"
+    }
+  ],
+  "pose_diagnostics": {
+    "neutral_a_pose": {
+      "volume_ratio": 1.0,
+      "edge_stretch_p99": 1.0,
+      "edge_stretch_max": 1.0,
+      "bounds_min_m": [
+        -0.6564050316810608,
+        -0.1183416098356247,
+        -3.7063920821367446e-09
+      ],
+      "bounds_max_m": [
+        0.6564050316810608,
+        0.2005852609872818,
+        1.75
+      ]
+    },
+    "arms_raised": {
+      "volume_ratio": 1.0831434003875327,
+      "edge_stretch_p99": 1.5254187652692661,
+      "edge_stretch_max": 10.135161788755644,
+      "bounds_min_m": [
+        -0.28611239790916443,
+        -0.1183416098356247,
+        -3.7063920821367446e-09
+      ],
+      "bounds_max_m": [
+        0.2861119508743286,
+        0.2005852609872818,
+        2.155179977416992
+      ]
+    },
+    "elbow_flexion": {
+      "volume_ratio": 0.9980606344487312,
+      "edge_stretch_p99": 1.0073376429764491,
+      "edge_stretch_max": 2.8155655746315835,
+      "bounds_min_m": [
+        -0.38151708245277405,
+        -0.1183416098356247,
+        -3.7063920821367446e-09
+      ],
+      "bounds_max_m": [
+        0.38151711225509644,
+        0.39786654710769653,
+        1.75
+      ]
+    },
+    "seated": {
+      "volume_ratio": 0.9858325497311653,
+      "edge_stretch_p99": 1.350146982197315,
+      "edge_stretch_max": 15.891856608871139,
+      "bounds_min_m": [
+        -0.6564050316810608,
+        -0.11802401393651962,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.6564050316810608,
+        0.6418666243553162,
+        1.3087185621261597
+      ]
+    },
+    "lying_supine": {
+      "volume_ratio": 0.9999999908279177,
+      "edge_stretch_p99": 1.0000171815082959,
+      "edge_stretch_max": 1.0001098058197297,
+      "bounds_min_m": [
+        -0.6564050316810608,
+        -1.75,
+        2.2061428239794623e-09
+      ],
+      "bounds_max_m": [
+        0.6564050316810608,
+        1.4174634799246633e-08,
+        0.3189268112182617
+      ]
+    },
+    "hip_flexion_knee_bend": {
+      "volume_ratio": 0.992463703174456,
+      "edge_stretch_p99": 1.1355400721891915,
+      "edge_stretch_max": 14.048288708964572,
+      "bounds_min_m": [
+        -0.6564050316810608,
+        -0.1183416098356247,
+        -3.7063920821367446e-09
+      ],
+      "bounds_max_m": [
+        0.6564050316810608,
+        0.4902854561805725,
+        1.75
+      ]
+    },
+    "bar_grip": {
+      "volume_ratio": 0.994742047221249,
+      "edge_stretch_p99": 1.3634710268028967,
+      "edge_stretch_max": 2.2491886114216197,
+      "bounds_min_m": [
+        -0.3726557195186615,
+        -0.1183416098356247,
+        -3.7063920821367446e-09
+      ],
+      "bounds_max_m": [
+        0.3726558983325958,
+        0.3701426684856415,
+        1.75
+      ],
+      "finger_contacts": {
+        "l": {
+          "thumb": {
+            "minimum_radial_distance_m": 0.01444203746710832,
+            "penetration_m": 0,
+            "closest_gap_m": 0.00044203746710832006
+          },
+          "index": {
+            "minimum_radial_distance_m": 0.01435601484236974,
+            "penetration_m": 0,
+            "closest_gap_m": 0.0003560148423697399
+          },
+          "middle": {
+            "minimum_radial_distance_m": 0.014374587609543441,
+            "penetration_m": 0,
+            "closest_gap_m": 0.0003745876095434409
+          },
+          "ring": {
+            "minimum_radial_distance_m": 0.014405615017194581,
+            "penetration_m": 0,
+            "closest_gap_m": 0.0004056150171945806
+          },
+          "little": {
+            "minimum_radial_distance_m": 0.014368697154886036,
+            "penetration_m": 0,
+            "closest_gap_m": 0.0003686971548860357
+          },
+          "palm": {
+            "minimum_radial_distance_m": 0.014504832968140249,
+            "penetration_m": 0,
+            "closest_gap_m": 0.0005048329681402487
+          }
+        },
+        "r": {
+          "thumb": {
+            "minimum_radial_distance_m": 0.014442091351613874,
+            "penetration_m": 0,
+            "closest_gap_m": 0.0004420913516138738
+          },
+          "index": {
+            "minimum_radial_distance_m": 0.014356163721124974,
+            "penetration_m": 0,
+            "closest_gap_m": 0.0003561637211249736
+          },
+          "middle": {
+            "minimum_radial_distance_m": 0.014374720501629233,
+            "penetration_m": 0,
+            "closest_gap_m": 0.0003747205016292332
+          },
+          "ring": {
+            "minimum_radial_distance_m": 0.014405625697141738,
+            "penetration_m": 0,
+            "closest_gap_m": 0.00040562569714173817
+          },
+          "little": {
+            "minimum_radial_distance_m": 0.014368610408789537,
+            "penetration_m": 0,
+            "closest_gap_m": 0.00036861040878953706
+          },
+          "palm": {
+            "minimum_radial_distance_m": 0.014505109897980449,
+            "penetration_m": 0,
+            "closest_gap_m": 0.0005051098979804488
+          }
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Finite snapshots, not a continuous motion sweep",
+    "Full self intersection/containment and clinical joint limits not certified",
+    "Anatomy/style approval remains manual",
+    "Muscle coverage remainsincomplete; garments/variants/exports outside this pass"
+  ]
+}

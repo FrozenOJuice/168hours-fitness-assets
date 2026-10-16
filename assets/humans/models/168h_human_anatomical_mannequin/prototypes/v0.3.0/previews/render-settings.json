@@ -1,0 +1,199 @@
+{
+  "id": "mannequin_anatomy_flat@0.3.0",
+  "status": "asset-local provisional",
+  "source_sha256": "86bad3bb57a1bd1789d2f759aa485fbd957e64d971998c463b757f9b5d7cb1a2",
+  "blender_version": "5.1.1",
+  "engine": "BLENDER_WORKBENCH",
+  "light": "FLAT",
+  "color_type": "VERTEX",
+  "normal_ramp": "dot(.28,.72,.62)*.78+.35; endpoints(.10,.13,.15)/(.58,.62,.64)",
+  "shadows": false,
+  "AO_cavity": false,
+  "specular": false,
+  "outline": "native dark object silhouette",
+  "AA": 32,
+  "resolution": [
+    1200,
+    1600
+  ],
+  "background": "opaque white",
+  "color_management": "Standard/None/exposure0/gamma1",
+  "renderer_sha256": "11b5110ca7aaec2f5c74613bcee59d307dab54be0a6664929a075282bd393fec",
+  "views": {
+    "front": {
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__front__neutral.png",
+      "position_m": [
+        0.0,
+        5.0,
+        0.8799999952316284
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -1.5099578831723193e-07,
+        3.141592502593994
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.3499999046325684,
+      "target_m": [
+        0,
+        0,
+        0.88
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "33a5cce81d52ac7b2e7cd69d88c117c2ae75251aca471e7a7b0a8935eb5f0855"
+    },
+    "back": {
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__back__neutral.png",
+      "position_m": [
+        0.0,
+        -5.0,
+        0.8799999952316284
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.3499999046325684,
+      "target_m": [
+        0,
+        0,
+        0.88
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "c164916cc7d8db2ad57720449786c60df8d41842295aab4bda20b6b4deed5151"
+    },
+    "side": {
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__side__neutral.png",
+      "position_m": [
+        5.0,
+        0.0,
+        0.8799999952316284
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.3499999046325684,
+      "target_m": [
+        0,
+        0,
+        0.88
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "917d2d54b568330930c5250d47aea6af1596cdf87b07500066d91ba32c186e5e"
+    },
+    "three_quarter": {
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__three_quarter__neutral.png",
+      "position_m": [
+        2.5999999046325684,
+        5.0,
+        1.649999976158142
+      ],
+      "rotation_euler_xyz_radians": [
+        1.4350059032440186,
+        2.670780263613892e-09,
+        2.6620733737945557
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.3499999046325684,
+      "target_m": [
+        0,
+        0,
+        0.88
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "a889b088d8882fceb22138b04d7e3cbc0a382d24763f64fa45e1a1f58905bd65"
+    },
+    "torso_front": {
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__torso_front__neutral.png",
+      "position_m": [
+        0.0,
+        5.0,
+        1.2699999809265137
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -1.5099578831723193e-07,
+        3.141592502593994
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.8500000238418579,
+      "target_m": [
+        0,
+        0,
+        1.27
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "b3d7be0c7fde7db4872df77643e8ca7fea1197434e0b6efbc5f8ad5f72fdd097"
+    },
+    "torso_side": {
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__torso_side__neutral.png",
+      "position_m": [
+        5.0,
+        0.0,
+        1.2699999809265137
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.8500000238418579,
+      "target_m": [
+        0,
+        0,
+        1.27
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "f23753c3a2f3f1a460b10346e4e0f037f354248d431555ae2756126af9d86b53"
+    },
+    "torso_three_quarter": {
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__torso_three_quarter__neutral.png",
+      "position_m": [
+        2.5999999046325684,
+        5.0,
+        1.5499999523162842
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5211529731750488,
+        1.1477487404931708e-08,
+        2.6620733737945557
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.8500000238418579,
+      "target_m": [
+        0,
+        0,
+        1.27
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "d92c43249129bd496b6f51579e884c2890974cfa739852c6adbcf42493a1aade"
+    }
+  }
+}

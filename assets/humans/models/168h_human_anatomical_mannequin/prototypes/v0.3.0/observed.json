@@ -1,0 +1,2436 @@
+{
+  "contract": "168h_human_snapshot@1.0.0",
+  "source_sha256": "86bad3bb57a1bd1789d2f759aa485fbd957e64d971998c463b757f9b5d7cb1a2",
+  "units": "METRIC",
+  "scale_length": 1.0,
+  "root_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "armature_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "collection_offset_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "body_min_z_m": 4.319720137146987e-09,
+  "body_height_m": 1.7499999956802799,
+  "hierarchy_valid": true,
+  "transforms_normalized": true,
+  "skinning_valid": true,
+  "bones": [
+    {
+      "name": "root",
+      "parent": null,
+      "deform": false,
+      "connected": false,
+      "head_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tail_m": [
+        0.0,
+        0.0,
+        0.10000000149011612
+      ],
+      "z_axis": [
+        -1.5099580252808664e-07,
+        1.0,
+        0.0
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "pelvis",
+      "parent": "root",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        0.0,
+        0.0,
+        0.9624892473220825
+      ],
+      "tail_m": [
+        0.0,
+        0.0,
+        1.0721427202224731
+      ],
+      "z_axis": [
+        -8.742277657347586e-08,
+        1.0,
+        0.0
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "spine_01",
+      "parent": "pelvis",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.0,
+        0.0,
+        1.0721427202224731
+      ],
+      "tail_m": [
+        0.0,
+        0.0,
+        1.1917645931243896
+      ],
+      "z_axis": [
+        -8.742277657347586e-08,
+        1.0,
+        0.0
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "spine_02",
+      "parent": "spine_01",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.0,
+        0.0,
+        1.1917645931243896
+      ],
+      "tail_m": [
+        0.0,
+        0.0,
+        1.341291904449463
+      ],
+      "z_axis": [
+        -8.742277657347586e-08,
+        1.0,
+        0.0
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "spine_03",
+      "parent": "spine_02",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.0,
+        0.0,
+        1.341291904449463
+      ],
+      "tail_m": [
+        0.0,
+        0.0,
+        1.4908192157745361
+      ],
+      "z_axis": [
+        -8.742277657347586e-08,
+        1.0,
+        0.0
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "neck",
+      "parent": "spine_03",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.0,
+        0.0,
+        1.4908192157745361
+      ],
+      "tail_m": [
+        0.0,
+        0.0,
+        1.5905041694641113
+      ],
+      "z_axis": [
+        1.509957741063772e-07,
+        1.0,
+        0.0
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "head",
+      "parent": "neck",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.0,
+        0.0,
+        1.5905041694641113
+      ],
+      "tail_m": [
+        0.0,
+        0.0,
+        1.7350472211837769
+      ],
+      "z_axis": [
+        -8.742277657347586e-08,
+        1.0,
+        0.0
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "clavicle_l",
+      "parent": "spine_03",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        0.0,
+        0.0,
+        1.4908192157745361
+      ],
+      "tail_m": [
+        0.189401313662529,
+        0.0,
+        1.426024079322815
+      ],
+      "z_axis": [
+        -1.068856647634675e-08,
+        1.0,
+        -3.124346648064602e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "upper_arm_l",
+      "parent": "clavicle_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.189401313662529,
+        0.0,
+        1.426024079322815
+      ],
+      "tail_m": [
+        0.4323636591434479,
+        0.0,
+        1.1830617189407349
+      ],
+      "z_axis": [
+        3.725276087607199e-09,
+        1.0,
+        3.725293851175593e-09
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "forearm_l",
+      "parent": "upper_arm_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.4323636591434479,
+        0.0,
+        1.1830617189407349
+      ],
+      "tail_m": [
+        0.6052602529525757,
+        0.0,
+        1.0101650953292847
+      ],
+      "z_axis": [
+        7.4505703828720016e-09,
+        1.0,
+        7.450591255064865e-09
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "hand_l",
+      "parent": "forearm_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.6052602529525757,
+        0.0,
+        1.0101650953292847
+      ],
+      "tail_m": [
+        0.6709351539611816,
+        0.0,
+        0.9444902539253235
+      ],
+      "z_axis": [
+        4.0978164861371624e-08,
+        1.0,
+        4.097822881021784e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "thumb_01_l",
+      "parent": "hand_l",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        0.6497015357017517,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "tail_m": [
+        0.6839589476585388,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "z_axis": [
+        1.9913670712412568e-10,
+        1.0,
+        7.549790126404332e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "thumb_02_l",
+      "parent": "thumb_01_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.6839589476585388,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "tail_m": [
+        0.7070376873016357,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "z_axis": [
+        -4.07035516403198e-14,
+        1.0,
+        7.549790126404332e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "thumb_03_l",
+      "parent": "thumb_02_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.7070376873016357,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "tail_m": [
+        0.7186628580093384,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "z_axis": [
+        -4.07035516403198e-14,
+        1.0,
+        7.549790126404332e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "index_01_l",
+      "parent": "hand_l",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        0.7019129991531372,
+        -0.010045277886092663,
+        1.0144600868225098
+      ],
+      "tail_m": [
+        0.7225600481033325,
+        -0.010045277886092663,
+        0.9938129782676697
+      ],
+      "z_axis": [
+        3.352753452645629e-08,
+        1.0,
+        3.3527619791584584e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "index_02_l",
+      "parent": "index_01_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.7225600481033325,
+        -0.010045277886092663,
+        0.9938129782676697
+      ],
+      "tail_m": [
+        0.7395942211151123,
+        -0.010045277886092663,
+        0.9767788052558899
+      ],
+      "z_axis": [
+        4.8428763221863846e-08,
+        1.0,
+        4.84287880908596e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "index_03_l",
+      "parent": "index_02_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.7395942211151123,
+        -0.010045277886092663,
+        0.9767788052558899
+      ],
+      "tail_m": [
+        0.7515771389007568,
+        -0.010045277886092663,
+        0.9647958874702454
+      ],
+      "z_axis": [
+        4.842875966915017e-08,
+        1.0,
+        4.8428795196286956e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "middle_01_l",
+      "parent": "hand_l",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        0.6847338080406189,
+        -0.007744836155325174,
+        0.9969176054000854
+      ],
+      "tail_m": [
+        0.7115840315818787,
+        -0.007744836155325174,
+        0.9700673818588257
+      ],
+      "z_axis": [
+        4.842874545829545e-08,
+        1.0,
+        4.842880940714167e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "middle_02_l",
+      "parent": "middle_01_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.7115840315818787,
+        -0.007744836155325174,
+        0.9700673818588257
+      ],
+      "tail_m": [
+        0.7327538728713989,
+        -0.007744836155325174,
+        0.9488976001739502
+      ],
+      "z_axis": [
+        1.1175831815535275e-08,
+        1.0,
+        1.1175885106240457e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "middle_03_l",
+      "parent": "middle_02_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.7327538728713989,
+        -0.007744836155325174,
+        0.9488976001739502
+      ],
+      "tail_m": [
+        0.7482611536979675,
+        -0.007744836155325174,
+        0.9333902597427368
+      ],
+      "z_axis": [
+        7.450539740716522e-09,
+        1.0,
+        7.4505379643596825e-09
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "ring_01_l",
+      "parent": "hand_l",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        0.6620203256607056,
+        -0.005827811546623707,
+        0.9769275784492493
+      ],
+      "tail_m": [
+        0.6863667368888855,
+        -0.005827811546623707,
+        0.9525812268257141
+      ],
+      "z_axis": [
+        4.097826078464095e-08,
+        1.0,
+        4.097832473348717e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "ring_02_l",
+      "parent": "ring_01_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.6863667368888855,
+        -0.005827811546623707,
+        0.9525812268257141
+      ],
+      "tail_m": [
+        0.7096384167671204,
+        -0.005827811546623707,
+        0.9293095469474792
+      ],
+      "z_axis": [
+        4.8428766774577525e-08,
+        1.0,
+        4.84287880908596e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "ring_03_l",
+      "parent": "ring_02_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.7096384167671204,
+        -0.005827811546623707,
+        0.9293095469474792
+      ],
+      "tail_m": [
+        0.7258506417274475,
+        -0.005827811546623707,
+        0.9130973219871521
+      ],
+      "z_axis": [
+        4.8428766774577525e-08,
+        1.0,
+        4.84287880908596e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "little_01_l",
+      "parent": "hand_l",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        0.6232531070709229,
+        -0.002913950476795435,
+        0.9561356902122498
+      ],
+      "tail_m": [
+        0.6445633172988892,
+        -0.002913950476795435,
+        0.9348254799842834
+      ],
+      "z_axis": [
+        5.3891632489921903e-08,
+        1.0,
+        4.296591882280154e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "little_02_l",
+      "parent": "little_01_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.6445633172988892,
+        -0.002913950476795435,
+        0.9348254799842834
+      ],
+      "tail_m": [
+        0.6657683253288269,
+        -0.002913950476795435,
+        0.9136204719543457
+      ],
+      "z_axis": [
+        4.842875966915017e-08,
+        1.0,
+        4.8428795196286956e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "little_03_l",
+      "parent": "little_02_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.6657683253288269,
+        -0.002913950476795435,
+        0.9136204719543457
+      ],
+      "tail_m": [
+        0.6819958090782166,
+        -0.002913950476795435,
+        0.8973929286003113
+      ],
+      "z_axis": [
+        -5.5879553428894724e-08,
+        1.0,
+        -5.587933316064664e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "clavicle_r",
+      "parent": "spine_03",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        0.0,
+        0.0,
+        1.4908192157745361
+      ],
+      "tail_m": [
+        -0.189401313662529,
+        0.0,
+        1.426024079322815
+      ],
+      "z_axis": [
+        1.068853805463732e-08,
+        1.0,
+        -3.124348779692809e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "upper_arm_r",
+      "parent": "clavicle_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.189401313662529,
+        0.0,
+        1.426024079322815
+      ],
+      "tail_m": [
+        -0.4323636591434479,
+        0.0,
+        1.1830617189407349
+      ],
+      "z_axis": [
+        -3.7252920748187535e-09,
+        1.0,
+        3.7252796403208777e-09
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "forearm_r",
+      "parent": "upper_arm_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.4323636591434479,
+        0.0,
+        1.1830617189407349
+      ],
+      "tail_m": [
+        -0.6052602529525757,
+        0.0,
+        1.0101650953292847
+      ],
+      "z_axis": [
+        -7.450586814172766e-09,
+        1.0,
+        7.45057437967489e-09
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "hand_r",
+      "parent": "forearm_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.6052602529525757,
+        0.0,
+        1.0101650953292847
+      ],
+      "tail_m": [
+        -0.6709351539611816,
+        0.0,
+        0.9444902539253235
+      ],
+      "z_axis": [
+        -4.097818262494002e-08,
+        1.0,
+        4.097821104664945e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "thumb_01_r",
+      "parent": "hand_r",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        -0.6497015357017517,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "tail_m": [
+        -0.6839589476585388,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "z_axis": [
+        -1.9915447069251968e-10,
+        1.0,
+        7.549790126404332e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "thumb_02_r",
+      "parent": "thumb_01_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.6839589476585388,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "tail_m": [
+        -0.7070376873016357,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "z_axis": [
+        1.6375789613221059e-15,
+        1.0,
+        7.549790126404332e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "thumb_03_r",
+      "parent": "thumb_02_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.7070376873016357,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "tail_m": [
+        -0.7186628580093384,
+        0.004063991364091635,
+        1.02393639087677
+      ],
+      "z_axis": [
+        1.6237011735142914e-15,
+        1.0,
+        7.549790126404332e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "index_01_r",
+      "parent": "hand_r",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        -0.7019129991531372,
+        -0.010045277886092663,
+        1.0144600868225098
+      ],
+      "tail_m": [
+        -0.7225600481033325,
+        -0.010045277886092663,
+        0.9938129782676697
+      ],
+      "z_axis": [
+        -3.352754873731101e-08,
+        1.0,
+        3.352760202801619e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "index_02_r",
+      "parent": "index_01_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.7225600481033325,
+        -0.010045277886092663,
+        0.9938129782676697
+      ],
+      "tail_m": [
+        -0.7395942211151123,
+        -0.010045277886092663,
+        0.9767788052558899
+      ],
+      "z_axis": [
+        -4.842878098543224e-08,
+        1.0,
+        4.8428770327291204e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "index_03_r",
+      "parent": "index_02_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.7395942211151123,
+        -0.010045277886092663,
+        0.9767788052558899
+      ],
+      "tail_m": [
+        -0.7515771389007568,
+        -0.010045277886092663,
+        0.9647958874702454
+      ],
+      "z_axis": [
+        -4.842877743271856e-08,
+        1.0,
+        4.842877743271856e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "middle_01_r",
+      "parent": "hand_r",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        -0.6847338080406189,
+        -0.007744836155325174,
+        0.9969176054000854
+      ],
+      "tail_m": [
+        -0.7115840315818787,
+        -0.007744836155325174,
+        0.9700673818588257
+      ],
+      "z_axis": [
+        -4.842875966915017e-08,
+        1.0,
+        4.842879164357328e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "middle_02_r",
+      "parent": "middle_01_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.7115840315818787,
+        -0.007744836155325174,
+        0.9700673818588257
+      ],
+      "tail_m": [
+        -0.7327538728713989,
+        -0.007744836155325174,
+        0.9488976001739502
+      ],
+      "z_axis": [
+        -1.117584602638999e-08,
+        1.0,
+        1.1175867342672063e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "middle_03_r",
+      "parent": "middle_02_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.7327538728713989,
+        -0.007744836155325174,
+        0.9488976001739502
+      ],
+      "tail_m": [
+        -0.7482611536979675,
+        -0.007744836155325174,
+        0.9333902597427368
+      ],
+      "z_axis": [
+        -7.450554395660447e-09,
+        1.0,
+        7.450521977148128e-09
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "ring_01_r",
+      "parent": "hand_r",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        -0.6620203256607056,
+        -0.005827811546623707,
+        0.9769275784492493
+      ],
+      "tail_m": [
+        -0.6863667368888855,
+        -0.005827811546623707,
+        0.9525812268257141
+      ],
+      "z_axis": [
+        -4.0978278548209346e-08,
+        1.0,
+        4.0978306969918776e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "ring_02_r",
+      "parent": "ring_01_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.6863667368888855,
+        -0.005827811546623707,
+        0.9525812268257141
+      ],
+      "tail_m": [
+        -0.7096384167671204,
+        -0.005827811546623707,
+        0.9293095469474792
+      ],
+      "z_axis": [
+        -4.842878098543224e-08,
+        1.0,
+        4.842877388000488e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "ring_03_r",
+      "parent": "ring_02_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.7096384167671204,
+        -0.005827811546623707,
+        0.9293095469474792
+      ],
+      "tail_m": [
+        -0.7258506417274475,
+        -0.005827811546623707,
+        0.9130973219871521
+      ],
+      "z_axis": [
+        -4.842878098543224e-08,
+        1.0,
+        4.842877388000488e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "little_01_r",
+      "parent": "hand_r",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        -0.6232531070709229,
+        -0.002913950476795435,
+        0.9561356902122498
+      ],
+      "tail_m": [
+        -0.6445633172988892,
+        -0.002913950476795435,
+        0.9348254799842834
+      ],
+      "z_axis": [
+        -5.3891653806203976e-08,
+        1.0,
+        4.2965904611946826e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "little_02_r",
+      "parent": "little_01_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.6445633172988892,
+        -0.002913950476795435,
+        0.9348254799842834
+      ],
+      "tail_m": [
+        -0.6657683253288269,
+        -0.002913950476795435,
+        0.9136204719543457
+      ],
+      "z_axis": [
+        -4.842877388000488e-08,
+        1.0,
+        4.842877743271856e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "little_03_r",
+      "parent": "little_02_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.6657683253288269,
+        -0.002913950476795435,
+        0.9136204719543457
+      ],
+      "tail_m": [
+        -0.6819958090782166,
+        -0.002913950476795435,
+        0.8973929286003113
+      ],
+      "z_axis": [
+        5.587953921804001e-08,
+        1.0,
+        -5.587935092421503e-08
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "thigh_l",
+      "parent": "pelvis",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        0.10466914623975754,
+        0.0,
+        0.9575050473213196
+      ],
+      "tail_m": [
+        0.10466914623975754,
+        0.0,
+        0.49338752031326294
+      ],
+      "z_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "shin_l",
+      "parent": "thigh_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.10466914623975754,
+        0.0,
+        0.49338752031326294
+      ],
+      "tail_m": [
+        0.10466914623975754,
+        0.0,
+        0.0940888300538063
+      ],
+      "z_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "foot_l",
+      "parent": "shin_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.10466914623975754,
+        0.0,
+        0.0940888300538063
+      ],
+      "tail_m": [
+        0.11463763564825058,
+        0.13457462191581726,
+        0.029293641448020935
+      ],
+      "z_axis": [
+        -0.1366996467113495,
+        0.43794524669647217,
+        0.8885478973388672
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "toe_l",
+      "parent": "foot_l",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        0.11463763564825058,
+        0.13457462191581726,
+        0.029293641448020935
+      ],
+      "tail_m": [
+        0.11463763564825058,
+        0.1995612382888794,
+        0.029293641448020935
+      ],
+      "z_axis": [
+        -7.450580596923828e-09,
+        0.0,
+        1.0
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "thigh_r",
+      "parent": "pelvis",
+      "deform": true,
+      "connected": false,
+      "head_m": [
+        -0.10466914623975754,
+        0.0,
+        0.9575050473213196
+      ],
+      "tail_m": [
+        -0.10466914623975754,
+        0.0,
+        0.49338752031326294
+      ],
+      "z_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "shin_r",
+      "parent": "thigh_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.10466914623975754,
+        0.0,
+        0.49338752031326294
+      ],
+      "tail_m": [
+        -0.10466914623975754,
+        0.0,
+        0.0940888300538063
+      ],
+      "z_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "foot_r",
+      "parent": "shin_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.10466914623975754,
+        0.0,
+        0.0940888300538063
+      ],
+      "tail_m": [
+        -0.11463763564825058,
+        0.13457462191581726,
+        0.029293641448020935
+      ],
+      "z_axis": [
+        0.1366996467113495,
+        0.43794524669647217,
+        0.8885478973388672
+      ],
+      "pose_identity": true
+    },
+    {
+      "name": "toe_r",
+      "parent": "foot_r",
+      "deform": true,
+      "connected": true,
+      "head_m": [
+        -0.11463763564825058,
+        0.13457462191581726,
+        0.029293641448020935
+      ],
+      "tail_m": [
+        -0.11463763564825058,
+        0.1995612382888794,
+        0.029293641448020935
+      ],
+      "z_axis": [
+        7.450580596923828e-09,
+        0.0,
+        1.0
+      ],
+      "pose_identity": true
+    }
+  ],
+  "anchors": [
+    {
+      "key": "floor_contact",
+      "object": "168h_human_anatomical_mannequin__anchor_floor_contact",
+      "bone": null,
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exists": true
+    },
+    {
+      "key": "pelvis",
+      "object": "168h_human_anatomical_mannequin__anchor_pelvis",
+      "bone": "pelvis",
+      "position_m": [
+        0.0,
+        0.0,
+        0.9624892473220825
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        2.93650568000247e-15,
+        -2.117582368135751e-22
+      ],
+      "exists": true
+    },
+    {
+      "key": "back_support",
+      "object": "168h_human_anatomical_mannequin__anchor_back_support",
+      "bone": "spine_02",
+      "position_m": [
+        0.0,
+        -0.0728808045387268,
+        1.1917645931243896
+      ],
+      "rotation_quaternion_wxyz": [
+        0.7071067690849304,
+        0.7071067690849304,
+        3.0928502197641216e-25,
+        0.0
+      ],
+      "exists": true
+    },
+    {
+      "key": "hand_grip_l",
+      "object": "168h_human_anatomical_mannequin__anchor_hand_grip_l",
+      "bone": "hand_l",
+      "position_m": [
+        0.6462724804878235,
+        0.029999999329447746,
+        0.9691529273986816
+      ],
+      "rotation_quaternion_wxyz": [
+        0.27059805393218994,
+        -0.2705981135368347,
+        -0.6532814502716064,
+        -0.653281569480896
+      ],
+      "exists": true
+    },
+    {
+      "key": "foot_contact_l",
+      "object": "168h_human_anatomical_mannequin__anchor_foot_contact_l",
+      "bone": "foot_l",
+      "position_m": [
+        0.10466915369033813,
+        0.06999999284744263,
+        0.0
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        -5.587935447692871e-09,
+        -9.31322685637781e-10
+      ],
+      "exists": true
+    },
+    {
+      "key": "heel_contact_l",
+      "object": "168h_human_anatomical_mannequin__anchor_heel_contact_l",
+      "bone": "foot_l",
+      "position_m": [
+        0.10466915369033813,
+        -0.034999996423721313,
+        3.725290298461914e-09
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        -5.587935447692871e-09,
+        -9.31322685637781e-10
+      ],
+      "exists": true
+    },
+    {
+      "key": "toe_contact_l",
+      "object": "168h_human_anatomical_mannequin__anchor_toe_contact_l",
+      "bone": "toe_l",
+      "position_m": [
+        0.11463763564825058,
+        0.16999998688697815,
+        9.816512047677861e-10
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        1.3322676295501878e-15,
+        -1.1102230246251565e-16,
+        9.992007221626409e-16
+      ],
+      "exists": true
+    },
+    {
+      "key": "hand_grip_r",
+      "object": "168h_human_anatomical_mannequin__anchor_hand_grip_r",
+      "bone": "hand_r",
+      "position_m": [
+        -0.6462724804878235,
+        0.029999999329447746,
+        0.9691529273986816
+      ],
+      "rotation_quaternion_wxyz": [
+        0.27059805393218994,
+        -0.2705981135368347,
+        0.6532814502716064,
+        0.653281569480896
+      ],
+      "exists": true
+    },
+    {
+      "key": "foot_contact_r",
+      "object": "168h_human_anatomical_mannequin__anchor_foot_contact_r",
+      "bone": "foot_r",
+      "position_m": [
+        -0.10466915369033813,
+        0.06999999284744263,
+        0.0
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        5.587935447692871e-09,
+        9.31322685637781e-10
+      ],
+      "exists": true
+    },
+    {
+      "key": "heel_contact_r",
+      "object": "168h_human_anatomical_mannequin__anchor_heel_contact_r",
+      "bone": "foot_r",
+      "position_m": [
+        -0.10466915369033813,
+        -0.034999996423721313,
+        3.725290298461914e-09
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        5.587935447692871e-09,
+        9.31322685637781e-10
+      ],
+      "exists": true
+    },
+    {
+      "key": "toe_contact_r",
+      "object": "168h_human_anatomical_mannequin__anchor_toe_contact_r",
+      "bone": "toe_r",
+      "position_m": [
+        -0.11463763564825058,
+        0.16999998688697815,
+        9.816512047677861e-10
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        1.3322676295501878e-15,
+        1.1102230246251565e-16,
+        -9.992007221626409e-16
+      ],
+      "exists": true
+    }
+  ],
+  "resolved_controls": [
+    "root_motion",
+    "pelvis",
+    "fk_pelvis",
+    "fk_spine_01",
+    "fk_spine_02",
+    "fk_spine_03",
+    "fk_neck",
+    "fk_head",
+    "fk_clavicle_l",
+    "fk_upper_arm_l",
+    "fk_forearm_l",
+    "fk_hand_l",
+    "fk_thumb_01_l",
+    "fk_thumb_02_l",
+    "fk_thumb_03_l",
+    "fk_index_01_l",
+    "fk_index_02_l",
+    "fk_index_03_l",
+    "fk_middle_01_l",
+    "fk_middle_02_l",
+    "fk_middle_03_l",
+    "fk_ring_01_l",
+    "fk_ring_02_l",
+    "fk_ring_03_l",
+    "fk_little_01_l",
+    "fk_little_02_l",
+    "fk_little_03_l",
+    "fk_thigh_l",
+    "fk_shin_l",
+    "fk_foot_l",
+    "fk_toe_l",
+    "fk_clavicle_r",
+    "fk_upper_arm_r",
+    "fk_forearm_r",
+    "fk_hand_r",
+    "fk_thumb_01_r",
+    "fk_thumb_02_r",
+    "fk_thumb_03_r",
+    "fk_index_01_r",
+    "fk_index_02_r",
+    "fk_index_03_r",
+    "fk_middle_01_r",
+    "fk_middle_02_r",
+    "fk_middle_03_r",
+    "fk_ring_01_r",
+    "fk_ring_02_r",
+    "fk_ring_03_r",
+    "fk_little_01_r",
+    "fk_little_02_r",
+    "fk_little_03_r",
+    "fk_thigh_r",
+    "fk_shin_r",
+    "fk_foot_r",
+    "fk_toe_r",
+    "ik_fk_arm_l",
+    "ik_hand_l",
+    "pole_elbow_l",
+    "ik_fk_leg_l",
+    "ik_foot_l",
+    "pole_knee_l",
+    "ik_fk_arm_r",
+    "ik_hand_r",
+    "pole_elbow_r",
+    "ik_fk_leg_r",
+    "ik_foot_r",
+    "pole_knee_r"
+  ],
+  "muscles": [
+    {
+      "id": "muscle_pectoralis_major_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_pectoralis_major_l",
+      "positive_vertices": 2263,
+      "weight_min": 0.0002529116754885763,
+      "weight_max": 0.9999940395355225,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_pectoralis_major_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_pectoralis_major_r",
+      "positive_vertices": 2271,
+      "weight_min": 0.00025348024792037904,
+      "weight_max": 0.9999922513961792,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_deltoid_anterior_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_deltoid_anterior_l",
+      "positive_vertices": 1712,
+      "weight_min": 0.00026467462885193527,
+      "weight_max": 0.9999997615814209,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_deltoid_anterior_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_deltoid_anterior_r",
+      "positive_vertices": 1716,
+      "weight_min": 0.00025552118313498795,
+      "weight_max": 0.9999999403953552,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_deltoid_middle_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_deltoid_middle_l",
+      "positive_vertices": 1755,
+      "weight_min": 0.00026677828282117844,
+      "weight_max": 0.9022548794746399,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_deltoid_middle_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_deltoid_middle_r",
+      "positive_vertices": 1759,
+      "weight_min": 0.00027576254797168076,
+      "weight_max": 0.9060889482498169,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_deltoid_posterior_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_deltoid_posterior_l",
+      "positive_vertices": 1389,
+      "weight_min": 0.0002760865609161556,
+      "weight_max": 0.8204630613327026,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_deltoid_posterior_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_deltoid_posterior_r",
+      "positive_vertices": 1393,
+      "weight_min": 0.0002517411776352674,
+      "weight_max": 0.8224815130233765,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_latissimus_dorsi_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_latissimus_dorsi_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_latissimus_dorsi_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_latissimus_dorsi_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_trapezius_upper_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_trapezius_upper_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_trapezius_upper_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_trapezius_upper_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_trapezius_middle_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_trapezius_middle_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_trapezius_middle_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_trapezius_middle_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_trapezius_lower_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_trapezius_lower_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_trapezius_lower_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_trapezius_lower_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_rhomboid_major_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_rhomboid_major_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_rhomboid_major_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_rhomboid_major_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_teres_major_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_teres_major_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_teres_major_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_teres_major_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_biceps_brachii_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_biceps_brachii_l",
+      "positive_vertices": 2539,
+      "weight_min": 0.0002623458858579397,
+      "weight_max": 0.774398922920227,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_biceps_brachii_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_biceps_brachii_r",
+      "positive_vertices": 2547,
+      "weight_min": 0.0002555662067607045,
+      "weight_max": 0.7828949689865112,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_brachialis_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_brachialis_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_brachialis_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_brachialis_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_brachioradialis_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_brachioradialis_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_brachioradialis_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_brachioradialis_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_triceps_brachii_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_triceps_brachii_l",
+      "positive_vertices": 1731,
+      "weight_min": 0.0002565750328358263,
+      "weight_max": 0.9410135746002197,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_triceps_brachii_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_triceps_brachii_r",
+      "positive_vertices": 1741,
+      "weight_min": 0.00025042201741598547,
+      "weight_max": 0.9413632750511169,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_flexor_carpi_radialis_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_flexor_carpi_radialis_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_flexor_carpi_radialis_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_flexor_carpi_radialis_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_flexor_carpi_ulnaris_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_flexor_carpi_ulnaris_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_flexor_carpi_ulnaris_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_flexor_carpi_ulnaris_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_extensor_carpi_radialis_longus_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_extensor_carpi_radialis_longus_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_extensor_carpi_radialis_longus_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_extensor_carpi_radialis_longus_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_extensor_carpi_ulnaris_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_extensor_carpi_ulnaris_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_extensor_carpi_ulnaris_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_extensor_carpi_ulnaris_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_rectus_abdominis_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_rectus_abdominis_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_rectus_abdominis_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_rectus_abdominis_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_external_oblique_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_external_oblique_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_external_oblique_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_external_oblique_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_erector_spinae_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_erector_spinae_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_erector_spinae_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_erector_spinae_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_gluteus_maximus_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gluteus_maximus_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_gluteus_maximus_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gluteus_maximus_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_gluteus_medius_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gluteus_medius_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_gluteus_medius_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gluteus_medius_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_gluteus_minimus_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gluteus_minimus_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_gluteus_minimus_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gluteus_minimus_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_iliopsoas_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_iliopsoas_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_iliopsoas_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_iliopsoas_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_adductor_longus_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_adductor_longus_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_adductor_longus_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_adductor_longus_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_adductor_magnus_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_adductor_magnus_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_adductor_magnus_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_adductor_magnus_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_rectus_femoris_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_rectus_femoris_l",
+      "positive_vertices": 1645,
+      "weight_min": 0.0002655361604411155,
+      "weight_max": 0.9999449253082275,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_rectus_femoris_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_rectus_femoris_r",
+      "positive_vertices": 1653,
+      "weight_min": 0.00025800324510782957,
+      "weight_max": 0.9999414682388306,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_vastus_lateralis_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_vastus_lateralis_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_vastus_lateralis_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_vastus_lateralis_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_vastus_medialis_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_vastus_medialis_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_vastus_medialis_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_vastus_medialis_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_vastus_intermedius_l",
+      "object": "168h_human_anatomical_mannequin__mesh_vastus_intermedius_l",
+      "vertex_group": "muscle_vastus_intermedius_l",
+      "positive_vertices": 544,
+      "weight_min": 1.0,
+      "weight_max": 1.0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_vastus_intermedius_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_vastus_intermedius_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_biceps_femoris_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_biceps_femoris_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_biceps_femoris_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_biceps_femoris_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_semitendinosus_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_semitendinosus_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_semitendinosus_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_semitendinosus_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_semimembranosus_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_semimembranosus_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_semimembranosus_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_semimembranosus_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_gastrocnemius_medial_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gastrocnemius_medial_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_gastrocnemius_medial_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gastrocnemius_medial_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_gastrocnemius_lateral_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gastrocnemius_lateral_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_gastrocnemius_lateral_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gastrocnemius_lateral_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_soleus_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_soleus_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_soleus_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_soleus_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_tibialis_anterior_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_tibialis_anterior_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_tibialis_anterior_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_tibialis_anterior_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_fibularis_longus_l",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_fibularis_longus_l",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    },
+    {
+      "id": "muscle_fibularis_longus_r",
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_fibularis_longus_r",
+      "positive_vertices": 0,
+      "weight_min": 0,
+      "weight_max": 0,
+      "primary_exists": true,
+      "secondary_exists": true,
+      "primary": 0.0,
+      "secondary": 0.0
+    }
+  ],
+  "clothing_present": false,
+  "rest_profile_sha256": "9d06d26065ddc915329877aed6a49563f599614fe67972e6a1d303b40b2dce0a",
+  "observer": "blender_read_only/5.1.1",
+  "ik_valid": true,
+  "joint_constraints_valid": true
+}

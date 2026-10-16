@@ -1,0 +1,63 @@
+{
+  "scope": "Core static underhand grip only, source mesh unchanged; local provisional fit",
+  "bar_center_yz_m": [
+    0.318,
+    1.082
+  ],
+  "shaft_radius_m": 0.014,
+  "nominal_skin_gap_m": 0.0004,
+  "digits": {
+    "index": {
+      "angles_radians": [
+        1.3,
+        0.8500000000000001,
+        0.7625
+      ],
+      "closest_radial_distance_m": 0.01435601484236974,
+      "axis_first": "X"
+    },
+    "middle": {
+      "angles_radians": [
+        1.3,
+        0.9750000000000001,
+        1.02
+      ],
+      "closest_radial_distance_m": 0.014374587609543441,
+      "axis_first": "X"
+    },
+    "ring": {
+      "angles_radians": [
+        1.3,
+        0.7050000000000001,
+        1.045
+      ],
+      "closest_radial_distance_m": 0.014405615017194581,
+      "axis_first": "X"
+    },
+    "little": {
+      "angles_radians": [
+        0.8,
+        0.8,
+        1.264609375
+      ],
+      "closest_radial_distance_m": 0.014368697154886036,
+      "axis_first": "X"
+    },
+    "thumb": {
+      "angles_radians": [
+        0.0,
+        -0.275,
+        0.3375,
+        0.8
+      ],
+      "closest_radial_distance_m": 0.01444203746710832,
+      "axis_first": "Z_then_X_CMC_opposition"
+    }
+  },
+  "fitter_sha256": "cc21aea759a8e0240ad659b238f72011f02f6cf665fde821c4fd52cc1c78c5b3",
+  "thumb_fitter_sha256": "4ce79fad595f21f9662bcb9b7603a37851e9b9b9c3375f69117575b099b6d833",
+  "body_geometry_sha256": "f53cdb849a9ed41d6f9f33fd31b7b4d918075ac0a7de8b6c72366a773f575e74",
+  "rest_profile_sha256": "a2043f9a4c3f9bd88cc4ecc03e6e3a9c2924a5caa26b309d3f90091b9fc9618f",
+  "source_revision_or_digest": "sha256:5e6de698bbc2e7ec9ff9273e6649d0d52a9145b214deca65b18e021d855a6358",
+  "fit_type": "Static illustrated contact, no physical force/collision simulation"
+}

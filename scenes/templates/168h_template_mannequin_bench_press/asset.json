@@ -1,0 +1,114 @@
+{
+  "id": "168h_template_mannequin_bench_press",
+  "category": "scene_template",
+  "version": "0.1.0",
+  "status": "review",
+  "source": "scenes/templates/168h_template_mannequin_bench_press/168h_template_mannequin_bench_press.blend",
+  "source_revision_or_digest": "sha256:31efc9783646a9821d50ef2810c0136d457105d60732d03d2ac4de0c26965cf9",
+  "purpose": "Preliminary human/equipment compatibility fixture, not approved exercise technique",
+  "dependencies": [
+    {
+      "id": "168h_human_anatomical_mannequin",
+      "source": "assets/humans/models/168h_human_anatomical_mannequin/168h_human_anatomical_mannequin.blend",
+      "sha256": "de83a11f763d8b86e38c0020593ce4ae03b8e294323b80967ece1d104fb36f7a"
+    },
+    {
+      "id": "168h_equipment_flat_bench",
+      "source": "assets/equipment/benches/168h_equipment_flat_bench/168h_equipment_flat_bench.blend",
+      "sha256": "eb57837c592d473f10420b2201029de31282f7d1fc48f374970609550ea8ccf3"
+    },
+    {
+      "id": "168h_equipment_olympic_barbell_20kg",
+      "source": "assets/equipment/free_weights/168h_equipment_olympic_barbell_20kg/168h_equipment_olympic_barbell_20kg.blend",
+      "sha256": "4fb5b8c159ec653838e046f9ca06e7341b7b81cae257670ff3271c3cf2702a30"
+    }
+  ],
+  "reference_renders": {
+    "assembled_three_quarter": {
+      "path": "scenes/templates/168h_template_mannequin_bench_press/previews/168h_template_mannequin_bench_press__assembled_three_quarter__bench_press_review.png",
+      "position_m": [
+        2.799999952316284,
+        3.200000047683716,
+        2.299999952316284
+      ],
+      "rotation_euler_xyz_radians": [
+        1.1997414827346802,
+        2.722497782770006e-08,
+        2.4696295261383057
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.799999952316284,
+      "target_m": [
+        0,
+        -0.32,
+        0.55
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "preliminary bench press",
+      "frame": 1,
+      "sha256": "8681872a8af0250f94301e575dfe95992b42ceaf928fb0aaf1141157377d27dc"
+    },
+    "assembled_side": {
+      "path": "scenes/templates/168h_template_mannequin_bench_press/previews/168h_template_mannequin_bench_press__assembled_side__bench_press_review.png",
+      "position_m": [
+        3.0,
+        0.0,
+        1.100000023841858
+      ],
+      "rotation_euler_xyz_radians": [
+        1.390882968902588,
+        -4.515626539358664e-09,
+        1.6967922449111938
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.6500000953674316,
+      "target_m": [
+        0,
+        -0.38,
+        0.55
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "preliminary bench press",
+      "frame": 1,
+      "sha256": "703885a1999964138fd34a6f08d3569807e905d093e70421fe6800f5ba023830"
+    },
+    "grip_detail": {
+      "path": "scenes/templates/168h_template_mannequin_bench_press/previews/168h_template_mannequin_bench_press__grip_detail__bench_press_review.png",
+      "position_m": [
+        -0.75,
+        1.2000000476837158,
+        1.600000023841858
+      ],
+      "rotation_euler_xyz_radians": [
+        1.1175552606582642,
+        -8.321869415794936e-08,
+        -2.8293204307556152
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.4300000071525574,
+      "target_m": [
+        -0.34,
+        -0.07,
+        0.95
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "preliminary bench press",
+      "frame": 1,
+      "sha256": "068652bd4ee8eb33d9611d37b70e426909b159e77479dd6eed1450bd437e8d2d"
+    }
+  },
+  "body_mesh_linked": true,
+  "limitations": [
+    "Only this morphology tested; no automatic motion retarget or body swap certified",
+    "Bench pose is preliminary; no motion/safety or collision-free grip certification",
+    "Finger/palm and shoulder/hip deformation still require review",
+    "No garments or export roundtrip implemented",
+    "Historical0.1.0 human dependency; do not treat these renders/contact reports as current"
+  ],
+  "artwork_license": null,
+  "validation_state": "invalidated_by_human_foundation_0.2.0",
+  "current_human_compatible": false
+}

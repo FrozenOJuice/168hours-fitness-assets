@@ -1,0 +1,405 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:168hours:human-character-v1",
+  "title": "human-character-v1",
+  "type": "object",
+  "properties": {
+    "contract": {
+      "const": "168h_human_model@1.0.0"
+    },
+    "catalog": {
+      "const": "168h_muscle_catalog@1.0.0"
+    },
+    "asset_id": {
+      "type": "string",
+      "pattern": "^168h_human_[a-z0-9_]+$"
+    },
+    "asset_manifest": {
+      "type": "string",
+      "minLength": 1
+    },
+    "armature": {
+      "type": "string",
+      "minLength": 1
+    },
+    "body_objects": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "clothing_objects": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "morphology": {
+      "enum": [
+        "mannequin",
+        "masculine",
+        "feminine",
+        "custom"
+      ]
+    },
+    "height_m": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    },
+    "rest_profile": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "id",
+        "path",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "controls": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "object": {
+            "type": "string",
+            "minLength": 1
+          },
+          "bone": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "property": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "object",
+          "bone"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "anchors": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "object": {
+            "type": "string",
+            "minLength": 1
+          },
+          "bone": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "position_m": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "rotation_quaternion_wxyz": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          }
+        },
+        "required": [
+          "object",
+          "bone",
+          "position_m",
+          "rotation_quaternion_wxyz"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "muscle_bindings": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "object": {
+            "type": "string",
+            "minLength": 1
+          },
+          "vertex_group": {
+            "type": "string",
+            "minLength": 1
+          },
+          "primary_property": {
+            "type": "string",
+            "minLength": 1
+          },
+          "secondary_property": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "object",
+          "vertex_group",
+          "primary_property",
+          "secondary_property"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "clothing_highlight": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "enum": [
+            "overlay",
+            "projected_mask",
+            "none"
+          ]
+        },
+        "implementation_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "mode",
+        "implementation_reference"
+      ],
+      "additionalProperties": false
+    },
+    "joint_limits": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "min_radians": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "max_radians": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "approval_reference": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "min_radians",
+          "max_radians",
+          "approval_reference"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "export_profiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "enum": [
+              "illustration",
+              "animation"
+            ]
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "approved": {
+            "type": "boolean"
+          },
+          "settings_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "settings_sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "role",
+          "id",
+          "approved",
+          "settings_path",
+          "settings_sha256"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "check": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "not_run",
+              "pass",
+              "fail"
+            ]
+          },
+          "path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "check",
+          "status",
+          "path",
+          "sha256"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "resolved_decisions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "extensions": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "solver_bindings": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "object": {
+            "type": "string",
+            "minLength": 1
+          },
+          "bone": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "object",
+          "bone"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "joint_limit_bindings": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "object": {
+            "type": "string",
+            "minLength": 1
+          },
+          "bone": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "object",
+          "bone"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "contract",
+    "catalog",
+    "asset_id",
+    "asset_manifest",
+    "armature",
+    "body_objects",
+    "clothing_objects",
+    "morphology",
+    "height_m",
+    "rest_profile",
+    "controls",
+    "anchors",
+    "muscle_bindings",
+    "clothing_highlight",
+    "joint_limits",
+    "export_profiles",
+    "evidence",
+    "resolved_decisions",
+    "extensions",
+    "solver_bindings",
+    "joint_limit_bindings"
+  ],
+  "additionalProperties": false
+}

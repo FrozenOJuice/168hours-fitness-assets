@@ -1,0 +1,1024 @@
+{
+  "contract": "168h_human_model@1.0.0",
+  "catalog": "168h_muscle_catalog@1.0.0",
+  "asset_id": "168h_human_anatomical_mannequin",
+  "asset_manifest": "asset.json",
+  "armature": "168h_human_anatomical_mannequin__armature_deform",
+  "body_objects": [
+    "168h_human_anatomical_mannequin__mesh_body",
+    "168h_human_anatomical_mannequin__mesh_vastus_intermedius_l"
+  ],
+  "clothing_objects": [],
+  "morphology": "mannequin",
+  "height_m": 1.75,
+  "rest_profile": {
+    "id": "mannequin_1750_anatomy@0.3.0",
+    "path": "rest-profile.json",
+    "sha256": "9d06d26065ddc915329877aed6a49563f599614fe67972e6a1d303b40b2dce0a"
+  },
+  "controls": {
+    "root_motion": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "root"
+    },
+    "pelvis": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "pelvis"
+    },
+    "fk_pelvis": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "pelvis"
+    },
+    "fk_spine_01": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "spine_01"
+    },
+    "fk_spine_02": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "spine_02"
+    },
+    "fk_spine_03": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "spine_03"
+    },
+    "fk_neck": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "neck"
+    },
+    "fk_head": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "head"
+    },
+    "fk_clavicle_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "clavicle_l"
+    },
+    "fk_upper_arm_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "upper_arm_l"
+    },
+    "fk_forearm_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "forearm_l"
+    },
+    "fk_hand_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "hand_l"
+    },
+    "fk_thumb_01_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "thumb_01_l"
+    },
+    "fk_thumb_02_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "thumb_02_l"
+    },
+    "fk_thumb_03_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "thumb_03_l"
+    },
+    "fk_index_01_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "index_01_l"
+    },
+    "fk_index_02_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "index_02_l"
+    },
+    "fk_index_03_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "index_03_l"
+    },
+    "fk_middle_01_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "middle_01_l"
+    },
+    "fk_middle_02_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "middle_02_l"
+    },
+    "fk_middle_03_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "middle_03_l"
+    },
+    "fk_ring_01_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "ring_01_l"
+    },
+    "fk_ring_02_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "ring_02_l"
+    },
+    "fk_ring_03_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "ring_03_l"
+    },
+    "fk_little_01_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "little_01_l"
+    },
+    "fk_little_02_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "little_02_l"
+    },
+    "fk_little_03_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "little_03_l"
+    },
+    "fk_thigh_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "thigh_l"
+    },
+    "fk_shin_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "shin_l"
+    },
+    "fk_foot_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "foot_l"
+    },
+    "fk_toe_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "toe_l"
+    },
+    "fk_clavicle_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "clavicle_r"
+    },
+    "fk_upper_arm_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "upper_arm_r"
+    },
+    "fk_forearm_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "forearm_r"
+    },
+    "fk_hand_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "hand_r"
+    },
+    "fk_thumb_01_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "thumb_01_r"
+    },
+    "fk_thumb_02_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "thumb_02_r"
+    },
+    "fk_thumb_03_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "thumb_03_r"
+    },
+    "fk_index_01_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "index_01_r"
+    },
+    "fk_index_02_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "index_02_r"
+    },
+    "fk_index_03_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "index_03_r"
+    },
+    "fk_middle_01_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "middle_01_r"
+    },
+    "fk_middle_02_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "middle_02_r"
+    },
+    "fk_middle_03_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "middle_03_r"
+    },
+    "fk_ring_01_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "ring_01_r"
+    },
+    "fk_ring_02_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "ring_02_r"
+    },
+    "fk_ring_03_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "ring_03_r"
+    },
+    "fk_little_01_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "little_01_r"
+    },
+    "fk_little_02_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "little_02_r"
+    },
+    "fk_little_03_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "little_03_r"
+    },
+    "fk_thigh_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "thigh_r"
+    },
+    "fk_shin_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "shin_r"
+    },
+    "fk_foot_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "foot_r"
+    },
+    "fk_toe_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "toe_r"
+    },
+    "ik_fk_arm_l": {
+      "object": "168h_human_anatomical_mannequin__root",
+      "bone": null,
+      "property": "ik_fk_arm_l"
+    },
+    "ik_hand_l": {
+      "object": "168h_human_anatomical_mannequin__control_ik_hand_l",
+      "bone": null
+    },
+    "pole_elbow_l": {
+      "object": "168h_human_anatomical_mannequin__control_pole_elbow_l",
+      "bone": null
+    },
+    "ik_fk_leg_l": {
+      "object": "168h_human_anatomical_mannequin__root",
+      "bone": null,
+      "property": "ik_fk_leg_l"
+    },
+    "ik_foot_l": {
+      "object": "168h_human_anatomical_mannequin__control_ik_foot_l",
+      "bone": null
+    },
+    "pole_knee_l": {
+      "object": "168h_human_anatomical_mannequin__control_pole_knee_l",
+      "bone": null
+    },
+    "ik_fk_arm_r": {
+      "object": "168h_human_anatomical_mannequin__root",
+      "bone": null,
+      "property": "ik_fk_arm_r"
+    },
+    "ik_hand_r": {
+      "object": "168h_human_anatomical_mannequin__control_ik_hand_r",
+      "bone": null
+    },
+    "pole_elbow_r": {
+      "object": "168h_human_anatomical_mannequin__control_pole_elbow_r",
+      "bone": null
+    },
+    "ik_fk_leg_r": {
+      "object": "168h_human_anatomical_mannequin__root",
+      "bone": null,
+      "property": "ik_fk_leg_r"
+    },
+    "ik_foot_r": {
+      "object": "168h_human_anatomical_mannequin__control_ik_foot_r",
+      "bone": null
+    },
+    "pole_knee_r": {
+      "object": "168h_human_anatomical_mannequin__control_pole_knee_r",
+      "bone": null
+    }
+  },
+  "anchors": {
+    "floor_contact": {
+      "object": "168h_human_anatomical_mannequin__anchor_floor_contact",
+      "bone": null,
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "pelvis": {
+      "object": "168h_human_anatomical_mannequin__anchor_pelvis",
+      "bone": "pelvis",
+      "position_m": [
+        0.0,
+        0.0,
+        0.9624892473220825
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        2.93650568000247e-15,
+        -2.117582368135751e-22
+      ]
+    },
+    "back_support": {
+      "object": "168h_human_anatomical_mannequin__anchor_back_support",
+      "bone": "spine_02",
+      "position_m": [
+        0.0,
+        -0.0728808045387268,
+        1.1917645931243896
+      ],
+      "rotation_quaternion_wxyz": [
+        0.7071067690849304,
+        0.7071067690849304,
+        3.0928502197641216e-25,
+        0.0
+      ]
+    },
+    "hand_grip_l": {
+      "object": "168h_human_anatomical_mannequin__anchor_hand_grip_l",
+      "bone": "hand_l",
+      "position_m": [
+        0.6462724804878235,
+        0.029999999329447746,
+        0.9691529273986816
+      ],
+      "rotation_quaternion_wxyz": [
+        0.27059805393218994,
+        -0.2705981135368347,
+        -0.6532814502716064,
+        -0.653281569480896
+      ]
+    },
+    "foot_contact_l": {
+      "object": "168h_human_anatomical_mannequin__anchor_foot_contact_l",
+      "bone": "foot_l",
+      "position_m": [
+        0.10466915369033813,
+        0.06999999284744263,
+        0.0
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        -5.587935447692871e-09,
+        -9.31322685637781e-10
+      ]
+    },
+    "heel_contact_l": {
+      "object": "168h_human_anatomical_mannequin__anchor_heel_contact_l",
+      "bone": "foot_l",
+      "position_m": [
+        0.10466915369033813,
+        -0.034999996423721313,
+        3.725290298461914e-09
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        -5.587935447692871e-09,
+        -9.31322685637781e-10
+      ]
+    },
+    "toe_contact_l": {
+      "object": "168h_human_anatomical_mannequin__anchor_toe_contact_l",
+      "bone": "toe_l",
+      "position_m": [
+        0.11463763564825058,
+        0.16999998688697815,
+        9.816512047677861e-10
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        1.3322676295501878e-15,
+        -1.1102230246251565e-16,
+        9.992007221626409e-16
+      ]
+    },
+    "hand_grip_r": {
+      "object": "168h_human_anatomical_mannequin__anchor_hand_grip_r",
+      "bone": "hand_r",
+      "position_m": [
+        -0.6462724804878235,
+        0.029999999329447746,
+        0.9691529273986816
+      ],
+      "rotation_quaternion_wxyz": [
+        0.27059805393218994,
+        -0.2705981135368347,
+        0.6532814502716064,
+        0.653281569480896
+      ]
+    },
+    "foot_contact_r": {
+      "object": "168h_human_anatomical_mannequin__anchor_foot_contact_r",
+      "bone": "foot_r",
+      "position_m": [
+        -0.10466915369033813,
+        0.06999999284744263,
+        0.0
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        5.587935447692871e-09,
+        9.31322685637781e-10
+      ]
+    },
+    "heel_contact_r": {
+      "object": "168h_human_anatomical_mannequin__anchor_heel_contact_r",
+      "bone": "foot_r",
+      "position_m": [
+        -0.10466915369033813,
+        -0.034999996423721313,
+        3.725290298461914e-09
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        5.587935447692871e-09,
+        9.31322685637781e-10
+      ]
+    },
+    "toe_contact_r": {
+      "object": "168h_human_anatomical_mannequin__anchor_toe_contact_r",
+      "bone": "toe_r",
+      "position_m": [
+        -0.11463763564825058,
+        0.16999998688697815,
+        9.816512047677861e-10
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        1.3322676295501878e-15,
+        1.1102230246251565e-16,
+        -9.992007221626409e-16
+      ]
+    }
+  },
+  "muscle_bindings": {
+    "muscle_pectoralis_major_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_pectoralis_major_l",
+      "primary_property": "highlight_primary__muscle_pectoralis_major_l",
+      "secondary_property": "highlight_secondary__muscle_pectoralis_major_l"
+    },
+    "muscle_pectoralis_major_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_pectoralis_major_r",
+      "primary_property": "highlight_primary__muscle_pectoralis_major_r",
+      "secondary_property": "highlight_secondary__muscle_pectoralis_major_r"
+    },
+    "muscle_deltoid_anterior_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_deltoid_anterior_l",
+      "primary_property": "highlight_primary__muscle_deltoid_anterior_l",
+      "secondary_property": "highlight_secondary__muscle_deltoid_anterior_l"
+    },
+    "muscle_deltoid_anterior_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_deltoid_anterior_r",
+      "primary_property": "highlight_primary__muscle_deltoid_anterior_r",
+      "secondary_property": "highlight_secondary__muscle_deltoid_anterior_r"
+    },
+    "muscle_deltoid_middle_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_deltoid_middle_l",
+      "primary_property": "highlight_primary__muscle_deltoid_middle_l",
+      "secondary_property": "highlight_secondary__muscle_deltoid_middle_l"
+    },
+    "muscle_deltoid_middle_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_deltoid_middle_r",
+      "primary_property": "highlight_primary__muscle_deltoid_middle_r",
+      "secondary_property": "highlight_secondary__muscle_deltoid_middle_r"
+    },
+    "muscle_deltoid_posterior_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_deltoid_posterior_l",
+      "primary_property": "highlight_primary__muscle_deltoid_posterior_l",
+      "secondary_property": "highlight_secondary__muscle_deltoid_posterior_l"
+    },
+    "muscle_deltoid_posterior_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_deltoid_posterior_r",
+      "primary_property": "highlight_primary__muscle_deltoid_posterior_r",
+      "secondary_property": "highlight_secondary__muscle_deltoid_posterior_r"
+    },
+    "muscle_latissimus_dorsi_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_latissimus_dorsi_l",
+      "primary_property": "highlight_primary__muscle_latissimus_dorsi_l",
+      "secondary_property": "highlight_secondary__muscle_latissimus_dorsi_l"
+    },
+    "muscle_latissimus_dorsi_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_latissimus_dorsi_r",
+      "primary_property": "highlight_primary__muscle_latissimus_dorsi_r",
+      "secondary_property": "highlight_secondary__muscle_latissimus_dorsi_r"
+    },
+    "muscle_trapezius_upper_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_trapezius_upper_l",
+      "primary_property": "highlight_primary__muscle_trapezius_upper_l",
+      "secondary_property": "highlight_secondary__muscle_trapezius_upper_l"
+    },
+    "muscle_trapezius_upper_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_trapezius_upper_r",
+      "primary_property": "highlight_primary__muscle_trapezius_upper_r",
+      "secondary_property": "highlight_secondary__muscle_trapezius_upper_r"
+    },
+    "muscle_trapezius_middle_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_trapezius_middle_l",
+      "primary_property": "highlight_primary__muscle_trapezius_middle_l",
+      "secondary_property": "highlight_secondary__muscle_trapezius_middle_l"
+    },
+    "muscle_trapezius_middle_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_trapezius_middle_r",
+      "primary_property": "highlight_primary__muscle_trapezius_middle_r",
+      "secondary_property": "highlight_secondary__muscle_trapezius_middle_r"
+    },
+    "muscle_trapezius_lower_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_trapezius_lower_l",
+      "primary_property": "highlight_primary__muscle_trapezius_lower_l",
+      "secondary_property": "highlight_secondary__muscle_trapezius_lower_l"
+    },
+    "muscle_trapezius_lower_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_trapezius_lower_r",
+      "primary_property": "highlight_primary__muscle_trapezius_lower_r",
+      "secondary_property": "highlight_secondary__muscle_trapezius_lower_r"
+    },
+    "muscle_rhomboid_major_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_rhomboid_major_l",
+      "primary_property": "highlight_primary__muscle_rhomboid_major_l",
+      "secondary_property": "highlight_secondary__muscle_rhomboid_major_l"
+    },
+    "muscle_rhomboid_major_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_rhomboid_major_r",
+      "primary_property": "highlight_primary__muscle_rhomboid_major_r",
+      "secondary_property": "highlight_secondary__muscle_rhomboid_major_r"
+    },
+    "muscle_teres_major_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_teres_major_l",
+      "primary_property": "highlight_primary__muscle_teres_major_l",
+      "secondary_property": "highlight_secondary__muscle_teres_major_l"
+    },
+    "muscle_teres_major_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_teres_major_r",
+      "primary_property": "highlight_primary__muscle_teres_major_r",
+      "secondary_property": "highlight_secondary__muscle_teres_major_r"
+    },
+    "muscle_biceps_brachii_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_biceps_brachii_l",
+      "primary_property": "highlight_primary__muscle_biceps_brachii_l",
+      "secondary_property": "highlight_secondary__muscle_biceps_brachii_l"
+    },
+    "muscle_biceps_brachii_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_biceps_brachii_r",
+      "primary_property": "highlight_primary__muscle_biceps_brachii_r",
+      "secondary_property": "highlight_secondary__muscle_biceps_brachii_r"
+    },
+    "muscle_brachialis_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_brachialis_l",
+      "primary_property": "highlight_primary__muscle_brachialis_l",
+      "secondary_property": "highlight_secondary__muscle_brachialis_l"
+    },
+    "muscle_brachialis_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_brachialis_r",
+      "primary_property": "highlight_primary__muscle_brachialis_r",
+      "secondary_property": "highlight_secondary__muscle_brachialis_r"
+    },
+    "muscle_brachioradialis_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_brachioradialis_l",
+      "primary_property": "highlight_primary__muscle_brachioradialis_l",
+      "secondary_property": "highlight_secondary__muscle_brachioradialis_l"
+    },
+    "muscle_brachioradialis_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_brachioradialis_r",
+      "primary_property": "highlight_primary__muscle_brachioradialis_r",
+      "secondary_property": "highlight_secondary__muscle_brachioradialis_r"
+    },
+    "muscle_triceps_brachii_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_triceps_brachii_l",
+      "primary_property": "highlight_primary__muscle_triceps_brachii_l",
+      "secondary_property": "highlight_secondary__muscle_triceps_brachii_l"
+    },
+    "muscle_triceps_brachii_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_triceps_brachii_r",
+      "primary_property": "highlight_primary__muscle_triceps_brachii_r",
+      "secondary_property": "highlight_secondary__muscle_triceps_brachii_r"
+    },
+    "muscle_flexor_carpi_radialis_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_flexor_carpi_radialis_l",
+      "primary_property": "highlight_primary__muscle_flexor_carpi_radialis_l",
+      "secondary_property": "highlight_secondary__muscle_flexor_carpi_radialis_l"
+    },
+    "muscle_flexor_carpi_radialis_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_flexor_carpi_radialis_r",
+      "primary_property": "highlight_primary__muscle_flexor_carpi_radialis_r",
+      "secondary_property": "highlight_secondary__muscle_flexor_carpi_radialis_r"
+    },
+    "muscle_flexor_carpi_ulnaris_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_flexor_carpi_ulnaris_l",
+      "primary_property": "highlight_primary__muscle_flexor_carpi_ulnaris_l",
+      "secondary_property": "highlight_secondary__muscle_flexor_carpi_ulnaris_l"
+    },
+    "muscle_flexor_carpi_ulnaris_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_flexor_carpi_ulnaris_r",
+      "primary_property": "highlight_primary__muscle_flexor_carpi_ulnaris_r",
+      "secondary_property": "highlight_secondary__muscle_flexor_carpi_ulnaris_r"
+    },
+    "muscle_extensor_carpi_radialis_longus_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_extensor_carpi_radialis_longus_l",
+      "primary_property": "highlight_primary__muscle_extensor_carpi_radialis_longus_l",
+      "secondary_property": "highlight_secondary__muscle_extensor_carpi_radialis_longus_l"
+    },
+    "muscle_extensor_carpi_radialis_longus_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_extensor_carpi_radialis_longus_r",
+      "primary_property": "highlight_primary__muscle_extensor_carpi_radialis_longus_r",
+      "secondary_property": "highlight_secondary__muscle_extensor_carpi_radialis_longus_r"
+    },
+    "muscle_extensor_carpi_ulnaris_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_extensor_carpi_ulnaris_l",
+      "primary_property": "highlight_primary__muscle_extensor_carpi_ulnaris_l",
+      "secondary_property": "highlight_secondary__muscle_extensor_carpi_ulnaris_l"
+    },
+    "muscle_extensor_carpi_ulnaris_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_extensor_carpi_ulnaris_r",
+      "primary_property": "highlight_primary__muscle_extensor_carpi_ulnaris_r",
+      "secondary_property": "highlight_secondary__muscle_extensor_carpi_ulnaris_r"
+    },
+    "muscle_rectus_abdominis_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_rectus_abdominis_l",
+      "primary_property": "highlight_primary__muscle_rectus_abdominis_l",
+      "secondary_property": "highlight_secondary__muscle_rectus_abdominis_l"
+    },
+    "muscle_rectus_abdominis_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_rectus_abdominis_r",
+      "primary_property": "highlight_primary__muscle_rectus_abdominis_r",
+      "secondary_property": "highlight_secondary__muscle_rectus_abdominis_r"
+    },
+    "muscle_external_oblique_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_external_oblique_l",
+      "primary_property": "highlight_primary__muscle_external_oblique_l",
+      "secondary_property": "highlight_secondary__muscle_external_oblique_l"
+    },
+    "muscle_external_oblique_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_external_oblique_r",
+      "primary_property": "highlight_primary__muscle_external_oblique_r",
+      "secondary_property": "highlight_secondary__muscle_external_oblique_r"
+    },
+    "muscle_erector_spinae_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_erector_spinae_l",
+      "primary_property": "highlight_primary__muscle_erector_spinae_l",
+      "secondary_property": "highlight_secondary__muscle_erector_spinae_l"
+    },
+    "muscle_erector_spinae_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_erector_spinae_r",
+      "primary_property": "highlight_primary__muscle_erector_spinae_r",
+      "secondary_property": "highlight_secondary__muscle_erector_spinae_r"
+    },
+    "muscle_gluteus_maximus_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gluteus_maximus_l",
+      "primary_property": "highlight_primary__muscle_gluteus_maximus_l",
+      "secondary_property": "highlight_secondary__muscle_gluteus_maximus_l"
+    },
+    "muscle_gluteus_maximus_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gluteus_maximus_r",
+      "primary_property": "highlight_primary__muscle_gluteus_maximus_r",
+      "secondary_property": "highlight_secondary__muscle_gluteus_maximus_r"
+    },
+    "muscle_gluteus_medius_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gluteus_medius_l",
+      "primary_property": "highlight_primary__muscle_gluteus_medius_l",
+      "secondary_property": "highlight_secondary__muscle_gluteus_medius_l"
+    },
+    "muscle_gluteus_medius_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gluteus_medius_r",
+      "primary_property": "highlight_primary__muscle_gluteus_medius_r",
+      "secondary_property": "highlight_secondary__muscle_gluteus_medius_r"
+    },
+    "muscle_gluteus_minimus_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gluteus_minimus_l",
+      "primary_property": "highlight_primary__muscle_gluteus_minimus_l",
+      "secondary_property": "highlight_secondary__muscle_gluteus_minimus_l"
+    },
+    "muscle_gluteus_minimus_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gluteus_minimus_r",
+      "primary_property": "highlight_primary__muscle_gluteus_minimus_r",
+      "secondary_property": "highlight_secondary__muscle_gluteus_minimus_r"
+    },
+    "muscle_iliopsoas_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_iliopsoas_l",
+      "primary_property": "highlight_primary__muscle_iliopsoas_l",
+      "secondary_property": "highlight_secondary__muscle_iliopsoas_l"
+    },
+    "muscle_iliopsoas_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_iliopsoas_r",
+      "primary_property": "highlight_primary__muscle_iliopsoas_r",
+      "secondary_property": "highlight_secondary__muscle_iliopsoas_r"
+    },
+    "muscle_adductor_longus_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_adductor_longus_l",
+      "primary_property": "highlight_primary__muscle_adductor_longus_l",
+      "secondary_property": "highlight_secondary__muscle_adductor_longus_l"
+    },
+    "muscle_adductor_longus_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_adductor_longus_r",
+      "primary_property": "highlight_primary__muscle_adductor_longus_r",
+      "secondary_property": "highlight_secondary__muscle_adductor_longus_r"
+    },
+    "muscle_adductor_magnus_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_adductor_magnus_l",
+      "primary_property": "highlight_primary__muscle_adductor_magnus_l",
+      "secondary_property": "highlight_secondary__muscle_adductor_magnus_l"
+    },
+    "muscle_adductor_magnus_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_adductor_magnus_r",
+      "primary_property": "highlight_primary__muscle_adductor_magnus_r",
+      "secondary_property": "highlight_secondary__muscle_adductor_magnus_r"
+    },
+    "muscle_rectus_femoris_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_rectus_femoris_l",
+      "primary_property": "highlight_primary__muscle_rectus_femoris_l",
+      "secondary_property": "highlight_secondary__muscle_rectus_femoris_l"
+    },
+    "muscle_rectus_femoris_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_rectus_femoris_r",
+      "primary_property": "highlight_primary__muscle_rectus_femoris_r",
+      "secondary_property": "highlight_secondary__muscle_rectus_femoris_r"
+    },
+    "muscle_vastus_lateralis_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_vastus_lateralis_l",
+      "primary_property": "highlight_primary__muscle_vastus_lateralis_l",
+      "secondary_property": "highlight_secondary__muscle_vastus_lateralis_l"
+    },
+    "muscle_vastus_lateralis_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_vastus_lateralis_r",
+      "primary_property": "highlight_primary__muscle_vastus_lateralis_r",
+      "secondary_property": "highlight_secondary__muscle_vastus_lateralis_r"
+    },
+    "muscle_vastus_medialis_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_vastus_medialis_l",
+      "primary_property": "highlight_primary__muscle_vastus_medialis_l",
+      "secondary_property": "highlight_secondary__muscle_vastus_medialis_l"
+    },
+    "muscle_vastus_medialis_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_vastus_medialis_r",
+      "primary_property": "highlight_primary__muscle_vastus_medialis_r",
+      "secondary_property": "highlight_secondary__muscle_vastus_medialis_r"
+    },
+    "muscle_vastus_intermedius_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_vastus_intermedius_l",
+      "vertex_group": "muscle_vastus_intermedius_l",
+      "primary_property": "highlight_primary__muscle_vastus_intermedius_l",
+      "secondary_property": "highlight_secondary__muscle_vastus_intermedius_l"
+    },
+    "muscle_vastus_intermedius_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_vastus_intermedius_r",
+      "primary_property": "highlight_primary__muscle_vastus_intermedius_r",
+      "secondary_property": "highlight_secondary__muscle_vastus_intermedius_r"
+    },
+    "muscle_biceps_femoris_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_biceps_femoris_l",
+      "primary_property": "highlight_primary__muscle_biceps_femoris_l",
+      "secondary_property": "highlight_secondary__muscle_biceps_femoris_l"
+    },
+    "muscle_biceps_femoris_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_biceps_femoris_r",
+      "primary_property": "highlight_primary__muscle_biceps_femoris_r",
+      "secondary_property": "highlight_secondary__muscle_biceps_femoris_r"
+    },
+    "muscle_semitendinosus_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_semitendinosus_l",
+      "primary_property": "highlight_primary__muscle_semitendinosus_l",
+      "secondary_property": "highlight_secondary__muscle_semitendinosus_l"
+    },
+    "muscle_semitendinosus_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_semitendinosus_r",
+      "primary_property": "highlight_primary__muscle_semitendinosus_r",
+      "secondary_property": "highlight_secondary__muscle_semitendinosus_r"
+    },
+    "muscle_semimembranosus_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_semimembranosus_l",
+      "primary_property": "highlight_primary__muscle_semimembranosus_l",
+      "secondary_property": "highlight_secondary__muscle_semimembranosus_l"
+    },
+    "muscle_semimembranosus_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_semimembranosus_r",
+      "primary_property": "highlight_primary__muscle_semimembranosus_r",
+      "secondary_property": "highlight_secondary__muscle_semimembranosus_r"
+    },
+    "muscle_gastrocnemius_medial_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gastrocnemius_medial_l",
+      "primary_property": "highlight_primary__muscle_gastrocnemius_medial_l",
+      "secondary_property": "highlight_secondary__muscle_gastrocnemius_medial_l"
+    },
+    "muscle_gastrocnemius_medial_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gastrocnemius_medial_r",
+      "primary_property": "highlight_primary__muscle_gastrocnemius_medial_r",
+      "secondary_property": "highlight_secondary__muscle_gastrocnemius_medial_r"
+    },
+    "muscle_gastrocnemius_lateral_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gastrocnemius_lateral_l",
+      "primary_property": "highlight_primary__muscle_gastrocnemius_lateral_l",
+      "secondary_property": "highlight_secondary__muscle_gastrocnemius_lateral_l"
+    },
+    "muscle_gastrocnemius_lateral_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_gastrocnemius_lateral_r",
+      "primary_property": "highlight_primary__muscle_gastrocnemius_lateral_r",
+      "secondary_property": "highlight_secondary__muscle_gastrocnemius_lateral_r"
+    },
+    "muscle_soleus_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_soleus_l",
+      "primary_property": "highlight_primary__muscle_soleus_l",
+      "secondary_property": "highlight_secondary__muscle_soleus_l"
+    },
+    "muscle_soleus_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_soleus_r",
+      "primary_property": "highlight_primary__muscle_soleus_r",
+      "secondary_property": "highlight_secondary__muscle_soleus_r"
+    },
+    "muscle_tibialis_anterior_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_tibialis_anterior_l",
+      "primary_property": "highlight_primary__muscle_tibialis_anterior_l",
+      "secondary_property": "highlight_secondary__muscle_tibialis_anterior_l"
+    },
+    "muscle_tibialis_anterior_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_tibialis_anterior_r",
+      "primary_property": "highlight_primary__muscle_tibialis_anterior_r",
+      "secondary_property": "highlight_secondary__muscle_tibialis_anterior_r"
+    },
+    "muscle_fibularis_longus_l": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_fibularis_longus_l",
+      "primary_property": "highlight_primary__muscle_fibularis_longus_l",
+      "secondary_property": "highlight_secondary__muscle_fibularis_longus_l"
+    },
+    "muscle_fibularis_longus_r": {
+      "object": "168h_human_anatomical_mannequin__mesh_body",
+      "vertex_group": "muscle_fibularis_longus_r",
+      "primary_property": "highlight_primary__muscle_fibularis_longus_r",
+      "secondary_property": "highlight_secondary__muscle_fibularis_longus_r"
+    }
+  },
+  "clothing_highlight": {
+    "mode": "none",
+    "implementation_reference": null
+  },
+  "joint_limits": {
+    "forearm_l": {
+      "min_radians": [
+        0.0,
+        -1.2000000476837158,
+        0
+      ],
+      "max_radians": [
+        2.619999885559082,
+        1.2000000476837158,
+        0
+      ],
+      "approval_reference": null
+    },
+    "shin_l": {
+      "min_radians": [
+        -2.619999885559082,
+        0.0,
+        0
+      ],
+      "max_radians": [
+        0.0,
+        0.0,
+        0
+      ],
+      "approval_reference": null
+    },
+    "forearm_r": {
+      "min_radians": [
+        0.0,
+        -1.2000000476837158,
+        0
+      ],
+      "max_radians": [
+        2.619999885559082,
+        1.2000000476837158,
+        0
+      ],
+      "approval_reference": null
+    },
+    "shin_r": {
+      "min_radians": [
+        -2.619999885559082,
+        0.0,
+        0
+      ],
+      "max_radians": [
+        0.0,
+        0.0,
+        0
+      ],
+      "approval_reference": null
+    }
+  },
+  "export_profiles": [],
+  "evidence": [],
+  "resolved_decisions": [],
+  "extensions": {},
+  "solver_bindings": {
+    "ik_hand_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "forearm_l"
+    },
+    "ik_foot_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "shin_l"
+    },
+    "ik_hand_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "forearm_r"
+    },
+    "ik_foot_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "shin_r"
+    }
+  },
+  "joint_limit_bindings": {
+    "forearm_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "forearm_l"
+    },
+    "shin_l": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "shin_l"
+    },
+    "forearm_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "forearm_r"
+    },
+    "shin_r": {
+      "object": "168h_rig_mannequin_v1__armature_solver",
+      "bone": "shin_r"
+    }
+  }
+}

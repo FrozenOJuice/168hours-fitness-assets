@@ -1,0 +1,8 @@
+{
+  "input_sha256": "f4bf3691d7e32d6243009dcdbefc745c957739f5b0585ffac7144e6d7c6b2795",
+  "source_sha256": "73f1d489192bd30c3d42f41edc3302b2e9881c3346d5e78b507985e897a08797",
+  "script_sha256": "82de23af072e50b5e2090b0dd33c3c9fc899a8a395459ad0f40d69ee9aa04e24",
+  "method": "Post-skin radial projection only for hand skin inside radius+0.35mm. Editable per-hand private cylinder frames orient shaft axis; radius control. No geometry deletion or equipment edits. No pose names in correction.",
+  "neutral": "Disabled; raw skin/rest profile/anchors unchanged",
+  "limits": "Soft-tissue contact adapter only; does not certify arbitrary equipment, gripping force or finger/finger collision. Record measured maximum correction, reject excessive displacement rather than hide bad anatomy."
+}

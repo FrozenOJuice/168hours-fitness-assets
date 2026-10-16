@@ -1,0 +1,237 @@
+{
+  "version": "0.2.1",
+  "source_sha256": "d2174637b45489ef144f64a7882b140694fcf1508c6d535fd6957222478af36e",
+  "baseline_sha256": "5e6de698bbc2e7ec9ff9273e6649d0d52a9145b214deca65b18e021d855a6358",
+  "validator_sha256": "3860d558bcfc4413f9b12222bc063b2b77798910f32483da010ab89645873b6e",
+  "criteria": "Asset-local diagnostic regressions, not shared approval or complete self-intersection/motion certification",
+  "summary": {
+    "PASS": 7,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "check": "preserved_topology",
+      "result": "PASS",
+      "actual": {
+        "vertices": 214050,
+        "quads": 214048
+      },
+      "expected": "Same214050vertices/214048quads and exact face indices"
+    },
+    {
+      "check": "neutral_correctives_zero",
+      "result": "PASS",
+      "actual": 1.3328003754215182e-07,
+      "expected": "Neutral raw/evaluated geometry residual<1um"
+    },
+    {
+      "check": "hand_geometry_preserved",
+      "result": "PASS",
+      "actual": 0.0,
+      "expected": "No hand/finger sculpt displacement>1um; retained measured grip fit"
+    },
+    {
+      "check": "anterior_torso_ledge_reduced",
+      "result": "PASS",
+      "actual": {
+        "before_max_25mm_band_step_m": 0.02224241942167282,
+        "after_max_25mm_band_step_m": 0.00479208305478096,
+        "before": [
+          [
+            1.025,
+            0.13145409524440765
+          ],
+          [
+            1.0499999999999998,
+            0.1289375126361847
+          ],
+          [
+            1.0749999999999997,
+            0.12860539555549622
+          ],
+          [
+            1.0999999999999996,
+            0.12979066371917725
+          ],
+          [
+            1.1249999999999996,
+            0.13140539824962616
+          ],
+          [
+            1.1499999999999995,
+            0.13545124232769012
+          ],
+          [
+            1.1749999999999994,
+            0.134128600358963
+          ],
+          [
+            1.1999999999999993,
+            0.11188618093729019
+          ],
+          [
+            1.2249999999999992,
+            0.0973532572388649
+          ],
+          [
+            1.2499999999999991,
+            0.09445355087518692
+          ],
+          [
+            1.274999999999999,
+            0.09565545246005058
+          ],
+          [
+            1.299999999999999,
+            0.09633860737085342
+          ],
+          [
+            1.3249999999999988,
+            0.096622996032238
+          ],
+          [
+            1.3499999999999988,
+            0.0959768295288086
+          ],
+          [
+            1.3749999999999987,
+            0.09427949041128159
+          ],
+          [
+            1.3999999999999986,
+            0.09121653437614441
+          ]
+        ],
+        "after": [
+          [
+            1.025,
+            0.11258082091808319
+          ],
+          [
+            1.0499999999999998,
+            0.10940050333738327
+          ],
+          [
+            1.0749999999999997,
+            0.10478829592466354
+          ],
+          [
+            1.0999999999999996,
+            0.100651316344738
+          ],
+          [
+            1.1249999999999996,
+            0.09593997895717621
+          ],
+          [
+            1.1499999999999995,
+            0.09483923017978668
+          ],
+          [
+            1.1749999999999994,
+            0.09416142851114273
+          ],
+          [
+            1.1999999999999993,
+            0.09633330255746841
+          ],
+          [
+            1.2249999999999992,
+            0.09879674762487411
+          ],
+          [
+            1.2499999999999991,
+            0.10232186317443848
+          ],
+          [
+            1.274999999999999,
+            0.10625000670552254
+          ],
+          [
+            1.299999999999999,
+            0.1110420897603035
+          ],
+          [
+            1.3249999999999988,
+            0.1152239441871643
+          ],
+          [
+            1.3499999999999988,
+            0.11536522209644318
+          ],
+          [
+            1.3749999999999987,
+            0.11215441673994064
+          ],
+          [
+            1.3999999999999986,
+            0.10829498618841171
+          ]
+        ]
+      },
+      "expected": "Local diagnostic: maximum adjacent anterior median step<9mm and less than half predecessor; visual profile also required"
+    },
+    {
+      "check": "overhead_lateral_expansion_reduced",
+      "result": "PASS",
+      "actual": {
+        "before_max_x_m": 0.28611239790916443,
+        "after_max_x_m": 0.23284363746643066
+      },
+      "expected": "Measured local lateral extremum reduced by at least15mm; not universal anthropometric acceptance"
+    },
+    {
+      "check": "shoulder_sweep_independent",
+      "result": "PASS",
+      "actual": [
+        {
+          "upper_arm_degrees": 0,
+          "modifier_inputs": [
+            0.0,
+            0.0
+          ],
+          "finite": true
+        },
+        {
+          "upper_arm_degrees": 30,
+          "modifier_inputs": [
+            0.0,
+            0.0
+          ],
+          "finite": true
+        },
+        {
+          "upper_arm_degrees": 60,
+          "modifier_inputs": [
+            0.3750000298023224,
+            0.0
+          ],
+          "finite": true
+        },
+        {
+          "upper_arm_degrees": 90,
+          "modifier_inputs": [
+            0.7500001192092896,
+            0.0
+          ],
+          "finite": true
+        },
+        {
+          "upper_arm_degrees": 110,
+          "modifier_inputs": [
+            1.0,
+            0.0
+          ],
+          "finite": true
+        }
+      ],
+      "expected": "Five left-arm elevations finite; right correction0; left full at110deg"
+    },
+    {
+      "check": "source_read_only",
+      "result": "PASS",
+      "actual": "d2174637b45489ef144f64a7882b140694fcf1508c6d535fd6957222478af36e",
+      "expected": "d2174637b45489ef144f64a7882b140694fcf1508c6d535fd6957222478af36e"
+    }
+  ]
+}

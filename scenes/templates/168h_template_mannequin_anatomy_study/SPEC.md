@@ -1,0 +1,9 @@
+# Anatomical foundation study0.3.0 — review
+
+Linked isolated character prototype, not an exercise scene.13saved states: neutral A-pose, neutral standing, arms raised, elbow flexion, seated, lying supine, hip flexion/knee bend, squat, bar grip, muscles neutral/flexed and Xray neutral/flexed.32PNGviews: two per state, three additional overhead shoulder views, one grip closeup, two old/new comparisons.
+
+Each state owns an independent hierarchy override/controls/drivers; skin mesh and canonical rest data remain linked. ObjectInfo in the hybrid skin group is remapped to the corresponding override helper, preventing contamination between poses. Only the grip test links approved equipment (unchanged20kgbarbell). Shaftcenter(0,.318,1.080)m, radius14mm, mirrored gripstationsX±.300m. This is a static contact diagnostic; palm clearance and thumb limitations remain documented in the character specification.
+
+Primary pose views use the asset-local flat illustrated preset,1600×1200. Comparison views use identical SINGLEgray(.47,.50,.52)/STUDIO evaluation,2000×1400, no shadows/AO/specular, old master viewer-left/new prototype viewer-right in the front view. Exact camera framing, image hashes and settings are in previews/render-settings.json; suite.json pins source/builder/pose helpers and scene mappings. Select the desired scene from Blender's scene menu and use its three-quarter camera. The file opens in neutral_a_pose. No new shared render standard.
+
+Rebuild with scripts/blender/build_mannequin_anatomy_study.py only after finalizing the isolated source, then run scripts/blender/validate_mannequin_v03.py. Preserve current master/equipment bytes. The character's REPORT.md/validation.md describe actual results and visible weaknesses; this study is not animation, export or clinical certification.

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-16",
+  "protected_files_checked": 257,
+  "protected_changes": [],
+  "source_and_fixture_pins": "PASS",
+  "render_paths_and_hashes": "PASS",
+  "standalone_render_count": 10,
+  "assembled_render_count": 3,
+  "registry_checks": 142,
+  "unit_tests": 47,
+  "character_checks": {
+    "PASS": 392,
+    "FAIL": 65,
+    "failures": "empty muscle masks only; not waived"
+  },
+  "diagnostic_checks": {
+    "PASS": 17,
+    "FAIL": 0
+  },
+  "status": "review",
+  "zip_paths": [
+    "exports/illustrations/mannequin_unassembled_renders.zip",
+    "exports/illustrations/mannequin_assembled_renders.zip"
+  ]
+}

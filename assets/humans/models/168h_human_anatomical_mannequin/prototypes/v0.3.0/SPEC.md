@@ -1,0 +1,56 @@
+# Anatomical mannequin0.3.0 — isolated review prototype
+
+User authorizes autonomous research, free foundation selection and implementation. This sibling prototype preserves all master sources and approved equipment; plan.json pins them. Governing documents: root AGENTS.md, docs/asset-conventions.md, docs/category-standards.md, docs/visual-style.md, docs/licensing.md, docs/asset-workflow.md, docs/contracts/human-v1 registries and the current mannequin specification/reports.
+
+## Prebuild specification
+
+Select Dan Ulrich's realistic body from official Blender Human Base Meshes1.4.1, with embedded CC0 metadata. Compare current MakeHuman-derived model and free realistic male/female candidates in neutral front/side/quarter before adaptation; retain reference renders and licensing evidence. No paid content or installed add-ons. Original geometric anatomy is preferable to adding analytic muscle bulges to the smooth predecessor. Keep recognizable superficial forms while simplifying sex-specific genital detail and physique emphasis for the neutral mannequin.
+
+Use1.75m provisional stature, meters,+Zup/+Yfront/+Xanatomical left, intentional floor root, identity object transforms, normalized skinning. Measure source joint landmarks, build a temporary source-pose bind, then adapt to the exact53-bone canonical V1 A-pose/roll/hierarchy and private FK/IK facade. Publish a separate rig-data prototype and measured rest profile. New profile is interface-compatible, not direct-pose compatible with old profiles. Preserve78muscle IDs/156root channels and11full-frame anchors; measure contacts against actual geometry. Prototype only a reviewed subset of masks and one deep-muscle cutaway; do not claim full coverage.
+
+Original Blender scan topology/multires details provide the anatomy; bone-heat weights are a starting point requiring pose review and manual refinement/correctives. Test neutral standing, A-pose, arm raise, seated, squat, elbow/hip/knee flexion and grip. Inspect proportions, fold shapes, orientation and intersections, and report failures honestly. Export/garments/variants/medical certification are not claimed. Use muted gray illustrated shading/native outlines, no cast shadows/AO/specular/photographic textures. All H01–H05 broader approvals remain open.
+
+Keep selected PNGs in previews; separate unassembled and test ZIPs in ignored exports. Document exact modifications, source hashes, camera settings, tests, current limitations and reproduction scripts before review.
+
+
+## Implemented review build — 2026-10-16
+
+Blender5.1.1, no add-ons. Published family ID/collection remains `168h_human_anatomical_mannequin`, isolated version0.3.0. Open the native in this directory, not the unchanged master one directory tree above. The root stays at `(0,0,0)` beneath pelvis, meter units, +Zup/+Yfront/+Xsubject-left, identity transforms. Canonical A-pose arms are45degrees. Dimensions from asset.json are the A-pose envelope, not body shoulder breadth. Evaluated height1.749999996m, floor0.000000004m. Stature and physique are provisional; no universal body standard has changed.
+
+One closed continuous body:169,362vertices/169,360faces, with genuine source surface forms rather than separate primitive muscles. Source10582vertex cage/three multires levels was evaluated at level1 (42342vertices), locally blended at pelvis, reposed, and subdivided once for finish. Final body is all quads. No supplier rig, photographic texture, separate visible joint primitives or downloaded executable code is imported. Embedded provenance and source-screening images are retained in references/.
+
+### Adaptation and deformation
+
+Measured landmarks create a temporary source-pose53bone heat bind. The selected mesh is frozen into canonical V1 A-pose/local rolls; its measured `mannequin_1750_anatomy@0.3.0` profile is pinned in rest-profile.json. The output skeleton and private solver link the isolated rig-data library. No additional weighted bones. The existing private FK/IK facade, constraints, IK targets/poles, snaps and156root highlight channels are retained. Finger landmarks were corrected individually after visual inspection found an initial one-digit/web assignment error; first trial is preserved under history/initial_hand_fit.
+
+Skin weights are normalized over canonical deform bones. Manual spatial ownership and edge-neighbor fairing remove torso leakage onto raised arms, improve clavicle/humerus transitions and blend thigh/shin/pelvis ownership. DQ skinning is blended locally with LBS shoulders using one hidden helper sharing the same mesh datablock. Neutral-bound length-weighted CorrectiveSmooth48iterations fairs shoulder/hip/knee zones. Pose-driven knee relaxation uses55Smooth iterations, zero factor at rest,0.8at90degrees,1.12cap. Posterior-only pre-skin soft-tissue compression uses35mmat90degrees,1.5factor cap,230mm longitudinal quartic falloff and90mm transverse falloff. It is zero in neutral. The broader field addresses actual posterior thigh/calf overlap in deep flexion; increasing amplitude in the original105mm band alone did not work. See refinement JSON records for before/after hashes and exact formulas.
+
+These are provisional artist-authored correctives, not biomechanical simulation. Current neutral anatomy is stronger than the predecessor, but high hip flexion still pinches the groin/lower abdomen and the axilla/latissimus contour is simplified overhead. Sparse test poses cannot establish animation-quality deformation over continuous motion. The output interface is compatible with V1; old actions require measured rest-profile retargeting and contact adjustment. No direct-action interchange or unseen body variant is validated.
+
+### Materials, highlights and X-ray
+
+Final asset-local Workbench FLAT/VERTEX preset uses muted cool gray, normal-driven illustrated tonal variation, dark native silhouette outlines, opaque white background, Standard/None color management,32AA. No lights, cast shadows, AO/cavity, specular or photographic textures. Exact palette/ramp/cameras are recorded in previews/render-settings.json. Native outlines follow object silhouettes; internal anatomy depends on real surface shape and tonal definition, not separately traced muscle borders. Numeric human style settings remain H04 review choices.
+
+All78canonical identifiers and156independent primary/secondary channels exist. Only14superficial bindings are nonempty: bilateral pectoralis major; deltoid anterior/middle/posterior; biceps; triceps; rectus femoris. Their analytic masks are provisional, not certified anatomical boundaries. One15th binding, left vastus intermedius, drives a separate skinned schematic deep-muscle volume.63regions remain empty and correctly FAIL contract coverage.
+
+Enable `xray_enabled` on the root and `highlight_primary__muscle_vastus_intermedius_l` to expose the volume through a localized cutaway on the character. The window follows the skin and the deep volume follows thigh_l; neutral/flexed demonstrations and a visibility ray test exist. This is an experimental cutaway rather than a full translucency shader, clinically accurate atlas, tendon attachment model or muscle-contraction simulation. Aperture edges are jagged and visible volume is partly occluded at some angles. No clothing/highlight-through-clothing claim.
+
+### Anchors and compatibility
+
+All11V1anchors preserve names, ownership and full frames, measured for this new profile: floor, pelvis, back support; bilateral grip, foot, heel and toe. Exact rest positions/quaternions are in asset.json/human-contract.json. Grip stations in the test are ±300mm along the approved28mm shaft; anchor residual~0.031mm. Selected finger surface samples have zero measured penetration and maximum closest-finger gap2.154mm. Palm samples remain~8.4mm away and thumb opposition is simplified. These are diagnostic samples, not a certified load-bearing grip or complete triangle/cylinder collision test.
+
+The linked study owns independent hierarchy overrides for13states; geometry/rest data are shared and per-pose GN helper/driver references remapped. The approved barbell is linked only for grip. No equipment/master/old fixture changes. Current master actual bytes are preserved even though its earlier metadata pin differs after an existing save; plan.json pins the actual input used in comparison. Archived initial trial library links are historical and need their original layout restored if reopened; authoritative delivery is this directory's native plus the new study.
+
+### Reference views and reproduction
+
+Seven unassembled views: front/back/side/three-quarter plus torso front/side/three-quarter. Study has32views over13states, shoulder/grip closeups and two old/new comparisons. Comparison deliberately uses the same SINGLEgray/STUDIO diagnostic shading on both bodies rather than their different normal ramps. All primary evidence remains in previews; separate ZIPs are generated under ignored exports/illustrations.
+
+From repository root, use `/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python-exit-code 1 --python SCRIPT`. Inspect current sources before rebuilding. The destructive isolated rebuild guard requires `-- --rebuild-isolated` and an archived prior candidate; never run it against master builders.
+
+Ordered build scripts in scripts/blender/: build_mannequin_v03.py → refine_mannequin_v03_bind.py → refine_mannequin_v03_joints.py → refine_mannequin_v03_deformation.py → finish_mannequin_v03_source.py → refine_mannequin_v03_xray.py → finalize_mannequin_v03_rig.py → refine_mannequin_v03_knee_contact.py → repack_mannequin_v03.py → fit_mannequin_v03_grip.py → render_mannequin_v03_neutral.py → build_mannequin_anatomy_study.py. Optional read-only candidate screening: render_mannequin_v03_candidates.py. Final bundle verification/package: scripts/pipeline/package_mannequin_v03_review.py. The fitter writes grip-fit.json before fixture build. The official1.4.1 native, source hashes, landmark tables, scripts and private rest profile make this reproducible without paid dependencies. Files are not promised byte-identical across rebuilds; no pixel-exact cross-machine render guarantee.
+
+Validate with scripts/blender/inspect_human_contract.py and scripts/pipeline/validate_human_contract.py (manifest/snapshot arguments), scripts/blender/validate_mannequin_v03.py and existing tests/test_human_contract.py. Review validation.md/REPORT.md and machine-readable results for precise scope and failures. Private constraints, GN helpers and corrective stack require an explicit bake/export adapter before animation export. No export/retarget/garment/replacement release evidence is supplied.
+
+## Approval state
+
+Review prototype only. User authorized autonomous foundation selection and implementation, not production acceptance or changes to shared V1 definitions/equipment. H01–H05 remain unresolved for release. Upstream assets are CC0; original project artwork/rig/corrective release terms remain unselected, separate from repository MIT code/docs. Source choice, muscle/physique appearance, provisional human palette and remaining deformation limitations need eventual owner/anatomy review. No production approval is inferred from numerical passes.

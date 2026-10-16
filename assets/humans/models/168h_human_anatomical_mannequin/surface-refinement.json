@@ -1,0 +1,16 @@
+{
+  "version": "0.2.1",
+  "status": "review",
+  "before_sha256": "5e6de698bbc2e7ec9ff9273e6649d0d52a9145b214deca65b18e021d855a6358",
+  "source_sha256": "d2174637b45489ef144f64a7882b140694fcf1508c6d535fd6957222478af36e",
+  "script_sha256": "03a988860df4b305e67eb83ca0af93c608bde557c210d6e5beec6f3702ee5b5d",
+  "vertices": 214050,
+  "faces": 214048,
+  "max_vertex_edit_m": 0.04447317822235951,
+  "shoulder_vertices_reweighted": 17477,
+  "shoulder_delta_max_m": 0.12116797268901248,
+  "chest_cause": "Raw-neutral vs evaluated maximum delta 0.000133mm: original hard-bound chest fairing leaves upper-abdominal ledge; underlying geometry refit continuously",
+  "corrective": "Asset-local postskin shoulder DQ-to-linear offset at overhead, driven independently per arm after30deg local elevation, fully at110deg; not a universal swing/twist corrective",
+  "rest_profile": "unchanged",
+  "canonical_interfaces": "unchanged"
+}

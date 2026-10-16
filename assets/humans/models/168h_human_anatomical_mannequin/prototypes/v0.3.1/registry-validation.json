@@ -1,0 +1,914 @@
+{
+  "contract": "168h_human_model@1.0.0",
+  "checks": [
+    {
+      "check": "contract_pin:docs/contracts/human-v1/contract.json",
+      "expected": "15b410b1b2b486236aef1babe7851aab6a2db87275e54211349dda1e87a7ab16",
+      "actual": "15b410b1b2b486236aef1babe7851aab6a2db87275e54211349dda1e87a7ab16",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:docs/contracts/human-v1/skeleton.json",
+      "expected": "c7a1335267257245e73c621b2359e193b97d08bcbc41765df421c1fa49156af4",
+      "actual": "c7a1335267257245e73c621b2359e193b97d08bcbc41765df421c1fa49156af4",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:docs/contracts/human-v1/muscles.json",
+      "expected": "c4804695ea5e46f10fcbf524514405ed4be271af2bb104a68edbdc06c9417400",
+      "actual": "c4804695ea5e46f10fcbf524514405ed4be271af2bb104a68edbdc06c9417400",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:schemas/exercise-muscles-v1.schema.json",
+      "expected": "021bbc287d103d8244fd8ef97bef754896b2adbba3fe1338815f6329c1536759",
+      "actual": "021bbc287d103d8244fd8ef97bef754896b2adbba3fe1338815f6329c1536759",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:schemas/human-character-v1.schema.json",
+      "expected": "4a1e3f5c361d0a02dda3378aab0e32a2be7ce12f54fa2999cc6f70880a0cb125",
+      "actual": "4a1e3f5c361d0a02dda3378aab0e32a2be7ce12f54fa2999cc6f70880a0cb125",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:schemas/human-export-v1.schema.json",
+      "expected": "41c54b90b85c79eccb24489bad0826926da1beca853d47cd9e10c3b917dfff7c",
+      "actual": "41c54b90b85c79eccb24489bad0826926da1beca853d47cd9e10c3b917dfff7c",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:schemas/human-muscle-catalog-v1.schema.json",
+      "expected": "c0c1c98ae99e00bb70dff514414f1ae17e4329b80d4dd0efee3f54f1b14f0571",
+      "actual": "c0c1c98ae99e00bb70dff514414f1ae17e4329b80d4dd0efee3f54f1b14f0571",
+      "result": "PASS"
+    },
+    {
+      "check": "contract_pin:schemas/human-snapshot-v1.schema.json",
+      "expected": "c5476302b1ff4147654f40a1c378ca38602a837190d8748715c6fbe50e40efc5",
+      "actual": "c5476302b1ff4147654f40a1c378ca38602a837190d8748715c6fbe50e40efc5",
+      "result": "PASS"
+    },
+    {
+      "check": "catalog_schema",
+      "expected": "valid catalog fields",
+      "actual": [],
+      "result": "PASS"
+    },
+    {
+      "check": "registry_bone_names",
+      "expected": "unique snake_case",
+      "actual": [
+        "root",
+        "pelvis",
+        "spine_01",
+        "spine_02",
+        "spine_03",
+        "neck",
+        "head",
+        "clavicle_l",
+        "upper_arm_l",
+        "forearm_l",
+        "hand_l",
+        "thumb_01_l",
+        "thumb_02_l",
+        "thumb_03_l",
+        "index_01_l",
+        "index_02_l",
+        "index_03_l",
+        "middle_01_l",
+        "middle_02_l",
+        "middle_03_l",
+        "ring_01_l",
+        "ring_02_l",
+        "ring_03_l",
+        "little_01_l",
+        "little_02_l",
+        "little_03_l",
+        "thigh_l",
+        "shin_l",
+        "foot_l",
+        "toe_l",
+        "clavicle_r",
+        "upper_arm_r",
+        "forearm_r",
+        "hand_r",
+        "thumb_01_r",
+        "thumb_02_r",
+        "thumb_03_r",
+        "index_01_r",
+        "index_02_r",
+        "index_03_r",
+        "middle_01_r",
+        "middle_02_r",
+        "middle_03_r",
+        "ring_01_r",
+        "ring_02_r",
+        "ring_03_r",
+        "little_01_r",
+        "little_02_r",
+        "little_03_r",
+        "thigh_r",
+        "shin_r",
+        "foot_r",
+        "toe_r"
+      ],
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:root",
+      "expected": "parent precedes child; only root unparented",
+      "actual": null,
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:pelvis",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "root",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:spine_01",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "pelvis",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:spine_02",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "spine_01",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:spine_03",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "spine_02",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:neck",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "spine_03",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:head",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "neck",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:clavicle_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "spine_03",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:upper_arm_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "clavicle_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:forearm_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "upper_arm_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:hand_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "forearm_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thumb_01_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thumb_02_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "thumb_01_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thumb_03_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "thumb_02_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:index_01_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:index_02_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "index_01_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:index_03_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "index_02_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:middle_01_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:middle_02_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "middle_01_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:middle_03_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "middle_02_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:ring_01_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:ring_02_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "ring_01_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:ring_03_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "ring_02_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:little_01_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:little_02_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "little_01_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:little_03_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "little_02_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thigh_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "pelvis",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:shin_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "thigh_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:foot_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "shin_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:toe_l",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "foot_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:clavicle_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "spine_03",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:upper_arm_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "clavicle_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:forearm_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "upper_arm_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:hand_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "forearm_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thumb_01_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thumb_02_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "thumb_01_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thumb_03_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "thumb_02_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:index_01_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:index_02_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "index_01_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:index_03_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "index_02_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:middle_01_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:middle_02_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "middle_01_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:middle_03_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "middle_02_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:ring_01_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:ring_02_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "ring_01_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:ring_03_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "ring_02_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:little_01_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "hand_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:little_02_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "little_01_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:little_03_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "little_02_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:thigh_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "pelvis",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:shin_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "thigh_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:foot_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "shin_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_parent:toe_r",
+      "expected": "parent precedes child; only root unparented",
+      "actual": "foot_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_ids",
+      "expected": "unique bilateral IDs",
+      "actual": 78,
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_pectoralis_major_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_pectoralis_major_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_pectoralis_major_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_pectoralis_major_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_deltoid_anterior_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_deltoid_anterior_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_deltoid_anterior_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_deltoid_anterior_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_deltoid_middle_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_deltoid_middle_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_deltoid_middle_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_deltoid_middle_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_deltoid_posterior_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_deltoid_posterior_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_deltoid_posterior_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_deltoid_posterior_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_latissimus_dorsi_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_latissimus_dorsi_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_latissimus_dorsi_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_latissimus_dorsi_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_trapezius_upper_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_trapezius_upper_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_trapezius_upper_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_trapezius_upper_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_trapezius_middle_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_trapezius_middle_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_trapezius_middle_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_trapezius_middle_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_trapezius_lower_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_trapezius_lower_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_trapezius_lower_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_trapezius_lower_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_rhomboid_major_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_rhomboid_major_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_rhomboid_major_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_rhomboid_major_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_teres_major_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_teres_major_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_teres_major_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_teres_major_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_biceps_brachii_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_biceps_brachii_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_biceps_brachii_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_biceps_brachii_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_brachialis_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_brachialis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_brachialis_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_brachialis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_brachioradialis_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_brachioradialis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_brachioradialis_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_brachioradialis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_triceps_brachii_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_triceps_brachii_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_triceps_brachii_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_triceps_brachii_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_flexor_carpi_radialis_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_flexor_carpi_radialis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_flexor_carpi_radialis_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_flexor_carpi_radialis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_flexor_carpi_ulnaris_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_flexor_carpi_ulnaris_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_flexor_carpi_ulnaris_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_flexor_carpi_ulnaris_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_extensor_carpi_radialis_longus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_extensor_carpi_radialis_longus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_extensor_carpi_radialis_longus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_extensor_carpi_radialis_longus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_extensor_carpi_ulnaris_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_extensor_carpi_ulnaris_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_extensor_carpi_ulnaris_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_extensor_carpi_ulnaris_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_rectus_abdominis_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_rectus_abdominis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_rectus_abdominis_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_rectus_abdominis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_external_oblique_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_external_oblique_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_external_oblique_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_external_oblique_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_erector_spinae_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_erector_spinae_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_erector_spinae_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_erector_spinae_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gluteus_maximus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gluteus_maximus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gluteus_maximus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gluteus_maximus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gluteus_medius_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gluteus_medius_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gluteus_medius_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gluteus_medius_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gluteus_minimus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gluteus_minimus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gluteus_minimus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gluteus_minimus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_iliopsoas_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_iliopsoas_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_iliopsoas_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_iliopsoas_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_adductor_longus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_adductor_longus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_adductor_longus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_adductor_longus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_adductor_magnus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_adductor_magnus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_adductor_magnus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_adductor_magnus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_rectus_femoris_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_rectus_femoris_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_rectus_femoris_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_rectus_femoris_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_vastus_lateralis_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_vastus_lateralis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_vastus_lateralis_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_vastus_lateralis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_vastus_medialis_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_vastus_medialis_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_vastus_medialis_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_vastus_medialis_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_vastus_intermedius_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_vastus_intermedius_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_vastus_intermedius_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_vastus_intermedius_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_biceps_femoris_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_biceps_femoris_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_biceps_femoris_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_biceps_femoris_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_semitendinosus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_semitendinosus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_semitendinosus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_semitendinosus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_semimembranosus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_semimembranosus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_semimembranosus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_semimembranosus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gastrocnemius_medial_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gastrocnemius_medial_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gastrocnemius_medial_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gastrocnemius_medial_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gastrocnemius_lateral_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gastrocnemius_lateral_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_gastrocnemius_lateral_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_gastrocnemius_lateral_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_soleus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_soleus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_soleus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_soleus_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_tibialis_anterior_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_tibialis_anterior_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_tibialis_anterior_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_tibialis_anterior_l",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_fibularis_longus_l",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_fibularis_longus_r",
+      "result": "PASS"
+    },
+    {
+      "check": "registry_muscle_pair:muscle_fibularis_longus_r",
+      "expected": "stable pair and anatomical classification",
+      "actual": "muscle_fibularis_longus_l",
+      "result": "PASS"
+    }
+  ],
+  "pass": 142,
+  "fail": 0,
+  "limits": "Structural data checks are not proof of anatomy, deformation, retargeting or rendering quality. Release evidence must be independently reviewed."
+}

@@ -1,0 +1,1683 @@
+{
+  "version": "0.3.1",
+  "source_sha256": "a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+  "previous_sha256": "86bad3bb57a1bd1789d2f759aa485fbd957e64d971998c463b757f9b5d7cb1a2",
+  "validator_sha256": "96acec2efbe6cbd7a7903028eb69d351ac0bec2921850bcf673729d11036bfa3",
+  "summary": {
+    "PASS": 90,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "check": "v030:shoulder_lateral_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_lateral_20:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 6.366185142936409e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_lateral_40:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.479592971562418e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_lateral_60:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 5.413760212347185e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_lateral_80:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 7.325493461829424e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_lateral_100:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 1.0000086951914011e-07,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_forward_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_forward_20:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.166120216864133e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_forward_40:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.058520236549512e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_forward_60:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.7951825987425636e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_forward_80:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 6.851159634058135e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_forward_100:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 7.579600869167535e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_diagonal_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_diagonal_20:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 5.22351731035986e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_diagonal_40:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.624251047190663e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_diagonal_60:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 2.705228282356975e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_diagonal_80:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.509423580211335e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_diagonal_100:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.871664216477001e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_twist_-60:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.6691524563439715e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_twist_-30:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.6691524563439715e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_twist_30:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.3464897630786083e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:shoulder_twist_60:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.3464897630786083e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_0_knee_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_0_knee_45:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_0_knee_90:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 6.781094391561382e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_0_knee_130:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_45_knee_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.0668494877271755e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_45_knee_45:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_45_knee_90:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.9822194541905276e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_45_knee_130:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 6.883136244306698e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_90_knee_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.773147029539903e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_90_knee_45:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.0668494877271755e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_90_knee_90:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_90_knee_130:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_110_knee_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.448698553982666e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_110_knee_45:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 5.077848971857257e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_110_knee_90:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 7.947291591481331e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:hip_110_knee_130:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v030:native_unchanged",
+      "result": "PASS",
+      "actual": "86bad3bb57a1bd1789d2f759aa485fbd957e64d971998c463b757f9b5d7cb1a2",
+      "expected": "Read-only validation"
+    },
+    {
+      "check": "v031:shoulder_lateral_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_lateral_20:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 6.366185142936409e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_lateral_40:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.479592971562418e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_lateral_60:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 5.413760212347185e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_lateral_80:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 7.325493461829424e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_lateral_100:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 1.0000086951914011e-07,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_forward_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_forward_20:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.166120216864133e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_forward_40:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.058520236549512e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_forward_60:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.7951825987425636e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_forward_80:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 6.851159634058135e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_forward_100:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 7.579600869167535e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_diagonal_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_diagonal_20:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 5.22351731035986e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_diagonal_40:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.624251047190663e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_diagonal_60:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 2.705228282356975e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_diagonal_80:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.509423580211335e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_diagonal_100:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.871664216477001e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_twist_-60:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.6691524563439715e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_twist_-30:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.6691524563439715e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_twist_30:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.3464897630786083e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:shoulder_twist_60:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.3464897630786083e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:hip_0_knee_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:hip_0_knee_45:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:hip_0_knee_90:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 6.781094391561382e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "hip_0_knee_90:knee_crossings",
+      "result": "PASS",
+      "actual": {
+        "l": 0,
+        "r": 0
+      },
+      "expected": "Zero disjoint thigh/calf triangle crossings outside40mm joint transition; retained earlier local criterion"
+    },
+    {
+      "check": "v031:hip_0_knee_130:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "hip_0_knee_130:knee_crossings",
+      "result": "PASS",
+      "actual": {
+        "l": 0,
+        "r": 0
+      },
+      "expected": "Zero disjoint thigh/calf triangle crossings outside40mm joint transition; retained earlier local criterion"
+    },
+    {
+      "check": "v031:hip_45_knee_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.0668494877271755e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:hip_45_knee_45:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:hip_45_knee_90:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.9822194541905276e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "hip_45_knee_90:knee_crossings",
+      "result": "PASS",
+      "actual": {
+        "l": 0,
+        "r": 0
+      },
+      "expected": "Zero disjoint thigh/calf triangle crossings outside40mm joint transition; retained earlier local criterion"
+    },
+    {
+      "check": "v031:hip_45_knee_130:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 6.883136244306698e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "hip_45_knee_130:knee_crossings",
+      "result": "PASS",
+      "actual": {
+        "l": 0,
+        "r": 0
+      },
+      "expected": "Zero disjoint thigh/calf triangle crossings outside40mm joint transition; retained earlier local criterion"
+    },
+    {
+      "check": "v031:hip_90_knee_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.773147029539903e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:hip_90_knee_45:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.0668494877271755e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:hip_90_knee_90:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "hip_90_knee_90:knee_crossings",
+      "result": "PASS",
+      "actual": {
+        "l": 0,
+        "r": 0
+      },
+      "expected": "Zero disjoint thigh/calf triangle crossings outside40mm joint transition; retained earlier local criterion"
+    },
+    {
+      "check": "v031:hip_90_knee_130:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "hip_90_knee_130:knee_crossings",
+      "result": "PASS",
+      "actual": {
+        "l": 0,
+        "r": 0
+      },
+      "expected": "Zero disjoint thigh/calf triangle crossings outside40mm joint transition; retained earlier local criterion"
+    },
+    {
+      "check": "v031:hip_110_knee_0:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 4.448698553982666e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:hip_110_knee_45:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 5.077848971857257e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "v031:hip_110_knee_90:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 7.947291591481331e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "hip_110_knee_90:knee_crossings",
+      "result": "PASS",
+      "actual": {
+        "l": 0,
+        "r": 0
+      },
+      "expected": "Zero disjoint thigh/calf triangle crossings outside40mm joint transition; retained earlier local criterion"
+    },
+    {
+      "check": "v031:hip_110_knee_130:finite_rigid_bones",
+      "result": "PASS",
+      "actual": {
+        "max_bone_length_error_m": 3.1286264273733266e-08,
+        "finite": true
+      },
+      "expected": "Finite full skin and canonical lengths preserved within10um"
+    },
+    {
+      "check": "hip_110_knee_130:knee_crossings",
+      "result": "PASS",
+      "actual": {
+        "l": 0,
+        "r": 0
+      },
+      "expected": "Zero disjoint thigh/calf triangle crossings outside40mm joint transition; retained earlier local criterion"
+    },
+    {
+      "check": "v031:native_unchanged",
+      "result": "PASS",
+      "actual": "a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+      "expected": "Read-only validation"
+    },
+    {
+      "check": "contact_correction_bound",
+      "result": "PASS",
+      "actual": 0.0048509162880769835,
+      "expected": "Private contact correction<=6mm; asset-local soft-tissue diagnostic, no contact force claim"
+    },
+    {
+      "check": "hand_triangle_cylinder_clearance",
+      "result": "PASS",
+      "actual": {
+        "triangles": 37666,
+        "min_radial_clearance_m": 0.00019726413121277583,
+        "max_penetration_m": 0
+      },
+      "expected": "Selected actual hand triangles clear infinite shaft cylinder within0.1mm; wrist transition, finger/finger collision and end caps excluded"
+    },
+    {
+      "check": "cylinder_radius_0.01",
+      "result": "PASS",
+      "actual": 0.00034989691288943997,
+      "expected": "Same general contact projection responds to radius without source geometry edits; finger-pose refit still needed"
+    },
+    {
+      "check": "cylinder_radius_0.016",
+      "result": "PASS",
+      "actual": 0.00034989991452239605,
+      "expected": "Same general contact projection responds to radius without source geometry edits; finger-pose refit still needed"
+    }
+  ],
+  "sampled_motion": {
+    "v030": [
+      {
+        "case": "shoulder_lateral_0",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0000196063111206,
+          1.0000324207542133,
+          1.0000803211530982
+        ]
+      },
+      {
+        "case": "shoulder_lateral_20",
+        "canonical_local_angle_deg": 20,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0069227427608967,
+          1.2269708120928768,
+          1.3939253524457622,
+          1.6566170911655214
+        ]
+      },
+      {
+        "case": "shoulder_lateral_40",
+        "canonical_local_angle_deg": 40,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0120016700801315,
+          1.46712593158827,
+          1.811821287547058,
+          2.343916614930698
+        ]
+      },
+      {
+        "case": "shoulder_lateral_60",
+        "canonical_local_angle_deg": 60,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0160258208857882,
+          1.6901799302133973,
+          2.1986607808425687,
+          2.9840891711115836
+        ]
+      },
+      {
+        "case": "shoulder_lateral_80",
+        "canonical_local_angle_deg": 80,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.01696331005726,
+          1.88792242604726,
+          2.535708785843519,
+          3.5350752488257844
+        ]
+      },
+      {
+        "case": "shoulder_lateral_100",
+        "canonical_local_angle_deg": 100,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0149134517917697,
+          2.045668763669857,
+          2.8229217459266214,
+          3.9695755353328006
+        ]
+      },
+      {
+        "case": "shoulder_forward_0",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0000196063111206,
+          1.0000324207542133,
+          1.0000803211530982
+        ]
+      },
+      {
+        "case": "shoulder_forward_20",
+        "canonical_local_angle_deg": 20,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0000027990108626,
+          1.1270164809458674,
+          1.2231112795663543,
+          1.4954857157866523
+        ]
+      },
+      {
+        "case": "shoulder_forward_40",
+        "canonical_local_angle_deg": 40,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.000018591108138,
+          1.2748848686039636,
+          1.4951203141809395,
+          2.114372527198393
+        ]
+      },
+      {
+        "case": "shoulder_forward_60",
+        "canonical_local_angle_deg": 60,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0000404882476872,
+          1.4449639459264692,
+          1.7962700693858265,
+          2.741195570363287
+        ]
+      },
+      {
+        "case": "shoulder_forward_80",
+        "canonical_local_angle_deg": 80,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0002502325908857,
+          1.6044098442129398,
+          2.0763124511247333,
+          3.3133361807610093
+        ]
+      },
+      {
+        "case": "shoulder_forward_100",
+        "canonical_local_angle_deg": 100,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0005178452690824,
+          1.7376337441039322,
+          2.317117821485957,
+          3.7922793747204833
+        ]
+      },
+      {
+        "case": "shoulder_diagonal_0",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0000196063111206,
+          1.0000324207542133,
+          1.0000803211530982
+        ]
+      },
+      {
+        "case": "shoulder_diagonal_20",
+        "canonical_local_angle_deg": 20,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0017844647976542,
+          1.203916787475239,
+          1.3755573147453313,
+          1.7250468622404391
+        ]
+      },
+      {
+        "case": "shoulder_diagonal_40",
+        "canonical_local_angle_deg": 40,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.004023734603543,
+          1.4351383479539628,
+          1.7707508492139652,
+          2.4697987474785044
+        ]
+      },
+      {
+        "case": "shoulder_diagonal_60",
+        "canonical_local_angle_deg": 60,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0057388162923542,
+          1.659027014945106,
+          2.150006243632481,
+          3.16038593873461
+        ]
+      },
+      {
+        "case": "shoulder_diagonal_80",
+        "canonical_local_angle_deg": 80,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0057682605455744,
+          1.8628030230375674,
+          2.50427384111124,
+          3.742341243241969
+        ]
+      },
+      {
+        "case": "shoulder_diagonal_100",
+        "canonical_local_angle_deg": 100,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0054148971976546,
+          2.0321595477884924,
+          2.7923041742610675,
+          4.174391660557646
+        ]
+      },
+      {
+        "case": "shoulder_twist_-60",
+        "canonical_local_angle_deg": -60,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0017538172842737,
+          1.4919705654517068,
+          1.8967350885548309,
+          2.8022074794597067
+        ]
+      },
+      {
+        "case": "shoulder_twist_-30",
+        "canonical_local_angle_deg": -30,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0023650773994686,
+          1.5659238655264982,
+          2.0017121706691903,
+          3.251234377624792
+        ]
+      },
+      {
+        "case": "shoulder_twist_30",
+        "canonical_local_angle_deg": 30,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0000092565994192,
+          1.763159026360245,
+          2.385874291528766,
+          3.6966428978336685
+        ]
+      },
+      {
+        "case": "shoulder_twist_60",
+        "canonical_local_angle_deg": 60,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          0.9999825234093359,
+          1.8394922372569067,
+          2.5509292013749203,
+          3.6234906027951554
+        ]
+      },
+      {
+        "case": "hip_0_knee_0",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.000003826999905,
+          1.000009050471324,
+          1.0000374895413375
+        ]
+      },
+      {
+        "case": "hip_0_knee_45",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 45,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0006459860337036,
+          1.06811390955,
+          1.2187787211122472
+        ]
+      },
+      {
+        "case": "hip_0_knee_90",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 90,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0020545784697314,
+          1.075045689111232,
+          1.29316889204887
+        ]
+      },
+      {
+        "case": "hip_0_knee_130",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 130,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0029808747924622,
+          1.0629225061133583,
+          1.2451564100761936
+        ]
+      },
+      {
+        "case": "hip_45_knee_0",
+        "canonical_local_angle_deg": 45,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0001191799034195,
+          1.2827286503280675,
+          1.6198627863401869
+        ]
+      },
+      {
+        "case": "hip_45_knee_45",
+        "canonical_local_angle_deg": 45,
+        "knee_flexion_deg": 45,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0173066197269458,
+          1.2831596689849116,
+          1.6198612658088964
+        ]
+      },
+      {
+        "case": "hip_45_knee_90",
+        "canonical_local_angle_deg": 45,
+        "knee_flexion_deg": 90,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0223286042306365,
+          1.2859521842881307,
+          1.6198587010605852
+        ]
+      },
+      {
+        "case": "hip_45_knee_130",
+        "canonical_local_angle_deg": 45,
+        "knee_flexion_deg": 130,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0244913258957378,
+          1.2837014240801194,
+          1.619855875850262
+        ]
+      },
+      {
+        "case": "hip_90_knee_0",
+        "canonical_local_angle_deg": 90,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.000194626337931,
+          1.5603023742321172,
+          2.2229486899892077
+        ]
+      },
+      {
+        "case": "hip_90_knee_45",
+        "canonical_local_angle_deg": 90,
+        "knee_flexion_deg": 45,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0291122732187836,
+          1.5605086422267465,
+          2.2229475325214128
+        ]
+      },
+      {
+        "case": "hip_90_knee_90",
+        "canonical_local_angle_deg": 90,
+        "knee_flexion_deg": 90,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.034302440880123,
+          1.5607296484831161,
+          2.2229472175288296
+        ]
+      },
+      {
+        "case": "hip_90_knee_130",
+        "canonical_local_angle_deg": 90,
+        "knee_flexion_deg": 130,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.033509456366875,
+          1.5609250273358373,
+          2.2229494310298534
+        ]
+      },
+      {
+        "case": "hip_110_knee_0",
+        "canonical_local_angle_deg": 110,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0052819198793177,
+          1.6698312932096593,
+          2.4793522933120795
+        ]
+      },
+      {
+        "case": "hip_110_knee_45",
+        "canonical_local_angle_deg": 110,
+        "knee_flexion_deg": 45,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0487377203300894,
+          1.6698256328332903,
+          2.479349465855884
+        ]
+      },
+      {
+        "case": "hip_110_knee_90",
+        "canonical_local_angle_deg": 110,
+        "knee_flexion_deg": 90,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0531329843246278,
+          1.66981839374043,
+          2.4793475165668104
+        ]
+      },
+      {
+        "case": "hip_110_knee_130",
+        "canonical_local_angle_deg": 110,
+        "knee_flexion_deg": 130,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0472805074752118,
+          1.6698221194473817,
+          2.4793448863676972
+        ]
+      }
+    ],
+    "v031": [
+      {
+        "case": "shoulder_lateral_0",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0000207562575474,
+          1.000034900738398,
+          1.0000840340863177
+        ]
+      },
+      {
+        "case": "shoulder_lateral_20",
+        "canonical_local_angle_deg": 20,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0106235464562479,
+          1.20047808361766,
+          1.366077832364221,
+          1.738332255182139
+        ]
+      },
+      {
+        "case": "shoulder_lateral_40",
+        "canonical_local_angle_deg": 40,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0195075110749081,
+          1.4069283980608533,
+          1.746048849913828,
+          2.5097651861062555
+        ]
+      },
+      {
+        "case": "shoulder_lateral_60",
+        "canonical_local_angle_deg": 60,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0263592408917164,
+          1.6126733250200826,
+          2.122849567749494,
+          3.2268835953791237
+        ]
+      },
+      {
+        "case": "shoulder_lateral_80",
+        "canonical_local_angle_deg": 80,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0290651030017008,
+          1.7953943944961768,
+          2.451824028467344,
+          3.8465593795800617
+        ]
+      },
+      {
+        "case": "shoulder_lateral_100",
+        "canonical_local_angle_deg": 100,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0278097602422562,
+          1.935833555069386,
+          2.719076628325365,
+          4.33938752328958
+        ]
+      },
+      {
+        "case": "shoulder_forward_0",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0000207562575474,
+          1.000034900738398,
+          1.0000840340863177
+        ]
+      },
+      {
+        "case": "shoulder_forward_20",
+        "canonical_local_angle_deg": 20,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.000013837961724,
+          1.1129545606066877,
+          1.200302643250052,
+          1.5526598277287191
+        ]
+      },
+      {
+        "case": "shoulder_forward_40",
+        "canonical_local_angle_deg": 40,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0003142264444167,
+          1.2453473302439866,
+          1.4408824364869282,
+          2.24138680318632
+        ]
+      },
+      {
+        "case": "shoulder_forward_60",
+        "canonical_local_angle_deg": 60,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0005780003792146,
+          1.3765927128724829,
+          1.7106236827250478,
+          2.936094150690393
+        ]
+      },
+      {
+        "case": "shoulder_forward_80",
+        "canonical_local_angle_deg": 80,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.002069589371725,
+          1.5077781967556514,
+          1.9717910194251564,
+          3.568644731534053
+        ]
+      },
+      {
+        "case": "shoulder_forward_100",
+        "canonical_local_angle_deg": 100,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.005482595479707,
+          1.6383745151440923,
+          2.2085837287951144,
+          4.098644183306162
+        ]
+      },
+      {
+        "case": "shoulder_diagonal_0",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0000207562575474,
+          1.000034900738398,
+          1.0000840340863177
+        ]
+      },
+      {
+        "case": "shoulder_diagonal_20",
+        "canonical_local_angle_deg": 20,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.005224567966791,
+          1.1847686321214401,
+          1.340101608806092,
+          1.806758476712953
+        ]
+      },
+      {
+        "case": "shoulder_diagonal_40",
+        "canonical_local_angle_deg": 40,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0108846326227563,
+          1.3855668205780736,
+          1.706738209616359,
+          2.6333180067009634
+        ]
+      },
+      {
+        "case": "shoulder_diagonal_60",
+        "canonical_local_angle_deg": 60,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0156698884051,
+          1.5784578969444263,
+          2.0786018423646047,
+          3.4006220426225764
+        ]
+      },
+      {
+        "case": "shoulder_diagonal_80",
+        "canonical_local_angle_deg": 80,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0161193807274018,
+          1.7478158236457664,
+          2.421365432185763,
+          4.050430316279637
+        ]
+      },
+      {
+        "case": "shoulder_diagonal_100",
+        "canonical_local_angle_deg": 100,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0128722873849991,
+          1.8872059510699035,
+          2.666102500955238,
+          4.537227326523898
+        ]
+      },
+      {
+        "case": "shoulder_twist_-60",
+        "canonical_local_angle_deg": -60,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0119045993748734,
+          1.438558170600468,
+          1.8023018414338337,
+          3.003322997963143
+        ]
+      },
+      {
+        "case": "shoulder_twist_-30",
+        "canonical_local_angle_deg": -30,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.008700714514476,
+          1.496424543266739,
+          1.9114339762442636,
+          3.483708427807697
+        ]
+      },
+      {
+        "case": "shoulder_twist_30",
+        "canonical_local_angle_deg": 30,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0000168161991303,
+          1.6490548572697759,
+          2.2716056253513055,
+          4.025093545932487
+        ]
+      },
+      {
+        "case": "shoulder_twist_60",
+        "canonical_local_angle_deg": 60,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          0.9993564690871243,
+          1.7059968974106616,
+          2.434365299443246,
+          3.986767118545152
+        ]
+      },
+      {
+        "case": "hip_0_knee_0",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.000003826999905,
+          1.000009050471324,
+          1.0000374895413375
+        ]
+      },
+      {
+        "case": "hip_0_knee_45",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 45,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0006459860337036,
+          1.06811390955,
+          1.2187787211122472
+        ]
+      },
+      {
+        "case": "hip_0_knee_90",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 90,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0020545784697314,
+          1.0750476923192458,
+          1.29316889204887
+        ],
+        "disjoint_thigh_calf_crossings": {
+          "l": 0,
+          "r": 0
+        }
+      },
+      {
+        "case": "hip_0_knee_130",
+        "canonical_local_angle_deg": 0,
+        "knee_flexion_deg": 130,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0029808747924622,
+          1.0629225061133583,
+          1.2451567950572673
+        ],
+        "disjoint_thigh_calf_crossings": {
+          "l": 0,
+          "r": 0
+        }
+      },
+      {
+        "case": "hip_45_knee_0",
+        "canonical_local_angle_deg": 45,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0245322630866411,
+          1.3288718425189527,
+          1.9872840681173145
+        ]
+      },
+      {
+        "case": "hip_45_knee_45",
+        "canonical_local_angle_deg": 45,
+        "knee_flexion_deg": 45,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0639378852036443,
+          1.328777580314531,
+          1.9984833786478016
+        ]
+      },
+      {
+        "case": "hip_45_knee_90",
+        "canonical_local_angle_deg": 45,
+        "knee_flexion_deg": 90,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0660616802692027,
+          1.331305429049682,
+          2.0104160499942654
+        ],
+        "disjoint_thigh_calf_crossings": {
+          "l": 0,
+          "r": 0
+        }
+      },
+      {
+        "case": "hip_45_knee_130",
+        "canonical_local_angle_deg": 45,
+        "knee_flexion_deg": 130,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0619320829823864,
+          1.3339122370082013,
+          2.021175804471189
+        ],
+        "disjoint_thigh_calf_crossings": {
+          "l": 0,
+          "r": 0
+        }
+      },
+      {
+        "case": "hip_90_knee_0",
+        "canonical_local_angle_deg": 90,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.0789639174044567,
+          1.55500410285994,
+          2.552334801207603
+        ]
+      },
+      {
+        "case": "hip_90_knee_45",
+        "canonical_local_angle_deg": 90,
+        "knee_flexion_deg": 45,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.1030978162799672,
+          1.5549365484805557,
+          2.5600709472624974
+        ]
+      },
+      {
+        "case": "hip_90_knee_90",
+        "canonical_local_angle_deg": 90,
+        "knee_flexion_deg": 90,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.1117933604516184,
+          1.5560111477292158,
+          2.56805465223695
+        ],
+        "disjoint_thigh_calf_crossings": {
+          "l": 0,
+          "r": 0
+        }
+      },
+      {
+        "case": "hip_90_knee_130",
+        "canonical_local_angle_deg": 90,
+        "knee_flexion_deg": 130,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.1082519405796658,
+          1.5596816148336783,
+          2.575340089891691
+        ],
+        "disjoint_thigh_calf_crossings": {
+          "l": 0,
+          "r": 0
+        }
+      },
+      {
+        "case": "hip_110_knee_0",
+        "canonical_local_angle_deg": 110,
+        "knee_flexion_deg": 0,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.1063828180462623,
+          1.653219407127347,
+          2.7895182898997444
+        ]
+      },
+      {
+        "case": "hip_110_knee_45",
+        "canonical_local_angle_deg": 110,
+        "knee_flexion_deg": 45,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.1233832489278601,
+          1.6532926032884132,
+          2.795026341489733
+        ]
+      },
+      {
+        "case": "hip_110_knee_90",
+        "canonical_local_angle_deg": 110,
+        "knee_flexion_deg": 90,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.1329888090659261,
+          1.6545377986740097,
+          2.800754668885942
+        ],
+        "disjoint_thigh_calf_crossings": {
+          "l": 0,
+          "r": 0
+        }
+      },
+      {
+        "case": "hip_110_knee_130",
+        "canonical_local_angle_deg": 110,
+        "knee_flexion_deg": 130,
+        "edge_stretch_ratio_p50_p95_p99_max": [
+          1.0,
+          1.1291134114213914,
+          1.6545616388755102,
+          2.8060659391973775
+        ],
+        "disjoint_thigh_calf_crossings": {
+          "l": 0,
+          "r": 0
+        }
+      }
+    ]
+  },
+  "scope": "38local-transform snapshots per body, not full anatomical motion or clinical ROM. Strain ratios are observations, not accepted quality thresholds. Explicit collision diagnostics remain failures if present."
+}

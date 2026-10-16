@@ -1,0 +1,468 @@
+{
+  "id": "168h_human_anatomical_mannequin",
+  "category": "human",
+  "version": "0.3.1",
+  "status": "review",
+  "source": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/168h_human_anatomical_mannequin.blend",
+  "specification": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/SPEC.md",
+  "validation_record": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/validation.md",
+  "provenance": {
+    "url": "https://download.blender.org/demo/asset-bundles/human-base-meshes/human-base-meshes-bundle-v1.4.1.zip",
+    "bundle_sha256": "811f43accbb31a88266d932f8f5563b2d13586fca0ba2693aad1f5fe582b3515",
+    "native_sha256": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137",
+    "selected_collection": "Body Male - Realistic",
+    "selected_object": "GEO-body_male_realistic",
+    "author": "Dan Ulrich",
+    "embedded_license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+    "commercial_asset_use": "CC0 permits modification, commercial use and redistribution; no upstream code imported. Project original artwork terms remain unselected.",
+    "reference_record": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/references/provenance.json"
+  },
+  "human_contract": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/human-contract.json",
+  "review": {
+    "status": "isolated_prototype",
+    "approval_reference": null,
+    "remaining_limitations": [
+      "Compressed forward shoulder/axilla and extreme local strain remain; no full scapular mechanics",
+      "Hip/groin creases remain; strain results mixed, not globally improved",
+      "Contact correction moves skin up to4.851mm; force/finger-finger/arbitrary-equipment collision not certified",
+      "Only15of78nonempty bindings; source-aligned contours remain artist annotations",
+      "Localized alpha works in Eevee experiment; deep volume remains schematic, sorting across arbitrary motion untested"
+    ]
+  },
+  "reference_renders": [
+    {
+      "view": "front",
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/previews/168h_human_anatomical_mannequin__front__neutral.png",
+      "position_m": [
+        0.0,
+        5.0,
+        0.8799999952316284
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -1.5099578831723193e-07,
+        3.141592502593994
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.3499999046325684,
+      "target_m": [
+        0,
+        0,
+        0.88
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "b8c00662eb84cef642cda3485608d3a15c84d0bcf7f7fdbe265a783c706ee48c",
+      "source_revision_or_digest": "sha256:a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+      "preset_revision": "e6601cce672d3b5ba8316155e79f2d170fb1af48abb94f9f659b181f09d086db"
+    },
+    {
+      "view": "back",
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/previews/168h_human_anatomical_mannequin__back__neutral.png",
+      "position_m": [
+        0.0,
+        -5.0,
+        0.8799999952316284
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.3499999046325684,
+      "target_m": [
+        0,
+        0,
+        0.88
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "6d489af4140def777fa2444ad96cac7de65c0de4eefb7c4d234079a78fd60787",
+      "source_revision_or_digest": "sha256:a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+      "preset_revision": "e6601cce672d3b5ba8316155e79f2d170fb1af48abb94f9f659b181f09d086db"
+    },
+    {
+      "view": "side",
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/previews/168h_human_anatomical_mannequin__side__neutral.png",
+      "position_m": [
+        5.0,
+        0.0,
+        0.8799999952316284
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.3499999046325684,
+      "target_m": [
+        0,
+        0,
+        0.88
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "4bfefb24b702acda2b6e251b5d0ccd69fc3cbc7da1e3ae41093093676ab96101",
+      "source_revision_or_digest": "sha256:a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+      "preset_revision": "e6601cce672d3b5ba8316155e79f2d170fb1af48abb94f9f659b181f09d086db"
+    },
+    {
+      "view": "three_quarter",
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/previews/168h_human_anatomical_mannequin__three_quarter__neutral.png",
+      "position_m": [
+        2.5999999046325684,
+        5.0,
+        1.649999976158142
+      ],
+      "rotation_euler_xyz_radians": [
+        1.4350059032440186,
+        2.670780263613892e-09,
+        2.6620733737945557
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.3499999046325684,
+      "target_m": [
+        0,
+        0,
+        0.88
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "71662abae13cc8e4542591d3fe25afe7a903604c9cce1ca32bd9943fbb090fb2",
+      "source_revision_or_digest": "sha256:a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+      "preset_revision": "e6601cce672d3b5ba8316155e79f2d170fb1af48abb94f9f659b181f09d086db"
+    },
+    {
+      "view": "torso_front",
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/previews/168h_human_anatomical_mannequin__torso_front__neutral.png",
+      "position_m": [
+        0.0,
+        5.0,
+        1.2699999809265137
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707964897155762,
+        -1.5099578831723193e-07,
+        3.141592502593994
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.8500000238418579,
+      "target_m": [
+        0,
+        0,
+        1.27
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "0ea784bc77eee63dd17d99d3ace602fa3617753dfba02754edc352d0fc891254",
+      "source_revision_or_digest": "sha256:a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+      "preset_revision": "e6601cce672d3b5ba8316155e79f2d170fb1af48abb94f9f659b181f09d086db"
+    },
+    {
+      "view": "torso_side",
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/previews/168h_human_anatomical_mannequin__torso_side__neutral.png",
+      "position_m": [
+        5.0,
+        0.0,
+        1.2699999809265137
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.8500000238418579,
+      "target_m": [
+        0,
+        0,
+        1.27
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "ed75d9d55237d6f06cdcf475b293c3e823ad81b9be99ff350d7b7127cfda7037",
+      "source_revision_or_digest": "sha256:a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+      "preset_revision": "e6601cce672d3b5ba8316155e79f2d170fb1af48abb94f9f659b181f09d086db"
+    },
+    {
+      "view": "torso_three_quarter",
+      "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/previews/168h_human_anatomical_mannequin__torso_three_quarter__neutral.png",
+      "position_m": [
+        2.5999999046325684,
+        5.0,
+        1.5499999523162842
+      ],
+      "rotation_euler_xyz_radians": [
+        1.5211529731750488,
+        1.1477487404931708e-08,
+        2.6620733737945557
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.8500000238418579,
+      "target_m": [
+        0,
+        0,
+        1.27
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "neutral_a_pose",
+      "frame": 1,
+      "sha256": "3bcb92ebe6d44834fcf972ed3f551fbf8c34ccef100279c3b00ab9bff68bcec6",
+      "source_revision_or_digest": "sha256:a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+      "preset_revision": "e6601cce672d3b5ba8316155e79f2d170fb1af48abb94f9f659b181f09d086db"
+    }
+  ],
+  "blender_version": "5.1.1",
+  "units": "meters",
+  "axes": {
+    "up": "+Z",
+    "forward": "+Y",
+    "subject_left": "+X"
+  },
+  "root": "168h_human_anatomical_mannequin__root",
+  "collection": "168h_human_anatomical_mannequin",
+  "source_revision_or_digest": "sha256:a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+  "dimensions_m": [
+    1.5073850750923157,
+    0.2924455553293228,
+    1.75
+  ],
+  "anchors": {
+    "floor_contact": {
+      "object": "168h_human_anatomical_mannequin__anchor_floor_contact",
+      "bone": null,
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "pelvis": {
+      "object": "168h_human_anatomical_mannequin__anchor_pelvis",
+      "bone": "pelvis",
+      "position_m": [
+        0.0,
+        0.0,
+        0.9624892473220825
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        2.93650568000247e-15,
+        -2.117582368135751e-22
+      ]
+    },
+    "back_support": {
+      "object": "168h_human_anatomical_mannequin__anchor_back_support",
+      "bone": "spine_02",
+      "position_m": [
+        0.0,
+        -0.0728808045387268,
+        1.1917645931243896
+      ],
+      "rotation_quaternion_wxyz": [
+        0.7071067690849304,
+        0.7071067690849304,
+        3.0928502197641216e-25,
+        0.0
+      ]
+    },
+    "hand_grip_l": {
+      "object": "168h_human_anatomical_mannequin__anchor_hand_grip_l",
+      "bone": "hand_l",
+      "position_m": [
+        0.6462724804878235,
+        0.029999999329447746,
+        0.9691529273986816
+      ],
+      "rotation_quaternion_wxyz": [
+        0.27059805393218994,
+        -0.2705981135368347,
+        -0.6532814502716064,
+        -0.653281569480896
+      ]
+    },
+    "foot_contact_l": {
+      "object": "168h_human_anatomical_mannequin__anchor_foot_contact_l",
+      "bone": "foot_l",
+      "position_m": [
+        0.10466915369033813,
+        0.06999999284744263,
+        0.0
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        -5.587935447692871e-09,
+        -9.31322685637781e-10
+      ]
+    },
+    "heel_contact_l": {
+      "object": "168h_human_anatomical_mannequin__anchor_heel_contact_l",
+      "bone": "foot_l",
+      "position_m": [
+        0.10466915369033813,
+        -0.034999996423721313,
+        3.725290298461914e-09
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        -5.587935447692871e-09,
+        -9.31322685637781e-10
+      ]
+    },
+    "toe_contact_l": {
+      "object": "168h_human_anatomical_mannequin__anchor_toe_contact_l",
+      "bone": "toe_l",
+      "position_m": [
+        0.11463763564825058,
+        0.16999998688697815,
+        9.816512047677861e-10
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        1.3322676295501878e-15,
+        -1.1102230246251565e-16,
+        9.992007221626409e-16
+      ]
+    },
+    "hand_grip_r": {
+      "object": "168h_human_anatomical_mannequin__anchor_hand_grip_r",
+      "bone": "hand_r",
+      "position_m": [
+        -0.6462724804878235,
+        0.029999999329447746,
+        0.9691529273986816
+      ],
+      "rotation_quaternion_wxyz": [
+        0.27059805393218994,
+        -0.2705981135368347,
+        0.6532814502716064,
+        0.653281569480896
+      ]
+    },
+    "foot_contact_r": {
+      "object": "168h_human_anatomical_mannequin__anchor_foot_contact_r",
+      "bone": "foot_r",
+      "position_m": [
+        -0.10466915369033813,
+        0.06999999284744263,
+        0.0
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        5.587935447692871e-09,
+        9.31322685637781e-10
+      ]
+    },
+    "heel_contact_r": {
+      "object": "168h_human_anatomical_mannequin__anchor_heel_contact_r",
+      "bone": "foot_r",
+      "position_m": [
+        -0.10466915369033813,
+        -0.034999996423721313,
+        3.725290298461914e-09
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        5.587935447692871e-09,
+        9.31322685637781e-10
+      ]
+    },
+    "toe_contact_r": {
+      "object": "168h_human_anatomical_mannequin__anchor_toe_contact_r",
+      "bone": "toe_r",
+      "position_m": [
+        -0.11463763564825058,
+        0.16999998688697815,
+        9.816512047677861e-10
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        1.3322676295501878e-15,
+        1.1102230246251565e-16,
+        -9.992007221626409e-16
+      ]
+    }
+  },
+  "dependencies": [
+    {
+      "id": "168h_rig_mannequin_v1",
+      "version": "0.3.0",
+      "source": "assets/humans/rigs/168h_rig_mannequin_v1/prototypes/v0.3.0/168h_rig_mannequin_v1.blend",
+      "sha256": "6a10a39c17367bbfb9d631d43a3292ee8bd7850d95257656efe47a1b1dda5f46"
+    }
+  ],
+  "muscle_coverage": {
+    "implemented_surface_ids": [
+      "muscle_pectoralis_major_l",
+      "muscle_pectoralis_major_r",
+      "muscle_deltoid_anterior_l",
+      "muscle_deltoid_anterior_r",
+      "muscle_deltoid_middle_l",
+      "muscle_deltoid_middle_r",
+      "muscle_deltoid_posterior_l",
+      "muscle_deltoid_posterior_r",
+      "muscle_biceps_brachii_l",
+      "muscle_biceps_brachii_r",
+      "muscle_triceps_brachii_l",
+      "muscle_triceps_brachii_r",
+      "muscle_rectus_femoris_l",
+      "muscle_rectus_femoris_r"
+    ],
+    "unimplemented_count": 63,
+    "status": "15 nonempty provisional bindings /78;14 surface and1 schematic deep;63 required regions FAIL; boundaries not anatomically approved",
+    "implemented_deep_ids": [
+      "muscle_vastus_intermedius_l"
+    ]
+  },
+  "render_settings": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/previews/render-settings.json",
+  "rest_profile": {
+    "id": "mannequin_1750_anatomy@0.3.0",
+    "path": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/rest-profile.json",
+    "sha256": "9d06d26065ddc915329877aed6a49563f599614fe67972e6a1d303b40b2dce0a"
+  },
+  "artwork_license": {
+    "upstream": "CC0-1.0",
+    "project_additions": "Unselected; separate from MIT code/documentation"
+  },
+  "foundation_selection": {
+    "status": "preferred_by_user",
+    "reference": "User continuation request selects the V0.3 CC0 foundation; no production or universal physique approval"
+  },
+  "prototype_capabilities": {
+    "private_contact_controls": [
+      "grip_contact_enabled",
+      "grip_radius_m",
+      "__control_grip_cylinder_l/r"
+    ],
+    "contact_method": "Scene-owned wrist offset plus post-skin radial soft-contact correction; private properties explicitly library-overridable",
+    "xray": "Continuous skin, local alpha1..0.16, emission/BLENDED Eevee; ordinary views retain Workbench",
+    "muscle_contours": "Pectoral fan/rectus femoris boundary polygons, bone-local deltoid/arm contours, connected-edge feathering"
+  }
+}

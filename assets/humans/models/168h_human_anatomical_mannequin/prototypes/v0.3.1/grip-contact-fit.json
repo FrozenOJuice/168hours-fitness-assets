@@ -1,0 +1,100 @@
+{
+  "shaft_radius_m": 0.014,
+  "shaft_center_m": [
+    0,
+    0.318,
+    1.08
+  ],
+  "wrist_contact_offset_m": [
+    0.0,
+    -0.0011172662977659649,
+    0.008278953953574027
+  ],
+  "digits": {
+    "index": [
+      0.8,
+      1.1,
+      0.5499999999999999
+    ],
+    "middle": [
+      0.5900000000000001,
+      1.8,
+      1.0499999999999998
+    ],
+    "ring": [
+      1.0899999999999999,
+      1.8,
+      0.435
+    ],
+    "little": [
+      -0.03999999999999998,
+      1.8,
+      1.24
+    ],
+    "thumb": [
+      -0.06,
+      -0.625,
+      0.13999999999999999,
+      1.2499999999999998,
+      1.57
+    ]
+  },
+  "thumb_order": [
+    "base_z",
+    "base_x",
+    "base_y_opposition",
+    "middle_x",
+    "distal_x"
+  ],
+  "method": "Measured actual palm contact, consumer-owned wrist offset, independent bounded digit fit; 3-axis thumb base and opposing index-distal target. Mirrored right, final actual Blender mesh checks required.",
+  "sampler_max_error_m": 5.946399343956559e-07,
+  "diagnostics": {
+    "index": {
+      "closest_gap_m": 1.1893593872030345e-05,
+      "tip_centroid_m": [
+        0.36683270104977006,
+        0.32778148833767917,
+        1.1000020713207883
+      ],
+      "objective": 0.0030771537973543466
+    },
+    "middle": {
+      "closest_gap_m": 0.00016448060749585207,
+      "tip_centroid_m": [
+        0.3471368324457513,
+        0.3185814621909151,
+        1.1019433823821463
+      ],
+      "objective": 0.0037732156555002868
+    },
+    "ring": {
+      "closest_gap_m": 2.5106861108877346e-05,
+      "tip_centroid_m": [
+        0.31397425589660305,
+        0.2895247213518387,
+        1.095105195382904
+      ],
+      "objective": 0.006993165166570005
+    },
+    "little": {
+      "closest_gap_m": -0.004476549511347528,
+      "tip_centroid_m": [
+        0.2735433221591312,
+        0.3218318693769867,
+        1.0975993430770434
+      ],
+      "objective": 0.011537856181632337
+    },
+    "thumb": {
+      "closest_gap_m": -0.0008626278542873764,
+      "tip_centroid_m": [
+        0.3790991324775573,
+        0.30978580903404596,
+        1.061776989246102
+      ],
+      "objective": 0.004536257534499015
+    }
+  },
+  "source_sha256": "a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+  "script_sha256": "c1773d57c86f09b0ac4f5bbd6b1b9deb764ea43ce3f876c266df3e6999fdecc9"
+}

@@ -1,0 +1,291 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:168hours:human-snapshot-v1",
+  "title": "human-snapshot-v1",
+  "type": "object",
+  "properties": {
+    "contract": {
+      "const": "168h_human_snapshot@1.0.0"
+    },
+    "source_sha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "units": {
+      "const": "METRIC"
+    },
+    "scale_length": {
+      "type": "number"
+    },
+    "root_matrix": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "minItems": 4,
+        "maxItems": 4
+      },
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "armature_matrix": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "minItems": 4,
+        "maxItems": 4
+      },
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "collection_offset_m": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "body_min_z_m": {
+      "type": "number"
+    },
+    "body_height_m": {
+      "type": "number"
+    },
+    "hierarchy_valid": {
+      "type": "boolean"
+    },
+    "transforms_normalized": {
+      "type": "boolean"
+    },
+    "skinning_valid": {
+      "type": "boolean"
+    },
+    "bones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "parent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "deform": {
+            "type": "boolean"
+          },
+          "connected": {
+            "type": "boolean"
+          },
+          "head_m": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "tail_m": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "z_axis": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "pose_identity": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "name",
+          "parent",
+          "deform",
+          "connected",
+          "head_m",
+          "tail_m",
+          "z_axis",
+          "pose_identity"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "anchors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "object": {
+            "type": "string",
+            "minLength": 1
+          },
+          "bone": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "position_m": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "rotation_quaternion_wxyz": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "exists": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "key",
+          "object",
+          "bone",
+          "position_m",
+          "rotation_quaternion_wxyz",
+          "exists"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "resolved_controls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "muscles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "object": {
+            "type": "string",
+            "minLength": 1
+          },
+          "vertex_group": {
+            "type": "string",
+            "minLength": 1
+          },
+          "positive_vertices": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "weight_min": {
+            "type": "number"
+          },
+          "weight_max": {
+            "type": "number"
+          },
+          "primary_exists": {
+            "type": "boolean"
+          },
+          "secondary_exists": {
+            "type": "boolean"
+          },
+          "primary": {
+            "type": "number"
+          },
+          "secondary": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "object",
+          "vertex_group",
+          "positive_vertices",
+          "weight_min",
+          "weight_max",
+          "primary_exists",
+          "secondary_exists",
+          "primary",
+          "secondary"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "clothing_present": {
+      "type": "boolean"
+    },
+    "rest_profile_sha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "observer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ik_valid": {
+      "type": "boolean"
+    },
+    "joint_constraints_valid": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "contract",
+    "source_sha256",
+    "units",
+    "scale_length",
+    "root_matrix",
+    "armature_matrix",
+    "collection_offset_m",
+    "body_min_z_m",
+    "body_height_m",
+    "hierarchy_valid",
+    "transforms_normalized",
+    "skinning_valid",
+    "bones",
+    "anchors",
+    "resolved_controls",
+    "muscles",
+    "clothing_present",
+    "rest_profile_sha256",
+    "observer",
+    "ik_valid",
+    "joint_constraints_valid"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,51 @@
+{
+  "source_sha256": "d2174637b45489ef144f64a7882b140694fcf1508c6d535fd6957222478af36e",
+  "suite_sha256": "6f52320c81cafbd63d3a83f1c6fdf18778cb0c93aba52f222301e0a2305730ef",
+  "protected_files": 213,
+  "protected_changed": [],
+  "render_counts": {
+    "neutral_and_torso": 7,
+    "core_tests": 18
+  },
+  "source_status": "review",
+  "zip_contents_verified": true,
+  "validation": {
+    "foundation": {
+      "PASS": 60,
+      "FAIL": 0
+    },
+    "surface_refinement": {
+      "PASS": 7,
+      "FAIL": 0
+    },
+    "unit_tests": {
+      "PASS": 47,
+      "FAIL": 0
+    },
+    "registry": {
+      "PASS": 142,
+      "FAIL": 0
+    },
+    "human_contract": {
+      "PASS": 392,
+      "FAIL": 65,
+      "failures": "Unimplemented muscle bindings only"
+    }
+  },
+  "report_sha256": {
+    "foundation-validation.json": "6dce9cd9d3903fec5a7b65927f9333203639585e44ffe3ec355ed21fbaa56781",
+    "surface-refinement-validation.json": "3df773689f65c4f55e15ad3fd28d4ec0f7bc5c6d001014b5e6ad01622dfdb4ed",
+    "observed.json": "06cb43023a7ee413596177a72ab74ad0b2007f8fe4ae50a714da57ad0f008f76",
+    "contract-validation.json": "0ca2a447135e726f8f6a93fb47779206a6612ca2acfbe9913fa5c0849915f029"
+  },
+  "deliveries": {
+    "mannequin_unassembled_renders.zip": {
+      "path": "exports/illustrations/mannequin_unassembled_renders.zip",
+      "sha256": "8db23105f54469b7a19a93c2cff8d9aabcfc6d60513a53322a5d0510975cd165"
+    },
+    "mannequin_core_pose_renders.zip": {
+      "path": "exports/illustrations/mannequin_core_pose_renders.zip",
+      "sha256": "85fae9c5366600c54494915089141f2ea30ad4ff8156dddd53bbf9cf7c977cf3"
+    }
+  }
+}

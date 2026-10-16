@@ -1,0 +1,16 @@
+{
+  "id": "168h_rig_mannequin_v1",
+  "category": "rig",
+  "version": "0.2.0",
+  "status": "review",
+  "source": "assets/humans/rigs/168h_rig_mannequin_v1/168h_rig_mannequin_v1__foundation_v02.blend",
+  "source_revision_or_digest": "sha256:b7f480bfbe86e6b08d76421737334fc8c96748df4b78020b39a9b80b489c4283",
+  "skeleton": "168h_human_skeleton@1.0.0",
+  "rest_profile_sha256": "a2043f9a4c3f9bd88cc4ecc03e6e3a9c2924a5caa26b309d3f90091b9fc9618f",
+  "implementation": "V1 canonical rest profile adapted from CC0 graphical joint data; separate source file preserves0.1.0",
+  "license": null,
+  "upstream_license": "CC0-1.0",
+  "units": "meters",
+  "specification": "assets/humans/rigs/168h_rig_mannequin_v1/SPEC.md",
+  "validation_record": "assets/humans/models/168h_human_anatomical_mannequin/validation.md"
+}

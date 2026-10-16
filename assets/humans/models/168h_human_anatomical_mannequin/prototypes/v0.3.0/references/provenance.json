@@ -1,0 +1,11 @@
+{
+  "url": "https://download.blender.org/demo/asset-bundles/human-base-meshes/human-base-meshes-bundle-v1.4.1.zip",
+  "bundle_sha256": "811f43accbb31a88266d932f8f5563b2d13586fca0ba2693aad1f5fe582b3515",
+  "native_sha256": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137",
+  "selected_collection": "Body Male - Realistic",
+  "selected_object": "GEO-body_male_realistic",
+  "author": "Dan Ulrich",
+  "embedded_license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+  "commercial_asset_use": "CC0 permits modification, commercial use and redistribution; no upstream code imported. Project original artwork terms remain unselected."
+}

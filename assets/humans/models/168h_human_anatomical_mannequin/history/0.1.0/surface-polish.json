@@ -1,0 +1,8 @@
+{
+  "before_source_sha256": "2a1b5d180166edf187bd99d27ebc5ac0e01b7e70dcfca0af8df148d81fc5ddd6",
+  "after_source_sha256": "9e87c4f6160746820ed94c240583c4e3458bb1b6550a6cea888dc52ff0f60828",
+  "geometry": "same vertex count/topology;45 localized fairing iterations, softened hip outline, subtle pectoral/sternum/abdominal/nose/orbital displacement",
+  "rig_skeleton_anchors": "unchanged",
+  "illustration_ramp": "normal dot(0.28,0.72,0.62)*0.42+0.50; gray endpoints(.12,.145,.16)/(.63,.67,.69)",
+  "script_sha256": "be2890f3ded61c06c82d64b1030f8283385f8e5aa45e7bd916008ebafa8d2da5"
+}

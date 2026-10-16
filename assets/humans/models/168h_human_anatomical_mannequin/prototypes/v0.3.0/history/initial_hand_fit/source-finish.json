@@ -1,0 +1,7 @@
+{
+  "before_sha256": "ffd6a00c34b194efb27434aec7da9db8f700d13c36084665dc45f5da8e3b6cfb",
+  "source_sha256": "fe82f1d86ce6921c4ae6170329e0fb72b9028a9e07524ea29b87fee9be02916b",
+  "script_sha256": "c72eda17a7889daf65387b5fe9c2b26150b74d7c7649ca1fff473b69dadffc26",
+  "knee_relaxation": "55iterations Smooth, posterior knee correction already in stack; factor0neutral,0.8at90deg, capped1.12; actual geometry, not shading",
+  "rest_profile_sha256": "a509e7f0d6fe5eeb0c41f41348b013cc6bffa96cad7e15843867a883aeca2ca4"
+}

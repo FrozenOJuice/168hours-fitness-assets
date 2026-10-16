@@ -1,0 +1,98 @@
+{
+  "engine": "BLENDER_WORKBENCH",
+  "Blender": "5.1.1",
+  "light": "FLAT",
+  "color_type": "VERTEX; equipment material fallback",
+  "shadows": false,
+  "AO_cavity": false,
+  "specular": false,
+  "outline": "native dark object outlines; native pixel width",
+  "background": "opaque white",
+  "color_management": "Standard/None/exposure0/gamma1",
+  "resolution": [
+    1600,
+    1000
+  ],
+  "AA": 32,
+  "frame": 1,
+  "source_sha256": "31efc9783646a9821d50ef2810c0136d457105d60732d03d2ac4de0c26965cf9",
+  "builder_sha256": "acb47567edebffd7563db01573834c8e8f53b77718ae6fade1a33ce88dfd194e",
+  "views": {
+    "assembled_three_quarter": {
+      "path": "scenes/templates/168h_template_mannequin_bench_press/previews/168h_template_mannequin_bench_press__assembled_three_quarter__bench_press_review.png",
+      "position_m": [
+        2.799999952316284,
+        3.200000047683716,
+        2.299999952316284
+      ],
+      "rotation_euler_xyz_radians": [
+        1.1997414827346802,
+        2.722497782770006e-08,
+        2.4696295261383057
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.799999952316284,
+      "target_m": [
+        0,
+        -0.32,
+        0.55
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "preliminary bench press",
+      "frame": 1,
+      "sha256": "8681872a8af0250f94301e575dfe95992b42ceaf928fb0aaf1141157377d27dc"
+    },
+    "assembled_side": {
+      "path": "scenes/templates/168h_template_mannequin_bench_press/previews/168h_template_mannequin_bench_press__assembled_side__bench_press_review.png",
+      "position_m": [
+        3.0,
+        0.0,
+        1.100000023841858
+      ],
+      "rotation_euler_xyz_radians": [
+        1.390882968902588,
+        -4.515626539358664e-09,
+        1.6967922449111938
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 2.6500000953674316,
+      "target_m": [
+        0,
+        -0.38,
+        0.55
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "preliminary bench press",
+      "frame": 1,
+      "sha256": "703885a1999964138fd34a6f08d3569807e905d093e70421fe6800f5ba023830"
+    },
+    "grip_detail": {
+      "path": "scenes/templates/168h_template_mannequin_bench_press/previews/168h_template_mannequin_bench_press__grip_detail__bench_press_review.png",
+      "position_m": [
+        -0.75,
+        1.2000000476837158,
+        1.600000023841858
+      ],
+      "rotation_euler_xyz_radians": [
+        1.1175552606582642,
+        -8.321869415794936e-08,
+        -2.8293204307556152
+      ],
+      "projection": "ORTHO",
+      "ortho_scale_m": 0.4300000071525574,
+      "target_m": [
+        -0.34,
+        -0.07,
+        0.95
+      ],
+      "clip_start_m": 0.0010000000474974513,
+      "clip_end_m": 100.0,
+      "configuration": "preliminary bench press",
+      "frame": 1,
+      "sha256": "068652bd4ee8eb33d9611d37b70e426909b159e77479dd6eed1450bd437e8d2d"
+    }
+  },
+  "scope": "asset-local provisional, not shared preset approval"
+}

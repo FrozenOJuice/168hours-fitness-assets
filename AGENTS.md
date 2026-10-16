@@ -1,5 +1,35 @@
 # Instructions for 168Hours Fitness asset work
 
+## Mandatory human foundation — A15 / Human Model Contract V1
+
+Before future character, rig, muscle-highlight, retargeting or human export work,
+read [Human Model Contract V1](docs/contracts/human-v1/README.md) and its JSON
+registries. The user's2026-10-15 request establishes this official foundation;
+it does not authorize creating human models, animations or exercise scenes.
+Use the exact53-bone output skeleton, individual fingers,45-degree A-pose,
+explicit local roll, meter axes and intentional floor root under pelvis. Keep
+private rig controls separate; expose the required FK/IK facade and11 full-frame
+anchors without changing existing equipment frames. Different proportions need
+measured rest profiles and tested contact/retarget adapters, not assumed action
+compatibility. No universal physique or medical joint limits are selected.
+
+Expose all78 core muscle-region IDs through independent root primary/secondary
+properties and body masks. Prove highlighting through every supported garment;
+mask existence alone does not certify anatomy or visible shading. Extend the
+existing SPEC/manifest/checklist with templates/human/; keep human-contract.json
+beside future assets and reference it from asset.json. Run the human data/schema
+validator and unit tests; inspect authorized saved characters read-only with
+scripts/blender/inspect_human_contract.py. Production --release requires pinned
+manual anatomy/cloth/IK/retarget/replacement/render/export evidence and resolved
+H01–H05 approvals. Synthetic data cannot certify a real rig. No character may be
+ready with unperformed required gates or undocumented compatibility assumptions.
+
+Record unselected body/profile, constraint, anatomy, palette/renderer and export
+choices in docs/decisions.md before implementing them. Core bone/anchor/muscle
+semantics or rest-axis changes require major-version migration approval. Preserve
+artwork licensing separation and approved equipment standards/assets. A15's
+foundation supplies no .blend or render ZIP because it creates no human artwork.
+
 These requirements apply throughout this repository. Extend the existing system rather than creating competing guides. This repository contains standards, templates, and an approved first plate visual reference with separate production-release status; do not create or modify models unless the user's active task authorizes that work.
 
 ## Read before working

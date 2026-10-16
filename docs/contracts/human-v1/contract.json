@@ -1,0 +1,32 @@
+{
+  "id": "168h_human_model",
+  "version": "1.0.0",
+  "status": "established_interface",
+  "date": "2026-10-15",
+  "authorization": "User: Establish the official168Hours Fitness Human Model Contract V1; foundation only, no human models/animations/exercise scenes",
+  "decision": "A15",
+  "skeleton": "skeleton.json",
+  "muscles": "muscles.json",
+  "schemas": [
+    "schemas/human-character-v1.schema.json",
+    "schemas/human-snapshot-v1.schema.json",
+    "schemas/exercise-muscles-v1.schema.json",
+    "schemas/human-muscle-catalog-v1.schema.json",
+    "schemas/human-export-v1.schema.json"
+  ],
+  "scope": "Logical interfaces and validation requirements; runtime rigs, anthropometric profiles, anatomy art, constraints and export implementations require separate evidence/approval",
+  "open_decisions": [
+    "H01",
+    "H02",
+    "H03",
+    "H04",
+    "H05"
+  ],
+  "tolerances": {
+    "position_m": 1e-06,
+    "frame_axis": 1e-05,
+    "angle_degrees": 0.1,
+    "floor_m": 1e-05,
+    "weight_sum": 0.0001
+  }
+}

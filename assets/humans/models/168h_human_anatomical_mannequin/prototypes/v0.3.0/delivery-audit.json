@@ -1,0 +1,311 @@
+{
+  "date": "2026-10-16",
+  "status": "review",
+  "source_sha256": "86bad3bb57a1bd1789d2f759aa485fbd957e64d971998c463b757f9b5d7cb1a2",
+  "fixture_sha256": "15a21d8ee932b7cfe6a6770a5317a9b0c96236249beeb437db0acf9c72a8dc7f",
+  "rig_sha256": "6a10a39c17367bbfb9d631d43a3292ee8bd7850d95257656efe47a1b1dda5f46",
+  "protected_files_unchanged": 385,
+  "source_and_render_pins": "PASS",
+  "authoritative_reference_png_count": 39,
+  "additional_research_screening_png_count": 6,
+  "images": {
+    "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__front__neutral.png": {
+      "sha256": "33a5cce81d52ac7b2e7cd69d88c117c2ae75251aca471e7a7b0a8935eb5f0855",
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__back__neutral.png": {
+      "sha256": "c164916cc7d8db2ad57720449786c60df8d41842295aab4bda20b6b4deed5151",
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__side__neutral.png": {
+      "sha256": "917d2d54b568330930c5250d47aea6af1596cdf87b07500066d91ba32c186e5e",
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__three_quarter__neutral.png": {
+      "sha256": "a889b088d8882fceb22138b04d7e3cbc0a382d24763f64fa45e1a1f58905bd65",
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__torso_front__neutral.png": {
+      "sha256": "b3d7be0c7fde7db4872df77643e8ca7fea1197434e0b6efbc5f8ad5f72fdd097",
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__torso_side__neutral.png": {
+      "sha256": "f23753c3a2f3f1a460b10346e4e0f037f354248d431555ae2756126af9d86b53",
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/168h_human_anatomical_mannequin__torso_three_quarter__neutral.png": {
+      "sha256": "d92c43249129bd496b6f51579e884c2890974cfa739852c6adbcf42493a1aade",
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__neutral_a_pose__three_quarter.png": {
+      "sha256": "f202a16558f48ab4d44eb46bbb7deeabdd0686a04195f909321f285d87a902be",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__neutral_a_pose__side.png": {
+      "sha256": "3b45ead066305d5461ace62e6479d2211615e87baeb28754bcde3132749614db",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__neutral_standing__three_quarter.png": {
+      "sha256": "2d0d5eebd0820241e88cd4e872801302c51b0fe3905af65e095a4f4de41e0b50",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__neutral_standing__side.png": {
+      "sha256": "500123b93b5a4004009ecc4be889ab051d51491abc029d24e6fdd5ab7845f598",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__arms_raised__three_quarter.png": {
+      "sha256": "3201365effb2dd87e4c848dc55854b03ec74c2f10306a58409a2c3131bceb470",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__arms_raised__side.png": {
+      "sha256": "092304cf2b6eb074bc2695faa4ec785e28e123bfcbad46a0b46f0993c12362cc",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__arms_raised__shoulder_front.png": {
+      "sha256": "5377be98164f3bab6d4d7416c2f25d2cb0616b288c6a738d0c2b6bcb438f6f46",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__arms_raised__shoulder_side.png": {
+      "sha256": "820629ce738d5caa8a16870076c571c48ca19d37890856877a9b5e987f36a7e6",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__arms_raised__shoulder_three_quarter.png": {
+      "sha256": "034d1132261378454c45b7718b454ee65db347fd5d1c250b6dda9f434ce5936e",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__elbow_flexion__three_quarter.png": {
+      "sha256": "964adbdcdf46a2fef27b3b0c9805c651f3e8ac461358d3d13c3d002bd854e84b",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__elbow_flexion__side.png": {
+      "sha256": "72b0e8ea8945f583167aca2a4fb7368ea6c22085fb4fea1f6ab6336d88513c56",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__seated__three_quarter.png": {
+      "sha256": "1cfb3ffadd754251613649892a6398482d43cbaaca742647dc4c345430257377",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__seated__side.png": {
+      "sha256": "5ed161bd7851b501a6f27cb70bdab3ad4604afb2f96679778e1b37f19a6fd2a9",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__lying_supine__three_quarter.png": {
+      "sha256": "08e72885000bc53cb5c527cf166e2389f919f7d0aecd33572d9340187b2b90cd",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__lying_supine__side.png": {
+      "sha256": "04a8847ac1e28953d893d746be5eeb6108476d0699dce90a6a6854df420bf23d",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__hip_flexion_knee_bend__three_quarter.png": {
+      "sha256": "ee00e621ff1f59f8cfbfd2ff706f99844ba4066303eed52248bbbe724aa7ea66",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__hip_flexion_knee_bend__side.png": {
+      "sha256": "186dd936e5a362de44547f1278d628ea317a545a25543ed07c25ea7db6c9b41b",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__squat__three_quarter.png": {
+      "sha256": "e2f1b386cb8095106a046ab8486fa0af68fcf14be43e38c32383c82c4cab13f6",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__squat__side.png": {
+      "sha256": "44a1f3ee0f1c43decfe30cc03313e4e2507c5542427d7acdcddb00858c4b7786",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__bar_grip__three_quarter.png": {
+      "sha256": "5fd3876b20710236fffe55978b38ff44912899b9ab75268eff360bcbe68ffd1a",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__bar_grip__side.png": {
+      "sha256": "f2f00f3cebb1e778ea33df14b6e24116205ab2885a6bbe29caa9b9ce9fb889d0",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__bar_grip__hand_detail.png": {
+      "sha256": "33ca9c016e52bddd2f5f7e32cbc8bd761b0b281a957e5fcffe765d1ddaff0f83",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__muscles_neutral__three_quarter.png": {
+      "sha256": "ce1b3eb6385b45edad28bc086cbb49722cd787300f2c9ea37296eb7ae90124c4",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__muscles_neutral__side.png": {
+      "sha256": "2b9c702fe3aedba9d074e48b591b618fe80baadff158bb6caba34091202e8777",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__muscles_flexed__three_quarter.png": {
+      "sha256": "4e1af5d852abd55b78596d85afe924b245f22e7c6d7e2fb92809f294bec11779",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__muscles_flexed__side.png": {
+      "sha256": "cab17c4afa7095c388acc4eb955d1babeb71c52b23b34fc2b734d128a27f5efb",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__xray_neutral__three_quarter.png": {
+      "sha256": "a675c30c93ba01988b77e8c9cf59e6635738d618aae1faeae1c953025055b103",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__xray_neutral__side.png": {
+      "sha256": "c9984c69eb7e8a4a23df4697fc1e3bc0d15d38313d810d1f22ece48496317497",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__xray_flexed__three_quarter.png": {
+      "sha256": "e2f49b40233bf2d4dc478c5478bd689cb9d8f74393caaf19ad4ef6b689dc2963",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__xray_flexed__side.png": {
+      "sha256": "a430afc5d8ea470541f9bd49e5ea0418c8728d0775548edc56b9ff5f2288585f",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__comparison__front.png": {
+      "sha256": "f5dd7cb0101cb7b4030a2e4b735f0e820155ce4702d3328476e6b74d044e7db1",
+      "pixels": [
+        2000,
+        1400
+      ]
+    },
+    "scenes/templates/168h_template_mannequin_anatomy_study/previews/168h_template_mannequin_anatomy_study__comparison__three_quarter.png": {
+      "sha256": "33919a6ee9eddcd7bd2b4aa92a782a65e4f8c35c36984ce9fb523d703e8e3d74",
+      "pixels": [
+        2000,
+        1400
+      ]
+    }
+  },
+  "packages": [
+    {
+      "path": "exports/illustrations/mannequin_v03_unassembled_renders.zip",
+      "sha256": "fb9573820b17d957acd05e22b264999b12ef032b1588ce497fc37194f601a5f6",
+      "png_count": 13,
+      "CRC_and_member_hashes": "PASS"
+    },
+    {
+      "path": "exports/illustrations/mannequin_v03_tests_comparison_renders.zip",
+      "sha256": "0dab3631d26153da5ec991efb2ae7623e83268365cfc15d940f1414a4b19182f",
+      "png_count": 32,
+      "CRC_and_member_hashes": "PASS"
+    }
+  ],
+  "LFS_rules": [
+    "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/168h_human_anatomical_mannequin.blend: filter: lfs",
+    "scenes/templates/168h_template_mannequin_anatomy_study/168h_template_mannequin_anatomy_study.blend: filter: lfs",
+    "assets/humans/rigs/168h_rig_mannequin_v1/prototypes/v0.3.0/168h_rig_mannequin_v1.blend: filter: lfs"
+  ],
+  "ignored_exports_backups": [
+    "/Users/joeldehoog/Developer/168hours-fitness-assets/exports/illustrations/mannequin_v03_unassembled_renders.zip",
+    "/Users/joeldehoog/Developer/168hours-fitness-assets/assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/168h_human_anatomical_mannequin.blend1"
+  ],
+  "package_script_sha256": "aa3ea77759f40b2b208cbeffe1b4e4a43830e1bd2915e007893bfc08ede3dbff",
+  "release_approval": null
+}

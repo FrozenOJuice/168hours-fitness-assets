@@ -1,0 +1,812 @@
+{
+  "version": "0.3.1",
+  "date": "2026-10-16",
+  "source_sha256": "a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+  "study_sha256": "9949045adbef708ca547860a0dbf8271afc90226c627ce09325593584d2c57dd",
+  "validator_sha256": "0fd6169e8ef194b9cc8da5e2382b6f7ea676ec606f9e75783ce0ba6e540bebff",
+  "summary": {
+    "PASS": 82,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "check": "preserved_work",
+      "result": "PASS",
+      "actual": {
+        "protected_files": 486,
+        "changed": []
+      },
+      "expected": "All protected masters, equipment, V1 and prior fixtures unchanged"
+    },
+    {
+      "check": "floor_and_stature",
+      "result": "PASS",
+      "actual": {
+        "floor_m": 4.319720137146987e-09,
+        "height_m": 1.7499999956802799
+      },
+      "expected": "Floor0 and provisional1.75m,10um diagnostic tolerance"
+    },
+    {
+      "check": "continuous_closed_skin",
+      "result": "PASS",
+      "actual": {
+        "nonmanifold_edges": 0,
+        "components": 1,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "One continuous closed neutral body"
+    },
+    {
+      "check": "hybrid_shared_geometry",
+      "result": "PASS",
+      "actual": {
+        "shared_mesh": true,
+        "helper_hidden_render": true
+      },
+      "expected": "Second skinning evaluation shares exact mesh datablock; not duplicate visible geometry"
+    },
+    {
+      "check": "primary_highlight_local",
+      "result": "PASS",
+      "actual": {
+        "changed_vertices": 1495,
+        "opposite_pectoral_max_delta": 0.0
+      },
+      "expected": "Selected primary changes actual surface colors while opposite pectoral remains unchanged within0.001"
+    },
+    {
+      "check": "primary_secondary_distinct",
+      "result": "PASS",
+      "actual": 0.2799999713897705,
+      "expected": "Independent primary/secondary channels produce distinct actual colors"
+    },
+    {
+      "check": "localized_continuous_skin_xray",
+      "result": "PASS",
+      "actual": {
+        "skin_faces": 169360,
+        "unchanged_topology": true,
+        "deep_inside_front_surface": true,
+        "min_skin_alpha": 0.1600000262260437
+      },
+      "expected": "Continuous full skin; selected deep volume under a smooth translucent front surface, not deleted faces"
+    },
+    {
+      "check": "four_IK_and_snap_cases",
+      "result": "PASS",
+      "actual": {
+        "arm_l": {
+          "target_error_m": 1.2605580922729247e-07,
+          "IK_FK_return_error_m": 3.3527612686157227e-08
+        },
+        "arm_r": {
+          "target_error_m": 2.1648392417680676e-07,
+          "IK_FK_return_error_m": 2.504824917616582e-07
+        },
+        "leg_l": {
+          "target_error_m": 1.5012735023732706e-06,
+          "IK_FK_return_error_m": 9.996002811937585e-08
+        },
+        "leg_r": {
+          "target_error_m": 1.5012735023732706e-06,
+          "IK_FK_return_error_m": 9.996002811937585e-08
+        }
+      },
+      "expected": "Four measured reachable targets and snap returns<0.1mm; sparse motion diagnostic only"
+    },
+    {
+      "check": "all_saved_states",
+      "result": "PASS",
+      "actual": [
+        "neutral_a_pose",
+        "neutral_standing",
+        "arms_raised",
+        "elbow_flexion",
+        "seated",
+        "lying_supine",
+        "hip_flexion_knee_bend",
+        "squat",
+        "bar_grip",
+        "muscles_neutral",
+        "muscles_flexed",
+        "xray_neutral",
+        "xray_flexed",
+        "arms_lateral",
+        "arms_forward",
+        "arms_diagonal",
+        "shoulder_internal_rotation",
+        "shoulder_external_rotation",
+        "hip_abduction",
+        "lunge",
+        "xray_disabled"
+      ],
+      "expected": "All21documented pose/highlight/Xray states saved"
+    },
+    {
+      "check": "neutral_a_pose:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "neutral_a_pose:bone_lengths",
+      "result": "PASS",
+      "actual": 3.1286264273733266e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "neutral_a_pose:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "neutral_standing:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "neutral_standing:bone_lengths",
+      "result": "PASS",
+      "actual": 3.1864653884244865e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "neutral_standing:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.001",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "arms_raised:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "arms_raised:bone_lengths",
+      "result": "PASS",
+      "actual": 1.1910314039881298e-07,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "arms_raised:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.002",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "elbow_flexion:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "elbow_flexion:bone_lengths",
+      "result": "PASS",
+      "actual": 3.528675106972967e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "elbow_flexion:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.003",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "seated:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "seated:bone_lengths",
+      "result": "PASS",
+      "actual": 3.1286264273733266e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "seated:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.004",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "seated:disjoint_thigh_calf_crossings",
+      "result": "PASS",
+      "actual": {
+        "l": 0,
+        "r": 0
+      },
+      "expected": "Zero disjoint thigh/calf triangle crossings outside\u00b140mm knee transition; same local criterion as earlier prototype"
+    },
+    {
+      "check": "seated:separate_leg_crossings",
+      "result": "PASS",
+      "actual": 0,
+      "expected": "Zero crossings between distinct left/right leg regions below hips"
+    },
+    {
+      "check": "lying_supine:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "lying_supine:bone_lengths",
+      "result": "PASS",
+      "actual": 3.1286264273733266e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "lying_supine:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.005",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "hip_flexion_knee_bend:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "hip_flexion_knee_bend:bone_lengths",
+      "result": "PASS",
+      "actual": 1.3778279311926767e-07,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "hip_flexion_knee_bend:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.006",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "hip_flexion_knee_bend:disjoint_thigh_calf_crossings",
+      "result": "PASS",
+      "actual": {
+        "l": 0,
+        "r": 0
+      },
+      "expected": "Zero disjoint thigh/calf triangle crossings outside\u00b140mm knee transition; same local criterion as earlier prototype"
+    },
+    {
+      "check": "hip_flexion_knee_bend:separate_leg_crossings",
+      "result": "PASS",
+      "actual": 0,
+      "expected": "Zero crossings between distinct left/right leg regions below hips"
+    },
+    {
+      "check": "squat:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "squat:bone_lengths",
+      "result": "PASS",
+      "actual": 1.0555867641093286e-07,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "squat:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.007",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "squat:disjoint_thigh_calf_crossings",
+      "result": "PASS",
+      "actual": {
+        "l": 0,
+        "r": 0
+      },
+      "expected": "Zero disjoint thigh/calf triangle crossings outside\u00b140mm knee transition; same local criterion as earlier prototype"
+    },
+    {
+      "check": "squat:separate_leg_crossings",
+      "result": "PASS",
+      "actual": 0,
+      "expected": "Zero crossings between distinct left/right leg regions below hips"
+    },
+    {
+      "check": "bar_grip:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "bar_grip:bone_lengths",
+      "result": "PASS",
+      "actual": 1.8072551211112398e-07,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "bar_grip:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.008",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "grip_anchor_alignment",
+      "result": "PASS",
+      "actual": {
+        "l": 3.7153839479606335e-05,
+        "r": 3.7271840527271376e-05
+      },
+      "expected": "Preserved anchor plus documented consumer contact offset; mirrored600mm stations, residual<0.1mm"
+    },
+    {
+      "check": "grip_surface_samples",
+      "result": "PASS",
+      "actual": {
+        "max_sampled_penetration_m": 0,
+        "max_finger_closest_gap_m": 0.0021928589498885747,
+        "contacts": {
+          "l": {
+            "thumb": {
+              "closest_gap_m": 0.0003499204551756299,
+              "max_sampled_penetration_m": 0,
+              "samples": 1492
+            },
+            "index": {
+              "closest_gap_m": 0.00034999025609257044,
+              "max_sampled_penetration_m": 0,
+              "samples": 670
+            },
+            "middle": {
+              "closest_gap_m": 0.0003499900922249565,
+              "max_sampled_penetration_m": 0,
+              "samples": 1403
+            },
+            "ring": {
+              "closest_gap_m": 0.002080162894411425,
+              "max_sampled_penetration_m": 0,
+              "samples": 1201
+            },
+            "little": {
+              "closest_gap_m": 0.00034990323618593576,
+              "max_sampled_penetration_m": 0,
+              "samples": 1725
+            },
+            "palm": {
+              "closest_gap_m": 0.000644780025500934,
+              "max_sampled_penetration_m": 0,
+              "samples": 950
+            }
+          },
+          "r": {
+            "thumb": {
+              "closest_gap_m": 0.0003499119857357895,
+              "max_sampled_penetration_m": 0,
+              "samples": 1491
+            },
+            "index": {
+              "closest_gap_m": 0.00034999992361061175,
+              "max_sampled_penetration_m": 0,
+              "samples": 670
+            },
+            "middle": {
+              "closest_gap_m": 0.0003500574284432071,
+              "max_sampled_penetration_m": 0,
+              "samples": 1411
+            },
+            "ring": {
+              "closest_gap_m": 0.0021928589498885747,
+              "max_sampled_penetration_m": 0,
+              "samples": 1208
+            },
+            "little": {
+              "closest_gap_m": 0.00034990548826887083,
+              "max_sampled_penetration_m": 0,
+              "samples": 1725
+            },
+            "palm": {
+              "closest_gap_m": 0.0006832067684875882,
+              "max_sampled_penetration_m": 0,
+              "samples": 955
+            }
+          }
+        }
+      },
+      "expected": "Retained asset-local diagnostic\u22642mm sampled penetration/\u22645mm closest finger gap; not full-face collision or arbitrary gripping certification"
+    },
+    {
+      "check": "palm_and_thumb_contact",
+      "result": "PASS",
+      "actual": {
+        "palm_gap_m": 0.0006832067684875882,
+        "thumb_gap_m": 0.0003499204551756299
+      },
+      "expected": "Measured palm contact<=1mm and thumb closest gap<=2mm; does not prove opposition quality"
+    },
+    {
+      "check": "muscles_neutral:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "muscles_neutral:bone_lengths",
+      "result": "PASS",
+      "actual": 3.1286264273733266e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "muscles_neutral:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.009",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "muscles_flexed:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "muscles_flexed:bone_lengths",
+      "result": "PASS",
+      "actual": 3.528675106972967e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "muscles_flexed:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.010",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "xray_neutral:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "xray_neutral:bone_lengths",
+      "result": "PASS",
+      "actual": 3.1286264273733266e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "xray_neutral:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.011",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "xray_flexed:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "xray_flexed:bone_lengths",
+      "result": "PASS",
+      "actual": 1.3778279311926767e-07,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "xray_flexed:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.012",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "arms_lateral:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "arms_lateral:bone_lengths",
+      "result": "PASS",
+      "actual": 6.226904225581364e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "arms_lateral:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.013",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "arms_forward:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "arms_forward:bone_lengths",
+      "result": "PASS",
+      "actual": 3.3464897186696874e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "arms_forward:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.014",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "arms_diagonal:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "arms_diagonal:bone_lengths",
+      "result": "PASS",
+      "actual": 4.871664216477001e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "arms_diagonal:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.015",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "shoulder_internal_rotation:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "shoulder_internal_rotation:bone_lengths",
+      "result": "PASS",
+      "actual": 5.346797178271134e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "shoulder_internal_rotation:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.016",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "shoulder_external_rotation:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "shoulder_external_rotation:bone_lengths",
+      "result": "PASS",
+      "actual": 3.319071045781996e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "shoulder_external_rotation:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.017",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "hip_abduction:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "hip_abduction:bone_lengths",
+      "result": "PASS",
+      "actual": 3.1286264273733266e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "hip_abduction:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.018",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "lunge:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "lunge:bone_lengths",
+      "result": "PASS",
+      "actual": 3.239866896986854e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "lunge:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.019",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "xray_disabled:linked_and_finite",
+      "result": "PASS",
+      "actual": {
+        "linked": true,
+        "vertices": 169362,
+        "faces": 169360
+      },
+      "expected": "Shared linked skin and finite positions; Xray also retains all vertices/faces"
+    },
+    {
+      "check": "xray_disabled:bone_lengths",
+      "result": "PASS",
+      "actual": 3.1286264273733266e-08,
+      "expected": "No canonical bone stretch>10um"
+    },
+    {
+      "check": "xray_disabled:private_helper_remap",
+      "result": "PASS",
+      "actual": "168h_human_anatomical_mannequin__helper_linear_skin.020",
+      "expected": "ObjectInfo points at this override helper, not another pose/library source"
+    },
+    {
+      "check": "sources_unchanged_by_validation",
+      "result": "PASS",
+      "actual": {
+        "character": "a51881017d440550f11b87e436964c607bc7a31840f7c22756e1b5d7e52158ae",
+        "study": "9949045adbef708ca547860a0dbf8271afc90226c627ce09325593584d2c57dd"
+      },
+      "expected": "Read-only native validation"
+    }
+  ],
+  "diagnostics": {
+    "bar_grip": {
+      "l": {
+        "thumb": {
+          "closest_gap_m": 0.0003499204551756299,
+          "max_sampled_penetration_m": 0,
+          "samples": 1492
+        },
+        "index": {
+          "closest_gap_m": 0.00034999025609257044,
+          "max_sampled_penetration_m": 0,
+          "samples": 670
+        },
+        "middle": {
+          "closest_gap_m": 0.0003499900922249565,
+          "max_sampled_penetration_m": 0,
+          "samples": 1403
+        },
+        "ring": {
+          "closest_gap_m": 0.002080162894411425,
+          "max_sampled_penetration_m": 0,
+          "samples": 1201
+        },
+        "little": {
+          "closest_gap_m": 0.00034990323618593576,
+          "max_sampled_penetration_m": 0,
+          "samples": 1725
+        },
+        "palm": {
+          "closest_gap_m": 0.000644780025500934,
+          "max_sampled_penetration_m": 0,
+          "samples": 950
+        }
+      },
+      "r": {
+        "thumb": {
+          "closest_gap_m": 0.0003499119857357895,
+          "max_sampled_penetration_m": 0,
+          "samples": 1491
+        },
+        "index": {
+          "closest_gap_m": 0.00034999992361061175,
+          "max_sampled_penetration_m": 0,
+          "samples": 670
+        },
+        "middle": {
+          "closest_gap_m": 0.0003500574284432071,
+          "max_sampled_penetration_m": 0,
+          "samples": 1411
+        },
+        "ring": {
+          "closest_gap_m": 0.0021928589498885747,
+          "max_sampled_penetration_m": 0,
+          "samples": 1208
+        },
+        "little": {
+          "closest_gap_m": 0.00034990548826887083,
+          "max_sampled_penetration_m": 0,
+          "samples": 1725
+        },
+        "palm": {
+          "closest_gap_m": 0.0006832067684875882,
+          "max_sampled_penetration_m": 0,
+          "samples": 955
+        }
+      }
+    }
+  },
+  "scope": "Asset-local diagnostics; anatomy/style/manual/full coverage/release approval separate",
+  "limitations": [
+    "Sparse snapshots, not full motion or medical/clinical validation",
+    "Full self-containment and hand-face/cylinder collisions not certified",
+    "Missing muscle coverage remains FAIL",
+    "Artist review required; no production readiness claim"
+  ]
+}

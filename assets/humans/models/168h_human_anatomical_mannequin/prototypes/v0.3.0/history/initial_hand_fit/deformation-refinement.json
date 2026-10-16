@@ -1,0 +1,9 @@
+{
+  "before_sha256": "6815b3efcb9e2737cf3a654ca16cdbe31576760118b494d7642a741fbee518e6",
+  "source_sha256": "ffd6a00c34b194efb27434aec7da9db8f700d13c36084665dc45f5da8e3b6cfb",
+  "script_sha256": "9078d2e174cc73ff1c42c3e705ddcb8545137896449bc3f6e00138cc3ee2337e",
+  "hybrid": "Shoulder-only smooth blend between DQ and LBS evaluated on one shared mesh datablock; hidden helper, no geometry copy or new bones",
+  "knee": "22mm@90deg posterior-only preskin compression, clamped1.5x; driven per shin",
+  "fairing": "Neutral-bound length-weighted CorrectiveSmooth48iterations at shoulder/hip/knee",
+  "limitations": "Private GN/helper/corrective systems need explicit bake/export adapter; not portable automatically"
+}

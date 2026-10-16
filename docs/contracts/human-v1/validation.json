@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-15",
+  "contract": "168h_human_model@1.0.0",
+  "status": "foundation_validated",
+  "scope": "Documentation, schemas, immutable logical registries and read-only validation foundation. No human models, animations or exercise scenes created.",
+  "unit_tests": {
+    "run": 47,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "runtime_seconds": 0.489,
+    "command": "python3 -m unittest discover -s tests -p test_human_contract.py -v",
+    "log": "test_activation (test_human_contract.ContractTests.test_activation) ... ok\ntest_activation_unknown_muscle (test_human_contract.ContractTests.test_activation_unknown_muscle) ... ok\ntest_anchor_orientation_not_copied_metadata (test_human_contract.ContractTests.test_anchor_orientation_not_copied_metadata) ... ok\ntest_bad_anchor_owner (test_human_contract.ContractTests.test_bad_anchor_owner) ... ok\ntest_bad_highlight_range (test_human_contract.ContractTests.test_bad_highlight_range) ... ok\ntest_cli_fail_exit (test_human_contract.ContractTests.test_cli_fail_exit) ... ok\ntest_clothes_hide_highlight (test_human_contract.ContractTests.test_clothes_hide_highlight) ... ok\ntest_constraint (test_human_contract.ContractTests.test_constraint) ... ok\ntest_documented_lists_match_registries (test_human_contract.ContractTests.test_documented_lists_match_registries) ... ok\ntest_draft_templates_schema_valid (test_human_contract.ContractTests.test_draft_templates_schema_valid) ... ok\ntest_duplicate_bone (test_human_contract.ContractTests.test_duplicate_bone) ... ok\ntest_duplicate_json_keys (test_human_contract.ContractTests.test_duplicate_json_keys) ... ok\ntest_empty_mask (test_human_contract.ContractTests.test_empty_mask) ... ok\ntest_export_requirements (test_human_contract.ContractTests.test_export_requirements) ... ok\ntest_extra_deform_bone (test_human_contract.ContractTests.test_extra_deform_bone) ... ok\ntest_floor (test_human_contract.ContractTests.test_floor) ... ok\ntest_ik (test_human_contract.ContractTests.test_ik) ... ok\ntest_ik_fk_switch (test_human_contract.ContractTests.test_ik_fk_switch) ... ok\ntest_missing_muscle (test_human_contract.ContractTests.test_missing_muscle) ... ok\ntest_missing_pole (test_human_contract.ContractTests.test_missing_pole) ... ok\ntest_no_export_release (test_human_contract.ContractTests.test_no_export_release) ... ok\ntest_no_finger (test_human_contract.ContractTests.test_no_finger) ... ok\ntest_nonunit_anchor (test_human_contract.ContractTests.test_nonunit_anchor) ... ok\ntest_pair_direct_pose (test_human_contract.ContractTests.test_pair_direct_pose) ... ok\ntest_pair_incompatible (test_human_contract.ContractTests.test_pair_incompatible) ... ok\ntest_pair_retarget_required (test_human_contract.ContractTests.test_pair_retarget_required) ... ok\ntest_pelvis_projection (test_human_contract.ContractTests.test_pelvis_projection) ... ok\ntest_pose_not_rest (test_human_contract.ContractTests.test_pose_not_rest) ... ok\ntest_registry (test_human_contract.ContractTests.test_registry) ... ok\ntest_registry_drift_fails (test_human_contract.ContractTests.test_registry_drift_fails) ... ok\ntest_rest_fingerprint (test_human_contract.ContractTests.test_rest_fingerprint) ... ok\ntest_scale (test_human_contract.ContractTests.test_scale) ... ok\ntest_schema_bool_is_not_number (test_human_contract.ContractTests.test_schema_bool_is_not_number) ... ok\ntest_schema_nonfinite (test_human_contract.ContractTests.test_schema_nonfinite) ... ok\ntest_schema_unknown_field (test_human_contract.ContractTests.test_schema_unknown_field) ... ok\ntest_shared_control (test_human_contract.ContractTests.test_shared_control) ... ok\ntest_shared_mask (test_human_contract.ContractTests.test_shared_mask) ... ok\ntest_shifted_anchor (test_human_contract.ContractTests.test_shifted_anchor) ... ok\ntest_shifted_root (test_human_contract.ContractTests.test_shifted_root) ... ok\ntest_synthetic_not_release_evidence (test_human_contract.ContractTests.test_synthetic_not_release_evidence) ... ok\ntest_t_pose_rejected (test_human_contract.ContractTests.test_t_pose_rejected) ... ok\ntest_unsupported_schema_fails_closed (test_human_contract.ContractTests.test_unsupported_schema_fails_closed) ... ok\ntest_unused_unsupported_schema_fails_closed (test_human_contract.ContractTests.test_unused_unsupported_schema_fails_closed) ... ok\ntest_valid_data (test_human_contract.ContractTests.test_valid_data) ... ok\ntest_wrong_mask_object (test_human_contract.ContractTests.test_wrong_mask_object) ... ok\ntest_wrong_parent (test_human_contract.ContractTests.test_wrong_parent) ... ok\ntest_wrong_roll (test_human_contract.ContractTests.test_wrong_roll) ... ok\n\n----------------------------------------------------------------------\nRan 47 tests in 0.392s\n\nOK\n"
+  },
+  "registry": {
+    "pass": 142,
+    "fail": 0,
+    "report": "registry-validation.json"
+  },
+  "python_version": "3.14.5",
+  "python_dependencies": "stdlib only; minimum Python3.9 for validation tool",
+  "blender_api_smoke_test": {
+    "version": "5.1.1",
+    "inspector_help": "PASS",
+    "ik_rna_property_names": "PASS",
+    "scope": "Imports/help and property availability only; no actual character inspection, rig construction or baseline approval"
+  },
+  "syntax_compile": "PASS",
+  "documentation_local_links": "PASS",
+  "readable_registry_tables": "PASS; covered by unit test",
+  "existing_equipment_and_scene_files": {
+    "checked": 237,
+    "changed": 0,
+    "reports_regenerated": false
+  },
+  "human_blend_files_created": 0,
+  "equipment_standards": "Existing equipment origin/axis/anchor/naming/visual rules unchanged; only human portions of shared guides extended",
+  "not_run": [
+    "Real-character Blender integration/skin deformation",
+    "Anatomical boundary/shape review",
+    "Clothed and unclothed highlight render proof",
+    "IK/FK motion/singularity/orientation/contact tests",
+    "Two-character retargeting and linked replacement",
+    "Actual illustration/animation export roundtrip"
+  ],
+  "unresolved_decisions": [
+    "H01",
+    "H02",
+    "H03",
+    "H04",
+    "H05"
+  ],
+  "source_sha256": {
+    "scripts/pipeline/validate_human_contract.py": "9d453d8eb2d9899baee7cbc8e8cba0957486038e377a71cc15a10be629836bef",
+    "scripts/blender/inspect_human_contract.py": "beff95e848067b286e0ab9c1633608a3900dabe17290e1fae8b7f8563409ac4a",
+    "tests/test_human_contract.py": "0b02895c3ca95be9ad3e41684bf361cd97712f389eb72ad17dd174f463195b8b",
+    "docs/contracts/human-v1/contract-lock.json": "06fe8f2de0abe92b999017b74e9dd07287585e92222c15cb96342ff1fa5d2b1c"
+  }
+}

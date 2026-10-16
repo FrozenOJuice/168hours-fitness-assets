@@ -1,0 +1,10 @@
+{
+  "before_sha256": "dc07987eed9b55a2c7a49ee4d955f67486cf4afb23f8b781939817bdba4d9e51",
+  "source_sha256": "60f08b65e3ede724b379d7a69c3121f6fdf8a6e7e1b83fec81cdef482a773d2d",
+  "script_sha256": "bc63df64037b183a92786b833913c14d57365fa436c9579cbb8bf08ca864a1e2",
+  "raw_vertex_sha256_before_and_after": "66736c4498795bda92147b26af221ebc51b6eb9c34c9f24a834dc7584b7a1fd4",
+  "neutral_offset_m": 0,
+  "compression": "Posterior-only +Y pre-skin offset; per-shin local flexion driver unchanged, 35mm@90deg capped1.5x; quartic knee-centered falloff230mmZ/90mmX, back-face factor clamp((-Y-15mm)/35mm)",
+  "investigation": "22mm/105mm field missed bulk hamstring/calf overlap outside the joint. Scaling amplitude alone did not cure squat. Trials25mm/180mm and35mm/180mm retained crossings;35mm/230mm removed both sides in130deg squat. No collision criterion relaxed. Final saved-state tests and renders determine acceptance.",
+  "limitations": "Artist-authored soft-tissue compression, not biomechanical simulation. Deep-flexion folds still require visual review."
+}

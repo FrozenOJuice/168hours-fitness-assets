@@ -1,0 +1,15 @@
+{
+  "input_sha256": "73f1d489192bd30c3d42f41edc3302b2e9881c3346d5e78b507985e897a08797",
+  "source_sha256": "e550ba8e7bda4bb8bae1b88360ab52f0232feac700cfe48990a4000cd403c727",
+  "script_sha256": "efbb6ec0078b02874edeb27908a978c3a384dfdfc175a02427945e6d551a4dbd",
+  "shoulder": "Restore original ownership above1.1m, then70mesh-neighbor diffusion steps of thorax/clavicle/humerus influences. Preserve per-vertex influence total; no new shoulder relaxation modifier. Retain original hybrid DQ/LBS and bound joint fairing.",
+  "rejected_trial": "Broad spatial repaint mistakenly put torso weights on upper-arm skin, producing forward-pose flaps. Narrowing repaint still worsened max stretch; rejected. New shoulders use original proven ownership, not rejected trial.",
+  "forward_trial_edge_ratios": {
+    "previous_p95": 1.68787,
+    "selected_p95": 1.58715,
+    "previous_max": 3.34871,
+    "selected_max": 3.55641
+  },
+  "xray": "Sorted alpha blending replaces dithering grain; continuous skin, same opacity field/material semantics",
+  "limitations": "p95improves but worst local edge stretch slightly increases; broad motion/visual tests still required, no full deformation success claim"
+}

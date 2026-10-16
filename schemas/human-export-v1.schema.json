@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:168hours:human-export-v1",
+  "title": "human-export-v1",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "contract": {
+      "const": "168h_human_model@1.0.0"
+    },
+    "role": {
+      "enum": [
+        "illustration",
+        "animation"
+      ]
+    },
+    "format": {
+      "type": "string",
+      "minLength": 1
+    },
+    "blender_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "exporter_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_units": {
+      "const": "meters"
+    },
+    "source_axes": {
+      "const": {
+        "up": "+Z",
+        "forward": "+Y",
+        "subject_left": "+X"
+      }
+    },
+    "axis_conversion": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "array",
+        "minItems": 4,
+        "maxItems": 4,
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "frame_rate_fps": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "exclusiveMinimum": 0
+    },
+    "start_frame": {
+      "type": "integer"
+    },
+    "end_frame": {
+      "type": "integer"
+    },
+    "baked_animation": {
+      "type": "boolean"
+    },
+    "control_bones_included": {
+      "type": "boolean"
+    },
+    "bone_names": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "muscle_state_delivery": {
+      "enum": [
+        "pixels",
+        "embedded",
+        "sidecar"
+      ]
+    },
+    "root_motion": {
+      "enum": [
+        "preserved",
+        "in_place_with_sidecar"
+      ]
+    },
+    "approval_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "contract",
+    "role",
+    "format",
+    "blender_version",
+    "exporter_version",
+    "source_units",
+    "source_axes",
+    "axis_conversion",
+    "frame_rate_fps",
+    "start_frame",
+    "end_frame",
+    "baked_animation",
+    "control_bones_included",
+    "bone_names",
+    "muscle_state_delivery",
+    "root_motion",
+    "approval_reference"
+  ],
+  "additionalProperties": false
+}

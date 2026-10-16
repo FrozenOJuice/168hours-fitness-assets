@@ -1,0 +1,30 @@
+{
+  "source_sha256": "e7077027259b9aeef06481def49b0fa7a3d640a2d70968248db3a55cab4b405d",
+  "script_sha256": "450689a9efce235d39ff0a21e62a3e4dbcca9d7341006b2f072d1f804fa4c6da",
+  "vertices": 42342,
+  "polygons": 42340,
+  "source_bind_landmarks": "measured-source-joints.json",
+  "source_skinning": "Blender bone-heat starting bind, normalized canonical influences, no unweighted vertices",
+  "canonical_profile": "new measured V1 profile; retarget required for prior poses",
+  "superficial_masks": [
+    "muscle_pectoralis_major_l",
+    "muscle_pectoralis_major_r",
+    "muscle_deltoid_anterior_l",
+    "muscle_deltoid_anterior_r",
+    "muscle_deltoid_middle_l",
+    "muscle_deltoid_middle_r",
+    "muscle_deltoid_posterior_l",
+    "muscle_deltoid_posterior_r",
+    "muscle_biceps_brachii_l",
+    "muscle_biceps_brachii_r",
+    "muscle_triceps_brachii_l",
+    "muscle_triceps_brachii_r",
+    "muscle_rectus_femoris_l",
+    "muscle_rectus_femoris_r"
+  ],
+  "limitations": [
+    "Bone-heat bind requires visual deformation refinement",
+    "Deep volume remains experimental simplified anatomy, not certified muscle reconstruction",
+    "Sparse surface masks; full coverage intentionally incomplete"
+  ]
+}

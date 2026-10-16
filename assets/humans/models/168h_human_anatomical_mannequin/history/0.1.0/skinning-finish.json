@@ -1,0 +1,6 @@
+{
+  "before_sha256": "fc0be7d46c54084b1b5cbbdffd240b0c51517dd0bc686e978db9d9a0c3edf2ae",
+  "after_sha256": "5005590f23d9fd1259fabae7f72da3529f7ac3d493e4f9b4e555b1d5924588ab",
+  "changes": "25 canonical-only weight smoothing iterations and normalization; linear blend to reduce IK twisting inflation; local hip silhouette fairing60 iterations; muscle masks/rig unchanged",
+  "script_sha256": "917886e7f000dff6c23308bba11202da0fcf8cbcefdf5db360b8188cd103acd0"
+}

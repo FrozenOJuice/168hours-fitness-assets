@@ -1,11 +1,16 @@
 # Architecture decisions requiring approval
 
+Human update2026-10-15: A15 below establishes the official Human Model Contract V1
+interface requested by the user. A02's hierarchy/naming/rest-origin/muscle API
+portion is resolved for V1; actual body/rig/anatomy/renderer/export implementation
+choices remain H01–H05. Existing equipment decisions and standards are unchanged.
+
 Status: A14 resolves the origin/axis/transform/link portion of A03; other A01–A08 global choices remain open. A10 approves the first equipment visual reference and the traditional cast-iron plate appearance standard only. The mandatory documentation/workflow requirements and the original user-specified visual direction are recorded separately below; they do not approve these technical choices. A09 authorizes the first asset-local plate review prototype; it does not select global renderer/software standards or install dependencies. Code/documentation licensing is separated from future artwork in [Licensing policy](licensing.md); an artwork license has not been selected. Proposed defaults in the other documents are planning assumptions until approved.
 
 | ID | Decision | Proposed direction | Approval needed because |
 | --- | --- | --- | --- |
 | A01 | Blender baseline | Pin one supported Blender LTS version after checking the team's machines and required features; upgrade deliberately | File, rig, override, and rendering compatibility depend on it |
-| A02 | Human / rig standard | One canonical skeleton and named control interface; separate mesh variants; agree rest pose, bone naming, anatomy detail, proportions, and deformation approach before modeling | Changing the skeleton can invalidate skinning, exercise actions, and constraints |
+| A02 | Human / rig standard | Human V1 hierarchy/rest conventions, IDs and control facade established under A15; H01–H05 body/rig/anatomy/visual/export implementation choices remain open before modeling | Changing the skeleton can invalidate skinning, exercise actions, and constraints |
 | A03 | Asset and scene interfaces | Approve meter units, axes, root placement, versioned collection/anchor interfaces, and linked collections with library overrides as documented | These contracts determine whether assets and scenes can be reused and exchanged |
 | A04 | Illustration renderer | Evaluate a flat/unlit surface treatment and one outline method in the approved Blender version; require zero shadows and no ambient occlusion | Render engine, outline behavior, transparency, and animation stability affect every asset |
 | A05 | Visual presets | Approve palette, muscle emphasis, outline width at output size, orthographic default, background, and color management | Consistency across stills and animations requires a shared art direction |
@@ -120,3 +125,99 @@ Four assembled reference images require refresh due float/anti-alias rounding at
 ### A14 finalization — approved and complete,2026-10-15
 
 User requested final validation and commit if all checks pass. All375 current checks PASS (297 origins,28 preserved-geometry/world/render,42 all-fixture stacking/clearance,6 failure injection,2 placement). Native source bytes unchanged during finalization; original approval evidence retained. Existing root/axis/transform/link standards enforced by metadata/rules and default validator entry points. Bench remains review/not_ready; no model redesign, new visual standard or artwork license. This finalized snapshot is recorded by its repository commit.
+
+## A15 — Human Model Contract V1
+
+Date:2026-10-15. Authorization: user explicitly instructed “Establish the official
+168Hours Fitness Human Model Contract V1,” including exact skeleton/fingers,
+A-pose/origins, muscle identifiers, interchangeability, reusable schemas/tools,
+templates and AGENTS instructions. Foundation only; no human, animation or scene.
+
+Established design: [168h_human_model@1.0.0](contracts/human-v1/README.md),
+53 canonical solved bones (52 deform +root), 45-degree A-pose, meter/right-handed
+axes, intentional floor/pelvis datum, explicit bone roll and measured rest-profile
+fingerprints; private animator rig separated behind logical FK/IK controls;
+11 full-frame anchors;78 bilateral highlight-region IDs with independent primary/
+secondary channels and clothing visibility requirements. Exact registries are
+versioned JSON. Shared-contract design is explicit here; no existing asset or
+accepted equipment rule is silently superseded.
+
+Rationale: stable logical interfaces let different surfaces and proportions use
+common animation semantics, muscle IDs and equipment attachment systems while
+requiring honest contact/retarget validation. Different proportions do not
+promise unchanged action placement. An animation skeleton is not an anatomical
+atlas; catalog regions/aggregates are explicitly distinguished from muscles.
+Alternatives rejected for this interface: copying equipment origins onto humans,
+choosing separate male/female skeleton names, private-control animation exchange,
+universal body scaling, and assuming skin highlights survive opaque clothing.
+
+Approval scope: this establishes the requested official foundation; the user has
+not reviewed a first human/rig or numeric art/ROM/export implementation. No
+canonical physique, software baseline, renderer/add-on, skeleton builder, medical
+motion limits, artwork redistribution license or output format is selected.
+Existing A01/A04/A05/A07/A08 remain open in their global scopes.
+
+Outstanding approvals (detailed in the contract):
+
+- H01: measured physique/rest profiles and age scope; human Blender/rig linkage,
+  override/binding and control-adapter implementation.
+- H02: sourced numeric joint limits, twist/IK/FK/singularity behavior and measured
+  moving-contact acceptance profile.
+- H03: anatomy-region boundaries/simplification, deep/aggregate representation,
+  through-clothing anatomical presentation and exercise-role review.
+- H04: human/clothing/primary/secondary palette, opacity, shading, outlines and
+  approved human reference preset.
+- H05: target consumers, illustration/animation formats, frame rates/resolution,
+  bake/sidecar/roundtrip profiles and applicable separate artwork release terms.
+
+Validation: pure-data schema/semantic/fault-injection tests and registry checks;
+read-only Blender inspector provided, with actual-character integration and all
+visual/deformation/retarget/export proofs explicitly NOT RUN until creation is
+authorized. Evidence in contracts/human-v1/validation.json. Existing equipment
+and scenes preserved byte-for-byte; no equipment validator/report rewritten.
+
+Change control: core semantics/parentage/rest axes/anchor or region removal/rename
+require a new major contract and approved migration. Future additive catalog or
+capability versions negotiate with consumers and retain V1 core identifiers.
+There are no current human consumers to migrate; future specs declare exact
+contract/profile/dependency revisions. Review H01–H05 before implementation;
+never convert these open items into approved defaults by inference.
+
+
+## A16 — First anatomical mannequin: scoped review implementation
+
+2026-10-16. The user explicitly authorizes the first gender-neutral anatomical mannequin, approximately 1.75 m provisionally, all V1 bones/anchors/IDs, partial demonstrable muscle coverage, on-character deep X-ray and a preliminary linked bench pose. The user allows provisional implementation decisions; this is not shared-standard ratification or asset approval.
+
+Local choices: original adult illustration profile; Blender 5.1.1/no add-ons; separate linked rest-armature library with private solver/solved-output objects; linear skin weights, articulated digits and two-bone hand/foot IK; provisional hinge guardrails and seeded singular-chain startup; muted gray computed-normal Workbench FLAT shading, primary red/secondary amber, native outlines/no shadows/AO; 12 surface masks and one deep vastus intermedius volume with local skin-window cutaway. All 78 IDs remain registered; 65 unimplemented masks explicitly fail coverage. No garments, retarget certification or export roundtrip is claimed.
+
+Implementation evidence and exact scoped choices: assets/humans/models/168h_human_anatomical_mannequin/SPEC.md, prebuild-record.json, human-contract.json, observed.validation.json and review-validation.json. Existing equipment, all pre-existing fixtures and normative V1 definitions remain byte-for-byte protected. Shared H01–H05 remain open; no renderer, palette, anatomy boundary, motion tolerance, physique or artwork release license becomes universal through this prototype. Review anatomy/silhouette, highlight/cutaway style, hand contact and large-rotation deformation before acceptance. Status: review prototype authorized, visual/production approval pending.
+
+
+## A17 — Human foundation correction, mannequin 0.2.0 review
+
+2026-10-16. User rejects the first mannequin's foundational anatomy, silhouette, joint weighting and orientations and explicitly requests a correction pass plus seven core pose tests before more exercise work. Local correction replaces the voxel-union surface and nearest-bone binding with an adapted CC0 MakeHuman hm08 body mesh and graphical default weight/joint data, retaining pinned source/license notices. No MakeHuman application logic, add-on or new renderer is installed. Corrected measured proportions/rest profile and canonical-core weight adapter are provisional per-asset implementation choices; V1 names, hierarchy, axes, local roll, A-pose and anchor semantics remain unchanged.
+
+Retain 0.1.0/history and original rig-data source; publish a separate 0.2 rig-data file and rebind this review character. Previous bench-press fixture evidence is invalidated by the profile/skin change; do not refine/revalidate it in this pass. Test neutral A-pose, raised arms, elbow flexion, seated, supine, hip/knee flexion and a separate bar grip. Record actual numerical and visual failures. All78muscle IDs remain; do not claim full remapped coverage or prioritize completing masks. H01–H05 and artwork release terms remain open; user review required before any visual/reference/production approval. This authorizes local correction, not global standards changes.
+
+
+A17 implementation evidence: corrected mannequin0.2.0and separate measured rig source; unchanged53/78/11V1interfaces;4neutral references and15core-suite renders;60diagnostics PASS,47unit tests PASS,142registry checks PASS. Full source inspection deliberately retains65missing-mask failures. Posterior knee field resolves measured90°/105°surface crossings; five-angle knee sweep passes. Measured static28mm grip uses68mm distal/32mm palm-normal datum and fitted fingers/thumb, with no change to barbell. Diagnostic tolerances remain local and do not ratify H02. Clean native repack fixes inherited dirty-load state without changing geometry or loosening inspector guards. Review status retained: overhead shoulder/scapular broadening, twist/extreme motion, anatomy acceptance, garments/variants/export and artwork terms remain unresolved. No exercise-scene refinement performed.
+
+
+### A17 local refinement — mannequin 0.2.1
+
+User authorizes preserving the continuous0.2.0 mesh while correcting chest/ribcage geometry, overhead shoulder binding/correctives, neutral anatomical relief and local grayscale contrast. Preserve canonical skeleton/rest profile/anchors and approved equipment. No shared-standard selection, further muscle masks, variants or exercise scenes. Record baseline and results in the existing asset specification and surface-refinement records; keep review status.
+
+A17local0.2.1final evidence: continuous214050vertex topology preserved; chest ledge corrected in underlying geometry; localized shoulder weights/axillary corrective and gray contrast revised.7neutral/torso and18core-test images generated; all7core states visually inspected.60foundation +7surface diagnostics PASS;47unit/142registry PASS;392actualV1PASS/65missing-maskFAIL. All213protected files unchanged. Remaining directional-shoulder/high-flexion/twist limitations and owner review recorded; no shared-standard or production approval.
+
+
+## A18 — Autonomous free human foundation study, isolated0.3.0
+
+User authorizes free model/tool research, independent selection, implementation and visual/technical testing in an isolated prototype, preserving masters and V1. Local choice: official Blender CC0 Dan Ulrich realistic scan-based body, new measured canonical rest profile, original skin/controls/highlight adapters; no paid content/add-on installation. Prior MakeHuman body remains intact. Record complete evidence under assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0. H01–H05/shared standards/artwork release remain unapproved; prototype review only.
+
+A18 implementation evidence (2026-10-16): isolated mannequin0.3.0 and canonical rig-data library;53/78/11V1interfaces preserved,169362vertex continuous CC0-derived skin, private weight/hybrid-skin/joint corrections,13linked pose/highlight states.39authoritative references plus6source-screening images; separate unassembled and test/comparison ZIPs.57local diagnostics,47existing unit tests and142registry checks PASS. Full native/offline contract394PASS/63missing-muscle-bindingFAIL.385protected sources/standards/prior fixtures unchanged. Artist review still finds strong hip/groin folds, simplified shoulder mechanics, incomplete palm/thumb grip and rough schematic cutaway/masks; no production-quality/full-coverage claim. Evidence and reproduction: assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/REPORT.md, validation.md and delivery-audit.json. Existing master not replaced; all H01–H05/shared acceptance and original project artwork release terms remain open.
+
+### A18 continuation — preferred CC0 foundation / V0.3.1 review
+
+User now selects the V0.3 CC0 anatomical base as the preferred foundation, and authorizes autonomous general deformation, grip, anatomical-mask and localized-translucency refinement. Preserve0.3.0 and shared V1; work in sibling0.3.1 with new linked movement fixture. Provisional asset-local emission/alpha rendering may demonstrate true localized skin translucency where Workbench cannot; retain no-shadow/AO illustrated direction and existing normal-view preset. This is implementation authority, not production acceptance or shared H01–H05 ratification. Record contact offsets rather than silently moving published anchors, and retain missing coverage failures.
+
+A18 V0.3.1 continuation evidence: same raw CC0 neutral skin/rest profile/53bones/78IDs/11anchor frames; general connected shoulder-weight diffusion, hip skinning/relaxation, measured palm offset/three-axis thumb and editable cylinder contact. Private contact controls explicitly library-overridable after a saved-state regression exposed reset-to-zero. Anatomy-shaped rest-surface masks and continuous local alpha replace rectangles/cutout; only Xray uses the documented emission/BLENDED Eevee experiment.21states/64PNGs (8comparison views),82saved-state +90motion/contact +2render diagnostics PASS;47unit/142registry PASS. Native/offline394PASS/63missing-bindingFAIL.486protected prior/approved inputs unchanged. Shoulder/hip quality is still mixed, with residual compression/folds and some worse local strain; no production or full anatomy acceptance. Current evidence/reproduction: assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/REPORT.md, validation.md, delivery-audit.json. Shared definitions/equipment unchanged, no paid content.

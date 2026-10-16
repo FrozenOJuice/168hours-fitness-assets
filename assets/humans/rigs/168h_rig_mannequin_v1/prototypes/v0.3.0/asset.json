@@ -1,0 +1,11 @@
+{
+  "id": "168h_rig_mannequin_v1",
+  "version": "0.3.0",
+  "status": "review",
+  "source": "assets/humans/rigs/168h_rig_mannequin_v1/prototypes/v0.3.0/168h_rig_mannequin_v1.blend",
+  "source_revision_or_digest": "sha256:6a10a39c17367bbfb9d631d43a3292ee8bd7850d95257656efe47a1b1dda5f46",
+  "rest_profile_sha256": "9d06d26065ddc915329877aed6a49563f599614fe67972e6a1d303b40b2dce0a",
+  "contract": "168h_human_model@1.0.0",
+  "implementation": "Canonical53bone rest-data library; character owns private solver/FK/IK/helper/corrective composition",
+  "artwork_license": null
+}

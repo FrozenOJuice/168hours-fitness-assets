@@ -1,0 +1,237 @@
+{
+  "id": "168h_human_anatomical_mannequin",
+  "category": "human",
+  "version": "0.3.0",
+  "status": "review",
+  "source": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/168h_human_anatomical_mannequin.blend",
+  "specification": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/SPEC.md",
+  "validation_record": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/validation.md",
+  "provenance": {
+    "url": "https://download.blender.org/demo/asset-bundles/human-base-meshes/human-base-meshes-bundle-v1.4.1.zip",
+    "bundle_sha256": "811f43accbb31a88266d932f8f5563b2d13586fca0ba2693aad1f5fe582b3515",
+    "native_sha256": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137",
+    "selected_collection": "Body Male - Realistic",
+    "selected_object": "GEO-body_male_realistic",
+    "author": "Dan Ulrich",
+    "embedded_license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+    "commercial_asset_use": "CC0 permits modification, commercial use and redistribution; no upstream code imported. Project original artwork terms remain unselected."
+  },
+  "human_contract": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/human-contract.json",
+  "review": {
+    "status": "isolated_prototype",
+    "approval_reference": null
+  },
+  "reference_renders": [],
+  "blender_version": "5.1.1",
+  "units": "meters",
+  "axes": {
+    "up": "+Z",
+    "forward": "+Y",
+    "subject_left": "+X"
+  },
+  "root": "168h_human_anatomical_mannequin__root",
+  "collection": "168h_human_anatomical_mannequin",
+  "source_revision_or_digest": "sha256:fe82f1d86ce6921c4ae6170329e0fb72b9028a9e07524ea29b87fee9be02916b",
+  "dimensions_m": [
+    1.5261715650558472,
+    0.2924455553293228,
+    1.75
+  ],
+  "anchors": {
+    "floor_contact": {
+      "object": "168h_human_anatomical_mannequin__anchor_floor_contact",
+      "bone": null,
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "pelvis": {
+      "object": "168h_human_anatomical_mannequin__anchor_pelvis",
+      "bone": "pelvis",
+      "position_m": [
+        0.0,
+        0.0,
+        0.9624892473220825
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        2.93650568000247e-15,
+        -2.117582368135751e-22
+      ]
+    },
+    "back_support": {
+      "object": "168h_human_anatomical_mannequin__anchor_back_support",
+      "bone": "spine_02",
+      "position_m": [
+        0.0,
+        -0.0728808045387268,
+        1.1917645931243896
+      ],
+      "rotation_quaternion_wxyz": [
+        0.7071067690849304,
+        0.7071067690849304,
+        3.0928502197641216e-25,
+        0.0
+      ]
+    },
+    "hand_grip_l": {
+      "object": "168h_human_anatomical_mannequin__anchor_hand_grip_l",
+      "bone": "hand_l",
+      "position_m": [
+        0.6462724804878235,
+        0.029999999329447746,
+        0.9691529273986816
+      ],
+      "rotation_quaternion_wxyz": [
+        0.27059805393218994,
+        -0.2705981135368347,
+        -0.6532814502716064,
+        -0.653281569480896
+      ]
+    },
+    "foot_contact_l": {
+      "object": "168h_human_anatomical_mannequin__anchor_foot_contact_l",
+      "bone": "foot_l",
+      "position_m": [
+        0.10466915369033813,
+        0.06999999284744263,
+        0.0
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        -5.587935447692871e-09,
+        -9.31322685637781e-10
+      ]
+    },
+    "heel_contact_l": {
+      "object": "168h_human_anatomical_mannequin__anchor_heel_contact_l",
+      "bone": "foot_l",
+      "position_m": [
+        0.10466915369033813,
+        -0.034999996423721313,
+        3.725290298461914e-09
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        -5.587935447692871e-09,
+        -9.31322685637781e-10
+      ]
+    },
+    "toe_contact_l": {
+      "object": "168h_human_anatomical_mannequin__anchor_toe_contact_l",
+      "bone": "toe_l",
+      "position_m": [
+        0.11463763564825058,
+        0.16999998688697815,
+        9.816512047677861e-10
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        1.3322676295501878e-15,
+        -1.1102230246251565e-16,
+        9.992007221626409e-16
+      ]
+    },
+    "hand_grip_r": {
+      "object": "168h_human_anatomical_mannequin__anchor_hand_grip_r",
+      "bone": "hand_r",
+      "position_m": [
+        -0.6462724804878235,
+        0.029999999329447746,
+        0.9691529273986816
+      ],
+      "rotation_quaternion_wxyz": [
+        0.27059805393218994,
+        -0.2705981135368347,
+        0.6532814502716064,
+        0.653281569480896
+      ]
+    },
+    "foot_contact_r": {
+      "object": "168h_human_anatomical_mannequin__anchor_foot_contact_r",
+      "bone": "foot_r",
+      "position_m": [
+        -0.10466915369033813,
+        0.06999999284744263,
+        0.0
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        5.587935447692871e-09,
+        9.31322685637781e-10
+      ]
+    },
+    "heel_contact_r": {
+      "object": "168h_human_anatomical_mannequin__anchor_heel_contact_r",
+      "bone": "foot_r",
+      "position_m": [
+        -0.10466915369033813,
+        -0.034999996423721313,
+        3.725290298461914e-09
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        5.587935447692871e-09,
+        9.31322685637781e-10
+      ]
+    },
+    "toe_contact_r": {
+      "object": "168h_human_anatomical_mannequin__anchor_toe_contact_r",
+      "bone": "toe_r",
+      "position_m": [
+        -0.11463763564825058,
+        0.16999998688697815,
+        9.816512047677861e-10
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        1.3322676295501878e-15,
+        1.1102230246251565e-16,
+        -9.992007221626409e-16
+      ]
+    }
+  },
+  "dependencies": [
+    {
+      "id": "168h_rig_mannequin_v1",
+      "version": "0.3.0",
+      "source": "assets/humans/rigs/168h_rig_mannequin_v1/prototypes/v0.3.0/168h_rig_mannequin_v1.blend",
+      "sha256": "79d6d283fd23a54c03d4da60c0003bbf618f2b72ec78cad49e62f9dbca1611dd"
+    }
+  ],
+  "muscle_coverage": {
+    "implemented_surface_ids": [
+      "muscle_pectoralis_major_l",
+      "muscle_pectoralis_major_r",
+      "muscle_deltoid_anterior_l",
+      "muscle_deltoid_anterior_r",
+      "muscle_deltoid_middle_l",
+      "muscle_deltoid_middle_r",
+      "muscle_deltoid_posterior_l",
+      "muscle_deltoid_posterior_r",
+      "muscle_biceps_brachii_l",
+      "muscle_biceps_brachii_r",
+      "muscle_triceps_brachii_l",
+      "muscle_triceps_brachii_r",
+      "muscle_rectus_femoris_l",
+      "muscle_rectus_femoris_r"
+    ],
+    "unimplemented_count": 64,
+    "status": "partial prototype; anatomical boundaries unapproved"
+  },
+  "render_settings": "assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.0/previews/render-settings.json"
+}

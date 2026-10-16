@@ -1,0 +1,7 @@
+{
+  "version": "0.2.1",
+  "status": "review",
+  "scope": "Refine existing continuous mesh, weights, corrective fields and local grayscale ramp. Preserve topology, rest profile, V1 and equipment. No exercise work.",
+  "predecessor_sha256": "5e6de698bbc2e7ec9ff9273e6649d0d52a9145b214deca65b18e021d855a6358",
+  "approvals": "Latest user authorizes this local refinement; H01-H05 remain open."
+}

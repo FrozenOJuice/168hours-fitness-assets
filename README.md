@@ -46,6 +46,19 @@ templates/              # Metadata templates for new assets
 
 ## Documentation and mandatory workflow
 
+The official [168Hours Fitness Human Model Contract V1](docs/contracts/human-v1/README.md)
+now defines the human foundation:53 canonical bones,78 bilateral muscle regions,
+11 contact anchors, A-pose/floor origins, FK/IK and interchange/export interfaces.
+[Human templates](templates/human/README.md), schemas and read-only validation
+tools are provided. The first [gender-neutral mannequin](assets/humans/models/168h_human_anatomical_mannequin/SPEC.md)
+is now a review prototype, with a separate rig-data library, partial muscle
+highlighting and a [seven-pose foundation suite](scenes/templates/168h_template_mannequin_core_poses/SPEC.md).
+The0.2.0foundation correction replaces the rejected first surface/binding;0.2.1refines that continuous mesh, chest profile and overhead shoulder deformation. [Current refinement report](assets/humans/models/168h_human_anatomical_mannequin/SURFACE-REFINEMENT-REPORT.md). The old bench fixture is invalidated.
+
+The user now selects the **CC0 V0.3 anatomical foundation** as preferred. The isolated [V0.3.1 refinement report](assets/humans/models/168h_human_anatomical_mannequin/prototypes/v0.3.1/REPORT.md) covers expanded movement tests, palm/thumb contact, anatomy-shaped masks and localized skin translucency. It remains review-only; previous master/prototypes and approved equipment are preserved.
+It is not a production character or approved exercise scene. Human rig, anatomy, visual and export implementations remain explicit
+[approval decisions](docs/contracts/human-v1/README.md#open-approval-decisions-and-version-control).
+
 [AGENTS.md](AGENTS.md) instructs future Codex sessions to follow this system. Extend these authoritative guides rather than duplicating standards:
 
 1. **Global Style Guide:** [visual style](docs/visual-style.md) records shared appearance, approval status, and reference-render requirements.

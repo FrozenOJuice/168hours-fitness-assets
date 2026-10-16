@@ -1,0 +1,7 @@
+{
+  "before_sha256": "53cf8b56237f8a98ae81256db6b039e6325b3da39836810600359b4ab25ca6f4",
+  "source_sha256": "5e6de698bbc2e7ec9ff9273e6649d0d52a9145b214deca65b18e021d855a6358",
+  "script_sha256": "8c38878d2ab105d9cdd68ae669d799792d55258f6c33fd3f4f16a709e4b0c61f",
+  "datum": "68mm distal,32mm palm-normal; actual measured palm/shaft clearance drives this local parameter",
+  "reason": "Extended grip test caught2.625mm palm penetration;4mm normal correction and per-digit refit; diagnostic tolerance unchanged"
+}

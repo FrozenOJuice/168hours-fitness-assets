@@ -1,0 +1,41 @@
+{
+  "contract": "168h_human_model@1.0.0",
+  "date": "2026-10-15",
+  "status": "established interface",
+  "authorization": "User requested official Human Model Contract V1; no artwork construction authorized",
+  "change_control": "Document and obtain authorization for semantic contract revisions; breaking changes require major version/migration. Do not repin unexplained drift.",
+  "inputs": [
+    {
+      "path": "docs/contracts/human-v1/contract.json",
+      "sha256": "15b410b1b2b486236aef1babe7851aab6a2db87275e54211349dda1e87a7ab16"
+    },
+    {
+      "path": "docs/contracts/human-v1/skeleton.json",
+      "sha256": "c7a1335267257245e73c621b2359e193b97d08bcbc41765df421c1fa49156af4"
+    },
+    {
+      "path": "docs/contracts/human-v1/muscles.json",
+      "sha256": "c4804695ea5e46f10fcbf524514405ed4be271af2bb104a68edbdc06c9417400"
+    },
+    {
+      "path": "schemas/exercise-muscles-v1.schema.json",
+      "sha256": "021bbc287d103d8244fd8ef97bef754896b2adbba3fe1338815f6329c1536759"
+    },
+    {
+      "path": "schemas/human-character-v1.schema.json",
+      "sha256": "4a1e3f5c361d0a02dda3378aab0e32a2be7ce12f54fa2999cc6f70880a0cb125"
+    },
+    {
+      "path": "schemas/human-export-v1.schema.json",
+      "sha256": "41c54b90b85c79eccb24489bad0826926da1beca853d47cd9e10c3b917dfff7c"
+    },
+    {
+      "path": "schemas/human-muscle-catalog-v1.schema.json",
+      "sha256": "c0c1c98ae99e00bb70dff514414f1ae17e4329b80d4dd0efee3f54f1b14f0571"
+    },
+    {
+      "path": "schemas/human-snapshot-v1.schema.json",
+      "sha256": "c5476302b1ff4147654f40a1c378ca38602a837190d8748715c6fbe50e40efc5"
+    }
+  ]
+}

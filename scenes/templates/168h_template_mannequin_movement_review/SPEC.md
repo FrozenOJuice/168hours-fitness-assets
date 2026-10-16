@@ -1,0 +1,7 @@
+# Mannequin movement review —0.3.1 / review
+
+Linked0.3.1character plus preserved0.3.0comparison; approved barbell linked unchanged only for grip.21saved states/57PNGs, including8comparison views, shoulder/grip/thigh details and an opaque Xray-disabled control. Main file opens in neutral_a_pose; select scene from Blender's scene selector. Named Xray scenes use Eevee rendered view/F12; ordinary scenes retain Workbench flat illustration.
+
+Each hierarchy override owns pose/driver/node-group state. Mesh/rest data are linked. All ObjectInfo references and root/solver drivers are remapped to that instance, including cylinder frames and hybrid-skin helper. Private contact properties are library-overridable so saved/reloaded grips retain contact correction. Published rest anchors/equipment stay unchanged; wrist contact offset and fitted digits are scene configuration. Actual source and fixture SHA256 plus render cameras/hashes/settings are in suite.json, asset.json and previews/render-settings.json.
+
+Comparison uses the same flat VERTEX normal-ramp preset on both versions, old atworld+X (viewer-left front), newatworld−X (viewer-right front). Neutral geometry is unchanged; posed comparisons show deformation/mask changes. These are stress tests, not finished exercise scenes or clinically validated motion. The character REPORT/validation record states actual limits. Rebuild/validate with scripts/blender/build_mannequin_v031_review.py and the three v031validation scripts. Do not resave approved source equipment.

@@ -1,0 +1,45 @@
+{
+  "native_sha256": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137",
+  "method": "Read Blender collection.asset_data author/license in official1.4.1 native file; retain extracted values and source hash",
+  "selected_records": [
+    {
+      "name": "GEO-body_male_realistic",
+      "modifiers": [
+        [
+          "Multires",
+          "MULTIRES",
+          3,
+          3
+        ]
+      ],
+      "groups": [],
+      "collections": [
+        [
+          "Body Male - Realistic",
+          "Dan Ulrich",
+          "CC0"
+        ]
+      ]
+    },
+    {
+      "name": "GEO-body_female_realistic",
+      "modifiers": [
+        [
+          "Multires",
+          "MULTIRES",
+          3,
+          3
+        ]
+      ],
+      "groups": [],
+      "collections": [
+        [
+          "Body Female - Realistic",
+          "Dan Ulrich",
+          "CC0"
+        ]
+      ]
+    }
+  ],
+  "checked_date": "2026-10-16"
+}

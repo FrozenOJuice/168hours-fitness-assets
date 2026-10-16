@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-16",
+  "status": "review; incomplete muscle/anatomy/deformation/export gates remain",
+  "source_sha256": "de83a11f763d8b86e38c0020593ce4ae03b8e294323b80967ece1d104fb36f7a",
+  "fixture_sha256": "31efc9783646a9821d50ef2810c0136d457105d60732d03d2ac4de0c26965cf9",
+  "validator_sha256": "ad187bd3f5a06f48391ea80bc90ad4031c8433a6101e1a6191c7d875baef99ac",
+  "summary": {
+    "PASS": 17,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "id": "protected_equipment_contract_and_existing_fixtures",
+      "result": "PASS",
+      "actual": [],
+      "expected": "No bytes changed"
+    },
+    {
+      "id": "source_stature_m",
+      "result": "PASS",
+      "actual": 1.7500000023424374,
+      "expected": 1.75
+    },
+    {
+      "id": "floor_m",
+      "result": "PASS",
+      "actual": -2.3424373551961253e-09,
+      "expected": 0
+    },
+    {
+      "id": "separate_solver_and_output",
+      "result": "PASS",
+      "actual": {
+        "output": "168h_human_anatomical_mannequin__armature_deform",
+        "solver": "168h_rig_mannequin_v1__armature_solver",
+        "linked_canonical_data": true
+      },
+      "expected": "Two pose objects, one linked53-bone rest data"
+    },
+    {
+      "id": "continuous_watertight_neutral_body",
+      "result": "PASS",
+      "actual": {
+        "components": 1,
+        "component_vertices": [
+          318766
+        ],
+        "nonmanifold_edges": 0
+      },
+      "expected": "One closed connected skin mesh"
+    },
+    {
+      "id": "pose_deforms_bend",
+      "result": "PASS",
+      "actual": {
+        "moved_vertices": 166546,
+        "max_displacement_m": 0.7126631728447299,
+        "finite": true
+      },
+      "expected": ">100 finite moved vertices; does not certify visual anatomy"
+    },
+    {
+      "id": "pose_deforms_grip",
+      "result": "PASS",
+      "actual": {
+        "moved_vertices": 34619,
+        "max_displacement_m": 0.3890241783326835,
+        "finite": true
+      },
+      "expected": ">100 finite moved vertices; does not certify visual anatomy"
+    },
+    {
+      "id": "primary_secondary_actual_color",
+      "result": "PASS",
+      "actual": {
+        "primary_delta": 0.4648745357990265,
+        "role_delta": 0.26850526034832
+      },
+      "expected": "Actual evaluated colors change independently, distinct roles"
+    },
+    {
+      "id": "on_character_deep_cutaway",
+      "result": "PASS",
+      "actual": {
+        "neutral_skin_faces": 318764,
+        "window_skin_faces": 312349,
+        "deep_vertices": 3522,
+        "deep_bone_groups": [
+          "thigh_l",
+          "muscle_vastus_intermedius_l"
+        ]
+      },
+      "expected": "Actual surface aperture exposes actual skinned deep muscle; anatomy review pending"
+    },
+    {
+      "id": "deep_muscle_follows_pose",
+      "result": "PASS",
+      "actual": {
+        "max_displacement_m": 0.08741176655257094
+      },
+      "expected": ">20mm actual evaluated deep-muscle movement with thigh pose"
+    },
+    {
+      "id": "reachable_ik_targets",
+      "result": "PASS",
+      "actual": {
+        "arm_l": 1.431209796093296e-07,
+        "leg_l": 2.1073424255447017e-08,
+        "arm_r": 1.431209796093296e-07,
+        "leg_r": 2.2351741790771484e-08
+      },
+      "expected": "Each position residual<0.1mm asset-local test threshold, not an approved shared contact tolerance"
+    },
+    {
+      "id": "source_unchanged_by_validation",
+      "result": "PASS",
+      "actual": "de83a11f763d8b86e38c0020593ce4ae03b8e294323b80967ece1d104fb36f7a",
+      "expected": "de83a11f763d8b86e38c0020593ce4ae03b8e294323b80967ece1d104fb36f7a"
+    },
+    {
+      "id": "bench_fixture_grip_stations",
+      "result": "PASS",
+      "actual": {
+        "l": 2.0398813436803342e-06,
+        "r": 1.9666286990012697e-06
+      },
+      "expected": "Within0.1mm at symmetric680mm grip span"
+    },
+    {
+      "id": "bench_fixture_symmetry",
+      "result": "PASS",
+      "actual": {
+        "l": [
+          -0.34000062942504883,
+          -0.06999940425157547,
+          0.9500018358230591
+        ],
+        "r": [
+          0.34000054001808167,
+          -0.06999938189983368,
+          0.9500017762184143
+        ]
+      },
+      "expected": "Mirrored X/equal YZ within0.01mm"
+    },
+    {
+      "id": "fixture_body_geometry_linked",
+      "result": "PASS",
+      "actual": {
+        "library": "//../../../assets/humans/models/168h_human_anatomical_mannequin/168h_human_anatomical_mannequin.blend"
+      },
+      "expected": "Source mesh linked, no duplicate/edit of canonical body geometry"
+    },
+    {
+      "id": "fixture_floor_clearance",
+      "result": "PASS",
+      "actual": {
+        "minimum_body_z_m": 0.004615182057023048
+      },
+      "expected": "No floor penetration beyond2mm diagnostic threshold; final sole support remains manual review"
+    },
+    {
+      "id": "bench_fixture_surface_intersections",
+      "result": "PASS",
+      "actual": {},
+      "expected": "Zero evaluated body/bench triangle surface crossings; hands/bar contact separately reviewed"
+    }
+  ],
+  "not_certified": [
+    "all78musclecoverage",
+    "clinicalanatomy",
+    "fullROManimationdeformation",
+    "garments",
+    "retargetingsecondcharacter",
+    "export_roundtrip",
+    "collision_free_fingergrip",
+    "productionrelease"
+  ]
+}
